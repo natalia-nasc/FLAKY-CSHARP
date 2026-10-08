@@ -1,0 +1,8 @@
+﻿cff-version: 1.2.0
+message: "If you use this package, please cite it."
+title: "Replication package: The Vocabulary of Flaky Tests in C#"
+authors:
+  - family-names: "<SOBRENOME>"
+    given-names: "<NOME>"
+license: MIT
+doi: "<DOI>"
