@@ -385,9 +385,3 @@ State these when you cite the package, so that nobody expects more reproducibili
 - The package does not store which test project and target framework were run for each TRX folder, nor the commands used for the 20-run (isolated) round. The folder names in `projects.csv` and the three run scripts are the only record.
 - The sources of the studied projects are not redistributed; use the manifest.
 - The labeled data has only 30 positive units, 20 of them in three repositories (StreamJsonRpc 8, MassTransit 6, Nerdbank.Streams 6), so results at the repository level rest on very few positives.
-
----
-
-## 11. Licenses and citation
-
-Code: MIT. Data: CC BY 4.0. Cite the package through `CITATION.cff` (the author and DOI fields still hold placeholders; see below).
