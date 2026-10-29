@@ -1,0 +1,39 @@
+\section{Objects of Analysis}
+Table 2 lists the 17 projects, which span serialization, logging, resilience, messaging, actor, scheduling, RPC, and architecture testing libraries. They are libraries distributed as NuGet packages, so their tests exercise public APIs rather than user interfaces or deployed services. Most are oriented toward concurrency, asynchrony, or I/O, the domains in which timing and ordering dependencies are most likely; Serilog, Newtonsoft.Json, and ArchUnitNET are the main exceptions and serve as contrast projects. Beyond C\#, the projects share other characteristics. They are mature, widely used projects with long histories and large suites (from 76 tests in MassTransit.Abstractions to 3,456 in Newtonsoft.Json), whose tests live in the same repository and run with the .NET testing tools. Several target multiple frameworks (for example, net472 and net8.0 in Nerdbank.Streams), which affects test identity (Table 1). All passed the same executability filter in Step 1. As for testing frameworks, xUnit is the most common, used in 13 of the 16 repositories; MassTransit, Quartz.NET, and Newtonsoft.Json use NUnit. Because the set was assembled by convenience, it does not represent the population of .NET projects, and this limitation is discussed in Section 8.
+
+\begin{table}[!h]
+\caption{Studied projects. Counts of flaky tests per test case and per declaring method (units) in the 100-run and 20-run rounds. Brk.: broken tests.}
+\label{tab:projetos}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.7pt}
+\begin{tabular}{@{}lrrrrrr@{}}
+\hline\hline
+ & & \multicolumn{2}{c}{\textbf{Flaky 100$\times$}} & \multicolumn{2}{c}{\textbf{Flaky 20$\times$}} & \textbf{Brk.} \\
+\textbf{Project} & \textbf{Tests} & \textbf{cases} & \textbf{units} & \textbf{cases} & \textbf{units} & \textbf{100$\times$} \\
+\hline
+Serilog                  &    808 &  0 & 0 &  0 & 0 &  0 \\
+Testcontainers-dotnet    &    507 &  1 & 1 &  0 & 0 &  0 \\
+Polly                    &    774 &  3 & 3 &  3 & 3 & 14 \\
+Newtonsoft.Json          &  3,456 &  0 & 0 &  0 & 0 &  4 \\
+NLog                     &  2,870 &  2 & 2 &  5 & 5 &  3 \\
+MassTransit.Abstractions &     76 &  1 & 1 &  1 & 1 &  0 \\
+MassTransit.Tests        &  1,133 &  7 & 5 &  7 & 4 &  6 \\
+RestSharp                &    564 &  0 & 0 &  0 & 0 &  0 \\
+AsyncEx                  &    266 &  0 & 0 &  0 & 0 &  0 \\
+Akka.NET                 &  1,328 &  1 & 1 &  1 & 1 &  8 \\
+RabbitMQ (unit)          &    127 &  0 & 0 &  0 & 0 &  0 \\
+Coravel                  &  1,008 &  0 & 0 &  0 & 0 &  0 \\
+Quartz.NET               &  1,388 &  2 & 1 &  1 & 0 & 10 \\
+Nerdbank.Streams         &  1,142 &  6 & 6 &  0 & 0 &  3 \\
+StreamJsonRpc            &  2,837 & 25 & 8 & 11 & 5 &  5 \\
+NetMQ                    &    286 &  2 & 2 &  0 & 0 &  0 \\
+ArchUnitNET              &    641 &  0 & 0 &  0 & 0 &  2 \\
+\hline
+\textbf{Total}           & \textbf{19,211} & \textbf{50} & \textbf{30} & \textbf{29} & \textbf{19} & \textbf{55} \\
+\hline\hline
+\end{tabular}
+\end{table}
+
+
+Broken tests, which fail in every run and are excluded from modeling, total 55 cases in the 100-run round, concentrated in Polly (14) and Quartz.NET (10). The 19,211 test cases correspond to 15,705 distinct test methods, counting inherited instances, and to 12,797 declaring methods after resolving inheritance; of these, 12,665 are flaky or stable and form the modeling set: 30 flaky and 12,635 stable (0.24\%) with the 100-run labels, and 19 flaky and 12,645 stable with the 20-run labels. Two properties shape the evaluation. First, the set is severely imbalanced. Second, flakiness is concentrated: only nine repositories have any flaky test, and three of them (StreamJsonRpc, with 8 units, MassTransit, with 6 across two suites, and Nerdbank.Streams, with 6) account for 20 of the 30. StreamJsonRpc's 25 flaky cases come from only 8 declaring methods because the same test is run with six serializers.

@@ -1,0 +1,68 @@
+% MSR 2027 -- Technical Papers
+% Format: IEEE conference proceedings (24pt title, 10pt text).
+% DO NOT use the compsoc / compsocconf options.
+% Limit: 10 pages of main text (including figures, tables, and appendices)
+%        + 2 pages containing only references.
+% Double-anonymous review: do not include names, affiliations, or acknowledgments
+% that identify the authors in the submission version.
+\documentclass[10pt,conference]{IEEEtran}
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{url}
+
+\begin{document}
+
+\title{The Vocabulary of Flaky Tests in C\#}
+
+% Anonymous submission (double-anonymous). Restore the authors only in the camera-ready version.
+\author{\IEEEauthorblockN{Anonymous Author(s)}
+\IEEEauthorblockA{\textit{Omitted for double-anonymous review}}
+}
+
+\maketitle
+
+\begin{abstract}
+Flaky tests produce non-deterministic outcomes without any change to the code, eroding trust in continuous integration. Vocabulary-based prediction has proven effective for Java, JavaScript, and Swift but, to the best of our knowledge, has never been evaluated for C\#, whose concurrency model (\texttt{Task}, \texttt{async}/\texttt{await}) and testing frameworks differ from those previously studied. We re-ran the test suites of 17 open-source C\# projects, totaling 19,211 test cases, 100 times, and a further 20 times in isolation. After grouping by method, we obtained 30 flaky and 12,635 stable test methods. We trained eight classifiers on TF-IDF features of unigrams and bigrams. The best ones, Extra Trees and Random Forest, reach an MCC of 0.51--0.53 and an AUC of 0.86--0.87 in cross-validation, above trivial baselines but only moderately above a vocabulary-threshold rule (MCC 0.40) and a structure-only model (MCC 0.36). Across repositories, AUC drops to 0.75--0.78 and precision to 2--3\%: the approach is suited to prioritizing reruns, not to blocking pipelines. The markers of flakiness are Task-based concurrency, time handling, and resource lifecycles, and we found no robust marker of stability. The model fails when the root cause lies outside the test body or when asynchronous constructs are used deterministically, which exposes the limited reach of vocabulary.
+\end{abstract}
+
+\begin{IEEEkeywords}
+flaky tests, test flakiness, software testing, vocabulary-based prediction, C\#, .NET
+\end{IEEEkeywords}
+
+\input{intro}
+
+\input{motivation}
+
+\input{related-work}
+
+\input{approach}
+
+\input{analysis}
+
+\input{evaluation}
+
+\input{discussion}
+
+\input{validity}
+
+\input{conclusion}
+
+% Required by the MSR 2027 Open Science Policy.
+\section*{Data Availability}
+The scripts used to execute the test suites and collect the reruns, the
+resulting dataset of flaky and stable test methods, the feature extraction
+and classification pipeline, and instructions to reproduce all results are
+available in an anonymized replication package:
+\url{https://anonymous.4open.science/r/SUBSTITUIR-PELO-LINK-REAL}.
+Upon acceptance, the package will be archived on Zenodo under the CC-BY~4.0
+license (data) and an open-source license (code).
+
+\bibliography{biblio}
+\bibliographystyle{IEEEtran}
+
+\end{document}
