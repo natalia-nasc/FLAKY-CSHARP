@@ -1,0 +1,26 @@
+\section{Motivating Example}
+
+Consider ReconnectOnRouterBug, a test from NetMQ, a messaging library in the .NET ecosystem, which was flaky in our 100-run round. The test checks a reconnection behavior. It connects a router socket to a dealer, sends a message, disconnects, reconnects, and sends the message again. The goal is to ensure that the second message also reaches its destination after reconnection (abbreviated in Figure 1).
+
+\begin{figure}[!htbp]
+\noindent\rule{\columnwidth}{0.4pt}\\[3pt]
+{\footnotesize
+\begin{tabular}{@{}r@{\hspace{8pt}}l@{}}
+{\scriptsize 1} & \verb|router.Connect(addr);    Thread.Sleep(100);| \\
+{\scriptsize 2} & \verb|router.SendMoreFrame("dealer")| \\
+{\scriptsize 3} & \verb|      .SendFrame("Hello");| \\
+{\scriptsize 4} & \verb|router.Disconnect(addr); Thread.Sleep(1000);| \\
+{\scriptsize 5} & \verb|router.Connect(addr);    Thread.Sleep(100);| \\
+{\scriptsize 6} & \verb|router.SendMoreFrame("dealer")| \\
+{\scriptsize 7} & \verb|      .SendFrame("Hello");| \\
+\end{tabular}}\\[1pt]
+\rule{\columnwidth}{0.4pt}
+\caption{Flaky test with fixed waits (\texttt{ReconnectOnRouterBug}, abbreviated).}
+\label{fig:flaky}
+\end{figure}
+
+The key point is that the test has no mechanism for synchronizing with what happens inside the library. Connecting and disconnecting a socket are asynchronous operations: the Connect call returns before the connection is actually established. The test works around this with fixed waits (Thread.Sleep(100) after each connection and Thread.Sleep(1000) after disconnection). Each of these waits is a bet on how long the connection takes. If the bet holds in most runs, the test passes. But in a slower or more heavily loaded run, such as on a shared continuous integration machine, the connection may take longer than the wait. The second send then reaches the socket before the reconnection is reestablished, and the test fails, without anything in the code having changed.
+
+This kind of failure is hard to handle with dynamic tools. It depends on a sub-second time window and on load conditions we do not control, and therefore it does not reproduce on demand. Confirming that the test is flaky required repeating the suite 100 times, and a smaller sample might not have observed the failure. The situation is that of a developer who sees the test fail once in continuous integration, reruns it, sees it pass, and dismisses the failure as noise. This cycle is the wasted effort and loss of trust described in Section 1.
+
+Even so, the likely cause is visible in the source code. The test is dominated by socket calls (Connect, Disconnect, SendFrame) interleaved with Thread.Sleep, and it contains no wait for an event, such as confirmation that the connection has been established. This is the starting point of our work: a failure that manifests only at run time can leave a lexical trace in the test's text. If this trace exists and is consistent, a model trained only on the code's terms can point to the most suspicious tests without running them. Section 6.5 returns to this test for a complementary reason: the model ranked it low. The trace here is a synchronous Sleep, not the async/await vocabulary that dominates the flaky tests in our dataset, which suggests that the model recognizes one kind of cause better than another.

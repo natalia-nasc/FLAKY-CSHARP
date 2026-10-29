@@ -1,0 +1,323 @@
+\section{Evaluation}
+We structure the evaluation around four research questions, the first with two subquestions.
+RQ1.1 --- Predictive effectiveness. How accurately can flaky tests in C\# be predicted from the vocabulary of their source code?
+RQ1.2 --- Label robustness. Do the labels and results remain stable between the 100-run and the 20-run rounds?
+RQ2 --- Baselines. Does vocabulary-based prediction outperform the majority, random, vocabulary-threshold, and structure-only baselines?
+RQ3 --- The vocabulary. Which tokens are most strongly associated with flakiness?
+RQ4 --- Error analysis. When and why does the classifier fail?
+Rationale. RQ1.1 establishes whether the lexical trace of flakiness is strong enough, in C\#, for standard classifiers to separate flaky from stable tests using only static features, since the method has never been evaluated for a language with this concurrency model. RQ1.2 tests the labeling strategy: the conclusions of RQ1.1 hold only if the labels, which come from reruns and therefore from a nondeterministic process, are reasonably stable. RQ2 puts the results in context against trivial and structural baselines, to ensure that performance reflects genuine discriminative power rather than an artifact of the evaluation. RQ3 addresses interpretability: which lexical units drive the prediction, so they can be related to known root causes. RQ4 examines representative errors, to understand the limits of lexical prediction and when a static detector should or should not be trusted.
+
+\subsection{Experimental setup}
+Because the dataset is highly imbalanced (0.24\% flaky), a model that answered ``stable'' for everything would be right more than 99\% of the time without learning anything. We therefore evaluate in two stages. In the first, we train on a random undersample of the stable tests, so that each round has as many stable tests as flaky ones (1:1 ratio), and apply stratified 5-fold cross-validation, which uses, each time, four groups of tests for training and one for evaluation, keeping the same proportion of flaky tests in all of them. We repeat the process with 10 different draws, yielding 50 estimates per model, and report the mean with a 95\% interval, which reflects variation across draws and folds but not uncertainty about other projects. Since the evaluation folds are also balanced, precision and F1 are inflated (a predictor that always answers ``flaky'' already obtains an F1 of 0.67). We therefore compare models by MCC, the Matthews correlation coefficient, which summarizes hits and errors in both classes in a single number from $-1$ to 1 (0 corresponds to chance and 1 to getting everything right), and by AUC, the area under the ROC curve, which shows how the model trades off flaky tests detected against stable tests wrongly flagged at each decision threshold. AUC equals the probability that the model gives a higher score to a randomly drawn flaky test than to a randomly drawn stable one: it is 0.5 when the model ranks like chance and 1.0 when it ranks perfectly. Because it evaluates the ordering without depending on a threshold, it suits the use we propose, which is ranking tests to decide which to rerun first.
+In the second stage, we evaluate what happens when facing a new project, since cross-validation mixes tests from all repositories and may reward the model merely for recognizing conventions of a project it has already seen. We use the leave-one-repository-out (LOPO) scheme: we train on all repositories but one and test on all tests of the held-out repository, at the natural proportion of 0.39\% flaky tests. In this scenario, the closest to real use, we report average precision (AP) in addition to AUC. AP walks down the ranking from top to bottom and computes, at each flaky test found, what fraction of the tests seen so far is actually flaky; the result is the mean of these fractions. It is high when flaky tests are concentrated at the top of the list and low when they are mixed among many stable ones. Unlike AUC, AP is sensitive to the rarity of positives: a model with no ranking power obtains an AP equal to the proportion of flaky tests, about 0.004. The difference between the results of the two stages indicates how much of the performance comes from general flakiness patterns and how much comes from each project's particular vocabulary.
+As for implementation, Random Forest and Extra Trees use 200 trees; the SVM uses a linear kernel; KNN uses $k = 5$ with cosine distance; the remaining classifiers use scikit-learn's default values. In LOPO, training uses the same 1:1 undersampling of the other repositories (10 draws), the scores are the mean over the 10 draws, and the held-out repository is evaluated in full, at its natural class distribution. We report five complementary metrics in cross-validation (precision, recall, F1, MCC, and AUC) and four in LOPO (AUC, AP, recall, and precision).
+
+\subsection{RQ1.1 and RQ2: predictive effectiveness and baselines}
+In cross-validation, the ensemble models performed best: Extra Trees, Random Forest, and Gradient Boosting reach an MCC of 0.51--0.53 and an AUC of 0.83--0.87 (Table 3). The other classifiers range from 0.38 to 0.44 MCC, and the random and majority baselines stay at chance level. Two non-trivial baselines, however, are strong: the rule that uses only the ten most informative tokens reaches an MCC of 0.40, and the Random Forest that uses only the test's structure (without vocabulary) reaches 0.36. Vocabulary therefore adds about 0.15--0.17 MCC for the best models, and less for the others (from 0.02 to 0.08). Part of the threshold rule's strength comes from project-specific tokens (Section 6.4), which inflates it under cross-validation but not across repositories.
+
+\begin{table}[!h]
+\caption{Cross-validation with 100-run labels (mean $\pm$ 95\% CI; balanced test folds).}
+\label{tab:cv100}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{@{}p{46pt}ccccc@{}}
+\hline\hline
+\textbf{Model} & \textbf{Prec.} & \textbf{Rec.} & \textbf{F1} & \textbf{MCC} & \textbf{AUC} \tabularnewline
+\hline
+\raggedright Extra Trees            & 0.87${\pm}$0.04 & 0.63${\pm}$0.06 & 0.69${\pm}$0.04 & 0.53${\pm}$0.05 & 0.86${\pm}$0.03 \tabularnewline
+\raggedright Gradient Boosting      & 0.80${\pm}$0.04 & 0.70${\pm}$0.05 & 0.72${\pm}$0.04 & 0.51${\pm}$0.06 & 0.83${\pm}$0.03 \tabularnewline
+\raggedright Random Forest          & 0.83${\pm}$0.04 & 0.64${\pm}$0.05 & 0.70${\pm}$0.04 & 0.51${\pm}$0.06 & 0.87${\pm}$0.03 \tabularnewline
+\raggedright Decision Tree          & 0.76${\pm}$0.05 & 0.66${\pm}$0.06 & 0.68${\pm}$0.05 & 0.44${\pm}$0.09 & 0.71${\pm}$0.04 \tabularnewline
+\raggedright Logistic regression    & 0.74${\pm}$0.04 & 0.69${\pm}$0.06 & 0.70${\pm}$0.04 & 0.44${\pm}$0.08 & 0.82${\pm}$0.03 \tabularnewline
+\raggedright SVM                    & 0.73${\pm}$0.05 & 0.70${\pm}$0.05 & 0.70${\pm}$0.04 & 0.43${\pm}$0.08 & 0.81${\pm}$0.03 \tabularnewline
+\raggedright Naive Bayes            & 0.74${\pm}$0.04 & 0.69${\pm}$0.05 & 0.69${\pm}$0.04 & 0.43${\pm}$0.07 & 0.79${\pm}$0.04 \tabularnewline
+\raggedright KNN                    & 0.71${\pm}$0.05 & 0.67${\pm}$0.06 & 0.67${\pm}$0.04 & 0.38${\pm}$0.07 & 0.74${\pm}$0.04 \tabularnewline
+\hline
+\multicolumn{6}{@{}l}{\emph{Baselines}} \tabularnewline
+\raggedright Vocab.\ threshold      & 0.66${\pm}$0.04 & 0.87${\pm}$0.03 & 0.74${\pm}$0.02 & 0.40${\pm}$0.07 & 0.77${\pm}$0.03 \tabularnewline
+\raggedright Structure only         & 0.68${\pm}$0.04 & 0.67${\pm}$0.06 & 0.66${\pm}$0.04 & 0.36${\pm}$0.07 & 0.73${\pm}$0.04 \tabularnewline
+\raggedright Random                 & 0.52${\pm}$0.05 & 0.51${\pm}$0.05 & 0.50${\pm}$0.04 & 0.02${\pm}$0.08 & 0.53${\pm}$0.05 \tabularnewline
+\raggedright Majority               & 0.50${\pm}$0.00 & 1.00${\pm}$0.00 & 0.67${\pm}$0.00 & 0.00${\pm}$0.00 & 0.50${\pm}$0.00 \tabularnewline
+\hline\hline
+\end{tabular}
+\end{table}
+
+Error profiles differ across models. The tree ensembles are the most precise (Extra Trees: precision 0.87 and recall 0.63), that is, when they flag a test as flaky they are usually right, but they miss some of them. The vocabulary threshold rule does the opposite: it has the highest recall (0.87) but a precision of only 0.66, lower than that of every trained classifier, because it flags as flaky any test containing the most informative tokens. The linear models, Naive Bayes, and KNN improve little or not at all over the structure-only model. Since the folds are balanced, these precisions do not transfer to real use, which the cross-repository validation quantifies.
+In cross-repository validation (Table 4), which uses the natural flaky rate (0.39\%), AUC drops to 0.75--0.78 and precision is only 2--3\% for the two best models: for every flaky test found, there are dozens of false alarms. The average precision (AP) of the two best models is four to six times the natural rate, which serves as the chance reference. This shows that the ranking is informative, but that automatic gating would be unusable. On this metric, the vocabulary rule is competitive (0.025, against 0.015 and 0.023 for the two models), although the tree ensembles lead on AUC.
+
+\begin{table}[!h]
+\caption{Cross-repository validation (LOPO) at the natural rate (0.39\%). Macro: mean over the nine repositories; pooled: all held-out tests together.}
+\label{tab:lopo}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lrrrrrr@{}}
+\hline\hline
+ & \multicolumn{4}{c}{\textbf{Macro}} & \multicolumn{2}{c}{\textbf{Pooled}} \\
+\textbf{Model} & \textbf{AUC} & \textbf{AP} & \textbf{Rec.} & \textbf{Prec.} & \textbf{AUC} & \textbf{AP} \\
+\hline
+Extra Trees          & 0.757 & 0.055 & 0.376 & 0.028 & 0.775 & 0.015 \\
+Random Forest        & 0.754 & 0.089 & 0.376 & 0.021 & 0.753 & 0.023 \\
+Gradient Boosting    & 0.709 & 0.048 & 0.509 & 0.012 & 0.734 & 0.021 \\
+Logistic regression  & 0.679 & 0.065 & 0.574 & 0.009 & 0.741 & 0.017 \\
+SVM                  & 0.660 & 0.048 & 0.556 & 0.010 & 0.730 & 0.015 \\
+Naive Bayes          & 0.644 & 0.053 & 0.567 & 0.009 & 0.718 & 0.018 \\
+KNN                  & 0.597 & 0.020 & 0.529 & 0.008 & 0.711 & 0.011 \\
+Decision Tree        & 0.597 & 0.011 & 0.476 & 0.012 & 0.740 & 0.010 \\
+\hline
+\multicolumn{7}{@{}l}{\emph{Baselines}} \\
+Vocabulary threshold  & 0.682 & 0.040 & 0.732 & 0.008 & 0.721 & 0.025 \\
+Structure only        & 0.674 & 0.020 & 0.559 & 0.009 & 0.654 & 0.006 \\
+Random                & 0.516 & 0.013 & 0.507 & 0.005 & 0.554 & 0.006 \\
+Majority              & 0.500 & 0.005 & 1.000 & 0.005 & 0.500 & 0.004 \\
+\hline\hline
+\end{tabular}
+\end{table}
+
+Table 5 shows the variation across repositories for the two best models. AUC ranges from 0.53 (NetMQ, with 2 flaky tests) to 0.97 (Testcontainers, with 1); repositories with a single flaky test (Akka.NET, Quartz.NET, and Testcontainers) are only illustrative. Among those with several flaky tests, Nerdbank.Streams is the most favorable (AUC of 0.74 to 0.80 and AP of 0.15 to 0.18), while MassTransit and StreamJsonRpc, which together hold 14 of the 30 flaky tests, have AUCs of 0.67 to 0.70. Figure 3 summarizes the main effect: for every model, AUC drops when the test's repository is not part of training; the drop is smaller for the tree ensembles (about 0.10 to 0.12) than for logistic regression, SVM, Naive Bayes, and KNN (0.14 to 0.15).
+
+\begin{table}[!h]
+\caption{Per-repository LOPO for the two best models (RF: Random Forest; ET: Extra Trees). Repositories with a single flaky test are only illustrative.}
+\label{tab:lopo-repo}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrrrrr@{}}
+\hline\hline
+ & & & \multicolumn{2}{c}{\textbf{RF}} & \multicolumn{2}{c}{\textbf{ET}} \\
+\textbf{Repository} & \textbf{Flaky} & \textbf{Tests} & \textbf{AUC} & \textbf{AP} & \textbf{AUC} & \textbf{AP} \\
+\hline
+Akka.NET         & 1 & 1,134 & 0.782 & 0.006 & 0.862 & 0.008 \\
+MassTransit      & 6 & 1,548 & 0.672 & 0.023 & 0.704 & 0.019 \\
+Nerdbank.Streams & 6 &   595 & 0.795 & 0.179 & 0.741 & 0.154 \\
+NetMQ            & 2 &   259 & 0.530 & 0.015 & 0.549 & 0.017 \\
+NLog             & 2 & 1,692 & 0.844 & 0.009 & 0.834 & 0.009 \\
+Polly            & 3 &   559 & 0.775 & 0.033 & 0.846 & 0.041 \\
+Quartz.NET       & 1 & 1,016 & 0.737 & 0.004 & 0.646 & 0.003 \\
+StreamJsonRpc    & 8 &   763 & 0.681 & 0.020 & 0.696 & 0.022 \\
+Testcontainers   & 1 &   192 & 0.969 & 0.507 & 0.933 & 0.223 \\
+\hline\hline
+\end{tabular}
+\end{table}
+
+\begin{figure}[!h]
+\centering
+\footnotesize
+\setlength{\unitlength}{1pt}
+\begin{picture}(248,138)(0,-14)
+\thinlines
+\put(21,0.0){\line(1,0){3}}
+\put(19,0.0){\makebox(0,0)[r]{0.5}}
+\put(21,27.5){\line(1,0){3}}
+\put(19,27.5){\makebox(0,0)[r]{0.6}}
+\put(21,55.0){\line(1,0){3}}
+\put(19,55.0){\makebox(0,0)[r]{0.7}}
+\put(21,82.5){\line(1,0){3}}
+\put(19,82.5){\makebox(0,0)[r]{0.8}}
+\put(21,110.0){\line(1,0){3}}
+\put(19,110.0){\makebox(0,0)[r]{0.9}}
+\put(24,0){\line(1,0){220}}
+\put(24,0){\line(0,1){116}}
+\put(24,119){\makebox(0,0)[b]{AUC}}
+\put(29.8,0){\rule{8pt}{99.0pt}}
+\put(37.8,0){\framebox(8,70.7){}}
+\put(37.8,-8){\makebox(0,0){ET}}
+\put(57.2,0){\rule{8pt}{101.8pt}}
+\put(65.2,0){\framebox(8,69.8){}}
+\put(65.2,-8){\makebox(0,0){RF}}
+\put(84.8,0){\rule{8pt}{90.7pt}}
+\put(92.8,0){\framebox(8,57.5){}}
+\put(92.8,-8){\makebox(0,0){GB}}
+\put(112.2,0){\rule{8pt}{88.0pt}}
+\put(120.2,0){\framebox(8,49.2){}}
+\put(120.2,-8){\makebox(0,0){LR}}
+\put(139.8,0){\rule{8pt}{85.3pt}}
+\put(147.8,0){\framebox(8,44.0){}}
+\put(147.8,-8){\makebox(0,0){SVM}}
+\put(167.2,0){\rule{8pt}{79.8pt}}
+\put(175.2,0){\framebox(8,39.6){}}
+\put(175.2,-8){\makebox(0,0){NB}}
+\put(194.8,0){\rule{8pt}{66.0pt}}
+\put(202.8,0){\framebox(8,26.7){}}
+\put(202.8,-8){\makebox(0,0){KNN}}
+\put(222.2,0){\rule{8pt}{57.7pt}}
+\put(230.2,0){\framebox(8,26.7){}}
+\put(230.2,-8){\makebox(0,0){DT}}
+\put(40,116){\rule{6pt}{6pt}}
+\put(49,119){\makebox(0,0)[l]{Cross-validation}}
+\put(130,116){\framebox(6,6){}}
+\put(139,119){\makebox(0,0)[l]{Cross-repository (macro)}}
+\end{picture}
+\caption{AUC under cross-validation (balanced folds) and macro cross-repository AUC, by model (the axis starts at 0.5, the chance level; ET: Extra Trees; RF: Random Forest; GB: Gradient Boosting; LR: logistic regression; NB: Naive Bayes; DT: decision tree).}
+\label{fig:auc}
+\end{figure}
+
+\noindent\fbox{\parbox{\dimexpr\columnwidth-2\fboxsep-2\fboxrule\relax}{\textbf{RQ1.1 and RQ2:} vocabulary predicts flakiness in C\# well above chance (MCC 0.51--0.53, AUC 0.86--0.87 under cross-validation; AUC 0.75--0.78 across repositories), but the gain over structure is about $+$0.15 MCC and only for the tree ensembles. The practical value lies in ranking.}}
+
+\subsection{RQ1.2: label robustness}
+The two rerun rounds diverge: of the 36 flaky units found by either of them, only 13 are flaky in both (Jaccard 0.36); 17 are flaky only in the 100-run round and 6 only in the 20-run round. The 20-run round finds 43\% of what the 100-run round finds, and the 100-run round finds 68\% of what the 20-run round finds. Most tests exclusive to the 100-run round fail rarely (for example, Nerdbank.Streams 6$\to$0, NetMQ 2$\to$0), and of the six exclusive to the 20-run round, four are in NLog and three of them failed together in a single run, so they represent a single event. One of the tests exclusive to the 100-run round failed in all 20 manual runs, which suggests an environmental difference between the rounds. In LOPO with the 20-run labels, only five repositories have flaky tests, and the best macro AUC is 0.72. With the 20-run labels (Table 7), the tree ensembles lose 0.07 to 0.14 MCC and 0.04 to 0.12 AUC, and the structure-only model (MCC 0.47) catches up with them within the confidence interval; the advantage of vocabulary holds only with the richer labels.
+
+\begin{table}[!h]
+\caption{Overlap between the flaky units of the two rounds.}
+\label{tab:sobreposicao}
+\centering
+\footnotesize
+\begin{tabular}{@{}lcp{0.50\columnwidth}@{}}
+\hline\hline
+\textbf{Category} & \textbf{Units} & \textbf{Where} \tabularnewline
+\hline
+Flaky in both & 13 & \raggedright StreamJsonRpc 5, MassTransit.Tests 3, Polly 2, Akka.NET 1, MassTransit.Abstractions 1, NLog 1 \tabularnewline[2pt]
+Only in 100 runs & 17 & \raggedright Nerdbank.Streams 6, StreamJsonRpc 3, NetMQ 2, MassTransit.Tests 2, Testcontainers 1, Quartz 1, NLog 1, Polly 1 \tabularnewline[2pt]
+Only in 20 runs & 6 & \raggedright NLog 4, MassTransit.Tests 1, Polly 1 \tabularnewline
+\hline\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[!h]
+\caption{Cross-validation with 100-run vs.\ 20-run labels (19 flaky units in the latter).}
+\label{tab:cv100x20}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{@{}lcccc@{}}
+\hline\hline
+ & \multicolumn{2}{c}{\textbf{MCC}} & \multicolumn{2}{c}{\textbf{AUC}} \\
+\textbf{Model} & \textbf{100$\times$} & \textbf{20$\times$} & \textbf{100$\times$} & \textbf{20$\times$} \\
+\hline
+Extra Trees       & 0.53 & 0.43 & 0.86 & 0.82 \\
+Random Forest     & 0.51 & 0.44 & 0.87 & 0.80 \\
+Gradient Boosting & 0.51 & 0.37 & 0.83 & 0.71 \\
+\hline
+\multicolumn{5}{@{}l}{\emph{Baselines}} \\
+Vocab.\ threshold & 0.40 & 0.23 & 0.77 & 0.66 \\
+Structure only    & 0.36 & 0.47 & 0.73 & 0.77 \\
+Random            & 0.02 & 0.04 & 0.53 & 0.54 \\
+\hline\hline
+\end{tabular}
+\end{table}
+
+As an independent check, the six tests flaky only in the 20-run round are labeled stable under the 100-run labels and receive a score when their own repository is held out, so the model has never seen them as positives. Three of them rank in the top 15\% of their repository (percentiles 0.96, 0.95, and 0.85), and the three NLog tests that failed together fall at percentiles 0.30--0.42. Counting the trio as a single event, three of four independent events are ranked high.
+
+\medskip
+\noindent\fbox{\parbox{\dimexpr\columnwidth-2\fboxsep-2\fboxrule\relax}{\textbf{RQ1.2:} the signal is robust in direction but not in magnitude: the round that produced the labels changes which tests are flaky (Jaccard 0.36), and the relative value of vocabulary over structure depends on it.}}
+\medskip
+
+\subsection{RQ3: the vocabulary of flaky tests in C\#}
+Table 8 shows the tokens with the highest information gain that occur in flaky tests from at least three repositories. The most informative markers are Task-based concurrency, that is, operations run in the background and awaited with async/await (task in 80\% of flaky tests vs.\ 31\% of stable ones; async/await in 67\% vs.\ 30\%), time handling (TimeSpan, CancellationToken, Sleep, Delay), and resource lifecycles (Dispose, StopAsync), along with rare, specific markers such as GC and WeakReference (Table 9). This agrees with Java, JavaScript, and Swift and with the sleep/timeout pattern described for .NET \cite{leesatapornwongsa2022flakerepro}. The frequent markers are general: task, async, and await occur in six repositories. However, a third of stable tests in C\# also contain async/await, which explains why presence rules are weak.
+
+\begin{table}[!h]
+\caption{Top tokens by information gain (IG, in nats) present in flaky tests from at least three repositories. \%F and \%S: proportion of flaky (30) and stable (12,635) units containing the token.}
+\label{tab:tokens}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{12pt}
+\begin{tabular}{@{}lrr@{}}
+\hline\hline
+\textbf{Token} & \textbf{IG} & \textbf{\%F} \\
+\hline
+\texttt{task}              & 0.145 & 80 \\
+\texttt{async task}        & 0.084 & 67 \\
+\texttt{await}             & 0.084 & 67 \\
+\texttt{async}             & 0.082 & 67 \\
+\texttt{length}            & 0.065 & 27 \\
+\texttt{await task}        & 0.061 & 23 \\
+\texttt{server}            & 0.056 & 23 \\
+\texttt{enumerable}        & 0.044 & 13 \\
+\texttt{logger}            & 0.044 & 20 \\
+\texttt{fromseconds}       & 0.043 & 20 \\
+\texttt{writeline}         & 0.038 & 17 \\
+\texttt{timespan}          & 0.034 & 23 \\
+\texttt{dispose}           & 0.034 & 13 \\
+\texttt{cancellationtoken} & 0.025 & 13 \\
+\hline\hline
+\end{tabular}
+\end{table}
+
+The raw information-gain ranking is dominated by project conventions: trait, fact trait, and checkgcpressureasync come only from StreamJsonRpc, and trait originates from an attribute, not from the test body. Information gain favors frequent tokens; we therefore also report rare but specific markers by lift (Table 9). They fall into memory and garbage collection (gc, weakreference), asynchronous composition (whenall), cancellation (cancellationtokensource), lifecycles (stopasync, disposed), and fixed waits (sleep, task delay). Each occurs in only two to four flaky tests, so they are exploratory.
+
+\begin{table}[!h]
+\caption{Rare, specific markers (at least two flaky tests in at least two repositories, except \texttt{weakreference}). $p$-values: one-sided Fisher's exact tests, uncorrected for the roughly 48,000 candidate tokens.}
+\label{tab:marcadores}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{@{}lrrrrr@{}}
+\hline\hline
+\textbf{Token} & \textbf{Flaky} & \textbf{\%F} & \textbf{\%S} & \textbf{\emph{Lift}} & \textbf{\emph{p}} \\
+\hline
+\texttt{gc}                      & 3 & 10.0 & 0.12 & 84$\times$ & $<$0.001 \\
+\texttt{weakreference}           & 2 &  6.7 & 0.18 & 37$\times$ & 0.002 \\
+\texttt{stopasync}               & 2 &  6.7 & 0.12 & 56$\times$ & --- \\
+\texttt{disposed}                & 2 &  6.7 & 0.13 & 50$\times$ & --- \\
+\texttt{whenall}                 & 4 & 13.3 & 0.62 & 22$\times$ & --- \\
+\texttt{cancellationtokensource} & 4 & 13.3 & 1.56 &  9$\times$ & --- \\
+\texttt{sleep}                   & 2 &  6.7 & 0.82 &  8$\times$ & 0.03 \\
+\texttt{task delay}              & 2 &  6.7 & 0.97 &  7$\times$ & 0.04 \\
+\hline\hline
+\end{tabular}
+\end{table}
+
+Relation to root causes. The markers connect to the causes of flakiness described in the Introduction. task, async, and await indicate background operations whose completion the test must await, the territory of race conditions. TimeSpan, FromSeconds, CancellationToken, Sleep, and Delay indicate dependence on time and timeouts. Dispose, StopAsync, server, logger, and WriteLine indicate external resources that must be created and released, such as servers and output streams. GC and WeakReference indicate dependence on the garbage collector, whose timing is nondeterministic. This reading is an interpretation of the tokens, not a confirmed classification of each test's cause.
+Stability markers. Unlike Swift, where xctassertequal marks clearly synchronous tests, we found no robust stability marker: among the tokens present in flaky tests from at least three repositories, the only one more frequent in stable tests is assert (67\% vs.\ 69\%), which does not discriminate. The token areequal (0\% vs.\ 20\%) is an NUnit assertion style used by repositories without flaky tests, so it reflects the choice of framework, not stability.
+
+\medskip
+\noindent\fbox{\parbox{\dimexpr\columnwidth-2\fboxsep-2\fboxrule\relax}{\textbf{RQ3:} flakiness in C\# is signaled by \texttt{Task}-based concurrency, time handling, and resource lifecycles, complemented by rare markers such as \texttt{GC} and \texttt{WeakReference}. The frequent markers are general across repositories, the rare ones are specific but backed by few tests, and no robust stability marker emerged.}}
+\medskip
+
+\subsection{RQ4: error analysis}
+To analyze errors, we use the LOPO scores, in which each test is scored by models trained without its repository. The score is the mean of Random Forest and Extra Trees over the 10 undersampling draws. In each of the nine repositories that have flaky tests, we rank all labeled tests (flaky and stable) by score, breaking ties by average rank, and compute each test's percentile within its repository, so that 1.0 corresponds to the highest-scoring test. The 30 flaky tests (Table 10) have a median percentile of 0.80; 9 have a percentile of at least 0.90, that is, they are in the top 10\% of their repository, and 23 have a percentile of at least 0.75, in the top 25\%. This means that, if each repository were ranked by the model and the top quartile were selected for rerunning (about a quarter of the tests), that quartile would contain 77\% of the flaky tests, against about 25\% expected by chance, with a 95\% confidence interval of 58\% to 90\%. The result also does not depend on the repositories that concentrate the positives: in the three largest (20 of the 30 flaky tests), 14 are in the top quartile (70\%), and in the other six repositories, 9 of 10 (90\%), although these have only one or two each.
+
+\begin{table}[!h]
+\caption{Position of the 30 flaky tests in their repositories' rankings (LOPO; percentile 1.0 = highest score).}
+\label{tab:ranking}
+\centering
+\footnotesize
+\begin{tabular}{@{}p{0.48\columnwidth}cl@{}}
+\hline\hline
+\textbf{Criterion} & \textbf{Flaky} & \textbf{Proportion} \tabularnewline
+\hline
+\raggedright Percentile $\geq$ 0.90 (top 10\%) & 9 & 30\% \tabularnewline
+\raggedright Percentile $\geq$ 0.75 (top 25\%) & 23 & 77\% (CI 58--90\%) \tabularnewline
+\raggedright Percentile $<$ 0.50 & 6 & 20\% \tabularnewline
+\raggedright Three largest repositories, top quartile & 14 of 20 & 70\% \tabularnewline
+\raggedright Other six repositories, top quartile & 9 of 10 & 90\% \tabularnewline
+\raggedright Median percentile & 0.80 & \tabularnewline
+\hline\hline
+\end{tabular}
+\end{table}
+
+This estimate should be read with caution. The two models that make up the score were chosen for their performance on the same data, and the confidence interval treats tests as independent, even though they come from a convenience sample and some are correlated (three NLog tests failed together), so the real uncertainty is probably larger. We also assume the same execution cost per test, which probably underestimates the real cost, since asynchronous tests and tests with fixed waits tend to be slower. Moreover, the result measures how concentrated flaky tests are at the top of the ranking, not the chance that rerunning reveals the flakiness, which depends on how often each test fails.
+We also examined, in the test source code, the errors for the tests the model did not place in the top quartile (seven of the 30) and for the highest-scoring stable tests. This is a qualitative analysis of a few examples, not a count of causes. The false negatives are flaky tests whose cause lies beyond the reach of vocabulary. Three patterns recur. (i) The test merely delegates to a helper method: JsonRpcPerf\_Pipe and JsonRpcPerf\_Channel (Nerdbank.Streams) are one-line calls to a shared helper, with no assertions, so the cause lies outside the test body; InvokeWithProgressParameter\_NoMemoryLeakConfirm (StreamJsonRpc) awaits a helper, forces GC.Collect(), and checks a WeakReference, and its nondeterminism comes from garbage collection. (ii) Fixed waits without asynchronous constructs: ReconnectOnRouterBug (Section 2) synchronizes only through Thread.Sleep, a token present in only two flaky tests and weakly learned. (iii) Time and global state: MassTransit's Should\_be\_using\_the\_correct\_algorithm\_for\_sequential\_guids installs a tick provider and compares parts of consecutively generated identifiers, which depends on the clock and, apparently, on shared static state.
+The false positives are stable tests that use concurrency and time deterministically. Polly's Execute\_CallerCancellation\_EnsureExceptionCarriesCallerToken uses an injected time provider and a cancellation token, being asynchronous and time-related, yet deterministic by construction; Quartz's Trigger\_Fires\_After\_Clock\_Jumps\_Backward\_And\_Returns controls time through a custom provider and awaits a TaskCompletionSource instead of sleeping. The model detects the constructs but does not judge whether they are used well. Akka.NET's A\_CircuitBreaker\_stress\_test uses a fixed await Task.Delay(3000) with a wide margin and may be latently flaky beyond our 120 runs, so some false positives may be label noise.
+
+\medskip
+\noindent\fbox{\parbox{\dimexpr\columnwidth-2\fboxsep-2\fboxrule\relax}{\textbf{RQ4:} the model fails when the cause is hidden in helper methods, in GC behavior, or in shared state (false negatives), and when asynchronous or time constructs are used with controlled time or event-based synchronization (false positives). Judging whether usage is correct requires semantic, not lexical, analysis.}}
+\medskip
+
+\subsection{Sensitivity analyses}
+We tested two threats to the vocabulary signal, keeping the labels, undersampling seeds, and folds fixed so that the comparison is paired. Without attributes: we removed all tokens inside attribute lists ([Fact], [Trait(...)], [InlineData(...)]), so that project conventions do not drive the prediction. With helpers: we added to each test the tokens of the helper methods it calls, resolved by name (at most five helpers per test, one level only); the expansion resolved at least one helper in 67\% of the methods, and, since resolution is by name, without type information, some helpers may merely share a name with the one actually called.
+
+\begin{table}[!h]
+\caption{Sensitivity of cross-validation MCC and LOPO macro AUC (original features, without attributes, with one-level helpers).}
+\label{tab:sensibilidade}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lcccccc@{}}
+\hline\hline
+ & \multicolumn{3}{c}{\textbf{MCC (CV)}} & \multicolumn{3}{c}{\textbf{Macro AUC (LOPO)}} \\
+\textbf{Model} & \textbf{orig.} & \textbf{no attr.} & \textbf{+help.} & \textbf{orig.} & \textbf{no attr.} & \textbf{+help.} \\
+\hline
+Extra Trees         & 0.53 & 0.46 & 0.56 & 0.757 & 0.737 & 0.764 \\
+Random Forest       & 0.51 & 0.46 & 0.53 & 0.754 & 0.721 & 0.773 \\
+Gradient Boosting   & 0.51 & 0.49 & 0.43 & 0.709 & 0.683 & 0.643 \\
+Logistic regression & 0.44 & 0.43 & 0.49 & 0.679 & 0.673 & 0.714 \\
+\hline
+\multicolumn{7}{@{}l}{\emph{Baseline}} \\
+Structure only      & 0.36 & 0.36 & 0.36 & 0.674 & 0.674 & 0.674 \\
+\hline\hline
+\end{tabular}
+\end{table}
+
+Removing attributes reduces the MCC of the two best ensembles from 0.53 to 0.46 (Extra Trees) and from 0.51 to 0.46 (Random Forest), but keeps AUC at 0.84--0.85: attributes carry part of the signal, plausibly project conventions, but most of it lies in the test body, and the ensembles remain well above the structure-only baseline. Adding helpers slightly improves the ensembles (MCC 0.56 and 0.53) and improves the linear and probabilistic models more, but hurts Gradient Boosting (from 0.51 to 0.43) and the Decision Tree (from 0.44 to 0.39). The ensembles' gains are within the confidence intervals. The naive one-level expansion therefore does not eliminate the helper blind spot: it adds tokens to two thirds of the tests, flaky or stable alike.

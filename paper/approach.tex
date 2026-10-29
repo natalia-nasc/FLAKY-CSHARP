@@ -1,0 +1,52 @@
+\section{Approach}
+Our approach rests on one premise: although flakiness manifests only at run time, it leaves a stable lexical trace in the test code. Figure 2 summarizes the six-step pipeline.
+
+\begin{figure*}[!htbp]
+\centering
+{\scriptsize
+\setlength{\fboxsep}{3pt}%
+\newcommand{\etapa}[2]{\fbox{\parbox[c][11ex][c]{\dimexpr(\textwidth-55pt)/6-2\fboxsep-2\fboxrule\relax}{\centering\hyphenpenalty=10000\textbf{#1}\\[2pt]#2}}}%
+\etapa{1. Subjects}{17 open-source\\C\# projects}%
+\hfill$\rightarrow$\hfill
+\etapa{2. Reruns}{100$\times$ + 20$\times$\\isolated;\\TRX reports}%
+\hfill$\rightarrow$\hfill
+\etapa{3. Labels}{flaky, broken,\\stable, skipped;\\declaring method}%
+\hfill$\rightarrow$\hfill
+\etapa{4. Processing}{Roslyn: tokens\\and structure}%
+\hfill$\rightarrow$\hfill
+\etapa{5. Models}{TF-IDF;\\8 classifiers;\\1:1; CV and LOPO}%
+\hfill$\rightarrow$\hfill
+\etapa{6. Vocabulary}{information\\gain of\\tokens}%
+}
+\caption{End-to-end pipeline for building the vocabulary of flaky tests in C\#.}
+\label{fig:metodologia}
+\end{figure*}
+
+Step 1: Project selection. We started from open-source C\# libraries hosted on GitHub with extensive test suites and then filtered them by an objective criterion: the project had to build and run its entire suite in our environment. The result is 17 projects and 19,211 test cases, covering messaging, actor systems, scheduling, RPC, logging, resilience, and architecture testing. Two candidate projects (StackExchange.Redis and SSH.NET) were excluded because their suites depend on external servers whose runs were disrupted by the environment.
+Step 2: Reruns. Each suite was built once and run 100 times in a row, without rebuilding between runs. In each run, the .NET test runner (dotnet test) produced a TRX (Test Results XML) report, an XML file recording each executed test. We built with dotnet build and ran with dotnet test \texttt{--no-build} and the TRX logger; xUnit v3 projects on Microsoft.Testing.Platform were run through the test executable itself, with \texttt{--report-trx}. These reports were the basis for identifying tests whose outcomes changed across runs. Some rounds suffered environmental disruptions, such as leftover containers from previous runs and a degraded Redis cluster. They were discarded and repeated in isolation. Since flakiness is rare (fewer than 1\% of tests), a few unstable tests are enough to change the results, and any environmental noise could be mistaken for flakiness. We therefore performed a second round of 20 runs under controlled isolation (5 for Testcontainers, whose suite requires containers) to verify the tests flagged in the first. Everything ran on a laptop with an Intel Core i7-1165G7, 16 GB of RAM, and Windows 11. The 100-run rounds took place in July 2026, before a .NET SDK update whose previous version we did not record; the 20-run rounds used the SDK resolved by each repository's global.json. This is a limitation of the 100-run labels. The SDKs installed side by side are 8.0.425, 9.0.318, 10.0.112, 10.0.303, and 10.0.401; the 20-run round used 10.0.401 in 11 repositories, 10.0.303 in Nerdbank.Streams, Polly, and StreamJsonRpc, 10.0.112 in Akka.NET, and 8.0.425 in the RabbitMQ client.
+Step 3: Labeling. Each test received a label according to its outcomes across runs: flaky (passes and fails), broken (always fails), stable (never fails), or skipped (skipped in every run). Broken and skipped tests were excluded from modeling, which compares only flaky against stable tests. The unit of analysis is the declaring test method, not the test case reported by the runner. Parameterized tests and methods inherited from base classes generate several cases from a single method. Without this grouping, the same code would be counted several times, and nearly identical tests would fall into different cross-validation folds. The choice of unit changes the count: the 30 flaky methods correspond to 50 flaky test cases, because some methods generate several cases (through parameterization or inheritance). Since test identity in TRX files is fragile, we identified each test by its fully qualified class plus its display name and handled the pitfalls in Table 1: we normalized timestamps, thread identifiers, and run dates in the names, ran both rounds on the same target framework, and discarded contaminated rounds.
+
+\begin{table}[!htbp]
+\caption{Methodological pitfalls of rerun studies in .NET.}
+\label{tab:armadilhas}
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}p{0.30\columnwidth}p{\dimexpr0.70\columnwidth-2\tabcolsep\relax}@{}}
+\hline\hline
+\raggedright \textbf{Pitfall} & \raggedright \textbf{Example and effect} \tabularnewline
+\hline
+\raggedright Nondeterministic names & \raggedright Akka.NET \emph{theories} embed timestamps and \emph{thread} ids: 3,308 distinct names for 1,328 tests \tabularnewline
+\raggedright Dates in names & \raggedright NLog \emph{theories} embed the current date: 2,876 vs.\ 2,870 tests across rounds \tabularnewline
+\raggedright Target framework & \raggedright Nerdbank.Streams: 1,142 tests on \texttt{net472} vs.\ 877 on \texttt{net8.0} \tabularnewline
+\raggedright Name collisions & \raggedright In some projects, TRX stores only the method name: tests from different classes get mixed \tabularnewline
+\raggedright Contaminated environment & \raggedright Leftover containers and a degraded \emph{cluster} produce spurious flaky tests \tabularnewline
+\raggedright Inherited tests & \raggedright 363 of 934 methods (Nerdbank.Streams) and 2,199 of 2,495 (StreamJsonRpc) are inherited \tabularnewline
+\hline\hline
+\end{tabular}
+\end{table}
+
+Step 4: Test processing. Using Roslyn, the C\# compiler, we extracted each test method from the source code, identifying it by its attributes ([Fact], [Test], [TestMethod], and equivalents). From each method, we recorded the tokens (identifiers and keywords), discarding reserved words and common language modifiers (such as public, static, var, if, and return), which appear in almost every test and do not distinguish them. We kept async and await, which indicate asynchronous code. We also recorded size and structural features: number of lines, number of awaits and assertions, and whether the method is async. Since many tests are inherited, we resolved each executed test to its declaring method, which is flaky if any inherited instance is flaky.
+
+Step 5: Model construction. The tokens form the test's vocabulary and are vectorized with TF-IDF (term frequency--inverse document frequency), a technique that turns the text of each test into a numeric vector. Each term receives a weight that combines how often it appears in that test (TF) and the inverse of the proportion of tests that contain it (IDF). Thus, the weight is high when the term appears often in the test and is rare in the set (such as weakreference) and low when it is present in almost every test (such as assert). We used single terms (unigrams, such as await) and pairs of adjacent terms (bigrams, such as await task), with sublinear term frequency, which reduces the weight of heavily repeated terms. We kept only terms present in at least two tests and in at most 90\% of them. The vectorizer is fitted only on the training tests of each fold, which prevents information leakage from the evaluation tests. We trained eight classifiers: Random Forest and Extra Trees (200 trees each), Gradient Boosting, Decision Tree, Naive Bayes, linear SVM, KNN, and logistic regression. The first three are ensemble models, which combine many decision trees. To find out what the vocabulary actually adds, we compared all of them against four baselines: a majority predictor, a random predictor, a threshold rule based on the 10 tokens with the highest information gain, and a Random Forest trained only on the size and structural features, without any tokens.
+Step 6: Vocabulary extraction. Finally, we ranked the tokens by information gain with respect to the label, which measures how much knowing whether the token is present reduces uncertainty about the test's class, in nats and averaged over 30 subsampling draws, together with its frequency in each class, the number of repositories in which it occurs in flaky tests, and the lift between classes, that is, how many times more frequent the token is among flaky tests than among stable ones. This ranking makes the approach explanatory rather than opaque: it allows the predictive signal to be linked to concrete constructs and to the known root causes of flakiness.
