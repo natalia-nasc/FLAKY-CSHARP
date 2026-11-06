@@ -1,0 +1,1017 @@
+﻿className,test,runs_presente,passed,failed,skipped,label
+TUnit.UnitTests.AggregatedSummaryWriterTests,Render_AllPassing_Has_No_Failure_Section,20,20,0,0,stable
+TUnit.UnitTests.AggregatedSummaryWriterTests,Render_Contains_Totals_Suite_Rows_Flaky_And_Failures,20,20,0,0,stable
+TUnit.UnitTests.AmbiguousSourceInferenceTests,Invalid_Overloads_Do_Not_Abort_Class_Inference,20,20,0,0,stable
+TUnit.UnitTests.AmbiguousSourceInferenceTests,Invalid_Overloads_Preserve_Explicit_Method_Instantiation,20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Custom_Formatters_Still_Take_Precedence(),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Custom_Formatters_Still_Take_Precedence(de-DE),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Custom_Formatters_Still_Take_Precedence(en-US),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Custom_Formatters_Still_Take_Precedence(sv-SE),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Every_Runtime_Numeric_Type_Is_Formatted_Invariantly,20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,FormatArguments_Formats_Modern_Numeric_Types_Invariantly(),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,FormatArguments_Formats_Modern_Numeric_Types_Invariantly(de-DE),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,FormatArguments_Formats_Modern_Numeric_Types_Invariantly(en-US),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,FormatArguments_Formats_Modern_Numeric_Types_Invariantly(sv-SE),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,FormatArguments_Formats_Numbers_Invariantly(),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,FormatArguments_Formats_Numbers_Invariantly(de-DE),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,FormatArguments_Formats_Numbers_Invariantly(en-US),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,FormatArguments_Formats_Numbers_Invariantly(sv-SE),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Format_Formats_Complex_Invariantly(),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Format_Formats_Complex_Invariantly(de-DE),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Format_Formats_Complex_Invariantly(en-US),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Format_Formats_Complex_Invariantly(sv-SE),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Format_Formats_Numbers_Inside_Tuples_And_Collections_Invariantly(),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Format_Formats_Numbers_Inside_Tuples_And_Collections_Invariantly(de-DE),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Format_Formats_Numbers_Inside_Tuples_And_Collections_Invariantly(en-US),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Format_Formats_Numbers_Inside_Tuples_And_Collections_Invariantly(sv-SE),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Format_With_Parameter_Type_Formats_Numbers_Invariantly(),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Format_With_Parameter_Type_Formats_Numbers_Invariantly(de-DE),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Format_With_Parameter_Type_Formats_Numbers_Invariantly(en-US),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Format_With_Parameter_Type_Formats_Numbers_Invariantly(sv-SE),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Non_Numeric_Primitives_And_Enums_Are_Unchanged(),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Non_Numeric_Primitives_And_Enums_Are_Unchanged(de-DE),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Non_Numeric_Primitives_And_Enums_Are_Unchanged(en-US),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterCultureTests,Non_Numeric_Primitives_And_Enums_Are_Unchanged(sv-SE),20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterTests,FormatArguments_WithStringsContainingDots_EscapesDots,20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterTests,FormatArguments_WithTuples_FormatsCorrectly,20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterTests,FormatDefault_LargeTuple_FormatsAllElements,20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterTests,FormatDefault_NestedValueTuple_FormatsCorrectly,20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterTests,FormatDefault_StringWithDots_EscapesDotsWithMiddleDot,20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterTests,FormatDefault_StringWithoutDots_ReturnsUnchanged,20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterTests,FormatDefault_SystemTuple_FormatsCorrectly,20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterTests,FormatDefault_TupleWithNull_HandlesNullCorrectly,20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterTests,FormatDefault_ValueTuple_FormatsCorrectly,20,20,0,0,stable
+TUnit.UnitTests.ArgumentFormatterTests,Retained_Mutable_Tuple_Argument_Keeps_Tuple_Formatting,20,20,0,0,stable
+TUnit.UnitTests.AsyncDataSourceTests,"TestWithAsyncEnumerableDataSource(1000, thousand)",20,20,0,0,stable
+TUnit.UnitTests.AsyncDataSourceTests,"TestWithAsyncEnumerableDataSource(2000, two thousand)",20,20,0,0,stable
+TUnit.UnitTests.AsyncDataSourceTests,"TestWithAsyncEnumerableDataSource(3000, three thousand)",20,20,0,0,stable
+TUnit.UnitTests.AsyncDataSourceTests,"TestWithAsyncTaskDataSource(10, ten)",20,20,0,0,stable
+TUnit.UnitTests.AsyncDataSourceTests,"TestWithAsyncTaskDataSource(20, twenty)",20,20,0,0,stable
+TUnit.UnitTests.AsyncDataSourceTests,"TestWithAsyncTaskDataSource(30, thirty)",20,20,0,0,stable
+TUnit.UnitTests.AsyncDataSourceTests,"TestWithAsyncValueTaskDataSource(100, hundred)",20,20,0,0,stable
+TUnit.UnitTests.AsyncDataSourceTests,"TestWithAsyncValueTaskDataSource(200, two hundred)",20,20,0,0,stable
+TUnit.UnitTests.AsyncDataSourceTests,"TestWithSyncDataSource(1, one)",20,20,0,0,stable
+TUnit.UnitTests.AsyncDataSourceTests,"TestWithSyncDataSource(2, two)",20,20,0,0,stable
+TUnit.UnitTests.AsyncDataSourceTests,"TestWithSyncDataSource(3, three)",20,20,0,0,stable
+TUnit.UnitTests.AttributeInheritanceTests,"Framework_fallback_matches_overridden_method_inheritance(TUnit.UnitTests.AttributeInheritanceTests+GenericMethodDerived, True, generic-derived,generic-base)",20,20,0,0,stable
+TUnit.UnitTests.AttributeInheritanceTests,"Framework_fallback_matches_overridden_method_inheritance(TUnit.UnitTests.AttributeInheritanceTests+MethodDerived, False, derived)",20,20,0,0,stable
+TUnit.UnitTests.AttributeInheritanceTests,"Framework_fallback_matches_overridden_method_inheritance(TUnit.UnitTests.AttributeInheritanceTests+MethodDerived, True, derived,middle-repeat,base,base-repeat)",20,20,0,0,stable
+TUnit.UnitTests.AttributeInheritanceTests,"Framework_fallback_matches_overridden_method_inheritance(TUnit.UnitTests.AttributeInheritanceTests+MethodHidden, True, hidden)",20,20,0,0,stable
+TUnit.UnitTests.AttributeInheritanceTests,"Framework_fallback_matches_runtime_inheritance(TUnit.UnitTests.AttributeInheritanceTests+Derived, derived, base)",20,20,0,0,stable
+TUnit.UnitTests.AttributeInheritanceTests,"Framework_fallback_matches_runtime_inheritance(TUnit.UnitTests.AttributeInheritanceTests+ImplicitDerived, derived)",20,20,0,0,stable
+TUnit.UnitTests.BannerCapabilityTests,Falls_Back_To_Source_Registration_Without_Overrides,20,20,0,0,stable
+TUnit.UnitTests.BannerCapabilityTests,Reports_Reflection_When_Environment_Variable_Requests_Reflection,20,20,0,0,stable
+TUnit.UnitTests.BannerCapabilityTests,Reports_Reflection_When_Reflection_Flag_Is_Set,20,20,0,0,stable
+TUnit.UnitTests.BannerCapabilityTests,Reports_SourceGenerated_When_Environment_Variable_Requests_SourceGeneration,20,20,0,0,stable
+TUnit.UnitTests.ClassMetadataHelperTests,InjectionFirstPopulatesTheSharedClassCache,20,20,0,0,stable
+TUnit.UnitTests.ClassMetadataHelperTests,NullableContextAppliesWhenThePropertyHasNoExplicitAnnotation,20,20,0,0,stable
+TUnit.UnitTests.ClassMetadataHelperTests,PropertiesAreDeclaredPublicAndReferBackToTheirClass,20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,ClaimedRowDoesNotTransferCleanupToLaterSkippedTest,20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,ClassAndMethodEnumerationStateSurvivesFactories(False),20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,ClassAndMethodEnumerationStateSurvivesFactories(True),20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,ClassEnumerationFailurePreservesSeparateFactoryCleanup,20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,"ClassIteratorFailureDoesNotDisposeRunnableScope(False, False)",20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,"ClassIteratorFailureDoesNotDisposeRunnableScope(False, True)",20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,"ClassIteratorFailureDoesNotDisposeRunnableScope(True, False)",20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,CleanupOwnerCanOnlyBeClaimedOnce,20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,ConcurrentTemporaryRowsKeepEverySessionCleanup,20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,ConstructorFactoryStateIsIsolatedAcrossRepeats,20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,ConstructorReplayPreservesMutableReferencesAndLaterEnumerationWrites(False),20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,ConstructorReplayPreservesMutableReferencesAndLaterEnumerationWrites(True),20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,EmptyMethodSourceWithoutSkipReleasesUnclaimedClassCallbacks,20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,EmptyRefetchedConstructorStateDoesNotCaptureRejectedMethodState(False),20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,EmptyRefetchedConstructorStateDoesNotCaptureRejectedMethodState(True),20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,EnumerationFailureOnlyDisposesUnclaimedClassScope(False),20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,EnumerationFailureOnlyDisposesUnclaimedClassScope(True),20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,InstanceConstructorSubscriptionsReachExecutableRow,20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,LentRowKeepsScopeUntilSessionCleanupEvenWhenNextFactoryThrows,20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,ManyRejectedRowsCreateOnlyOneCleanupContextPerOwner(False),20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,ManyRejectedRowsCreateOnlyOneCleanupContextPerOwner(True),20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,NonRunnableRowsPreservePublicCallbacksAndState(False),20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,NonRunnableRowsPreservePublicCallbacksAndState(True),20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,RefetchedRejectedConstructorReplaysOnlyItsOwnStateChanges(False),20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,RefetchedRejectedConstructorReplaysOnlyItsOwnStateChanges(True),20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,RejectedMethodRowsRetainCleanupWithoutLifecycleSubscriptions(False),20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,RejectedMethodRowsRetainCleanupWithoutLifecycleSubscriptions(True),20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,RowLifetimeRestoresAccessorAfterCleanupFailure,20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,RowLifetimeTransfersFailureCleanupBeforeRestoringAccessorOnException,20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,UnclaimedCleanupFailuresHaveDistinctClassRowIds,20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,UnclaimedRejectedRowsReleaseEveryCleanupOnceEvenWhenCallbacksThrow,20,20,0,0,stable
+TUnit.UnitTests.ClassRowCleanupTests,UnclaimedRowTransfersCleanupToSkippedTest,20,20,0,0,stable
+TUnit.UnitTests.ComplexGenericInheritanceTests,TestDependency_ProblemStatement_ConcreteClassDependency,20,20,0,0,stable
+TUnit.UnitTests.ComplexGenericInheritanceTests,TestDependency_ProblemStatement_FirstClassBaseDependency,20,20,0,0,stable
+TUnit.UnitTests.ComplexGenericInheritanceTests,TestDependency_ProblemStatement_SecondClassBaseDependency,20,20,0,0,stable
+TUnit.UnitTests.ComplexGenericInheritanceTests,TestDependency_ProblemStatement_ThirdClassBaseDependency,20,20,0,0,stable
+TUnit.UnitTests.ConstraintKeySchedulerTests,SynchronousTests_WithDistinctKeys_RunConcurrently,20,20,0,0,stable
+TUnit.UnitTests.ConstraintKeySchedulerTests,SynchronousWaiter_ReleasedBeforeItAwaits_DoesNotBlockLaterTests,20,20,0,0,stable
+TUnit.UnitTests.ConstraintKeySchedulerTests,SynchronousWaiters_ReleasedByTheSameTest_RunConcurrently,20,20,0,0,stable
+TUnit.UnitTests.ConstraintViolationUnpackingTests,Failed_Test_Factories_Never_Report_The_Internal_Row_Exception,20,20,0,0,stable
+TUnit.UnitTests.ConstraintViolationUnpackingTests,Other_Exceptions_Pass_Through,20,20,0,0,stable
+TUnit.UnitTests.ConstraintViolationUnpackingTests,Reports_Plain_GenericTypeResolutionException_With_Unwrapped_Row,20,20,0,0,stable
+TUnit.UnitTests.ConstraintViolationUnpackingTests,Throwing_Row_Func_Tracks_Nothing,20,20,0,0,stable
+TUnit.UnitTests.ContextProviderTests,AddTest_AfterFilteringEmptiedClass_ReattachesClassAndAssembly,20,20,0,0,stable
+TUnit.UnitTests.ContextProviderTests,CreateTestContext_PublishesContextWithTestDetailsAlreadyAssigned,20,20,0,0,stable
+TUnit.UnitTests.ContextProviderTests,GetOrCreateClassContext_ConcurrentCallers_RegisterASingleContext,20,20,0,0,stable
+TUnit.UnitTests.ContextThreadSafetyTests,GetStandardOutput_WithConcurrentAccess_ShouldNotThrowException,20,20,0,0,stable
+TUnit.UnitTests.CustomPropertyDataSourceTests,PropertyInjection_CustomDataSource_WithNestedProperties_InjectsAndInitializesRecursively,20,20,0,0,stable
+TUnit.UnitTests.CustomPropertyDataSourceTests,PropertyInjection_CustomDataSource_WorksWithGenericApproach,20,20,0,0,stable
+TUnit.UnitTests.CustomerRepositoryTests,CanSetCustomerName,20,20,0,0,stable
+TUnit.UnitTests.CustomerRepositoryTests,InitializeEntity,20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,ConcurrentEventSubscriptionsAndMergesPreserveDuplicatesAndSnapshots,20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,FailedDiResolutionRetainsEarlierServicesForCleanup(False),20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,FailedDiResolutionRetainsEarlierServicesForCleanup(True),20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,FailedRowKeepsResolutionErrorAndRootCleanupWhenAnInitializerGetterThrows,20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,FailedRowRefreshesEveryOwnerOfASharedRoot,20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,FailedRowRefreshesExternalOwnershipBeforeCleanup(False),20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,FailedRowRefreshesExternalOwnershipBeforeCleanup(True),20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,FailedRowRetainsInitializersAfterAnInjectableGetterThrows,20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,FailedRowRetainsLaterInitializersAfterAGetterThrows(False),20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,FailedRowRetainsLaterInitializersAfterAGetterThrows(True),20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,FailedRowsReleaseSharedServicesOnlyAfterTheFinalOwner,20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,FailedRowsRetainNestedInitializersAcrossSharedNonDisposableRoots(False),20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,FailedRowsRetainNestedInitializersAcrossSharedNonDisposableRoots(True),20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,NormalDiscoveryStillReportsGetterFailures(False),20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,NormalDiscoveryStillReportsGetterFailures(True),20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,NormalDiscoveryStillReportsInjectableGetterFailures,20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,ParallelCleanupMergesRetainEveryHandlerOnce,20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,ParallelDiFactoriesKeepEveryScopeAndObjectAcrossClones,20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,ReleaseUsesReferenceIdentityAndLeavesUnrelatedScopesAlive,20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,SharedResolvedObjectReleasesAllOwnersOnceAcrossClones,20,20,0,0,stable
+TUnit.UnitTests.DataRowScopeCollectionTests,ThrowingScopeDoesNotPreventOtherOwnersFromCompleting,20,20,0,0,stable
+TUnit.UnitTests.DataSourceCollectionTests,Null_Collection_Contributes_No_Rows(0),20,20,0,0,stable
+TUnit.UnitTests.DataSourceCollectionTests,Null_Collection_Contributes_No_Rows(1),20,20,0,0,stable
+TUnit.UnitTests.DataSourceCollectionTests,Null_Collection_Contributes_No_Rows(2),20,20,0,0,stable
+TUnit.UnitTests.DataSourceCollectionTests,Null_Collection_Contributes_No_Rows(3),20,20,0,0,stable
+TUnit.UnitTests.DataSourceCollectionTests,Null_Collection_Contributes_No_Rows(4),20,20,0,0,stable
+TUnit.UnitTests.DataSourceCollectionTests,Null_Collection_Contributes_No_Rows(5),20,20,0,0,stable
+TUnit.UnitTests.DataSourceCollectionTests,Null_Collection_Contributes_No_Rows(6),20,20,0,0,stable
+TUnit.UnitTests.DataSourceCollectionTests,Null_Collection_Contributes_No_Rows(7),20,20,0,0,stable
+TUnit.UnitTests.DataSourceCollectionTests,Null_Element_Is_A_Row(0),20,20,0,0,stable
+TUnit.UnitTests.DataSourceCollectionTests,Null_Element_Is_A_Row(1),20,20,0,0,stable
+TUnit.UnitTests.DataSourceCollectionTests,Null_Element_Is_A_Row(2),20,20,0,0,stable
+TUnit.UnitTests.DataSourceCollectionTests,Null_Element_Is_A_Row(3),20,20,0,0,stable
+TUnit.UnitTests.DataSourceCollectionTests,Null_Element_Is_A_Row(4),20,20,0,0,stable
+TUnit.UnitTests.DataSourceCollectionTests,Null_Element_Is_A_Row(5),20,20,0,0,stable
+TUnit.UnitTests.DataSourceCollectionTests,Null_Element_Is_A_Row(6),20,20,0,0,stable
+TUnit.UnitTests.DataSourceCollectionTests,Null_Element_Is_A_Row(7),20,20,0,0,stable
+TUnit.UnitTests.DataSourceCollectionTests,Null_Scalar_Contributes_No_Rows,20,20,0,0,stable
+TUnit.UnitTests.DataSourceFactoriesRuntimeValueTests,FromInstanceRuntimeValue_Null_Yields_No_Rows,20,20,0,0,stable
+TUnit.UnitTests.DataSourceFactoriesRuntimeValueTests,FromRuntimeValue_Array_Yields_A_Row_Per_Element,20,20,0,0,stable
+TUnit.UnitTests.DataSourceFactoriesRuntimeValueTests,FromRuntimeValue_Null_Yields_No_Rows,20,20,0,0,stable
+TUnit.UnitTests.DataSourceFactoriesRuntimeValueTests,Null_Sources_And_Awaited_Null_Results_Yield_No_Rows,20,20,0,0,stable
+TUnit.UnitTests.DataSourceHelpersTests,HandleTupleValue_FactoriesReturnSameSnapshotOnRepeatedInvocation,20,20,0,0,stable
+TUnit.UnitTests.DataSourceHelpersTests,HandleTupleValue_NonTuple_ReturnsSingleFactory,20,20,0,0,stable
+TUnit.UnitTests.DataSourceHelpersTests,HandleTupleValue_NotUnwrapping_ReturnsSingleFactoryWithOriginalValue,20,20,0,0,stable
+TUnit.UnitTests.DataSourceHelpersTests,HandleTupleValue_Null_ReturnsSingleNullFactory,20,20,0,0,stable
+TUnit.UnitTests.DataSourceHelpersTests,HandleTupleValue_Tuple_ReturnsFactoryPerElement,20,20,0,0,stable
+TUnit.UnitTests.DataSourceHelpersTests,NullRow_DoesNotMatchOpenTupleWithTrailingParameter,20,20,0,0,stable
+TUnit.UnitTests.DataSourceHelpersTests,OpenTupleBinding_DistinguishesWholeAndNestedRows,20,20,0,0,stable
+TUnit.UnitTests.DataSourceHelpersTests,OpenTupleBinding_RequiresConsistentRepeatedParameters,20,20,0,0,stable
+TUnit.UnitTests.DataSourceHelpersTests,OpenTupleBinding_RequiresOuterAssignability,20,20,0,0,stable
+TUnit.UnitTests.DataSourceHelpersTests,RowTypeLookup_UnwrapsOneLayerIncludingDerivedRecords,20,20,0,0,stable
+TUnit.UnitTests.DataSourceHelpersTests,"SingletonReferenceTupleDecision_DoesNotAllocateElementArray(null, False)",20,20,0,0,stable
+TUnit.UnitTests.DataSourceHelpersTests,"SingletonReferenceTupleDecision_DoesNotAllocateElementArray(text, True)",20,20,0,0,stable
+TUnit.UnitTests.DataSourceHelpersTests,UnwrapTuple_LongReferenceTuple_FlattensRest,20,20,0,0,stable
+TUnit.UnitTests.DataSourceHelpersTests,UnwrapTuple_LongValueTuple_FlattensMultipleRestLevels,20,20,0,0,stable
+TUnit.UnitTests.DataSourceMetadataExtractorTests,ArgumentsMetadata_IsReadAgainAfterMutation,20,20,0,0,stable
+TUnit.UnitTests.DataSourceMetadataExtractorTests,ArgumentsWithEmptyMetadata_DoesNotTreatEmptyAsNull,20,20,0,0,stable
+TUnit.UnitTests.DataSourceMetadataExtractorTests,ArgumentsWithMetadata_PreservesAllValues,20,20,0,0,stable
+TUnit.UnitTests.DataSourceMetadataExtractorTests,ArgumentsWithoutMetadata_ReturnsNull,20,20,0,0,stable
+TUnit.UnitTests.DataSourceMetadataExtractorTests,CustomDataSource_PreservesReflectionFallback,20,20,0,0,stable
+TUnit.UnitTests.DataSourceMetadataExtractorTests,NullDataSource_ReturnsNull,20,20,0,0,stable
+TUnit.UnitTests.DeclaredTypedSourceExtractionFailureTests,Throwing_Attribute_Yields_Open_Method_Without_Throwing,20,20,0,0,stable
+TUnit.UnitTests.DedicatedThreadExecutorTests,CancelledTest_CompletesAfterCleanUp,20,20,0,0,stable
+TUnit.UnitTests.DedicatedThreadExecutorTests,CleanUpFailure_FailsPassingTest,20,20,0,0,stable
+TUnit.UnitTests.DedicatedThreadExecutorTests,CleanUpFailure_IsReportedAlongsideTestFailure,20,20,0,0,stable
+TUnit.UnitTests.DedicatedThreadExecutorTests,CleanUpFailure_IsReportedForCancelledTest,20,20,0,0,stable
+TUnit.UnitTests.DedicatedThreadExecutorTests,Continuation_DoesNotRunOnDedicatedThread,20,20,0,0,stable
+TUnit.UnitTests.DedicatedThreadExecutorTests,FailingTest_CompletesAfterCleanUp,20,20,0,0,stable
+TUnit.UnitTests.DedicatedThreadExecutorTests,InitializeFailure_IsReportedAfterCleanUp,20,20,0,0,stable
+TUnit.UnitTests.DedicatedThreadExecutorTests,PassingTest_CompletesAfterCleanUp(False),20,20,0,0,stable
+TUnit.UnitTests.DedicatedThreadExecutorTests,PassingTest_CompletesAfterCleanUp(True),20,20,0,0,stable
+TUnit.UnitTests.DeferredDiscoveryCleanupTests,Concurrent_Transfers_Of_The_Same_Events_Are_Drained_Once,20,20,0,0,stable
+TUnit.UnitTests.DeferredDiscoveryCleanupTests,Deferred_Callbacks_Are_Raised_Once_By_Their_Own_Session,20,20,0,0,stable
+TUnit.UnitTests.DeferredDiscoveryCleanupTests,Deferred_Data_Row_Scopes_Belong_To_Their_Session(False),20,20,0,0,stable
+TUnit.UnitTests.DeferredDiscoveryCleanupTests,Deferred_Data_Row_Scopes_Belong_To_Their_Session(True),20,20,0,0,stable
+TUnit.UnitTests.DeferredDiscoveryCleanupTests,Deferring_Detaches_The_Callbacks_From_The_Discovery_Context,20,20,0,0,stable
+TUnit.UnitTests.DeferredDiscoveryCleanupTests,Deferring_Events_Moves_Their_Callbacks_To_The_Session,20,20,0,0,stable
+TUnit.UnitTests.DeferredDiscoveryCleanupTests,Lent_Constructor_Row_Cleanup_Belongs_To_The_Session,20,20,0,0,stable
+TUnit.UnitTests.DeferredDiscoveryCleanupTests,Parallel_Discovery_Registrations_Are_All_Drained_Once,20,20,0,0,stable
+TUnit.UnitTests.DeferredDiscoveryCleanupTests,Throwing_Session_Callback_Does_Not_Stop_Later_Callbacks,20,20,0,0,stable
+TUnit.UnitTests.DependencyResolutionFailureTests,AnotherIndependentTest,20,20,0,0,stable
+TUnit.UnitTests.DependencyResolutionFailureTests,TestDependingOnFailedDependencyResolution,20,20,0,0,stable
+TUnit.UnitTests.DependencyResolutionFailureTests,TestWithMissingDependency,20,20,0,0,stable
+TUnit.UnitTests.DependencyResolutionFailureTests,TestWithMissingOverloadDependency,20,20,0,0,stable
+TUnit.UnitTests.DependencyResolutionFailureTests,TestWithValidDependency,20,20,0,0,stable
+TUnit.UnitTests.DependsOnTests,DependsOnAttribute_ToTestDependency_CreatesCorrectDependency,20,20,0,0,stable
+TUnit.UnitTests.DependsOnTests,GenericDependsOnAttribute_ToTestDependency_CreatesCorrectDependency,20,20,0,0,stable
+TUnit.UnitTests.DependsOnTests,TestDependency_ComplexGenericInheritance_MatchesCorrectly,20,20,0,0,stable
+TUnit.UnitTests.DependsOnTests,TestDependency_FromClassAndMethod_MatchesInheritedMethod,20,20,0,0,stable
+TUnit.UnitTests.DependsOnTests,TestDependency_FromClassAndMethod_MatchesSpecificTest,20,20,0,0,stable
+TUnit.UnitTests.DependsOnTests,TestDependency_FromClass_DoesNotMatchSelf,20,20,0,0,stable
+TUnit.UnitTests.DependsOnTests,TestDependency_FromClass_MatchesAllTestsInClass,20,20,0,0,stable
+TUnit.UnitTests.DependsOnTests,TestDependency_FromClass_MatchesInheritedTests,20,20,0,0,stable
+TUnit.UnitTests.DependsOnTests,TestDependency_FromMethodName_DoesNotMatchDifferentClass,20,20,0,0,stable
+TUnit.UnitTests.DependsOnTests,TestDependency_FromMethodName_MatchesSameClass,20,20,0,0,stable
+TUnit.UnitTests.DependsOnTests,TestDependency_WithGenericBase_MatchesInheritedTests,20,20,0,0,stable
+TUnit.UnitTests.DependsOnTests,TestDependency_WithOpenGenericBase_MatchesInheritedTests,20,20,0,0,stable
+TUnit.UnitTests.DependsOnTests,TestDependency_WithParameters_DoesNotMatchWrongOverload,20,20,0,0,stable
+TUnit.UnitTests.DependsOnTests,TestDependency_WithParameters_MatchesCorrectOverload,20,20,0,0,stable
+TUnit.UnitTests.DependsOnTests+BaseTestClass,BaseMethod,20,20,0,0,stable
+TUnit.UnitTests.DependsOnTests+DerivedFromGenericClass,Test,20,20,0,0,stable
+TUnit.UnitTests.DependsOnTests+DerivedTestClass,BaseMethod,20,20,0,0,stable
+TUnit.UnitTests.DependsOnTests+DerivedTestClass,InheritedTest,20,20,0,0,stable
+TUnit.UnitTests.DerivedPropertyInjectionTests,PropertyInjection_Inheritance_InjectsBaseAndDerivedProperties,20,20,0,0,stable
+TUnit.UnitTests.DerivedStaticPropertyTests,StaticPropertyInjection_Inheritance_InjectsBaseAndDerivedProperties,20,20,0,0,stable
+TUnit.UnitTests.EmptyDataSourceTests,EmptyStaticDataSource_ShouldYieldOneEmptyResult,20,20,0,0,stable
+TUnit.UnitTests.EmptyDataSourceTests,EmptyStaticDataSource_WithSkipIfEmpty_ShouldBeSkipped,20,0,0,20,skipped
+TUnit.UnitTests.EmptyDataSourceTests,NonEmptyStaticDataSource_ShouldWork(a),20,20,0,0,stable
+TUnit.UnitTests.EmptyDataSourceTests,NonEmptyStaticDataSource_ShouldWork(b),20,20,0,0,stable
+TUnit.UnitTests.EngineCancellationTokenTests,Dispose_DoesNotUnsubscribe_WhenCancelKeyPressIsUnsupported,20,20,0,0,stable
+TUnit.UnitTests.EngineCancellationTokenTests,Dispose_Unsubscribes_WhenCancelKeyPressIsSupported,20,20,0,0,stable
+TUnit.UnitTests.EngineCancellationTokenTests,Initialise_DoesNotThrow_WhenCancelKeyPressIsUnsupported,20,20,0,0,stable
+TUnit.UnitTests.EngineCancellationTokenTests,Initialise_PropagatesOtherSubscriptionFailures,20,20,0,0,stable
+TUnit.UnitTests.EngineCancellationTokenTests,PlatformCancellation_Does_Not_Arm_Forceful_Exit,20,20,0,0,stable
+TUnit.UnitTests.EngineCancellationTokenTests,PlatformToken_StillCancels_WhenCancelKeyPressIsUnsupported,20,20,0,0,stable
+TUnit.UnitTests.EngineCancellationTokenTests,TerminationSignal_After_Dispose_Neither_Throws_Nor_Arms_Forceful_Exit,20,20,0,0,stable
+TUnit.UnitTests.EngineCancellationTokenTests,TerminationSignal_Arms_Forceful_Exit_Before_Cancellation_Callbacks_Run,20,20,0,0,stable
+TUnit.UnitTests.EventReceiverRegistrationTests,AttributeAndClassReceiversStillReceiveEvents,20,20,0,0,stable
+TUnit.UnitTests.EventReceiverRegistrationTests,DelegateSubscriptionsDuringDispatchApplyToNextDispatch(end),20,20,0,0,stable
+TUnit.UnitTests.EventReceiverRegistrationTests,DelegateSubscriptionsDuringDispatchApplyToNextDispatch(skipped),20,20,0,0,stable
+TUnit.UnitTests.EventReceiverRegistrationTests,DelegateSubscriptionsDuringDispatchApplyToNextDispatch(start),20,20,0,0,stable
+TUnit.UnitTests.EventReceiverRegistrationTests,DuplicateDelegateSubscriptionsRunOnlyInLateStage(end),20,20,0,0,stable
+TUnit.UnitTests.EventReceiverRegistrationTests,DuplicateDelegateSubscriptionsRunOnlyInLateStage(start),20,20,0,0,stable
+TUnit.UnitTests.EventReceiverRegistrationTests,EndDelegateMutationPreservesRemainingHandlersAndCollectedFailures,20,20,0,0,stable
+TUnit.UnitTests.EventReceiverRegistrationTests,OrdinaryObjectsDoNotParticipateInReceiverDeduplication,20,20,0,0,stable
+TUnit.UnitTests.EventReceiverRegistrationTests,PerTestReceiversDoNotParticipateInReceiverDeduplication,20,20,0,0,stable
+TUnit.UnitTests.EventReceiverRegistrationTests,StartDelegateFailurePropagatesOriginalException,20,20,0,0,stable
+TUnit.UnitTests.ExpressionHelperTests,ExtractMethodInfo_FromAsTaskCall_ForValueTaskReturn,20,20,0,0,stable
+TUnit.UnitTests.ExpressionHelperTests,ExtractMethodInfo_FromBlockExpression_ForVoidReturn,20,20,0,0,stable
+TUnit.UnitTests.ExpressionHelperTests,ExtractMethodInfo_FromConvertedAsTaskCall_ForGenericValueTaskReturn,20,20,0,0,stable
+TUnit.UnitTests.ExpressionHelperTests,ExtractMethodInfo_FromMethodCallExpression_ForTaskReturn,20,20,0,0,stable
+TUnit.UnitTests.ExpressionHelperTests,ExtractMethodInfo_FromUnaryExpression_ForGenericTaskReturn,20,20,0,0,stable
+TUnit.UnitTests.ExpressionHelperTests,ExtractMethodInfo_ThrowsForNullExpression,20,20,0,0,stable
+TUnit.UnitTests.ExternalObjectOwnershipRegistrationTests,Repeated_Registration_Can_Be_Fully_Revoked_And_Registered_Again,20,20,0,0,stable
+TUnit.UnitTests.ExternalObjectOwnershipRegistrationTests,Revoking_One_Shared_Owner_Preserves_The_Other,20,20,0,0,stable
+TUnit.UnitTests.ExternalObjectOwnershipTests,Changed_Graph_Does_Not_Retain_Unreachable_Previous_Dependencies,20,20,0,0,stable
+TUnit.UnitTests.ExternalObjectOwnershipTests,Cloned_Row_Retains_The_Owner_After_Scope_Disposal,20,20,0,0,stable
+TUnit.UnitTests.ExternalObjectOwnershipTests,Concurrent_Capture_Registration_And_Counter_Release_Preserve_Owner_Lifetime,20,20,0,0,stable
+TUnit.UnitTests.ExternalObjectOwnershipTests,Later_Injected_Identity_Revokes_Previous_Dependency_Ownership,20,20,0,0,stable
+TUnit.UnitTests.ExternalObjectOwnershipTests,Later_Snapshots_Keep_Previously_Registered_Dependencies_With_Their_Owner,20,20,0,0,stable
+TUnit.UnitTests.ExternalObjectOwnershipTests,Never_Tracked_Dependency_Is_Not_Pinned_By_Live_Owner,20,20,0,0,stable
+TUnit.UnitTests.ExternalObjectOwnershipTests,Non_Disposable_Scope_Does_Not_Own_Its_Objects,20,20,0,0,stable
+TUnit.UnitTests.ExternalObjectOwnershipTests,Ownership_Ends_When_The_Last_Owner_Handle_Is_Collected,20,20,0,0,stable
+TUnit.UnitTests.ExternalObjectOwnershipTests,Pure_Discovery_Does_Not_Transfer_Ownership,20,20,0,0,stable
+TUnit.UnitTests.ExternalObjectOwnershipTests,Reentrant_Consumer_Keeps_Owner_Pinned_After_Zero_Count_Callback,20,20,0,0,stable
+TUnit.UnitTests.ExternalObjectOwnershipTests,Shared_Identity_Remains_Owned_When_One_Of_Its_Owners_Is_Collected,20,20,0,0,stable
+TUnit.UnitTests.ExternalObjectOwnershipTests,Snapshot_Excludes_An_Injected_Alias_Discovered_Through_Another_Branch,20,20,0,0,stable
+TUnit.UnitTests.ExternallyOwnedSingletonTests,Already_Counted_Scope_Retains_Its_Owner_After_Row_Completion,20,20,0,0,stable
+TUnit.UnitTests.ExternallyOwnedSingletonTests,An_Existing_Consumer_Retains_The_Owner_Until_Its_Last_Reference_Ends,20,20,0,0,stable
+TUnit.UnitTests.ExternallyOwnedSingletonTests,Consumers_After_Owner_Registration_Hold_Their_Own_References,20,20,0,0,stable
+TUnit.UnitTests.ExternallyOwnedSingletonTests,Counted_Before_The_Scope_Returns_It_Is_Released_Without_Disposal,20,20,0,0,stable
+TUnit.UnitTests.ExternallyOwnedSingletonTests,Later_Consumers_Do_Not_Release_The_First_Consumers_Reference,20,20,0,0,stable
+TUnit.UnitTests.ExternallyOwnedSingletonTests,Registered_Before_Another_Source_Supplies_It_Is_Not_Disposed_By_The_Tracker,20,20,0,0,stable
+TUnit.UnitTests.ExternallyOwnedSingletonTests,Registering_An_Owner_After_Counting_Protects_Current_And_Later_Consumers,20,20,0,0,stable
+TUnit.UnitTests.ExternallyOwnedSingletonTests,Tracker_Releases_Completed_Row_Handles_Before_Session_End,20,20,0,0,stable
+TUnit.UnitTests.FileLockDetectionTests,Contention_On_An_Exclusively_Held_File_Is_Detected,20,20,0,0,stable
+TUnit.UnitTests.FileLockDetectionTests,Unix_EWouldBlock_Is_Detected_For_Linux_And_Bsd_Numbering,20,0,0,20,skipped
+TUnit.UnitTests.FileLockDetectionTests,Unrelated_IOException_Is_Not_Treated_As_Locked,20,20,0,0,stable
+TUnit.UnitTests.FileLockDetectionTests,Windows_Sharing_And_Lock_Violations_Are_Detected,20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,Defaults_ReportSummary_RunSequentially_AndDoNotReplay,20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,ParallelismAboveOne_IsPassedToFsCheck,20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,ParallelismBelowTwo_RunsSequentially(-1),20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,ParallelismBelowTwo_RunsSequentially(0),20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,ParallelismBelowTwo_RunsSequentially(1),20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,QuietOnSuccess_IsPassedToFsCheck,20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,"Replay_AcceptsValuesAsFsCheckReportsThem( ( 12345 , 67891 ) , 12345, 67891, null)",20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,"Replay_AcceptsValuesAsFsCheckReportsThem((12345,67891), 12345, 67891, null)",20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,"Replay_AcceptsValuesAsFsCheckReportsThem((12345,67891,42), 12345, 67891, 42)",20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,"Replay_AcceptsValuesAsFsCheckReportsThem(12345,67891, 12345, 67891, null)",20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,"Replay_AcceptsValuesAsFsCheckReportsThem(18446744073709551615,18446744073709551615, 18446744073709551615, 18446744073709551615, null)",20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,Replay_BlankMeansNoReplay(   ),20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,Replay_BlankMeansNoReplay(),20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,"Replay_RejectsValuesFsCheckCannotReplay(((12345,67891)))",20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,"Replay_RejectsValuesFsCheckCannotReplay((12345,67891)",20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,"Replay_RejectsValuesFsCheckCannotReplay((12345,67891)))",20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,"Replay_RejectsValuesFsCheckCannotReplay(-12345,67891)",20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,Replay_RejectsValuesFsCheckCannotReplay(12345),20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,"Replay_RejectsValuesFsCheckCannotReplay(12345,,67891)",20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,"Replay_RejectsValuesFsCheckCannotReplay(12345,67890)",20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,"Replay_RejectsValuesFsCheckCannotReplay(12345,67891))",20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,"Replay_RejectsValuesFsCheckCannotReplay(12345,67891,-42)",20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,"Replay_RejectsValuesFsCheckCannotReplay(12345,67891,42,1)",20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,Replay_RejectsValuesFsCheckCannotReplay(12345;67891),20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,"Replay_RejectsValuesFsCheckCannotReplay(abc,67891)",20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,Verbose_ReportsEveryArgumentAndShrinkStep,20,20,0,0,stable
+TUnit.UnitTests.FsCheckPropertyConfigTests,Verbose_StillThrowsOnFailure,20,20,0,0,stable
+TUnit.UnitTests.GenericClassRowPartitionCleanupTests,Cleanup_Subscribed_While_Rows_Are_Evaluated_Runs_At_Session_End,20,20,0,0,stable
+TUnit.UnitTests.GenericClassRowPartitionCleanupTests,Failed_Partition_Evaluation_Restores_Context_And_Releases_Scope_Without_Tests,20,20,0,0,stable
+TUnit.UnitTests.GenericClassSourceRuntimeTests,"Constraint_Violations_Report_Only_Actual_Source_Rows(False, 0)",20,20,0,0,stable
+TUnit.UnitTests.GenericClassSourceRuntimeTests,"Constraint_Violations_Report_Only_Actual_Source_Rows(True, 1)",20,20,0,0,stable
+TUnit.UnitTests.GenericClassSourceRuntimeTests,Declared_Constructor_Mapping_Overrides_Leading_Runtime_Value,20,20,0,0,stable
+TUnit.UnitTests.GenericClassSourceRuntimeTests,"Empty_Inferred_Source_Has_No_Explicit_Fallback(False, 1)",20,20,0,0,stable
+TUnit.UnitTests.GenericClassSourceRuntimeTests,"Empty_Inferred_Source_Has_No_Explicit_Fallback(True, 0)",20,20,0,0,stable
+TUnit.UnitTests.GenericClassSourceRuntimeTests,Inferred_Filter_Reuses_First_Fetch_Then_Creates_Fresh_Objects,20,20,0,0,stable
+TUnit.UnitTests.GenericClassSourceRuntimeTests,"Inferred_Null_Row_Is_Retained_Only_For_Own_Class(False, 1)",20,20,0,0,stable
+TUnit.UnitTests.GenericClassSourceRuntimeTests,"Inferred_Null_Row_Is_Retained_Only_For_Own_Class(True, 0)",20,20,0,0,stable
+TUnit.UnitTests.GenericClassSourceRuntimeTests,Instance_Conversion_Preserves_Inferred_Source_Settings,20,20,0,0,stable
+TUnit.UnitTests.GenericClassSourceRuntimeTests,Null_Evaluated_Row_Uses_Original_Factory,20,20,0,0,stable
+TUnit.UnitTests.GenericClassSourceRuntimeTests,Partitions_Consume_Shared_Evaluated_Row_Once_Across_Enumerations,20,20,0,0,stable
+TUnit.UnitTests.GenericConstraintViolationOrderTests,Invalid_Rows_Are_Reported_Before_Invalid_Types,20,20,0,0,stable
+TUnit.UnitTests.GenericTestClass_Bool,TestGenericValue,20,20,0,0,stable
+TUnit.UnitTests.GenericTestClass_Bool,TestWithParameter(42),20,20,0,0,stable
+TUnit.UnitTests.GenericTestClass_Bool,TestWithParameter(test),20,20,0,0,stable
+TUnit.UnitTests.GenericTestClass_Int,TestGenericValue,20,20,0,0,stable
+TUnit.UnitTests.GenericTestClass_Int,TestWithParameter(42),20,20,0,0,stable
+TUnit.UnitTests.GenericTestClass_Int,TestWithParameter(test),20,20,0,0,stable
+TUnit.UnitTests.GenericTestClass_String,TestGenericValue,20,20,0,0,stable
+TUnit.UnitTests.GenericTestClass_String,TestWithParameter(42),20,20,0,0,stable
+TUnit.UnitTests.GenericTestClass_String,TestWithParameter(test),20,20,0,0,stable
+TUnit.UnitTests.GenericTestGenerationTests,GenericTestWithData<int>(5),20,20,0,0,stable
+TUnit.UnitTests.GenericTestGenerationTests,GenericTestWithData<string>(hello),20,20,0,0,stable
+TUnit.UnitTests.GetReadableTypeNameTests,Deeply_Nested_Type_Preserves_Chain,20,20,0,0,stable
+TUnit.UnitTests.GetReadableTypeNameTests,Generic_Type_Strips_Arity_Suffix,20,20,0,0,stable
+TUnit.UnitTests.GetReadableTypeNameTests,Nested_Type_Uses_Dot_Separator,20,20,0,0,stable
+TUnit.UnitTests.GetReadableTypeNameTests,Simple_Type_Returns_Name,20,20,0,0,stable
+TUnit.UnitTests.GitHubSummaryRegionTests,ReplaceOrAppend_Swaps_Stale_Block_For_Overflow_Notice_When_Over_Limit,20,20,0,0,stable
+TUnit.UnitTests.GitHubSummaryRegionTests,Splice_After_Torn_Block_Replaces_Only_The_Complete_Block,20,20,0,0,stable
+TUnit.UnitTests.GitHubSummaryRegionTests,Splice_Into_Empty_File_Appends_Marked_Block,20,20,0,0,stable
+TUnit.UnitTests.GitHubSummaryRegionTests,Splice_Is_Idempotent_Across_Rewrites,20,20,0,0,stable
+TUnit.UnitTests.GitHubSummaryRegionTests,Splice_Preserves_Foreign_Content_Before_And_After_Block,20,20,0,0,stable
+TUnit.UnitTests.GitHubSummaryRegionTests,Splice_Torn_Block_Never_Deletes_Foreign_Content,20,20,0,0,stable
+TUnit.UnitTests.HtmlReporterSidecarPathTests,Custom_Report_Name_Swaps_Extension,20,20,0,0,stable
+TUnit.UnitTests.HtmlReporterSidecarPathTests,Default_Report_Name_Maps_To_Sidecar_Name,20,20,0,0,stable
+TUnit.UnitTests.HtmlReporterTruncateOutputTests,TruncateOutput_AtExactLimit_ReturnedAsIs,20,20,0,0,stable
+TUnit.UnitTests.HtmlReporterTruncateOutputTests,TruncateOutput_EmptyString_ReturnsEmpty,20,20,0,0,stable
+TUnit.UnitTests.HtmlReporterTruncateOutputTests,TruncateOutput_LargeString_TruncatedWithNote,20,20,0,0,stable
+TUnit.UnitTests.HtmlReporterTruncateOutputTests,TruncateOutput_Null_ReturnsNull,20,20,0,0,stable
+TUnit.UnitTests.HtmlReporterTruncateOutputTests,TruncateOutput_OneCharOverLimit_TruncatedWithNote,20,20,0,0,stable
+TUnit.UnitTests.HtmlReporterTruncateOutputTests,TruncateOutput_ShortString_ReturnedAsIs,20,20,0,0,stable
+TUnit.UnitTests.HtmlReporterTruncateOutputTests,TruncateOutput_SurrogatePairAtBoundary_DoesNotSplitPair,20,20,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:09:33 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:09:45 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:09:56 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:10:06 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:10:17 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:10:28 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:10:39 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:10:54 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:11:06 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:11:18 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:11:30 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:11:42 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:11:55 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:12:08 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:12:19 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:12:30 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:12:41 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:12:53 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:13:05 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 1, Name = Item_1, CreatedAt = 05/11/2026 23:13:17 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:09:33 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:09:45 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:09:56 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:10:06 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:10:17 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:10:28 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:10:39 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:10:54 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:11:06 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:11:18 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:11:30 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:11:42 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:11:55 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:12:08 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:12:19 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:12:30 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:12:41 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:12:53 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:13:06 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 2, Name = Item_2, CreatedAt = 04/11/2026 23:13:17 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:09:33 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:09:45 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:09:56 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:10:06 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:10:17 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:10:28 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:10:39 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:10:54 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:11:06 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:11:18 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:11:30 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:11:42 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:11:55 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:12:08 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:12:19 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:12:30 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:12:41 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:12:53 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:13:06 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncComplexData(AsyncTestData { Id = 3, Name = Item_3, CreatedAt = 03/11/2026 23:13:17 })",1,1,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncSimpleData(1, first)",20,20,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncSimpleData(2, second)",20,20,0,0,stable
+TUnit.UnitTests.IAsyncEnumerableDocumentationExample,"TestWithAsyncSimpleData(3, third)",20,20,0,0,stable
+TUnit.UnitTests.JUnitXmlWriterTests,Omits_Suite_SystemErr_Without_UnobservedTaskExceptions,20,20,0,0,stable
+TUnit.UnitTests.JUnitXmlWriterTests,Writes_UnobservedTaskExceptions_To_Suite_SystemErr,20,20,0,0,stable
+TUnit.UnitTests.LogSinkIntegrationTests,DefaultLogger_AsyncLogging_RoutesToSink,20,20,0,0,stable
+TUnit.UnitTests.LogSinkIntegrationTests,DefaultLogger_DisabledSink_DoesNotReceiveMessages,20,20,0,0,stable
+TUnit.UnitTests.LogSinkIntegrationTests,DefaultLogger_IncludesLogLevelInMessage,20,20,0,0,stable
+TUnit.UnitTests.LogSinkIntegrationTests,DefaultLogger_LevelFilteredSink_OnlyReceivesMatchingLevels,20,20,0,0,stable
+TUnit.UnitTests.LogSinkIntegrationTests,DefaultLogger_MultipleSinks_AllReceiveMessages,20,20,0,0,stable
+TUnit.UnitTests.LogSinkIntegrationTests,DefaultLogger_PassesContextToSink,20,20,0,0,stable
+TUnit.UnitTests.LogSinkIntegrationTests,DefaultLogger_PassesCorrectLogLevels,20,20,0,0,stable
+TUnit.UnitTests.LogSinkIntegrationTests,DefaultLogger_RoutesMultipleMessages,20,20,0,0,stable
+TUnit.UnitTests.LogSinkIntegrationTests,DefaultLogger_RoutesToRegisteredSink,20,20,0,0,stable
+TUnit.UnitTests.LogSinkRouterTests,RouteToSinksAsync_CallsAllEnabledSinks,20,20,0,0,stable
+TUnit.UnitTests.LogSinkRouterTests,RouteToSinksAsync_ContinuesOnSinkFailure,20,20,0,0,stable
+TUnit.UnitTests.LogSinkRouterTests,RouteToSinksAsync_DoesNothingWhenNoSinksRegistered,20,20,0,0,stable
+TUnit.UnitTests.LogSinkRouterTests,RouteToSinksAsync_PassesExceptionToSinks,20,20,0,0,stable
+TUnit.UnitTests.LogSinkRouterTests,RouteToSinksAsync_SinkCanFilterByLogLevel,20,20,0,0,stable
+TUnit.UnitTests.LogSinkRouterTests,RouteToSinksAsync_SkipsDisabledSinks,20,20,0,0,stable
+TUnit.UnitTests.LogSinkRouterTests,RouteToSinks_CallsAllEnabledSinks,20,20,0,0,stable
+TUnit.UnitTests.LogSinkRouterTests,RouteToSinks_ContinuesOnSinkFailure,20,20,0,0,stable
+TUnit.UnitTests.LogSinkRouterTests,RouteToSinks_DoesNothingWhenNoSinksRegistered,20,20,0,0,stable
+TUnit.UnitTests.LogSinkRouterTests,RouteToSinks_PassesCorrectLogLevel,20,20,0,0,stable
+TUnit.UnitTests.LogSinkRouterTests,RouteToSinks_PassesExceptionToSinks,20,20,0,0,stable
+TUnit.UnitTests.LogSinkRouterTests,RouteToSinks_SinkCanFilterByLogLevel,20,20,0,0,stable
+TUnit.UnitTests.LogSinkRouterTests,RouteToSinks_SkipsDisabledSinks,20,20,0,0,stable
+TUnit.UnitTests.MetadataFilterMatcherTests,AndExpressionMethod_SkipsMethodHint,20,20,0,0,stable
+TUnit.UnitTests.MetadataFilterMatcherTests,DottedNamespace_StaysLiteral,20,20,0,0,stable
+TUnit.UnitTests.MetadataFilterMatcherTests,EmbeddedWildcard_SkipsHint,20,20,0,0,stable
+TUnit.UnitTests.MetadataFilterMatcherTests,EmptyFilterString_NoHints,20,20,0,0,stable
+TUnit.UnitTests.MetadataFilterMatcherTests,EscapeCharacter_SkipsHint,20,20,0,0,stable
+TUnit.UnitTests.MetadataFilterMatcherTests,NestedClassSegment_StaysLiteral,20,20,0,0,stable
+TUnit.UnitTests.MetadataFilterMatcherTests,NotExpressionMethod_SkipsMethodHint,20,20,0,0,stable
+TUnit.UnitTests.MetadataFilterMatcherTests,NullFilter_NoHints,20,20,0,0,stable
+TUnit.UnitTests.MetadataFilterMatcherTests,OrExpressionMethod_SkipsMethodHint,20,20,0,0,stable
+TUnit.UnitTests.MetadataFilterMatcherTests,ParenthesisedClassSegment_SkipsClassHint,20,20,0,0,stable
+TUnit.UnitTests.MetadataFilterMatcherTests,ParenthesisedMethod_SkipsMethodHint,20,20,0,0,stable
+TUnit.UnitTests.MetadataFilterMatcherTests,ParenthesisedNamespaceSegment_SkipsNamespaceHint,20,20,0,0,stable
+TUnit.UnitTests.MetadataFilterMatcherTests,PlainLiteralSegments_ExtractAllFourHints,20,20,0,0,stable
+TUnit.UnitTests.MetadataFilterMatcherTests,PropertyBagBrackets_StrippedBeforeHintExtraction,20,20,0,0,stable
+TUnit.UnitTests.MetadataFilterMatcherTests,QuestionMarkWildcard_SkipsHint,20,20,0,0,stable
+TUnit.UnitTests.MetadataFilterMatcherTests,WildcardStar_SkipsHint,20,20,0,0,stable
+TUnit.UnitTests.MetadataMethodLookupTests,Array_metadata_compares_nested_generic_shapes_structurally,20,20,0,0,stable
+TUnit.UnitTests.MetadataMethodLookupTests,Constructed_parameter_shapes_match_recursively,20,20,0,0,stable
+TUnit.UnitTests.MetadataMethodLookupTests,Generic_array_shapes_distinguish_overloads(1),20,20,0,0,stable
+TUnit.UnitTests.MetadataMethodLookupTests,Generic_array_shapes_distinguish_overloads(2),20,20,0,0,stable
+TUnit.UnitTests.MetadataMethodLookupTests,Nested_array_shapes_distinguish_overloads,20,20,0,0,stable
+TUnit.UnitTests.MetadataMethodLookupTests,Older_erased_array_metadata_keeps_unambiguous_lookup,20,20,0,0,stable
+TUnit.UnitTests.MetadataMethodLookupTests,Open_class_parameter_shape_distinguishes_object(False),20,20,0,0,stable
+TUnit.UnitTests.MetadataMethodLookupTests,Open_class_parameter_shape_distinguishes_object(True),20,20,0,0,stable
+TUnit.UnitTests.MetadataMethodLookupTests,Reflection_metadata_preserves_closed_generic_method,20,20,0,0,stable
+TUnit.UnitTests.MetadataMethodLookupTests,Zero_parameter_overloads_match_generic_arity(0),20,20,0,0,stable
+TUnit.UnitTests.MetadataMethodLookupTests,Zero_parameter_overloads_match_generic_arity(1),20,20,0,0,stable
+TUnit.UnitTests.MetadataMethodLookupTests,Zero_parameter_overloads_match_generic_arity(2),20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,Resultless_Source_Is_Awaited_Before_Yielding_A_Null_Row(False),20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,Resultless_Source_Is_Awaited_Before_Yielding_A_Null_Row(True),20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,Rows_Of_Unknown_Type_Have_No_Declared_Row_Type(System.Collections.ArrayList),20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,Rows_Of_Unknown_Type_Have_No_Declared_Row_Type(System.Collections.Generic.IEnumerable`1[System.Object[]]),20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,Rows_Of_Unknown_Type_Have_No_Declared_Row_Type(System.Collections.Generic.IEnumerable`1[TUnit.Core.TestDataRow`1[System.Object[]]]),20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,Rows_Of_Unknown_Type_Have_No_Declared_Row_Type(System.Object[][]),20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,Rows_Of_Unknown_Type_Have_No_Declared_Row_Type(System.Threading.Tasks.Task),20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,Rows_Of_Unknown_Type_Have_No_Declared_Row_Type(System.Threading.Tasks.ValueTask),20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,"Runtime_Rows_Have_The_Declared_Row_Type((1, a), System.ValueTuple`2[System.Int32,System.String], System.ValueTuple`2[System.Int32,System.String])",20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,"Runtime_Rows_Have_The_Declared_Row_Type(1, 2, System.Int32[], System.Int32)",20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,"Runtime_Rows_Have_The_Declared_Row_Type(7, System.Int32, System.Int32)",20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,"Runtime_Rows_Have_The_Declared_Row_Type(<AsyncRows>d__4, System.Collections.Generic.IAsyncEnumerable`1[System.Int32], System.Int32)",20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,"Runtime_Rows_Have_The_Declared_Row_Type(System.Func`1[System.Int32], System.Func`1[System.Int32][], System.Int32)",20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,"Runtime_Rows_Have_The_Declared_Row_Type(System.Func`1[TUnit.Core.TestDataRow`1[System.Int32]], System.Func`1[TUnit.Core.TestDataRow`1[System.Int32]][], System.Int32)",20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,"Runtime_Rows_Have_The_Declared_Row_Type(System.Int32[], System.Threading.Tasks.ValueTask`1[System.Int32[]], System.Int32)",20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,"Runtime_Rows_Have_The_Declared_Row_Type(System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[System.Int32]], System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[System.Int32]], System.Int32)",20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,"Runtime_Rows_Have_The_Declared_Row_Type(System.Threading.Tasks.Task`1[System.String], System.Threading.Tasks.Task`1[System.String], System.String)",20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,"Runtime_Rows_Have_The_Declared_Row_Type(TestDataRow { Data = 4, DisplayName = , DataExpression = 4, Skip = , Categories =  }, TUnit.Core.TestDataRow`1[System.Int32][], System.Int32)",20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,"Runtime_Rows_Have_The_Declared_Row_Type(TestDataRow { Data = System.Func`1[System.String], DisplayName = , DataExpression = () => ""a"", Skip = , Categories =  }, System.Collections.Generic.IEnumerable`1[TUnit.Core.TestDataRow`1[System.Func`1[System.String]]], System.String)",20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,"Runtime_Rows_Have_The_Declared_Row_Type(a, System.Collections.Generic.List`1[System.String], System.String)",20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,"Runtime_Rows_Have_The_Declared_Row_Type(a, b, System.Collections.Generic.IEnumerable`1[System.String], System.String)",20,20,0,0,stable
+TUnit.UnitTests.MethodDataSourceDeclaredRowTypeTests,"Runtime_Rows_Have_The_Declared_Row_Type(single, System.String, System.String)",20,20,0,0,stable
+TUnit.UnitTests.ObjectGraphDiscovererOwnershipTests,InjectedInitializer_AliasedByScopeOwnedDependency_RemainsTrackerOwned(False),20,20,0,0,stable
+TUnit.UnitTests.ObjectGraphDiscovererOwnershipTests,InjectedInitializer_AliasedByScopeOwnedDependency_RemainsTrackerOwned(True),20,20,0,0,stable
+TUnit.UnitTests.ObjectGraphDiscovererOwnershipTests,InjectedInitializer_AliasedDirectlyByScopeOwnedService_RemainsTrackerOwned(False),20,20,0,0,stable
+TUnit.UnitTests.ObjectGraphDiscovererOwnershipTests,InjectedInitializer_AliasedDirectlyByScopeOwnedService_RemainsTrackerOwned(True),20,20,0,0,stable
+TUnit.UnitTests.ObjectGraphDiscovererOwnershipTests,InjectedInitializer_IsDisposedOnceByTracker(False),20,20,0,0,stable
+TUnit.UnitTests.ObjectGraphDiscovererOwnershipTests,InjectedInitializer_IsDisposedOnceByTracker(True),20,20,0,0,stable
+TUnit.UnitTests.ObjectGraphDiscovererOwnershipTests,ScopeOwnedInitializerDependency_IsNotDisposedByTracker(False),20,20,0,0,stable
+TUnit.UnitTests.ObjectGraphDiscovererOwnershipTests,ScopeOwnedInitializerDependency_IsNotDisposedByTracker(True),20,20,0,0,stable
+TUnit.UnitTests.ObjectGraphDiscovererPreCheckTests,DataSourceInjectedProperty_DeclaredAsNonInitializerInterface_IsTraversed,20,20,0,0,stable
+TUnit.UnitTests.ObjectGraphDiscovererPreCheckTests,InheritedInitializerProperty_IsTraversed,20,20,0,0,stable
+TUnit.UnitTests.ObjectGraphDiscovererPreCheckTests,InitializerInterfaceProperty_IsTraversed,20,20,0,0,stable
+TUnit.UnitTests.ObjectGraphDiscovererPreCheckTests,InitializerType_WithSourceGenRegisteredProperties_IsTraversed,20,20,0,0,stable
+TUnit.UnitTests.ObjectGraphDiscovererPreCheckTests,NonInitializerBaseClassProperty_WithInitializerRuntimeValue_IsNotTraversed,20,20,0,0,stable
+TUnit.UnitTests.ObjectGraphDiscovererPreCheckTests,NonInitializerInterfaceProperty_WithInitializerRuntimeValue_IsNotTraversed,20,20,0,0,stable
+TUnit.UnitTests.ObjectGraphDiscovererPreCheckTests,ObjectTypedProperty_WithInitializerRuntimeValue_IsNotTraversed,20,20,0,0,stable
+TUnit.UnitTests.ObjectGraphDiscovererPreCheckTests,PlainClass_HasNoNestedObjects,20,20,0,0,stable
+TUnit.UnitTests.ObjectGraphDiscovererPreCheckTests,StaticInitializerProperty_IsNotTraversedAsNested,20,20,0,0,stable
+TUnit.UnitTests.ObjectInitializerTests,Cancelling_A_Waiting_Caller_Does_Not_Cancel_The_Initialization,20,20,0,0,stable
+TUnit.UnitTests.ObjectInitializerTests,Cancelling_The_Initializing_Caller_Does_Not_Poison_The_Result(False),20,20,0,0,stable
+TUnit.UnitTests.ObjectInitializerTests,Cancelling_The_Initializing_Caller_Does_Not_Poison_The_Result(True),20,20,0,0,stable
+TUnit.UnitTests.ObjectInitializerTests,"Failure_Is_Cached_And_Rethrown_As_The_Same_Exception(False, False)",20,20,0,0,stable
+TUnit.UnitTests.ObjectInitializerTests,"Failure_Is_Cached_And_Rethrown_As_The_Same_Exception(False, True)",20,20,0,0,stable
+TUnit.UnitTests.ObjectInitializerTests,"Failure_Is_Cached_And_Rethrown_As_The_Same_Exception(True, False)",20,20,0,0,stable
+TUnit.UnitTests.ObjectInitializerTests,"Failure_Is_Cached_And_Rethrown_As_The_Same_Exception(True, True)",20,20,0,0,stable
+TUnit.UnitTests.ObjectInitializerTests,InitializeAsync_Runs_Once_Under_Contention,20,20,0,0,stable
+TUnit.UnitTests.ObjectInitializerTests,Waiting_Caller_Does_Not_Block_While_InitializeAsync_Runs_Synchronously,20,20,0,0,stable
+TUnit.UnitTests.ObjectInitializerTests,Waiting_Continuations_Do_Not_Run_On_The_Initializing_Thread(False),20,20,0,0,stable
+TUnit.UnitTests.ObjectInitializerTests,Waiting_Continuations_Do_Not_Run_On_The_Initializing_Thread(True),20,20,0,0,stable
+TUnit.UnitTests.ObjectTrackerRollbackTests,Counted_Consumer_Retains_An_Owner_Across_Collection_After_Row_Completion,20,20,0,0,stable
+TUnit.UnitTests.ObjectTrackerRollbackTests,Failed_Discovery_Does_Not_Release_A_Reference_It_Never_Took,20,20,0,0,stable
+TUnit.UnitTests.ObjectTrackerRollbackTests,Failed_Discovery_Still_Tracks_And_Disposes_Root_Objects,20,20,0,0,stable
+TUnit.UnitTests.ObjectTrackerRollbackTests,Failed_First_Discovery_Leaves_Nothing_Tracked,20,20,0,0,stable
+TUnit.UnitTests.ObjectTrackerRollbackTests,Failing_Root_Fallback_Keeps_The_Discovery_Exception_And_Rolls_Back,20,20,0,0,stable
+TUnit.UnitTests.ObjectTrackerRollbackTests,Non_Owning_Row_Refreshes_Changed_Dependencies_Of_A_Shared_Root,20,20,0,0,stable
+TUnit.UnitTests.ObjectTrackerRollbackTests,Non_Owning_Row_Refreshes_Only_Consumed_Graphs_From_A_Previous_Scope,20,20,0,0,stable
+TUnit.UnitTests.ObjectTrackerRollbackTests,Session_Sweep_Does_Not_Release_A_Static_Lease_That_Outlives_Its_Tracker,20,20,0,0,stable
+TUnit.UnitTests.ObjectTrackerRollbackTests,Session_Sweep_Preserves_Other_Sessions_References(False),20,20,0,0,stable
+TUnit.UnitTests.ObjectTrackerRollbackTests,Session_Sweep_Preserves_Other_Sessions_References(True),20,20,0,0,stable
+TUnit.UnitTests.ObjectTrackerRollbackTests,Smaller_Ownership_Refresh_Keeps_Injected_Aliases_Tracker_Owned,20,20,0,0,stable
+TUnit.UnitTests.OperatingSystemAttributeTests,ExcludeOn_Current_OS_Skips,20,20,0,0,stable
+TUnit.UnitTests.OperatingSystemAttributeTests,ExcludeOn_Other_OSes_Does_Not_Skip,20,20,0,0,stable
+TUnit.UnitTests.OperatingSystemAttributeTests,RunOn_Current_OS_Does_Not_Skip,20,20,0,0,stable
+TUnit.UnitTests.OperatingSystemAttributeTests,RunOn_Other_OSes_Skips,20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,All_Cases_Excluded_Yields_No_Cases,20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,"Covers_All_Pairs_With_Expected_Case_Count(10,10,10, 106)",20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,"Covers_All_Pairs_With_Expected_Case_Count(2,2,2,2,2, 6)",20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,"Covers_All_Pairs_With_Expected_Case_Count(2,2,2,2,2,2,2,2,2,2, 9)",20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,"Covers_All_Pairs_With_Expected_Case_Count(2,2,3,3,2, 10)",20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,"Covers_All_Pairs_With_Expected_Case_Count(2,2,4,4, 16)",20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,"Covers_All_Pairs_With_Expected_Case_Count(3,3,3,3, 9)",20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,"Covers_All_Pairs_With_Expected_Case_Count(3,3,5,2,3, 17)",20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,"Covers_All_Pairs_With_Expected_Case_Count(3,4,5,6, 30)",20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,Different_Seeds_Can_Produce_Different_Cases,20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,Empty_Value_Set_Yields_No_Cases,20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,Enum_Exclusions_Match_Underlying_Values,20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,Exclusions_Are_Never_Generated_And_Reachable_Pairs_Stay_Covered,20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,"Is_Deterministic(10,10,10)",20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,"Is_Deterministic(2,2,4,4)",20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,"Is_Deterministic(3,4,5,6)",20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,Other_Seeds_Still_Cover_All_Pairs(-7),20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,Other_Seeds_Still_Cover_All_Pairs(1),20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,Other_Seeds_Still_Cover_All_Pairs(2147483647),20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,Other_Seeds_Still_Cover_All_Pairs(42),20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,Single_Parameter_Yields_Each_Value_Once,20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,Two_Parameters_Yield_Full_Product,20,20,0,0,stable
+TUnit.UnitTests.PairwiseDataSourceTests,Unreachable_Pair_With_Many_Parameters_Still_Covers_Reachable_Pairs,20,20,0,0,stable
+TUnit.UnitTests.ParallelJsonArrayWriterTests,"Output_Matches_Sequential_Serialization(0, 1)",20,20,0,0,stable
+TUnit.UnitTests.ParallelJsonArrayWriterTests,"Output_Matches_Sequential_Serialization(1, 1)",20,20,0,0,stable
+TUnit.UnitTests.ParallelJsonArrayWriterTests,"Output_Matches_Sequential_Serialization(10000, 10)",20,20,0,0,stable
+TUnit.UnitTests.ParallelJsonArrayWriterTests,"Output_Matches_Sequential_Serialization(10000, 100000)",20,20,0,0,stable
+TUnit.UnitTests.ParallelJsonArrayWriterTests,"Output_Matches_Sequential_Serialization(10000, 5000)",20,20,0,0,stable
+TUnit.UnitTests.ParallelJsonArrayWriterTests,"Output_Matches_Sequential_Serialization(7, 1)",20,20,0,0,stable
+TUnit.UnitTests.ParallelMapTests,EmptySource_ReturnsEmptyArray,20,20,0,0,stable
+TUnit.UnitTests.ParallelMapTests,EveryIndexInvokedExactlyOnce,20,20,0,0,stable
+TUnit.UnitTests.ParallelMapTests,ForEachParallelAsync_ExceptionPropagates,20,20,0,0,stable
+TUnit.UnitTests.ParallelMapTests,ForEachParallelAsync_VisitsEveryItemExactlyOnce,20,20,0,0,stable
+TUnit.UnitTests.ParallelMapTests,MaxDegreeOfParallelism_IsNotExceeded,20,20,0,0,stable
+TUnit.UnitTests.ParallelMapTests,PreCancelledToken_Throws,20,20,0,0,stable
+TUnit.UnitTests.ParallelMapTests,ResultsPreserveSourceOrder(1),20,20,0,0,stable
+TUnit.UnitTests.ParallelMapTests,ResultsPreserveSourceOrder(100),20,20,0,0,stable
+TUnit.UnitTests.ParallelMapTests,ResultsPreserveSourceOrder(7),20,20,0,0,stable
+TUnit.UnitTests.ParallelMapTests,ResultsPreserveSourceOrder(8),20,20,0,0,stable
+TUnit.UnitTests.ParallelMapTests,ResultsPreserveSourceOrder(9),20,20,0,0,stable
+TUnit.UnitTests.ParallelMapTests,SelectorException_PropagatesToCaller,20,20,0,0,stable
+TUnit.UnitTests.ParallelMapTests,SelectorException_StopsSiblingsPullingNewItems,20,20,0,0,stable
+TUnit.UnitTests.PathValidatorTests,IsWithinDirectory_Child_IsInside,20,20,0,0,stable
+TUnit.UnitTests.PathValidatorTests,IsWithinDirectory_DifferentlyCasedSibling_IsOutside_On_CaseSensitive_Platforms,20,0,0,20,skipped
+TUnit.UnitTests.PathValidatorTests,IsWithinDirectory_DirectoryItself_IsInside,20,20,0,0,stable
+TUnit.UnitTests.PathValidatorTests,IsWithinDirectory_FileSystemRoot_ContainsEverything,20,20,0,0,stable
+TUnit.UnitTests.PathValidatorTests,IsWithinDirectory_FoldsCase_On_Windows,20,20,0,0,stable
+TUnit.UnitTests.PathValidatorTests,IsWithinDirectory_SiblingSharingPrefix_IsOutside,20,20,0,0,stable
+TUnit.UnitTests.PathValidatorTests,SanitizeFileName_CleanName_ReturnsSameReference,20,20,0,0,stable
+TUnit.UnitTests.PathValidatorTests,SanitizeFileName_EmptyString_ReturnsSameReference,20,20,0,0,stable
+TUnit.UnitTests.PathValidatorTests,SanitizeFileName_LongNameWithInvalidChar_ExercisesHeapBranch,20,20,0,0,stable
+TUnit.UnitTests.PathValidatorTests,SanitizeFileName_StripsInvalidChars,20,20,0,0,stable
+TUnit.UnitTests.PathValidatorTests,SanitizeFileName_StripsPathSeparators,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightCompositionLifecycleTests,RecordingFixturesSurviveRetryWithFreshPages,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightCompositionLifecycleTests,RecordingWorksWithoutRetries,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,BrowserFixtureLaunchReadsBrowserAndHeadedAtLaunch,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,BrowserFixtureOverridesWinOverEnvironment,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,BrowserFixtureWithoutVariablesLaunchesDefaultChromium,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,"BrowserNamesAreNormalized( WEBKIT , webkit)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,"BrowserNamesAreNormalized(Firefox, firefox)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,"BrowserNamesAreNormalized(chromium, chromium)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,BrowserTestExplicitHeadlessWinsOverHeaded,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,BrowserTestReadsBrowserAndHeadedAfterConstruction,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,ExplicitHeadlessWinsOverHeaded(False),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,ExplicitHeadlessWinsOverHeaded(True),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,HeadedLaunchesVisibleBrowserWhenHeadlessIsUnset( TRUE ),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,HeadedLaunchesVisibleBrowserWhenHeadlessIsUnset(1),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,HeadedLaunchesVisibleBrowserWhenHeadlessIsUnset(true),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,HeadedUnsetOrDisabledLeavesOptionsUnchanged(),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,HeadedUnsetOrDisabledLeavesOptionsUnchanged(0),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,HeadedUnsetOrDisabledLeavesOptionsUnchanged(false),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,HeadedUnsetOrDisabledLeavesOptionsUnchanged(null),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,UnknownBrowserThrowsNamingTheVariable,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,UnsetBrowserDefaultsToChromium(  ),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,UnsetBrowserDefaultsToChromium(),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightEnvironmentTests,UnsetBrowserDefaultsToChromium(null),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,BrowserTestAttachesScreenshotAndTraceWhenTestDoesNotPass(Cancelled),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,BrowserTestAttachesScreenshotAndTraceWhenTestDoesNotPass(Failed),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,BrowserTestAttachesScreenshotAndTraceWhenTestDoesNotPass(Timeout),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,CancelledSetupStillCapturesBeforePagesClose,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,CaptureFailureIsReportedWithoutFailingTeardown,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,"DeferredCaptureKeepsWorkerOutOfPoolUntilTestEnd(Failed, False)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,"DeferredCaptureKeepsWorkerOutOfPoolUntilTestEnd(Passed, True)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,DisconnectIsNotReportedForUnrelatedFailuresOrExpectedClose,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,DisconnectedSharedBrowserIsRelaunchedWhenEnabled,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,FixtureNamesDisconnectedBrowserWhenContextCreationFails,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,FixturesCaptureBeforePagesCloseAndRecreateEachAttempt,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,InvalidPathIsReportedAndContextsStillClose,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,InvalidPathStillDisposesFixtures,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,LaterTestReusingSharedPageFixtureGetsNewContextAfterCapture,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,LongDisplayNamesAreTruncated,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,PassingTestDiscardsTraceAndWritesNoArtifacts(Passed),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,PassingTestDiscardsTraceAndWritesNoArtifacts(Skipped),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,ReservedNamesNeverOverwriteExistingFiles,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,"SanitizeRejectsWindowsInvalidCharactersOnEveryPlatform(a:b*c?d<e>f|g""h, a_b_c_d_e_f_g_h)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,"SanitizeRejectsWindowsInvalidCharactersOnEveryPlatform(back\slash/forward, back_slash_forward)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,"SanitizeRejectsWindowsInvalidCharactersOnEveryPlatform(tab	here, tab_here)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,ScreenshotOnlyDoesNotTrace,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,SharedFixturesAreNotCaptured,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,SharedPageFixtureGetsNewPageWhenCapturedContextIsRecreated,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,TeardownFailureAfterBrowserTearDownStillCaptures,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,TestsReusingASharedFixtureGetTheDisconnectNote,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,UnexpectedBrowserDisconnectIsReportedOnPlaywrightFailures,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,VariantsWithTheSameDisplayNameAndRetriesGetDistinctNames,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightFailureCaptureTests,WithoutAttributeNothingIsTraced,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,ContextFixtureClosesContextWhenRouteRegistrationFails,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,ContextFixtureRoutesTraceHeadersToConfiguredOrigins,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,ContextIsClosedWhenRouteRegistrationFails,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,NewContextRoutesTraceHeadersToConfiguredOriginsOnly,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,NewContextSendsNoTraceHeadersWhenDisabled,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,NewContextSendsNoTraceHeadersWithoutKnownOrigin,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,NewContextUsesBaseUrlOriginByDefault,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,OriginPatternFallsBackToBaseUrl,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,OriginPatternIsNullWithoutOrigins,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,"OriginPatternMatchesOnlyConfiguredOrigin(http://app·test/page, False)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,"OriginPatternMatchesOnlyConfiguredOrigin(https://APP·test/page, True)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,"OriginPatternMatchesOnlyConfiguredOrigin(https://app·test, True)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,"OriginPatternMatchesOnlyConfiguredOrigin(https://app·test/, True)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,"OriginPatternMatchesOnlyConfiguredOrigin(https://app·test/page?q=1, True)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,"OriginPatternMatchesOnlyConfiguredOrigin(https://app·test:8443/page, False)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,"OriginPatternMatchesOnlyConfiguredOrigin(https://app·test?q=1, True)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,"OriginPatternMatchesOnlyConfiguredOrigin(https://app·test·evil/page, False)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,"OriginPatternMatchesOnlyConfiguredOrigin(https://fonts·gstatic·com/s/font·woff2, False)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,OriginPatternNormalizesDefaultPortAndMatchesEveryOrigin,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,OriginPatternRejectsInvalidOrigins(/relative),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,OriginPatternRejectsInvalidOrigins(file:///C:/app),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,OriginPatternRejectsInvalidOrigins(not a url),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightTraceContextTests,RoutedRequestKeepsExistingTraceparent,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,CancelledInitializationStillClosesResourcesCreatedLater,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,CompositionCachesSetupFailureWithinAttemptAndRetriesOnNextAttempt,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,CompositionClosesContextWhenPageSetupFails,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,CompositionFlushesRecordingWhenPageCloseFails,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,CompositionRecordsEachAttemptAndInitializesOnlyOnceWithinAttempt,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,CompositionRejectsFixtureReuseBetweenTests(False),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,CompositionRejectsFixtureReuseBetweenTests(True),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,CompositionWithoutRecordingKeepsFixtureLifetimeAcrossRetries,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,ContextWithoutRecordingDoesNotSubscribeToPages,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,LatePageEventFromPreviousContextDoesNotLeakIntoNextAttempt,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,MultiplePagesPreserveExistingVideosAndRetryAttemptNames,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,OptionOnlyRecordingKeepsSharedFixtureLifetimeWithoutAttributingVideos,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,PageFixturePreservesManuallyInitializedContext,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,RecordVideoConfiguresSupportedTests(TUnit.Playwright.ContextTest),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,RecordVideoConfiguresSupportedTests(TUnit.Playwright.PageTest),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,RecordVideoSupportsFixtureBasedTestsDuringDiscovery,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,RecordingPreservesCustomContextOptions,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,RecordingRejectsDeclaredSharedContextScope(PerClass),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,RecordingRejectsDeclaredSharedContextScope(PerTestSession),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,RecordingUsesCapturedOwnerAndAttemptDuringDisposal,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,TeardownAttachesPagesOpenedBeforeOrDuringContextClose(False),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,TeardownAttachesPagesOpenedBeforeOrDuringContextClose(True),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,TeardownRejectsNewContextsWhileClosing,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,TeardownStillAttachesVideosAndClosesOtherContextsAfterCloseFailure,20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,TeardownWaitsForPendingContextCreation(False),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,TeardownWaitsForPendingContextCreation(True),20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,"VideoNamesReplaceInvalidCharacters(, test·webm)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,"VideoNamesReplaceInvalidCharacters(Aux, _Aux·webm)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,"VideoNamesReplaceInvalidCharacters(COM1, _COM1·webm)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,"VideoNamesReplaceInvalidCharacters(COM10, COM10·webm)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,"VideoNamesReplaceInvalidCharacters(COM³, _COM³·webm)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,"VideoNamesReplaceInvalidCharacters(COM¹, _COM¹·webm)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,"VideoNamesReplaceInvalidCharacters(CON, _CON·webm)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,"VideoNamesReplaceInvalidCharacters(CONIN$, _CONIN$·webm)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,"VideoNamesReplaceInvalidCharacters(CONOUT$, _CONOUT$·webm)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,"VideoNamesReplaceInvalidCharacters(Console, Console·webm)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,"VideoNamesReplaceInvalidCharacters(LPT9·test, _LPT9·test·webm)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,"VideoNamesReplaceInvalidCharacters(LPT², _LPT²·webm)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,"VideoNamesReplaceInvalidCharacters(NUL·tar·gz, _NUL·tar·gz·webm)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,"VideoNamesReplaceInvalidCharacters(Video Name, Video-Name·webm)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,"VideoNamesReplaceInvalidCharacters(Video\u0000Name, Video_Name·webm)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,"VideoNamesReplaceInvalidCharacters(\u0000\u0000, __·webm)",20,20,0,0,stable
+TUnit.UnitTests.PlaywrightVideoTests,"VideoNamesReplaceInvalidCharacters(prn, _prn·webm)",20,20,0,0,stable
+TUnit.UnitTests.ProductRepositoryTests,CanCreateProduct,20,20,0,0,stable
+TUnit.UnitTests.ProductRepositoryTests,CreateSchema,20,20,0,0,stable
+TUnit.UnitTests.ProductRepositoryTests,InitializeDatabase,20,20,0,0,stable
+TUnit.UnitTests.PropagatorAlignmentTests,AlignIfDefault_Does_Not_Replace_Existing_W3C_Propagator,20,20,0,0,stable
+TUnit.UnitTests.PropagatorAlignmentTests,AlignIfDefault_Leaves_Custom_Propagator_Untouched,20,20,0,0,stable
+TUnit.UnitTests.PropagatorAlignmentTests,ModuleInitializer_Replaces_Default_Legacy_Propagator,20,20,0,0,stable
+TUnit.UnitTests.PropertyDataSourceInjectionTests,PropertyInjection_ArgumentsAttribute_ComplexType,20,20,0,0,stable
+TUnit.UnitTests.PropertyDataSourceInjectionTests,PropertyInjection_ArgumentsAttribute_InjectsValue,20,20,0,0,stable
+TUnit.UnitTests.PropertyDataSourceInjectionTests,PropertyInjection_ClassDataSource_InjectsAndInitializes,20,20,0,0,stable
+TUnit.UnitTests.PropertyDataSourceInjectionTests,PropertyInjection_MethodDataSource_InjectsValue,20,20,0,0,stable
+TUnit.UnitTests.PropertyInjectorTests,ResolveAndCacheProperties_CachesInjectedProperties,20,20,0,0,stable
+TUnit.UnitTests.PropertyMetadataFactoryTests,GetterPreservesNullValues,20,20,0,0,stable
+TUnit.UnitTests.PropertyMetadataFactoryTests,GetterResolvesDeclaringTypeRatherThanHiddenDerivedProperty,20,20,0,0,stable
+TUnit.UnitTests.PropertyMetadataFactoryTests,GetterSupportsMultipleClosedTypesAndRepeatedReads,20,20,0,0,stable
+TUnit.UnitTests.ReflectionAssemblyLocationFilterTests,Directories_That_Only_Contain_The_Words_Are_Not_Excluded(my-runtimes-app),20,20,0,0,stable
+TUnit.UnitTests.ReflectionAssemblyLocationFilterTests,Directories_That_Only_Contain_The_Words_Are_Not_Excluded(preferences),20,20,0,0,stable
+TUnit.UnitTests.ReflectionAssemblyLocationFilterTests,Directories_That_Only_Contain_The_Words_Are_Not_Excluded(refactoring),20,20,0,0,stable
+TUnit.UnitTests.ReflectionAssemblyLocationFilterTests,Directories_That_Only_Contain_The_Words_Are_Not_Excluded(reflection-unittests),20,20,0,0,stable
+TUnit.UnitTests.ReflectionAssemblyLocationFilterTests,Framework_And_Reference_Directories_Are_Excluded(Microsoft·NETCore·App),20,20,0,0,stable
+TUnit.UnitTests.ReflectionAssemblyLocationFilterTests,Framework_And_Reference_Directories_Are_Excluded(ref),20,20,0,0,stable
+TUnit.UnitTests.ReflectionAssemblyLocationFilterTests,Framework_And_Reference_Directories_Are_Excluded(runtimes),20,20,0,0,stable
+TUnit.UnitTests.ReflectionPartialTypeLoadingTests,Complete_Type_Loading_Failure_Returns_No_Types,20,20,0,0,stable
+TUnit.UnitTests.ReflectionPartialTypeLoadingTests,Dynamic_Discovery_Preserves_Tests_From_Partially_Loaded_Assembly,20,20,0,0,stable
+TUnit.UnitTests.ReflectionPartialTypeLoadingTests,Dynamic_Discovery_Skips_Types_With_Unresolvable_Method_Metadata(False),20,20,0,0,stable
+TUnit.UnitTests.ReflectionPartialTypeLoadingTests,Dynamic_Discovery_Skips_Types_With_Unresolvable_Method_Metadata(True),20,20,0,0,stable
+TUnit.UnitTests.ReflectionPartialTypeLoadingTests,Partial_Type_Loading_Preserves_Builders_And_Caches_Loadable_Types,20,20,0,0,stable
+TUnit.UnitTests.ReflectionPartialTypeLoadingTests+LoadableBuilder,ContributedTest,20,20,0,0,stable
+TUnit.UnitTests.ReportAggregatorEnvironmentTests,Aggregation_Can_Be_Disabled_Explicitly(0),20,20,0,0,stable
+TUnit.UnitTests.ReportAggregatorEnvironmentTests,Aggregation_Can_Be_Disabled_Explicitly(disabled),20,20,0,0,stable
+TUnit.UnitTests.ReportAggregatorEnvironmentTests,Aggregation_Can_Be_Disabled_Explicitly(false),20,20,0,0,stable
+TUnit.UnitTests.ReportAggregatorEnvironmentTests,Aggregation_Can_Be_Disabled_Explicitly(no),20,20,0,0,stable
+TUnit.UnitTests.ReportAggregatorEnvironmentTests,Aggregation_Can_Be_Disabled_Explicitly(none),20,20,0,0,stable
+TUnit.UnitTests.ReportAggregatorEnvironmentTests,Aggregation_Can_Be_Disabled_Explicitly(off),20,20,0,0,stable
+TUnit.UnitTests.ReportAggregatorEnvironmentTests,Aggregation_Defaults_Off_When_No_Shared_Directory_Resolvable,20,20,0,0,stable
+TUnit.UnitTests.ReportAggregatorEnvironmentTests,Aggregation_Defaults_On_When_Shared_Directory_Is_Resolvable,20,20,0,0,stable
+TUnit.UnitTests.ReportAggregatorEnvironmentTests,Defer_Mode_Is_Selected_By_Value,20,20,0,0,stable
+TUnit.UnitTests.ReportAggregatorEnvironmentTests,Explicit_Directory_Wins_Over_GitHub_Derived_Directory,20,20,0,0,stable
+TUnit.UnitTests.ReportDataJsonTests,Serialize_Omits_UnobservedTaskExceptions_When_None,20,20,0,0,stable
+TUnit.UnitTests.ReportDataJsonTests,Serialize_Then_Deserialize_RoundTrips_AllFields,20,20,0,0,stable
+TUnit.UnitTests.ReportDataJsonTests,Serialize_Then_Deserialize_RoundTrips_UnobservedTaskExceptions,20,20,0,0,stable
+TUnit.UnitTests.ReportDataJsonTests,TryDeserialize_Ignores_Unknown_Properties,20,20,0,0,stable
+TUnit.UnitTests.ReportDataJsonTests,TryDeserialize_Rejects_Invalid_Or_Incompatible_Input([]),20,20,0,0,stable
+TUnit.UnitTests.ReportDataJsonTests,TryDeserialize_Rejects_Invalid_Or_Incompatible_Input(not json at all),20,20,0,0,stable
+TUnit.UnitTests.ReportDataJsonTests,"TryDeserialize_Rejects_Invalid_Or_Incompatible_Input({""schemaVersion"": 1, ""groups"": [1]})",20,20,0,0,stable
+TUnit.UnitTests.ReportDataJsonTests,"TryDeserialize_Rejects_Invalid_Or_Incompatible_Input({""schemaVersion"": 1, ""groups"": [{""tests"": [{""attempts"": [7]}]}]})",20,20,0,0,stable
+TUnit.UnitTests.ReportDataJsonTests,"TryDeserialize_Rejects_Invalid_Or_Incompatible_Input({""schemaVersion"": 1·5, ""assemblyName"": ""x""})",20,20,0,0,stable
+TUnit.UnitTests.ReportDataJsonTests,"TryDeserialize_Rejects_Invalid_Or_Incompatible_Input({""schemaVersion"": 999, ""assemblyName"": ""x""})",20,20,0,0,stable
+TUnit.UnitTests.ReportDataJsonTests,"TryDeserialize_Rejects_Invalid_Or_Incompatible_Input({""schemaVersion"": 999999999999, ""assemblyName"": ""x""})",20,20,0,0,stable
+TUnit.UnitTests.ReportDataJsonTests,TryDeserialize_Rejects_Invalid_Or_Incompatible_Input({}),20,20,0,0,stable
+TUnit.UnitTests.ReportDataJsonTests,TryDeserialize_Treats_OutOfRange_Numbers_As_Defaults,20,20,0,0,stable
+TUnit.UnitTests.ReportDataMergerTests,Merge_Concatenates_UnobservedTaskExceptions,20,20,0,0,stable
+TUnit.UnitTests.ReportDataMergerTests,Merge_Disambiguates_Colliding_Class_Names_And_Test_Ids,20,20,0,0,stable
+TUnit.UnitTests.ReportDataMergerTests,Merge_Keeps_SourceControl_Metadata_Only_When_Suites_Agree,20,20,0,0,stable
+TUnit.UnitTests.ReportDataMergerTests,Merge_Keeps_Unique_Class_Names_Untouched,20,20,0,0,stable
+TUnit.UnitTests.ReportDataMergerTests,Merge_Renames_Suite_Spans_When_Class_Names_Are_Disambiguated,20,20,0,0,stable
+TUnit.UnitTests.ReportDataMergerTests,Merge_SingleSuite_Is_Passthrough,20,20,0,0,stable
+TUnit.UnitTests.ReportDataMergerTests,Merge_Sums_Summaries_And_Concatenates_Groups,20,20,0,0,stable
+TUnit.UnitTests.ReportDataMergerTests,SuiteLabels_Disambiguate_Progressively,20,20,0,0,stable
+TUnit.UnitTests.ReportDataMergerTests,WallClock_Duration_Falls_Back_To_Longest_Suite_Without_Timestamps,20,20,0,0,stable
+TUnit.UnitTests.ReportDataMergerTests,WallClock_Duration_Ignores_Default_Timestamp,20,20,0,0,stable
+TUnit.UnitTests.ReportDataMergerTests,WallClock_Duration_Uses_Absolute_Bounds_Not_Sum,20,20,0,0,stable
+TUnit.UnitTests.ReportedClassFullNameTests,Closed_Generic_Type_Reports_Its_Generic_Type_Definition,20,20,0,0,stable
+TUnit.UnitTests.ReportedClassFullNameTests,Non_Generic_Type_Reports_Its_Full_Name,20,20,0,0,stable
+TUnit.UnitTests.ReportedClassFullNameTests,Open_Generic_Type_Reports_Its_Full_Name,20,20,0,0,stable
+TUnit.UnitTests.RetryDelegateCancellationTests,"RetryHandlerPreservesCancellation(False, True)",20,20,0,0,stable
+TUnit.UnitTests.RetryDelegateCancellationTests,"RetryHandlerPreservesCancellation(True, False)",20,20,0,0,stable
+TUnit.UnitTests.RetryDelegateCancellationTests,"RetryHandlerPreservesCancellation(True, True)",20,20,0,0,stable
+TUnit.UnitTests.STAThreadExecutorTests,Off_Windows_Throws_A_TUnitException_Naming_The_Remedy,20,0,0,20,skipped
+TUnit.UnitTests.SegmentedBufferWriterTests,Advance_Past_Requested_Span_Throws,20,20,0,0,stable
+TUnit.UnitTests.SegmentedBufferWriterTests,Empty_Writer_Produces_No_Bytes,20,20,0,0,stable
+TUnit.UnitTests.SegmentedBufferWriterTests,Utf8JsonWriter_Output_Matches_Contiguous_Buffer,20,20,0,0,stable
+TUnit.UnitTests.SegmentedBufferWriterTests,Writes_Spanning_Many_Chunks_Round_Trip_In_Order(1),20,20,0,0,stable
+TUnit.UnitTests.SegmentedBufferWriterTests,Writes_Spanning_Many_Chunks_Round_Trip_In_Order(300000),20,20,0,0,stable
+TUnit.UnitTests.SegmentedBufferWriterTests,Writes_Spanning_Many_Chunks_Round_Trip_In_Order(4096),20,20,0,0,stable
+TUnit.UnitTests.ServiceProviderInfrastructureTests,TestContext_HasWorkingServiceProvider,20,20,0,0,stable
+TUnit.UnitTests.ServiceProviderInfrastructureTests,TestServiceProvider_CanOverrideRegistration,20,20,0,0,stable
+TUnit.UnitTests.ServiceProviderInfrastructureTests,TestServiceProvider_CanRegisterAndResolveService,20,20,0,0,stable
+TUnit.UnitTests.ServiceProviderInfrastructureTests,TestServiceProvider_CanRegisterFactory,20,20,0,0,stable
+TUnit.UnitTests.ServiceProviderInfrastructureTests,TestServiceProvider_GetRequiredService_ThrowsWhenNotRegistered,20,20,0,0,stable
+TUnit.UnitTests.ServiceProviderInfrastructureTests,TestServiceProvider_GetService_ReturnsNullWhenNotRegistered,20,20,0,0,stable
+TUnit.UnitTests.ServiceProviderInfrastructureTests,TestServiceProvider_HandlesMultipleServiceTypes,20,20,0,0,stable
+TUnit.UnitTests.ServiceProviderInfrastructureTests,TestServiceProvider_SupportsInterfaceAndConcreteTypes,20,20,0,0,stable
+TUnit.UnitTests.SessionActivityLifecycleTests,DiscoveryAndAssembly_ShareSameTrace_WhenBothParentedUnderSession,20,20,0,0,stable
+TUnit.UnitTests.SessionActivityLifecycleTests,DiscoverySpan_InSameTrace_WhenParentedUnderSession,20,20,0,0,stable
+TUnit.UnitTests.SessionActivityLifecycleTests,HookSpan_ParentsUnderSession_WhenSessionActivityExists,20,20,0,0,stable
+TUnit.UnitTests.SessionActivityLifecycleTests,HooklessAssemblyAndClassActivities_PreserveLifecycleHierarchy,20,20,0,0,stable
+TUnit.UnitTests.SessionActivityLifecycleTests,LifecycleHierarchy_UsesSessionTrace_AndTestStartsSeparateTrace,20,20,0,0,stable
+TUnit.UnitTests.SessionActivityLifecycleTests,SessionActivity_StoppedAndCleared_AfterFinish,20,20,0,0,stable
+TUnit.UnitTests.SessionActivityLifecycleTests,TryStartSessionActivity_CalledTwice_IsIdempotent,20,20,0,0,stable
+TUnit.UnitTests.SessionActivityLifecycleTests,TryStartSessionActivity_CreatesActivityWithCorrectSource,20,20,0,0,stable
+TUnit.UnitTests.SessionActivityLifecycleTests,TryStartSessionActivity_SetsSessionIdTag,20,20,0,0,stable
+TUnit.UnitTests.SessionActivityLifecycleTests,TryStartSessionActivity_SetsTestFilterTag,20,20,0,0,stable
+TUnit.UnitTests.SessionActivityLifecycleTests,TryStartSessionActivity_WithListeners_CreatesSessionActivity,20,20,0,0,stable
+TUnit.UnitTests.SharedInstanceLifetimeTests,Concurrent_Fetches_In_One_Test_Hold_The_Instance_Once,20,20,0,0,stable
+TUnit.UnitTests.SharedInstanceLifetimeTests,Disposed_Shared_Instance_Is_Not_Handed_Out_Again,20,20,0,0,stable
+TUnit.UnitTests.SharedInstanceLifetimeTests,Fetches_After_Holds_Are_Released_Are_Not_Held,20,20,0,0,stable
+TUnit.UnitTests.SharedInstanceLifetimeTests,Fetching_An_Instance_The_Test_Already_Holds_Does_Not_Count_It_Twice,20,20,0,0,stable
+TUnit.UnitTests.SharedInstanceLifetimeTests,Fetching_Outside_The_Running_Window_Does_Not_Hold,20,20,0,0,stable
+TUnit.UnitTests.SharedInstanceLifetimeTests,Held_Instances_Are_Kept_Out_Of_The_Tracked_Objects,20,20,0,0,stable
+TUnit.UnitTests.SharedInstanceLifetimeTests,Instance_Cached_Under_Several_Keys_Is_Evicted_From_All_Of_Them,20,20,0,0,stable
+TUnit.UnitTests.SharedInstanceLifetimeTests,Instance_Held_Again_After_Its_Count_Reached_Zero_Is_Disposed_Once,20,20,0,0,stable
+TUnit.UnitTests.SharedInstanceLifetimeTests,Registration_Fetching_A_Retired_Instance_Gets_A_New_One,20,20,0,0,stable
+TUnit.UnitTests.SharedInstanceLifetimeTests,Registration_Hold_Is_Refused_For_An_Instance_Retired_After_It_Was_Fetched,20,20,0,0,stable
+TUnit.UnitTests.SharedInstanceLifetimeTests,Registration_Scope_Releases_Unregistered_Instance_When_Building_Throws,20,20,0,0,stable
+TUnit.UnitTests.SharedInstanceLifetimeTests,Running_Test_Gets_A_New_Instance_After_The_Last_Holder_Disposed_It,20,20,0,0,stable
+TUnit.UnitTests.SharedInstanceLifetimeTests,Running_Test_Holds_Instance_It_Fetches_Until_It_Ends,20,20,0,0,stable
+TUnit.UnitTests.SharedInstanceLifetimeTests,Test_Registered_Between_The_Count_Reaching_Zero_And_Retirement_Keeps_The_Instance,20,20,0,0,stable
+TUnit.UnitTests.SharedInstanceLifetimeTests,Test_Registered_While_The_Last_Holder_Ends_Keeps_The_Instance,20,20,0,0,stable
+TUnit.UnitTests.SharedObjectDisposeSpanTests,Failing_Disposal_Records_Error_On_Span_And_Still_Throws,20,20,0,0,stable
+TUnit.UnitTests.SharedObjectDisposeSpanTests,Listener_Changes_Do_Not_Duplicate_Captured_Activities,20,20,0,0,stable
+TUnit.UnitTests.SharedObjectDisposeSpanTests,Overlapping_Listeners_Capture_Only_Their_Own_Parents_Without_ExecutionContext,20,20,0,0,stable
+TUnit.UnitTests.SharedObjectDisposeSpanTests,PerClass_Shared_Object_Disposal_Emits_Span_Under_Class_Activity,20,20,0,0,stable
+TUnit.UnitTests.SharedObjectDisposeSpanTests,Per_Test_Listener_Captures_Unexpected_Spans_Regardless_Of_Parent,20,20,0,0,stable
+TUnit.UnitTests.SharedObjectDisposeSpanTests,Per_Test_Object_Disposal_Emits_No_Span,20,20,0,0,stable
+TUnit.UnitTests.SharedObjectDisposeSpanTests,Session_Shared_Object_Disposal_Emits_Span_Under_Assembly_Activity,20,20,0,0,stable
+TUnit.UnitTests.SoleTupleBoundaryTests,UnwrappedNestedSingleton_PreservesOuterBoundary,20,20,0,0,stable
+TUnit.UnitTests.SoleTupleBoundaryTests,WrappedNestedSingleton_PreservesPayloadForReconstruction,20,20,0,0,stable
+TUnit.UnitTests.SoleTupleBoundaryTests,WrappedTupleWithoutExpectedParameter_StillSpreadsPayload,20,20,0,0,stable
+TUnit.UnitTests.SourceRegistrarExecutionModeGenericTests`1,Closed_Generic_Test_Class_Runs,20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyDataSourceTests,StaticPropertyInjection_ArgumentsAttribute_InjectsValue,20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyDataSourceTests,StaticPropertyInjection_MethodDataSource_InjectsValue,20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,Concurrent_Static_Lease_Acquisition_And_Sweeps_Keep_The_Value_Alive,20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,Failed_Reflection_Initialization_Releases_Its_Claim_And_Allows_A_Fresh_Session,20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,Fixtures_Dispose_Before_Their_Scopes_Even_When_Teardown_Throws(False),20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,Fixtures_Dispose_Before_Their_Scopes_Even_When_Teardown_Throws(True),20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,Generated_Initialization_Failure_And_External_Ownership_Cleanup(False),20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,Generated_Initialization_Failure_And_External_Ownership_Cleanup(True),20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,Overlapping_Generated_Sessions_Keep_Fixtures_And_Scopes_Alive(False),20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,Overlapping_Generated_Sessions_Keep_Fixtures_And_Scopes_Alive(True),20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,Overlapping_Reflection_Sessions_Keep_Static_Resources_Alive(False),20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,Overlapping_Reflection_Sessions_Keep_Static_Resources_Alive(True),20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,Property_Metadata_Uses_Explicit_Owner_Events_Without_Method_Metadata,20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,Reflection_Static_Properties_Reinitialize_For_The_Next_Session,20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,"Reflection_Static_Scopes_Drain_Without_Handlers_And_After_Failures(False, False)",20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,"Reflection_Static_Scopes_Drain_Without_Handlers_And_After_Failures(False, True)",20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,"Reflection_Static_Scopes_Drain_Without_Handlers_And_After_Failures(True, False)",20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,"Reflection_Static_Scopes_Drain_Without_Handlers_And_After_Failures(True, True)",20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,Static_Callback_Registration_And_Fallback_Transfers_Share_Synchronization,20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,Static_Callbacks_Belong_To_Their_Session_Including_Failed_Initialization,20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,Static_Lease_Refreshes_Existing_Ownership(False),20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,Static_Lease_Refreshes_Existing_Ownership(True),20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,"Static_Properties_Sharing_A_Fixture_Retain_Its_Injected_Scope(False, False)",20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,"Static_Properties_Sharing_A_Fixture_Retain_Its_Injected_Scope(False, True)",20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,"Static_Properties_Sharing_A_Fixture_Retain_Its_Injected_Scope(True, False)",20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,"Static_Properties_Sharing_A_Fixture_Retain_Its_Injected_Scope(True, True)",20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,Sweep_Cannot_Dispose_Nested_Fixture_During_Async_Static_Teardown,20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyHandlerCleanupTests,Throwing_Reflection_Release_Continues_Resource_And_Session_Cleanup,20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyScopeDisposalTests,Session_OnDispose_Collects_Handler_Exceptions,20,20,0,0,stable
+TUnit.UnitTests.StaticPropertyScopeDisposalTests,Session_OnDispose_Disposes_A_Static_Property_Scope_Once,20,20,0,0,stable
+TUnit.UnitTests.StaticScopeCleanupTests,FailedStaticFactoryScopeIsReleasedAndOtherScopesStillDispose,20,20,0,0,stable
+TUnit.UnitTests.StaticScopeCleanupTests,StaticScopeOwnsServiceUntilSessionCleanup,20,20,0,0,stable
+TUnit.UnitTests.TUnitLoggerFactoryTests,AddSink_Generic_InstantiatesAndRegisters,20,20,0,0,stable
+TUnit.UnitTests.TUnitLoggerFactoryTests,AddSink_MultipleSinks_AllAreRegistered,20,20,0,0,stable
+TUnit.UnitTests.TUnitLoggerFactoryTests,AddSink_RegistersSink,20,20,0,0,stable
+TUnit.UnitTests.TUnitLoggerFactoryTests,Clear_DoesNotDisposeSinks,20,20,0,0,stable
+TUnit.UnitTests.TUnitLoggerFactoryTests,Clear_RemovesAllSinks,20,20,0,0,stable
+TUnit.UnitTests.TUnitLoggerFactoryTests,DisposeAllAsync_ClearsSinksList,20,20,0,0,stable
+TUnit.UnitTests.TUnitLoggerFactoryTests,DisposeAllAsync_ContinuesOnError,20,20,0,0,stable
+TUnit.UnitTests.TUnitLoggerFactoryTests,DisposeAllAsync_DisposesAsyncDisposable,20,20,0,0,stable
+TUnit.UnitTests.TUnitLoggerFactoryTests,DisposeAllAsync_DisposesDisposable,20,20,0,0,stable
+TUnit.UnitTests.TUnitLoggerFactoryTests,DisposeAllAsync_PrefersAsyncDisposableOverDisposable,20,20,0,0,stable
+TUnit.UnitTests.TUnitLoggerFactoryTests,GetSinks_ReturnsEmptyList_WhenNoSinksRegistered,20,20,0,0,stable
+TUnit.UnitTests.TUnitLoggerFactoryTests,GetSinks_ReturnsSnapshot_NotLiveList,20,20,0,0,stable
+TUnit.UnitTests.TUnitSettingsTests,Configured_Default_Timeout_Fires_On_Hanging_Test,20,20,0,0,stable
+TUnit.UnitTests.TUnitSettingsTests,Defaults_Are_Correct,20,20,0,0,stable
+TUnit.UnitTests.TUnitSettingsTests,ExplicitDefaultTestTimeout_Is_Null_When_Unset,20,20,0,0,stable
+TUnit.UnitTests.TUnitSettingsTests,ExplicitDefaultTestTimeout_Returns_Assigned_Value,20,20,0,0,stable
+TUnit.UnitTests.TUnitSettingsTests,Reporting_Settings_Can_Be_Modified,20,20,0,0,stable
+TUnit.UnitTests.TUnitSettingsTests,Settings_Can_Be_Modified,20,20,0,0,stable
+TUnit.UnitTests.TUnitSettingsTests,SnapshotRestore_Preserves_Unset_DefaultTestTimeout,20,20,0,0,stable
+TUnit.UnitTests.TUnitSettingsTests,ThreadPoolTuning_Disabled_In_Settings_Does_Not_Start_Monitor,20,20,0,0,stable
+TUnit.UnitTests.TestConstructorTests.SingleConstructorTest,SimpleTest,20,20,0,0,stable
+TUnit.UnitTests.TestContextAvailabilityDuringPropertyInjectionTests,PropertyInjection_CanAccessTestContext_DuringDiscoveryPhase,20,20,0,0,stable
+TUnit.UnitTests.TestContextCancellationTests,CleanupDefersSourceDisposalWhileAcceptedCancellationIsInProgress,20,20,0,0,stable
+TUnit.UnitTests.TestContextCancellationTests,RetrySourcePreservesAcceptedCancellation,20,20,0,0,stable
+TUnit.UnitTests.TestContextCancellationTests,RetryWindowAcceptsCancellationBetweenAttempts,20,20,0,0,stable
+TUnit.UnitTests.TestDependencyResolverTests,Completed_Empty_Placeholder_Preserves_Outcome_And_Remains_A_Dependency(False),20,20,0,0,stable
+TUnit.UnitTests.TestDependencyResolverTests,Completed_Empty_Placeholder_Preserves_Outcome_And_Remains_A_Dependency(True),20,20,0,0,stable
+TUnit.UnitTests.TestIsolationTests,GetIsolatedName_ReturnsExpectedFormat,20,20,0,0,stable
+TUnit.UnitTests.TestIsolationTests,GetIsolatedName_WithDifferentBaseNames_ReturnsDifferentNames,20,20,0,0,stable
+TUnit.UnitTests.TestIsolationTests,GetIsolatedPrefix_WithCustomSeparator_ReturnsExpectedFormat,20,20,0,0,stable
+TUnit.UnitTests.TestIsolationTests,GetIsolatedPrefix_WithDefaultSeparator_ReturnsExpectedFormat,20,20,0,0,stable
+TUnit.UnitTests.TestIsolationTests,GetIsolatedPrefix_WithDotSeparator_ReturnsExpectedFormat,20,20,0,0,stable
+TUnit.UnitTests.TestIsolationTests,Isolation_IsAccessibleViaInterface,20,20,0,0,stable
+TUnit.UnitTests.TestIsolationTests,Isolation_SameContextReturnsSameValues,20,20,0,0,stable
+TUnit.UnitTests.TestIsolationTests,UniqueId_IsDifferentAcrossTests_1,20,20,0,0,stable
+TUnit.UnitTests.TestIsolationTests,UniqueId_IsDifferentAcrossTests_2,20,20,0,0,stable
+TUnit.UnitTests.TestIsolationTests,UniqueId_IsPositive,20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,Appends_Type_Arguments_To_Test_Name,20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(System.Boolean, bool)",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(System.Collections.Generic.Dictionary`2[System.String,System.Collections.Generic.List`1[System.Nullable`1[System.Int32]]], Dictionary<string, List<int?>>)",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(System.Collections.Generic.List`1[System.Int32], List<int>)",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(System.DayOfWeek, DayOfWeek)",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(System.Decimal, decimal)",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(System.Int32, int)",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(System.Int32[], int[])",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(System.Int32[][], int[][])",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(System.Int64, long)",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(System.IntPtr, nint)",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(System.Nullable`1[System.Int32], int?)",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(System.Object, object)",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(System.Single, float)",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(System.String, string)",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(System.String[,], string[,])",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(System.ValueTuple`2[System.Int32,System.String], (int, string))",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(TUnit.UnitTests.TestNameTypeFormatterTests+GenericOuter`1+Inner`1[System.String,System.Int32], TestNameTypeFormatterTests·GenericOuter<string>·Inner<int>)",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(TUnit.UnitTests.TestNameTypeFormatterTests+Outer+GenericInner`1[System.Int32], TestNameTypeFormatterTests·Outer·GenericInner<int>)",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Formats_Types_As_CSharp_Source(TUnit.UnitTests.TestNameTypeFormatterTests+Outer+Inner, TestNameTypeFormatterTests·Outer·Inner)",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,Leaves_Name_Unchanged_Without_Type_Arguments,20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Strips_Generic_Arity_From_Class_Name(System.Collections.Generic.Dictionary`2[TKey,TValue], Dictionary)",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Strips_Generic_Arity_From_Class_Name(System.Collections.Generic.List`1[System.Int32], List)",20,20,0,0,stable
+TUnit.UnitTests.TestNameTypeFormatterTests,"Strips_Generic_Arity_From_Class_Name(System.String, String)",20,20,0,0,stable
+TUnit.UnitTests.TestRunnerTests,DependencySkip_PreservesOnlyNonEmptySkipReasons(),20,20,0,0,stable
+TUnit.UnitTests.TestRunnerTests,DependencySkip_PreservesOnlyNonEmptySkipReasons(Existing skip reason),20,20,0,0,stable
+TUnit.UnitTests.TestRunnerTests,DependencySkip_PreservesOnlyNonEmptySkipReasons(null),20,20,0,0,stable
+TUnit.UnitTests.TestRunnerTests,DependencySkip_WaitsForExecutionLock,20,20,0,0,stable
+TUnit.UnitTests.TestRunnerTests,DetectCircularDependencies_WithCancelledToken_Throws,20,20,0,0,stable
+TUnit.UnitTests.TestRunnerTests,ExecuteTestAsync_WithDependencies_DeduplicatesConcurrentAttempts,20,20,0,0,stable
+TUnit.UnitTests.TestRunnerTests,ExecuteTestAsync_WithDependencies_UsesExecutingTestsLedger,20,20,0,0,stable
+TUnit.UnitTests.TestRunnerTests,ExecuteTestAsync_WithFailedCircularDependency_SkipsDependentWithoutReentry,20,20,0,0,stable
+TUnit.UnitTests.TestRunnerTests,ExecuteTestAsync_WithNoDependenciesAndExistingExecutionTask_AwaitsExistingTask,20,20,0,0,stable
+TUnit.UnitTests.TestRunnerTests,ExecuteTestAsync_WithNoDependenciesButDependencyTarget_UsesExecutingTestsLedger,20,20,0,0,stable
+TUnit.UnitTests.TestRunnerTests,ExecuteTestAsync_WithNoDependencies_DoesNotUseExecutingTestsLedger,20,20,0,0,stable
+TUnit.UnitTests.TestRunnerTests,ExecuteTestWithoutExecutionTaskAsync_WithNoDependenciesAndExistingExecutionTask_ExecutesTest,20,20,0,0,stable
+TUnit.UnitTests.TestRunnerTests,MarkDependencyRelatedTestsForExecutionDedup_MarksTransitiveDependencyTargetsOutsideBatch,20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Cap_Is_Parallelism_Plus_Processors_Clamped_Per_Processor(10000, 2, 128)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Cap_Is_Parallelism_Plus_Processors_Clamped_Per_Processor(10000, 20, 1280)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Cap_Is_Parallelism_Plus_Processors_Clamped_Per_Processor(2147483647, 8, 512)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Cap_Is_Parallelism_Plus_Processors_Clamped_Per_Processor(80, 20, 100)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Detects_Saturated_Thread_Pool(10, 10, 0, False)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Detects_Saturated_Thread_Pool(10, 10, 1, True)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Detects_Saturated_Thread_Pool(10, 10, 500, True)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Detects_Saturated_Thread_Pool(10, 9, 500, False)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,Dispose_Keeps_Minimum_User_Changed_After_Raise,20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,Dispose_Restores_Minimum_User_Set_After_Start,20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,Dispose_Without_Raise_Leaves_Minimum_Unchanged,20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,Does_Not_Start_When_Disabled_By_Environment_Variable,20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,Does_Not_Start_When_Minimum_Already_At_Ceiling,20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Environment_Flag_Accepts_Only_Truthy_Values(, False)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Environment_Flag_Accepts_Only_Truthy_Values(0, False)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Environment_Flag_Accepts_Only_Truthy_Values(1, True)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Environment_Flag_Accepts_Only_Truthy_Values(TRUE, True)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Environment_Flag_Accepts_Only_Truthy_Values(false, False)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Environment_Flag_Accepts_Only_Truthy_Values(null, False)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Environment_Flag_Accepts_Only_Truthy_Values(yes, True)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,Escalates_From_User_Minimum_Already_At_First_Target,20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,Escalates_Only_After_Pool_Reaches_Raised_Minimum,20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Escalation_Doubles_Up_To_Ceiling(100, 1280, 200)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Escalation_Doubles_Up_To_Ceiling(1000, 1280, 1280)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Escalation_Doubles_Up_To_Ceiling(1280, 1280, 1280)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,Raise_Is_Clamped_To_Pool_Maximum,20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,Raise_Sets_Minimum_To_Cap_And_Dispose_Restores_It,20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Starved_Only_When_Probe_Waits_And_Cpus_Are_Idle(10, 0.1, False)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Starved_Only_When_Probe_Waits_And_Cpus_Are_Idle(30, 0.1, False)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Starved_Only_When_Probe_Waits_And_Cpus_Are_Idle(45, 0.1, True)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Starved_Only_When_Probe_Waits_And_Cpus_Are_Idle(50, 0.49, True)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Starved_Only_When_Probe_Waits_And_Cpus_Are_Idle(60, 0.1, True)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,"Starved_Only_When_Probe_Waits_And_Cpus_Are_Idle(60, 0.9, False)",20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,Stops_Escalating_When_User_Changes_Minimum,20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,Timeout_Diagnostics_Include_Thread_Pool_Snapshot_And_Saturation_Hint,20,20,0,0,stable
+TUnit.UnitTests.ThreadPoolStarvationMonitorTests,Timeout_Diagnostics_Omit_Saturation_Hint_When_Pool_Is_Idle,20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,External_Cancellation_Preserves_External_Token_When_Execution_Completes_First,20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,External_Cancellation_Remains_Active_While_Body_Is_Queued,20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Independent_Operation_Cancellation_Is_Not_A_Timeout,20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Independent_Operation_Cancellation_Is_Preserved_When_Timeout_Is_Also_Cancelled,20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Late_Fault_After_Cancellation_Is_Observed(False),20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Late_Fault_After_Cancellation_Is_Observed(True),20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Linked_Cancellation_From_An_Earlier_Base_Is_Not_The_Current_Timeout,20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,"Linked_Timeout_Cancellation_Is_Classified_Without_Routine_Diagnostics(False, False)",20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,"Linked_Timeout_Cancellation_Is_Classified_Without_Routine_Diagnostics(False, True)",20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,"Linked_Timeout_Cancellation_Is_Classified_Without_Routine_Diagnostics(True, False)",20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,"Linked_Timeout_Cancellation_Is_Classified_Without_Routine_Diagnostics(True, True)",20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Linked_Timeout_Preserves_Custom_Diagnostics(False),20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Linked_Timeout_Preserves_Custom_Diagnostics(True),20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Operation_Can_Complete_Before_Timeout,20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Operation_Failure_Is_Preserved_Before_Timeout,20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Ordinary_Factory_Has_Timeout_Armed_Before_Invocation(False),20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Ordinary_Factory_Has_Timeout_Armed_Before_Invocation(True),20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Queued_Body_Does_Not_Consume_Its_Timeout,20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Started_Synchronously_Blocking_Body_Times_Out,20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Synchronous_External_Cancellation_Preserves_External_Token,20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Synchronous_Independent_Cancellation_Is_Preserved(False),20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Synchronous_Independent_Cancellation_Is_Preserved(True),20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Synchronous_Timeout_Cancellation_Preserves_Diagnostics,20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Timeout_Does_Not_Preserve_Routine_Operation_Cancellation(False),20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Timeout_Does_Not_Preserve_Routine_Operation_Cancellation(True),20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Timeout_Preserves_Custom_Task_Cancellation(False),20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Timeout_Preserves_Custom_Task_Cancellation(True),20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Timeout_Preserves_Exception_Thrown_During_Cancellation(False),20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Timeout_Preserves_Exception_Thrown_During_Cancellation(True),20,20,0,0,stable
+TUnit.UnitTests.TimeoutHelperTests,Tokenless_Operation_Cancellation_Is_Preserved_When_Timeout_Is_Also_Cancelled,20,20,0,0,stable
+TUnit.UnitTests.TraceScopeRegistryTests,GetSharedType_UnregisteredObject_ReturnsNull,20,20,0,0,stable
+TUnit.UnitTests.TraceScopeRegistryTests,RegisterFromDataSource_DuplicateObject_KeepsFirstRegistration,20,20,0,0,stable
+TUnit.UnitTests.TraceScopeRegistryTests,RegisterFromDataSource_FewerSharedTypesThanObjects_DefaultsToNone,20,20,0,0,stable
+TUnit.UnitTests.TraceScopeRegistryTests,RegisterFromDataSource_UsesReferenceEquality,20,20,0,0,stable
+TUnit.UnitTests.TraceScopeRegistryTests,RegisterFromDataSource_WithEmptyObjectsArray_DoesNotThrow,20,20,0,0,stable
+TUnit.UnitTests.TraceScopeRegistryTests,RegisterFromDataSource_WithNonTraceScopeProvider_DoesNotRegister,20,20,0,0,stable
+TUnit.UnitTests.TraceScopeRegistryTests,RegisterFromDataSource_WithNullElementsInArray_SkipsNulls,20,20,0,0,stable
+TUnit.UnitTests.TraceScopeRegistryTests,RegisterFromDataSource_WithNullObjectsArray_DoesNotThrow,20,20,0,0,stable
+TUnit.UnitTests.TraceScopeRegistryTests,RegisterFromDataSource_WithTraceScopeProvider_RegistersSharedTypes,20,20,0,0,stable
+TUnit.UnitTests.TypeArrayComparerTests,TypeArrayComparer_ComplexGenericTypes_HandledCorrectly,20,20,0,0,stable
+TUnit.UnitTests.TypeArrayComparerTests,TypeArrayComparer_DifferentArrays_ReturnsFalse,20,20,0,0,stable
+TUnit.UnitTests.TypeArrayComparerTests,TypeArrayComparer_DifferentLengthArrays_ReturnsFalse,20,20,0,0,stable
+TUnit.UnitTests.TypeArrayComparerTests,TypeArrayComparer_EmptyArrays_ReturnsTrue,20,20,0,0,stable
+TUnit.UnitTests.TypeArrayComparerTests,TypeArrayComparer_EqualArrays_ReturnsTrue,20,20,0,0,stable
+TUnit.UnitTests.TypeArrayComparerTests,TypeArrayComparer_GetHashCode_ConsistentForEqualArrays,20,20,0,0,stable
+TUnit.UnitTests.TypeArrayComparerTests,TypeArrayComparer_GetHashCode_DifferentForDifferentArrays,20,20,0,0,stable
+TUnit.UnitTests.TypeArrayComparerTests,TypeArrayComparer_NullArrays_HandledCorrectly,20,20,0,0,stable
+TUnit.UnitTests.TypeArrayComparerTests,TypeArrayComparer_SameReference_ReturnsTrue,20,20,0,0,stable
+TUnit.UnitTests.UnobservedTaskExceptionTrackerTests,Concurrent_Sessions_Record_Exception_As_Unattributable,20,20,0,0,stable
+TUnit.UnitTests.UnobservedTaskExceptionTrackerTests,Each_Cause_Of_An_Aggregate_Is_Recorded_Separately,20,20,0,0,stable
+TUnit.UnitTests.UnobservedTaskExceptionTrackerTests,Empty_Aggregate_Cause_Is_Recorded,20,20,0,0,stable
+TUnit.UnitTests.UnobservedTaskExceptionTrackerTests,Single_Session_Records_Attributable_Exception,20,20,0,0,stable
+TUnit.UnitTests.UserRepositoryTests,CanCreateUser,20,20,0,0,stable
+TUnit.UnitTests.UserRepositoryTests,CreateSchema,20,20,0,0,stable
+TUnit.UnitTests.UserRepositoryTests,InitializeDatabase,20,20,0,0,stable
