@@ -15,3 +15,6 @@
 "serilog","https://github.com/serilog/serilog.git","07d39cfb2928076ecd902a61d295f90d74fe1fa5","2026-07-10","LICENSE"
 "testcontainers-dotnet","https://github.com/testcontainers/testcontainers-dotnet.git","1717807affaae9b967035516ebedcd76dd7eaffb","2026-07-02","LICENSE"
 "vs-streamjsonrpc","https://github.com/microsoft/vs-streamjsonrpc.git","d34c6fbc0e825169cdca97cde1e3e65cc059b682","2026-07-23","LICENSE"
+"refit","https://github.com/reactiveui/refit.git","89779cd474bc6d788f3f10e3f58fa0a5877dadb2","2026-11-03","LICENSE"
+"fluentassertions","https://github.com/fluentassertions/fluentassertions.git","a5bd378d5618380a5e12734560b0f64626765e17","2026-10-28","LICENSE (Xceed Community License, non-commercial)"
+"Verify","https://github.com/VerifyTests/Verify.git","b3ea8e5191ec7672f4e1e4315e5be299ea4e406b","2026-11-03","license.txt"

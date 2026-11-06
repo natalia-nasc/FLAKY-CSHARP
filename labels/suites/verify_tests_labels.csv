@@ -1,0 +1,1543 @@
+﻿className,test,runs_presente,passed,failed,skipped,label
+AotCompatibilityTests,AotCompatibilityTests.Serialize_AnonymousObject_UnderAot,100,0,0,100,skipped
+AsyncCleanupTests,AsyncCleanupTests.ConverterAsyncCleanupIsAwaited,100,100,0,0,stable
+AutoVerify,AutoVerify.AutoVerifyThrowException,100,100,0,0,stable
+AutoVerify,AutoVerify.DelegateFalse,100,100,0,0,stable
+AutoVerify,AutoVerify.DelegateFalseCustomNames,100,100,0,0,stable
+AutoVerify,AutoVerify.DelegateTrue,100,100,0,0,stable
+AutoVerify,AutoVerify.DelegateTrueCustomNames,100,100,0,0,stable
+AutoVerify,AutoVerify.Simple,100,100,0,0,stable
+AutoVerify,AutoVerify.ThrowException,100,100,0,0,stable
+BypassComparerTests,BypassComparerTests.SourceDiffers_DerivedComparerBypassed,100,100,0,0,stable
+BypassComparerTests,BypassComparerTests.SourceEqual_DerivedComparerUsed,100,100,0,0,stable
+CallbackTests,CallbackTests.OnFirstVerifyAwaitsAllHandlers,100,100,0,0,stable
+CircularTests,CircularTests.Simple,100,100,0,0,stable
+ClaimsTests,ClaimsTests.ClaimsPrincipalWithIdentity,100,100,0,0,stable
+ClaimsTests,ClaimsTests.EmptyClaimsPrincipal,100,100,0,0,stable
+CombinationSample,CombinationSample.BuildAddressExceptionsTest,100,100,0,0,stable
+CombinationSample,CombinationSample.BuildAddressTest,100,100,0,0,stable
+CombinationSample,CombinationSample.BuildAddressWithHeaderOverridesTest,100,100,0,0,stable
+CombinationSample,CombinationSample.BuildAddressWithHeaderTest,100,100,0,0,stable
+CombinationSample,CombinationSample.CombinationAlignment,100,100,0,0,stable
+CombinationSample,CombinationSample.InlineValues,100,100,0,0,stable
+CombinationTests,CombinationTests.AsyncEnumerableTest,100,100,0,0,stable
+CombinationTests,CombinationTests.DateKeysThatCompareEqual,100,100,0,0,stable
+CombinationTests,CombinationTests.EmptyListThrowsDescriptive,100,100,0,0,stable
+CombinationTests,CombinationTests.EmptyResults,100,100,0,0,stable
+CombinationTests,CombinationTests.EmptyResultsNested,100,100,0,0,stable
+CombinationTests,CombinationTests.EnumerableTest,100,100,0,0,stable
+CombinationTests,CombinationTests.MultiLineArgumentException,100,100,0,0,stable
+CombinationTests,CombinationTests.RecordingPausedTest,100,100,0,0,stable
+CombinationTests,CombinationTests.RecordingTest,100,100,0,0,stable
+CombinationTests,CombinationTests.RecordingWithExceptionPausedTest,100,100,0,0,stable
+CombinationTests,CombinationTests.RecordingWithExceptionTest,100,100,0,0,stable
+CombinationTests,CombinationTests.SimpleReturnTest,100,100,0,0,stable
+CombinationTests,CombinationTests.TaskTest,100,100,0,0,stable
+CombinationTests,CombinationTests.ValueTaskTest,100,100,0,0,stable
+CombinationTests,CombinationTests.VoidTaskTest,100,100,0,0,stable
+CombinationTests,CombinationTests.VoidValueTaskTest,100,100,0,0,stable
+ComparerTests,ComparerTests.Instance,100,100,0,0,stable
+ComparerTests,ComparerTests.Static,100,100,0,0,stable
+CopyConstructorTests,CopyConstructorTests.ClonesAppendedFiles,100,100,0,0,stable
+CopyConstructorTests,CopyConstructorTests.ClonesExtensionMappedScrubbers,100,100,0,0,stable
+CopyConstructorTests,CopyConstructorTests.ClonesExtensionStreamComparers,100,100,0,0,stable
+CopyConstructorTests,CopyConstructorTests.PreservesThrowException,100,100,0,0,stable
+CopyConstructorTests,CopyConstructorTests.SerializationMutationAfterCopyDoesNotLeak,100,100,0,0,stable
+CopyConstructorTests,CopyConstructorTests.SerializationMutationOnCopyDoesNotLeak,100,100,0,0,stable
+CounterConcurrencyTests,CounterConcurrencyTests.ConcurrentGuids,100,100,0,0,stable
+CounterConcurrencyTests,CounterConcurrencyTests.ConcurrentNumericIds,100,100,0,0,stable
+CounterTests,CounterTests.CounterTryConvert,100,100,0,0,stable
+CustomCounterTests,CustomCounterTests.CounterUsage,100,100,0,0,stable
+DanglingManifestTests,DanglingManifestTests.AwkwardPathsRoundTrip,100,100,0,0,stable
+DanglingManifestTests,DanglingManifestTests.DuplicatesAreWrittenOnce,100,100,0,0,stable
+DanglingManifestTests,DanglingManifestTests.EmptyManifestIsStillCoverage,100,100,0,0,stable
+DanglingManifestTests,DanglingManifestTests.EveryFrameworkPresentIsCovered,100,100,0,0,stable
+DanglingManifestTests,DanglingManifestTests.FrameworkSpecificTestIsKnownToTheOtherFrameworks,100,100,0,0,stable
+DanglingManifestTests,DanglingManifestTests.MissingFrameworkIsNotCovered,100,100,0,0,stable
+DanglingManifestTests,DanglingManifestTests.NoDirectoryIsNotCovered,100,100,0,0,stable
+DanglingManifestTests,DanglingManifestTests.OrphanAndRetiredFrameworkSurviveTheUnion,100,100,0,0,stable
+DanglingManifestTests,DanglingManifestTests.PrefixWithoutFiles,100,100,0,0,stable
+DanglingManifestTests,DanglingManifestTests.ReRunReplacesManifest,100,100,0,0,stable
+DanglingManifestTests,DanglingManifestTests.RetiredFrameworkDoesNotSatisfyCoverage,100,100,0,0,stable
+DanglingManifestTests,DanglingManifestTests.SingleFrameworkIsCoveredByItsOwnManifest,100,100,0,0,stable
+DanglingManifestTests,DanglingManifestTests.StaleManifestIsIgnored,100,100,0,0,stable
+DanglingManifestTests,DanglingManifestTests.WithoutCoverageOnlyTheOrphanIsReported,100,100,0,0,stable
+DanglingManifestTests,DanglingManifestTests.WriteLeavesNoTemporaryFiles,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.AllTracked,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.DirectoryCaseMismatch,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.DirectoryWithTrailingSeparator,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.DuplicateTrackedEntries,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.FindExcludesReceived,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.FindIncludesBinAndObj,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.FindIncludesExtensionlessVerified,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.FindIncludesNestedDirectories,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.FindNonSplitUniqueDirectory,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.FindSplitModeUniqueDirectory,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.IncorrectCase,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.LongestPrefixWins,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.NoPrefixesRecorded,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.NothingOnDisk,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.OrphanedNamesContainingNet,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.OrphanedUnderDirectoryContainingUniquenessToken,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.OrphanedWithIndexesAndParameters,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.OrphanedWithLowerCaseUniquenessSegments,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.OrphanedWithUniqueness,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.PrefixIsNotASubstringMatch,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.PrefixMatchIgnoresCase,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.RetiredFrameworkSnapshots,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.StaleParameterOnLiveTest,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.TrackedFileMissingFromDisk,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.UniqueDirectoryPrefixes,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.UniquenessFromAnotherRun,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.UnnormalizedTrackedPath,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.Untracked,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.UntrackedAndIncorrectCase,100,100,0,0,stable
+DanglingSnapshotsCheckTests,DanglingSnapshotsCheckTests.UseFileNamePrefix,100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""%y"", max: 4, min: 1)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""'/'"", max: 1, min: 1)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""':'"", max: 1, min: 1)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""'o\\'clock'"", max: 7, min: 7)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""/"", max: 1, min: 1)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: "":"", max: 1, min: 1)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""K"", max: 6, min: 0)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""KK"", max: 12, min: 0)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""M"", max: 2, min: 1)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""MM"", max: 2, min: 2)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""MMM"", max: 3, min: 3)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""MMMM"", max: 9, min: 3)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""MMMMM"", max: 9, min: 3)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""d"", max: 2, min: 1)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""dd"", max: 2, min: 2)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""ddd"", max: 3, min: 3)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""dddd"", max: 9, min: 6)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""ddddd"", max: 9, min: 6)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""f"", max: 1, min: 1)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""ff"", max: 2, min: 2)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""fff"", max: 3, min: 3)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""ffff"", max: 4, min: 4)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""fffff"", max: 5, min: 5)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""ffffff"", max: 6, min: 6)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""fffffff"", max: 7, min: 7)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""g"", max: 4, min: 4)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""gg"", max: 4, min: 4)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""ggg"", max: 4, min: 4)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""h"", max: 2, min: 1)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""hh"", max: 2, min: 2)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""hhh"", max: 2, min: 2)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""m"", max: 2, min: 1)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""mm"", max: 2, min: 2)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""mmm"", max: 2, min: 2)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""s"", max: 2, min: 1)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""ss"", max: 2, min: 2)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""sss"", max: 2, min: 2)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""t"", max: 1, min: 1)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""tt"", max: 2, min: 2)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""ttt"", max: 2, min: 2)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""y"", max: 4, min: 1)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""yy"", max: 4, min: 2)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""yyy"", max: 4, min: 3)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""yyyy"", max: 4, min: 4)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""yyyy'/'MM'/'dd"", max: 10, min: 10)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""yyyy-MM-dd"", max: 10, min: 10)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""yyyy-MM-ddTHH:mm:ss.F"", max: 21, min: 19)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""yyyy-MM-ddTHH:mm:ss.FFFF"", max: 24, min: 19)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""yyyy/MM/dd"", max: 10, min: 10)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""yyyyy"", max: 5, min: 5)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""z"", max: 3, min: 2)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""zz"", max: 3, min: 3)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""zzz"", max: 6, min: 6)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,"DateFormatLengthCalculatorTests.Combos(format: ""zzzz"", max: 6, min: 6)",100,100,0,0,stable
+DateFormatLengthCalculatorTests,DateFormatLengthCalculatorTests.GenitiveMonthNamesFeedTheBounds,100,100,0,0,stable
+DateFormatLengthCalculatorTests,DateFormatLengthCalculatorTests.SameNamedCulturesWithDifferentFormatsAreNotShared,100,100,0,0,stable
+DateFormatterTests,DateFormatterTests.DateTimeCombinations,100,100,0,0,stable
+DateFormatterTests,DateFormatterTests.DateTimeLocalToJsonString,100,100,0,0,stable
+DateFormatterTests,DateFormatterTests.DateTimeLocalToParameterString,100,100,0,0,stable
+DateFormatterTests,DateFormatterTests.DateTimeOffsetCombinations,100,100,0,0,stable
+DateFormatterTests,DateFormatterTests.DateTimeOffsetUtcToJsonString,100,100,0,0,stable
+DateFormatterTests,DateFormatterTests.DateTimeOffsetUtcToParameterString,100,100,0,0,stable
+DateFormatterTests,DateFormatterTests.DateTimeOtherTimeZoneNegativeToJsonString,100,100,0,0,stable
+DateFormatterTests,DateFormatterTests.DateTimeOtherTimeZoneNegativeToParameterString,100,100,0,0,stable
+DateFormatterTests,DateFormatterTests.DateTimeOtherTimeZoneToJsonString,100,100,0,0,stable
+DateFormatterTests,DateFormatterTests.DateTimeOtherTimeZoneToParameterString,100,100,0,0,stable
+DateFormatterTests,DateFormatterTests.DateTimeUnspecifiedToJsonString,100,100,0,0,stable
+DateFormatterTests,DateFormatterTests.DateTimeUnspecifiedToParameterString,100,100,0,0,stable
+DateFormatterTests,DateFormatterTests.DateTimeUtcToJsonString,100,100,0,0,stable
+DateFormatterTests,DateFormatterTests.DateTimeUtcToParameterString,100,100,0,0,stable
+DateFormatterTests,"DateFormatterTests.OffsetDoesNotTakeTheCurrentCultureNegativeSign(hours: -1,5, expectedJson: ""2000-10-01 -1-30"", expectedParameter: ""2000-10-01-1-30"")",100,100,0,0,stable
+DateFormatterTests,"DateFormatterTests.OffsetDoesNotTakeTheCurrentCultureNegativeSign(hours: -5, expectedJson: ""2000-10-01 -5"", expectedParameter: ""2000-10-01-5"")",100,100,0,0,stable
+DateFormatterTests,"DateFormatterTests.OffsetDoesNotTakeTheCurrentCultureNegativeSign(hours: 0, expectedJson: ""2000-10-01 +0"", expectedParameter: ""2000-10-01+0"")",100,100,0,0,stable
+DateFormatterTests,"DateFormatterTests.OffsetDoesNotTakeTheCurrentCultureNegativeSign(hours: 1,5, expectedJson: ""2000-10-01 +1-30"", expectedParameter: ""2000-10-01+1-30"")",100,100,0,0,stable
+DateFormatterTests,"DateFormatterTests.OffsetDoesNotTakeTheCurrentCultureNegativeSign(hours: 5, expectedJson: ""2000-10-01 +5"", expectedParameter: ""2000-10-01+5"")",100,100,0,0,stable
+DateFormatterTests,DateFormatterTests.SubHourOffsets,100,100,0,0,stable
+DateFormatterTests,DateFormatterTests.SubMillisecondTicks,100,100,0,0,stable
+DateFormatterTests,DateFormatterTests.SubMillisecondTicksDoNotCollide,100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.DateTimeOffsets(value: ""1995-10-01 1995-10-01 1995-10-02"", name: ""multiple"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.DateTimeOffsets(value: ""1995-10-01"", name: ""simple"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.DateTimeOffsets(value: ""1995-10-01b"", name: ""trailing"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.DateTimeOffsets(value: ""1998-10-01"", name: ""named"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.DateTimeOffsets(value: ""a1995-10-01"", name: ""starting"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.DateTimeOffsets(value: ""a1995-10-01b"", name: ""wrapped"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.DateTimeOffsets(value: ""aaaa"", name: ""no match short"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.DateTimeOffsets(value: ""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"", name: ""no match"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.DateTimes(value: ""1995-10-01 1995-10-01 1995-10-02"", name: ""multiple"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.DateTimes(value: ""1995-10-01"", name: ""simple"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.DateTimes(value: ""1995-10-01b"", name: ""trailing"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.DateTimes(value: ""1998-10-01"", name: ""named"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.DateTimes(value: ""a1995-10-01"", name: ""starting"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.DateTimes(value: ""a1995-10-01b"", name: ""wrapped"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.DateTimes(value: ""aaaa"", name: ""no match short"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.DateTimes(value: ""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"", name: ""no match"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.Dates(value: ""1995-10-01 1995-10-01 1995-10-02"", name: ""multiple"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.Dates(value: ""1995-10-01"", name: ""simple"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.Dates(value: ""1995-10-01b"", name: ""trailing"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.Dates(value: ""1998-10-01"", name: ""named"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.Dates(value: ""a1995-10-01"", name: ""starting"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.Dates(value: ""a1995-10-01b"", name: ""wrapped"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.Dates(value: ""aaaa"", name: ""no match short"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.Dates(value: ""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"", name: ""no match"")",100,100,0,0,stable
+DateScrubberTests,DateScrubberTests.GetCultureDates,100,100,0,0,stable
+DateScrubberTests,DateScrubberTests.InferredNamedDateFluent,100,100,0,0,stable
+DateScrubberTests,DateScrubberTests.NamedDateFluent,100,100,0,0,stable
+DateScrubberTests,DateScrubberTests.NamedDateInstance,100,100,0,0,stable
+DateScrubberTests,DateScrubberTests.NamedDateTimeFluent,100,100,0,0,stable
+DateScrubberTests,DateScrubberTests.NamedDateTimeInstance,100,100,0,0,stable
+DateScrubberTests,DateScrubberTests.NamedDateTimeOffsetFluent,100,100,0,0,stable
+DateScrubberTests,DateScrubberTests.NamedDateTimeOffsetInstance,100,100,0,0,stable
+DateScrubberTests,DateScrubberTests.NamedDateTimeOffsetTopLevelFluent,100,100,0,0,stable
+DateScrubberTests,DateScrubberTests.NamedDateTimeOffsetTopLevelGlobal,100,100,0,0,stable
+DateScrubberTests,DateScrubberTests.NamedDateTimeOffsetTopLevelInstance,100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.NamedDateTimeOffsets(value: ""1935-10-01"", name: ""instanceNamed"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.NamedDateTimeOffsets(value: ""1998-10-01"", name: ""named"")",100,100,0,0,stable
+DateScrubberTests,DateScrubberTests.NamedDateTimeTopLevelFluent,100,100,0,0,stable
+DateScrubberTests,DateScrubberTests.NamedDateTimeTopLevelInstance,100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.NamedDateTimes(value: ""1935-10-01"", name: ""instanceNamed"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.NamedDateTimes(value: ""1998-10-01"", name: ""named"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.NamedDates(value: ""1935-10-01"", name: ""instanceNamed"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.NamedDates(value: ""1998-10-01"", name: ""named"")",100,100,0,0,stable
+DateScrubberTests,DateScrubberTests.ReplaceDateTimes_AllCultures,100,100,0,0,stable
+DateScrubberTests,DateScrubberTests.StandardFormat_AllCultures,100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDateTimeOffsets(value: ""1998 October 01 Thursday"", name: ""named"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDateTimeOffsets(value: ""2023 December 21 Thursday 2023 December 21 Thursda""···, name: ""multiple"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDateTimeOffsets(value: ""2023 December 21 Thursday"", name: ""simple"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDateTimeOffsets(value: ""2023 December 21 Thursdayb"", name: ""trailing"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDateTimeOffsets(value: ""a2023 December 21 Thursday"", name: ""starting"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDateTimeOffsets(value: ""a2023 December 21 Thursdayb"", name: ""wrapped"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDateTimeOffsets(value: ""aaaa"", name: ""no match short"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDateTimeOffsets(value: ""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"", name: ""no match"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDateTimes(value: ""1998 October 01 Thursday"", name: ""named"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDateTimes(value: ""2023 December 21 Thursday 2023 December 21 Thursda""···, name: ""multiple"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDateTimes(value: ""2023 December 21 Thursday"", name: ""simple"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDateTimes(value: ""2023 December 21 Thursdayb"", name: ""trailing"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDateTimes(value: ""a2023 December 21 Thursday"", name: ""starting"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDateTimes(value: ""a2023 December 21 Thursdayb"", name: ""wrapped"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDateTimes(value: ""aaaa"", name: ""no match short"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDateTimes(value: ""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"", name: ""no match"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDates(value: ""1998 October 01 Thursday"", name: ""named"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDates(value: ""2023 December 21 Thursday 2023 December 21 Thursda""···, name: ""multiple"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDates(value: ""2023 December 21 Thursday"", name: ""simple"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDates(value: ""2023 December 21 Thursdayb"", name: ""trailing"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDates(value: ""a2023 December 21 Thursday"", name: ""starting"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDates(value: ""a2023 December 21 Thursdayb"", name: ""wrapped"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDates(value: ""aaaa"", name: ""no match short"")",100,100,0,0,stable
+DateScrubberTests,"DateScrubberTests.VariableLengthDates(value: ""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"", name: ""no match"")",100,100,0,0,stable
+DeriveProjectRelativeDirectoryTests,DeriveProjectRelativeDirectoryTests.MirrorAtProjectRootUsesRoot,100,100,0,0,stable
+DeriveProjectRelativeDirectoryTests,DeriveProjectRelativeDirectoryTests.MirrorSourceOutsideProjectUsesRoot,100,100,0,0,stable
+DeriveProjectRelativeDirectoryTests,DeriveProjectRelativeDirectoryTests.MirrorsNestedSourceStructure,100,100,0,0,stable
+DeriveProjectRelativeDirectoryTests,DeriveProjectRelativeDirectoryTests.NotMirroredUsesRoot,100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: "" C:\\path\\ "", find: ""C:/path"", expected: "" {replace} "")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: "" C:\\path\\"", find: ""C:/path"", expected: "" {replace}"")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: ""/C:/path"", find: ""C:/path"", expected: ""/{replace}"")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: ""/C:\\path\\ "", find: ""C:/path"", expected: ""/{replace} "")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: "":C:\\path\\ "", find: ""C:/path"", expected: "":{replace} "")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: ""C:/path "", find: ""C:/path"", expected: ""{replace} "")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: ""C:/path"", find: ""C:/path"", expected: ""{replace}"")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: ""C:/path/ "", find: ""C:/path"", expected: ""{replace} "")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: ""C:/path/"", find: ""C:/path"", expected: ""{replace}"")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: ""C:/path/a"", find: ""C:/path"", expected: ""{replace}a"")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: ""C:/path/a/"", find: ""C:/path"", expected: ""{replace}a/"")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: ""C:\\path "", find: ""C:/path"", expected: ""{replace} "")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: ""C:\\path"", find: ""C:/path"", expected: ""{replace}"")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: ""C:\\path\\ "", find: ""C:/path"", expected: ""{replace} "")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: ""C:\\path\\"", find: ""C:/path"", expected: ""{replace}"")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: ""C:\\path\\a"", find: ""C:/path"", expected: ""{replace}a"")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: ""C:\\path\\a/"", find: ""C:/path"", expected: ""{replace}a/"")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: ""\\C:\\path"", find: ""C:/path"", expected: ""\\{replace}"")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: ""\\C:\\path\\ "", find: ""C:/path"", expected: ""\\{replace} "")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.BasicReplacements(input: ""overlyeager/tmp/replacement"", find: ""/tmp"", expected: ""overlyeager/tmp/replacement"")",100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.DoubleSlashes,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.EmptyPathsList,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.EmptyStringBuilder,100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.InvalidPrecedingOrTrailingCharacters(input: ""9C:/path"", find: ""C:/path"", expected: ""9C:/path"")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.InvalidPrecedingOrTrailingCharacters(input: ""C:/path9"", find: ""C:/path"", expected: ""C:/path9"")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.InvalidPrecedingOrTrailingCharacters(input: ""C:/patha"", find: ""C:/path"", expected: ""C:/patha"")",100,100,0,0,stable
+DirectoryReplacementTests,"DirectoryReplacementTests.InvalidPrecedingOrTrailingCharacters(input: ""aC:/path"", find: ""C:/path"", expected: ""aC:/path"")",100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.LargeString_CrossChunkMatching,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.MixedSeparators,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.MultipleChunks,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.MultipleOccurrencesOfSamePath,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.MultipleReplacements,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.NoMatches,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.NonOverlappingMultiplePaths,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.OverlappingPaths_ThreeLevels,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.PathAtEnd,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.PathAtEndWithSeparator,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.PathAtStart,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.PathSpanningThreeChunks,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.PathsInQuotes,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.ProcessLongerDirectoryFirst,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.ProcessLongerDirectoryFirst_Reversed,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.SpaceInPath,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.UnixStylePaths,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.UnixStylePathsWithBackslashInContent,100,100,0,0,stable
+DirectoryReplacementTests,DirectoryReplacementTests.VeryLongPath,100,100,0,0,stable
+EnsureScrubbingParameters,EnsureScrubbingParameters.Test,100,100,0,0,stable
+ExcludeTargetsTests,ExcludeTargetsTests.ConverterKeepsTargetByDefault,100,100,0,0,stable
+ExcludeTargetsTests,ExcludeTargetsTests.ConverterSkipsExcludedTarget,100,100,0,0,stable
+ExcludeTargetsTests,ExcludeTargetsTests.ExcludeConverterSourceTarget,100,100,0,0,stable
+ExcludeTargetsTests,ExcludeTargetsTests.ExcludeFileConverterSourceTarget,100,100,0,0,stable
+ExcludeTargetsTests,ExcludeTargetsTests.ExcludeStreamTarget,100,100,0,0,stable
+ExcludeTargetsTests,ExcludeTargetsTests.ExcludedStreamIsDisposed,100,100,0,0,stable
+ExcludeTargetsTests,ExcludeTargetsTests.ExcludingAllTargetsThrows,100,100,0,0,stable
+ExcludeTargetsTests,ExcludeTargetsTests.ExtensionMatchIsCaseInsensitive,100,100,0,0,stable
+ExcludeTargetsTests,ExcludeTargetsTests.ExtensionWithPeriodThrows,100,100,0,0,stable
+ExcludeTargetsTests,ExcludeTargetsTests.NoExtensionsThrows,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.AsyncExtensionConversion,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.EnsureInputs,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.ExtensionConversion,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.ExtensionConversionMultipleTargets,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.ExtensionConversionNamedMixedTarget,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.ExtensionConversionNamedTarget,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.ExtensionConversionStringBuilder,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.InvalidFileCharactersInName,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.Nested,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.NestedTarget,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.Recursive,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.TextSplit,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.TextSplitter,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.TextSplitterStream,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.TextSplitterWithFileAppender,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.WithInfo,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.WithInfoAndBinary,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.WithInfoAndModifiedBinary,100,0,100,0,broken
+ExtensionConverterTests,ExtensionConverterTests.WithInfo_AndAppends,100,100,0,0,stable
+ExtensionConverterTests,ExtensionConverterTests.WithInfo_AndRecording,100,100,0,0,stable
+FileHelperTests,FileHelperTests.ShouldNotLock,100,100,0,0,stable
+FileLockKillerTests,FileLockKillerTests.CurrentProcessIsNotReported,100,100,0,0,stable
+FileLockKillerTests,FileLockKillerTests.ParseEnvironmentVariable,100,100,0,0,stable
+FileLockKillerTests,FileLockKillerTests.ParseEnvironmentVariable_failure,100,100,0,0,stable
+FileNestingTests,FileNestingTests.CSharpProject,100,100,0,0,stable
+FileNestingTests,FileNestingTests.ProjectWithOnlyACodeBehind,100,100,0,0,stable
+FileNestingTests,FileNestingTests.RazorProject,100,100,0,0,stable
+FileNestingTests,FileNestingTests.RazorProjectWithNestingDisabled,100,100,0,0,stable
+FileNestingTests,FileNestingTests.RazorProjectWithNonePromotedToContent,100,100,0,0,stable
+FileNestingTests,FileNestingTests.RazorProjectWithSnapshotsAsContent,100,100,0,0,stable
+FileNestingTests,FileNestingTests.VisualBasicProject,100,100,0,0,stable
+FileNestingTests,FileNestingTests.WebProject,100,100,0,0,stable
+GuidScrubberTests,GuidScrubberTests.InferredNamedGuidFluent,100,100,0,0,stable
+GuidScrubberTests,GuidScrubberTests.InlineNamedGuidNFormat,100,100,0,0,stable
+GuidScrubberTests,GuidScrubberTests.Multiple,100,100,0,0,stable
+GuidScrubberTests,GuidScrubberTests.NamedGuidFluent,100,100,0,0,stable
+GuidScrubberTests,GuidScrubberTests.NamedGuidInstance,100,100,0,0,stable
+GuidScrubberTests,GuidScrubberTests.NamedGuidTopLevelFluent,100,100,0,0,stable
+GuidScrubberTests,GuidScrubberTests.NamedGuidTopLevelGlobal,100,100,0,0,stable
+GuidScrubberTests,GuidScrubberTests.NamedGuidTopLevelInstance,100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.NamedGuids(guid: ""<GUID>"", name: ""instanceNamed"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.NamedGuids(guid: ""<GUID>"", name: ""named"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""-173535ae995b4cc6a74e8cd4be57039c-"", name: ""n-dash"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""-<GUID>"", name: ""start-dash"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""-<GUID>- -173535ae-9""···, name: ""dash-duplicate"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""-<GUID>- -173535ae-9""···, name: ""dash-multiple"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""-<GUID>-"", name: ""dash"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""/<GUID>"", name: ""start-fslash"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""/<GUID>/"", name: ""fslash"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""00000000000000000000000000000000"", name: ""n-zeros"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""173535AE995B4CC6A74E8CD4BE57039C"", name: ""n-upper"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""173535ae995b4cc6a74e8cd4be57039c 173535ae995b4cc6a""···, name: ""n-duplicate"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""173535ae995b4cc6a74e8cd4be57039c 173535ae995b4cc6a""···, name: ""n-multiple"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""173535ae995b4cc6a74e8cd4be57039c"", name: ""n"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""173535ae995b4cc6a74e8cd4be57039ca"", name: ""n-end-letters"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""1<GUID>"", name: ""start-numbers"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""1<GUID>1"", name: ""numbers"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""<GUID> 173535ae-995b""···, name: ""simple-duplicate"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""<GUID> 173535ae-995b""···, name: ""simple-multiple"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""<GUID> 173535ae995b4""···, name: ""n-d-same"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""<GUID>"", name: ""simple"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""<GUID>-"", name: ""end-dash"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""<GUID>/"", name: ""end-fslash"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""<GUID>1"", name: ""end-numbers"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""<GUID>\\"", name: ""end-bslash"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""<GUID>]"", name: ""end-square"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""<GUID>a"", name: ""end-letters"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""<GUID>}"", name: ""end-curly"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""[173535ae995b4cc6a74e8cd4be57039c]"", name: ""n-square"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""[<GUID>"", name: ""start-square"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""[<GUID>] [173535ae-9""···, name: ""square-duplicate"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""[<GUID>] [173535ae-9""···, name: ""square-multiple"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""[<GUID>]"", name: ""square"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""\\<GUID>"", name: ""start-bslash"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""\\<GUID>\\}"", name: ""bslash"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""a173535ae995b4cc6a74e8cd4be57039c"", name: ""n-start-letters"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""a173535ae995b4cc6a74e8cd4be57039ca"", name: ""n-letters"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""a<GUID>"", name: ""start-letters"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""a<GUID>a"", name: ""letters"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""aaaaaaaaaaaaaaaaaaaaaaaa"", name: ""no match short"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"", name: ""no match"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""da39a3ee5e6b4b0d3255bfef95601890afd80709"", name: ""n-sha1"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca4""···, name: ""n-sha256"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""{<GUID>"", name: ""start-curly"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""{<GUID>} {173535ae-9""···, name: ""curly-duplicate"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""{<GUID>} {173535ae-9""···, name: ""curly-multiple"")",100,100,0,0,stable
+GuidScrubberTests,"GuidScrubberTests.Run(guid: ""{<GUID>}"", name: ""curly"")",100,100,0,0,stable
+GuidScrubberTests,GuidScrubberTests.ScrubInlineGuidsDashedOnly,100,100,0,0,stable
+GuidScrubberTests,GuidScrubberTests.ScrubInlineGuidsUndashedOnly,100,100,0,0,stable
+HandleStreamTests,HandleStreamTests.Mismatch,100,0,100,0,broken
+IgnoreInstanceTests,IgnoreInstanceTests.NonMatchingPredicateKeepsEmptyCollectionsIgnored,100,100,0,0,stable
+InlineEntryPointConventionTests,InlineEntryPointConventionTests.AForeignReceiverIsNeverAnEntryPoint,100,100,0,0,stable
+InlineEntryPointConventionTests,InlineEntryPointConventionTests.EveryEntryPointCanBeAppendedTo,100,100,0,0,stable
+InlineFSharpTests,InlineFSharpTests.AcceptFindsTheCallWithNoExpression,100,100,0,0,stable
+InlineFSharpTests,InlineFSharpTests.AcceptInsertsIntoAnEmptyCall,100,100,0,0,stable
+InlineFSharpTests,InlineFSharpTests.AcceptWritesTheIndentedForm,100,100,0,0,stable
+InlineFSharpTests,InlineFSharpTests.ContentThatLooksLikeLayout,100,100,0,0,stable
+InlineFSharpTests,InlineFSharpTests.FSharpLayoutIsTakenOffByTheDependency,100,100,0,0,stable
+InlineFSharpTests,InlineFSharpTests.LayoutIsContentInCSharp,100,100,0,0,stable
+InlineFSharpTests,InlineFSharpTests.LayoutIsNotContent,100,100,0,0,stable
+InlineFSharpTests,InlineFSharpTests.SingleLine,100,100,0,0,stable
+InlineFSharpTests,InlineFSharpTests.TrailingNewline,100,100,0,0,stable
+InlineRetireTests,InlineRetireTests.ADeclinedSnapshotRetiresItsOwnCallSite,100,100,0,0,stable
+InlineRetireTests,InlineRetireTests.APassingSnapshotLeavesASiblingsStagedSnapshot,100,100,0,0,stable
+InlineRetireTests,InlineRetireTests.APassingSnapshotLeavesWhatAnotherFrameworkStaged,100,100,0,0,stable
+InlineRetireTests,InlineRetireTests.APassingSnapshotSettlesWithItsValue,100,100,0,0,stable
+InlineRetireTests,InlineRetireTests.NotInlineClearsStagedFilesForTheCallSite,100,100,0,0,stable
+InlineRetireTests,InlineRetireTests.NotInlineRetiresTheCallSite,100,100,0,0,stable
+InlineTests,InlineTests.ADifferingInlineFirstTargetBypassesComparersAfterIt,100,100,0,0,stable
+InlineTests,InlineTests.ALaterSiteIsFoundWhereAnEarlierAcceptMovedIt,100,100,0,0,stable
+InlineTests,InlineTests.AutoVerifyAlreadyApplied,100,100,0,0,stable
+InlineTests,InlineTests.AutoVerifyDefaultDoesNotPatchAnotherTest,100,100,0,0,stable
+InlineTests,"InlineTests.AutoVerifyInsertHonorsTemplateEol(eol: ""\n"")",100,100,0,0,stable
+InlineTests,"InlineTests.AutoVerifyInsertHonorsTemplateEol(eol: ""\r\n"")",100,100,0,0,stable
+InlineTests,InlineTests.AutoVerifyIsHandedTheSourceFile,100,100,0,0,stable
+InlineTests,InlineTests.AutoVerifyMismatchRewritesSource,100,100,0,0,stable
+InlineTests,InlineTests.AutoVerifyNewInsertsLiteral,100,100,0,0,stable
+InlineTests,InlineTests.AutoVerifyNewReplacesDefaultArgument,100,100,0,0,stable
+InlineTests,InlineTests.AutoVerifyNotFoundFallsBackToThrow,100,100,0,0,stable
+InlineTests,"InlineTests.AutoVerifyRewriteHonorsTemplateEol(eol: ""\n"")",100,100,0,0,stable
+InlineTests,"InlineTests.AutoVerifyRewriteHonorsTemplateEol(eol: ""\r\n"")",100,100,0,0,stable
+InlineTests,InlineTests.BuildServerDoesNotRemoveTheLiteral,100,100,0,0,stable
+InlineTests,InlineTests.BuildServerDoesNotRewrite,100,100,0,0,stable
+InlineTests,InlineTests.Combinations,100,100,0,0,stable
+InlineTests,"InlineTests.ConstructorAndMethodParametersThrow(classArg: ""a"", number: 1)",100,100,0,0,stable
+InlineTests,"InlineTests.ConstructorAndMethodParametersThrow(classArg: ""b"", number: 2)",100,100,0,0,stable
+InlineTests,"InlineTests.ConstructorParametersThrow(classArg: ""a"")",100,100,0,0,stable
+InlineTests,"InlineTests.ConstructorParametersThrow(classArg: ""b"")",100,100,0,0,stable
+InlineTests,InlineTests.CrlfExpectedMatchesLfReceived,100,100,0,0,stable
+InlineTests,InlineTests.EdgeContent,100,100,0,0,stable
+InlineTests,InlineTests.EmptyString,100,100,0,0,stable
+InlineTests,"InlineTests.ExpectedLiteralEolNormalized(eol: ""\n"")",100,100,0,0,stable
+InlineTests,"InlineTests.ExpectedLiteralEolNormalized(eol: ""\r"")",100,100,0,0,stable
+InlineTests,"InlineTests.ExpectedLiteralEolNormalized(eol: ""\r\n"")",100,100,0,0,stable
+InlineTests,"InlineTests.FileNameDropsParameters(value: ""a"")",100,100,0,0,stable
+InlineTests,"InlineTests.FileNameDropsParameters(value: ""b"")",100,100,0,0,stable
+InlineTests,InlineTests.FirstTargetMustBeText,100,100,0,0,stable
+InlineTests,"InlineTests.IgnoredConstructorParameters(classArg: ""a"")",100,100,0,0,stable
+InlineTests,"InlineTests.IgnoredConstructorParameters(classArg: ""b"")",100,100,0,0,stable
+InlineTests,"InlineTests.IgnoredParameters(value: ""a"")",100,100,0,0,stable
+InlineTests,"InlineTests.IgnoredParameters(value: ""b"")",100,100,0,0,stable
+InlineTests,"InlineTests.IgnoredParametersByName(value: ""a"")",100,100,0,0,stable
+InlineTests,"InlineTests.IgnoredParametersByName(value: ""b"")",100,100,0,0,stable
+InlineTests,"InlineTests.IgnoredParametersForVerified(value: ""a"")",100,100,0,0,stable
+InlineTests,"InlineTests.IgnoredParametersForVerified(value: ""b"")",100,100,0,0,stable
+InlineTests,InlineTests.Json,100,100,0,0,stable
+InlineTests,InlineTests.MismatchThrows,100,100,0,0,stable
+InlineTests,InlineTests.MovedToFileRemovesTheLiteral,100,100,0,0,stable
+InlineTests,InlineTests.MovedToInlineCleanup,100,100,0,0,stable
+InlineTests,InlineTests.MultiLine,100,100,0,0,stable
+InlineTests,InlineTests.MultiTarget,100,100,0,0,stable
+InlineTests,InlineTests.MultipleInlinePerMethod,100,100,0,0,stable
+InlineTests,InlineTests.NewThrows,100,100,0,0,stable
+InlineTests,InlineTests.NoTargetsWithAnExplicitSnapshotSaysSo,100,100,0,0,stable
+InlineTests,InlineTests.NotInlineBeatsAnExplicitSnapshot,100,100,0,0,stable
+InlineTests,"InlineTests.NotInlineBeatsParametersThrow(value: ""a"")",100,100,0,0,stable
+InlineTests,"InlineTests.NotInlineBeatsParametersThrow(value: ""b"")",100,100,0,0,stable
+InlineTests,InlineTests.Object,100,100,0,0,stable
+InlineTests,InlineTests.ParallelSameFileAccepts,100,100,0,0,stable
+InlineTests,InlineTests.ParallelSameFileAcceptsWithIdenticalLiterals,100,100,0,0,stable
+InlineTests,"InlineTests.ParametersThrow(value: ""a"")",100,100,0,0,stable
+InlineTests,"InlineTests.ParametersThrow(value: ""b"")",100,100,0,0,stable
+InlineTests,"InlineTests.PartiallyIgnoredParametersThrow(value: ""a"", number: 1)",100,100,0,0,stable
+InlineTests,"InlineTests.PartiallyIgnoredParametersThrow(value: ""b"", number: 2)",100,100,0,0,stable
+InlineTests,"InlineTests.ReceivedContentEolNormalized(eol: ""\r"")",100,100,0,0,stable
+InlineTests,"InlineTests.ReceivedContentEolNormalized(eol: ""\r\n"")",100,100,0,0,stable
+InlineTests,InlineTests.Simple,100,100,0,0,stable
+InlineTests,InlineTests.StringComparerDecidesEquality,100,100,0,0,stable
+InlineTests,InlineTests.StringComparerIsNotAskedWhenTextMatches,100,100,0,0,stable
+InlineTests,"InlineTests.SupportedSourceLanguages(file: ""Tests.cs"")",100,100,0,0,stable
+InlineTests,"InlineTests.SupportedSourceLanguages(file: ""Tests.fs"")",100,100,0,0,stable
+InlineTests,"InlineTests.SupportedSourceLanguages(file: ""Tests.fsx"")",100,100,0,0,stable
+InlineTests,InlineTests.TextForParametersThrows,100,100,0,0,stable
+InlineTests,InlineTests.TwoSitesInSameFileWithDifferentResults,100,100,0,0,stable
+InlineTests,InlineTests.TwoSitesInSameFileWithSameResult,100,100,0,0,stable
+InlineTests,InlineTests.UnsupportedSourceLanguage,100,100,0,0,stable
+InlineTests,InlineTests.Xml,100,100,0,0,stable
+InnerVerifyTests,InnerVerifyTests.NamedTargetsAreNamed,100,100,0,0,stable
+InnerVerifyTests,InnerVerifyTests.RunsBeforeAndAfterCallbacks,100,100,0,0,stable
+InnerVerifyTests,InnerVerifyTests.Split,100,100,0,0,stable
+InnerVerifyTests,InnerVerifyTests.VerifyExternalFile,100,100,0,0,stable
+InnerVerifyTests,InnerVerifyTests.VerifyExternalFileLocked,100,100,0,0,stable
+InstanceFileAppenderTests,InstanceFileAppenderTests.AppendContentAsFile,100,100,0,0,stable
+InstanceFileAppenderTests,InstanceFileAppenderTests.AppendFile,100,100,0,0,stable
+InstanceFileAppenderTests,InstanceFileAppenderTests.AppendFileSettingsReuse,100,100,0,0,stable
+InstanceFileAppenderTests,InstanceFileAppenderTests.BinaryBytesSettingsReuse,100,100,0,0,stable
+InstanceFileAppenderTests,InstanceFileAppenderTests.Text,100,100,0,0,stable
+InstanceFileAppenderTests,InstanceFileAppenderTests.TextBytesFluent,100,100,0,0,stable
+InstanceFileAppenderTests,InstanceFileAppenderTests.TextStreamFluent,100,100,0,0,stable
+InstanceFileAppenderTests,InstanceFileAppenderTests.WithName,100,100,0,0,stable
+InstanceFileAppenderTests,InstanceFileAppenderTests.WithScrubbing,100,100,0,0,stable
+IoHelpersTests,IoHelpersTests.ExtensionForExtensionlessFileStream,100,100,0,0,stable
+IoHelpersTests,"IoHelpersTests.ResolveDirectoryNameFromSourceFileTests(sourceFile: ""/mnt/MyFile.cs"", expectedDirectory: ""/mnt"")",100,100,0,0,stable
+IoHelpersTests,"IoHelpersTests.ResolveDirectoryNameFromSourceFileTests(sourceFile: ""/mnt/d/test/my_file.cs"", expectedDirectory: ""/mnt/d/test"")",100,100,0,0,stable
+IoHelpersTests,"IoHelpersTests.ResolveDirectoryNameFromSourceFileTests(sourceFile: ""C:/test/sub_folder/my_file.cs"", expectedDirectory: ""C:/test/sub_folder"")",100,100,0,0,stable
+IoHelpersTests,"IoHelpersTests.ResolveDirectoryNameFromSourceFileTests(sourceFile: ""C:\\MyFile.cs"", expectedDirectory: ""C:"")",100,100,0,0,stable
+IoHelpersTests,"IoHelpersTests.ResolveDirectoryNameFromSourceFileTests(sourceFile: ""C:\\Program Files/MyFile.cs"", expectedDirectory: ""C:\\Program Files"")",100,100,0,0,stable
+IoHelpersTests,"IoHelpersTests.ResolveDirectoryNameFromSourceFileTests(sourceFile: ""C:\\test\\my_file.cs"", expectedDirectory: ""C:\\test"")",100,100,0,0,stable
+IoHelpersTests,IoHelpersTests.WriteStreamHandlesExclusiveFileStream,100,100,0,0,stable
+IsoDateParseTests,"IsoDateParseTests.IsoDateTimeOffsetUsesInvariantCalendar(cultureName: ""ar-SA"")",100,100,0,0,stable
+IsoDateParseTests,"IsoDateParseTests.IsoDateTimeOffsetUsesInvariantCalendar(cultureName: ""en-US"")",100,100,0,0,stable
+IsoDateParseTests,"IsoDateParseTests.IsoDateTimeOffsetUsesInvariantCalendar(cultureName: ""th-TH"")",100,100,0,0,stable
+IsoDateParseTests,"IsoDateParseTests.IsoDateTimeUsesInvariantCalendar(cultureName: ""ar-SA"")",100,100,0,0,stable
+IsoDateParseTests,"IsoDateParseTests.IsoDateTimeUsesInvariantCalendar(cultureName: ""en-US"")",100,100,0,0,stable
+IsoDateParseTests,"IsoDateParseTests.IsoDateTimeUsesInvariantCalendar(cultureName: ""th-TH"")",100,100,0,0,stable
+JsonAppenderTests,JsonAppenderTests.Anon,100,100,0,0,stable
+JsonAppenderTests,JsonAppenderTests.File,100,100,0,0,stable
+JsonAppenderTests,JsonAppenderTests.NoJsonAppender,100,100,0,0,stable
+JsonAppenderTests,JsonAppenderTests.NullText,100,100,0,0,stable
+JsonAppenderTests,JsonAppenderTests.OnlyJsonAppender,100,100,0,0,stable
+JsonAppenderTests,JsonAppenderTests.Stream,100,100,0,0,stable
+JsonAppenderTests,JsonAppenderTests.StringInfoAndStreamTarget,100,100,0,0,stable
+JsonAppenderTests,JsonAppenderTests.WithDuplicate,100,100,0,0,stable
+JsonAppenderTests,JsonAppenderTests.WithInferredNameJsonAppender,100,100,0,0,stable
+JsonAppenderTests,JsonAppenderTests.WithInferredNameJsonAppenderFluent,100,100,0,0,stable
+JsonAppenderTests,JsonAppenderTests.WithJsonAppender,100,100,0,0,stable
+JsonAppenderTests,JsonAppenderTests.WithLocalJsonAppender,100,100,0,0,stable
+JsonConverterWithSettings,JsonConverterWithSettings.TestWithConverterInstance,100,100,0,0,stable
+JsonConverterWithSettings,JsonConverterWithSettings.TestWithSettings,100,100,0,0,stable
+JsonConverters,JsonConverters.Test,100,100,0,0,stable
+JsonConverters,JsonConverters.TestWithConverterInstance,100,100,0,0,stable
+JsonTests,JsonTests.IgnoreJTokenByName,100,100,0,0,stable
+JsonTests,JsonTests.JObjectIgnore,100,100,0,0,stable
+JsonTests,JsonTests.JObjectOrdering1,100,100,0,0,stable
+JsonTests,JsonTests.JObjectOrdering2,100,100,0,0,stable
+JsonTests,JsonTests.JTokenIgnore,100,100,0,0,stable
+JsonTests,JsonTests.JTokenScrub,100,100,0,0,stable
+JsonTests,JsonTests.ScrubJTokenByName,100,100,0,0,stable
+JsonTests,JsonTests.VerifyJsonDateTime,100,100,0,0,stable
+JsonTests,JsonTests.VerifyJsonEmpty,100,100,0,0,stable
+JsonTests,JsonTests.VerifyJsonGuid,100,100,0,0,stable
+JsonTests,JsonTests.VerifyJsonJToken,100,100,0,0,stable
+JsonTests,JsonTests.VerifyJsonOnlyIgnoredMember,100,100,0,0,stable
+JsonTests,JsonTests.VerifyJsonRefRespectSerializerSettings,100,100,0,0,stable
+JsonTests,JsonTests.VerifyJsonScrubBasedOnPath,100,100,0,0,stable
+JsonTests,JsonTests.VerifyJsonStream,100,100,0,0,stable
+JsonTests,JsonTests.VerifyJsonString,100,100,0,0,stable
+JsonTests,JsonTests.VerifyJsonTypeRespectSerializerSettings,100,100,0,0,stable
+JsonTests,JsonTests.VerifyJsonWithArray,100,100,0,0,stable
+JsonTests,JsonTests.VerifyJsonWithArrayAtRoot,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.DontScrubMultiNewline,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.DontScrubTrailingNewline,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_AllButLastRemoved,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_ComplexPredicate,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_CrLfInLongContent,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_DoesNotAddTrailingNewlineWhenOriginalLacked,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_EmptyLinesAfterLongLine,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_EmptyString,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_HandlesEmptyLines,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_KeepsEmptyLines,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_LargeContent,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_LongLinePreserved,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_ManyLinesAllRemoved,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_ManyLinesNoneRemoved,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_ManyLongLines,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_MixedLineEndings,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_MultipleConsecutiveRemoved,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_OnlyEmptyLines,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_PreservesTrailingNewline,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_PreservesWhitespace,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_RemovesAllLines,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_RemovesFirstLine,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_RemovesLastLine,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_RemovesLastLineWithTrailingNewline,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_RemovesMultipleLines,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_RemovesNoLines,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_RemovesSingleLine,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_SingleLineNoNewline,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_SingleLineRemoved,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_SingleLineWithNewline,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_VeryLongLine,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_VeryLongLineKept,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.FilterLines_WindowsLineEndings,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.ReplaceLines_AllRemovedNoTrailingNewline,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.ReplaceLines_ReplacesLines,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.ScrubLinesContaining,100,100,0,0,stable
+LinesScrubberTests,LinesScrubberTests.ScrubLinesContaining_case_sensitive,100,100,0,0,stable
+MatchingFileFinderTests,MatchingFileFinderTests.DeleteReceivedIncludesNested,100,100,0,0,stable
+MatchingFileFinderTests,MatchingFileFinderTests.FindVerifiedIncludesNested,100,100,0,0,stable
+MatchingFileFinderTests,MatchingFileFinderTests.FindVerifiedWithTrailingSeparator,100,100,0,0,stable
+MatchingFileFinderTests,MatchingFileFinderTests.FindVerifiedWithoutTrailingSeparator,100,100,0,0,stable
+MatchingFileFinderTests,MatchingFileFinderTests.StrayFileWithNoExtensionIsIgnored,100,100,0,0,stable
+NCrunchTests,NCrunchTests.Simple,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.Array,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.ArrayEmpty,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.ArrayMultiple,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.CollectionItemPathFriendlyFalseNotCleaned,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.Date,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.DateTimeLocal,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.DateTimeOffsetUtc,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.DateTimeUnspecified,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.DateTimeUtc,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.Dictionary,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.DictionaryMultiple,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.EmptyDictionary,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.EmptyList,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.EnumerableStaticEmpty,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.Half,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.Int,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.List,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.ListMultiple,100,100,0,0,stable
+NameForParameterTests,"NameForParameterTests.NegativeSbyteIsInvariant(cultureName: ""en-US"")",100,100,0,0,stable
+NameForParameterTests,"NameForParameterTests.NegativeSbyteIsInvariant(cultureName: ""sv-SE"")",100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.Nested,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.Null,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.NullCounter,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.StringEmpty,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.StringHash,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.StringInvalidPathChar,100,100,0,0,stable
+NameForParameterTests,NameForParameterTests.Time,100,100,0,0,stable
+NamerTests,NamerTests.AccessNamerArchitecture,100,100,0,0,stable
+NamerTests,NamerTests.AccessNamerRuntimeAndVersion,100,100,0,0,stable
+NamerTests,NamerTests.Architecture,100,100,0,0,stable
+NamerTests,NamerTests.ArchitectureFluent,100,100,0,0,stable
+NamerTests,NamerTests.AssemblyConfiguration,100,100,0,0,stable
+NamerTests,NamerTests.AssemblyConfigurationFluent,100,100,0,0,stable
+NamerTests,NamerTests.AssemblyConfigurationFluentWithAssembly,100,100,0,0,stable
+NamerTests,NamerTests.AssemblyConfigurationWithAssembly,100,100,0,0,stable
+NamerTests,NamerTests.DistinctUniquenessPrefixes,100,100,0,0,stable
+NamerTests,NamerTests.FrameworkName,100,100,0,0,stable
+NamerTests,NamerTests.GetRuntimeAndVersion,100,100,0,0,stable
+NamerTests,"NamerTests.IgnoreParametersForVerified(arg: ""One"")",100,100,0,0,stable
+NamerTests,"NamerTests.IgnoreParametersForVerified(arg: ""Two"")",100,100,0,0,stable
+NamerTests,"NamerTests.IgnoreParametersForVerifiedFluent(arg: ""One"")",100,100,0,0,stable
+NamerTests,"NamerTests.IgnoreParametersForVerifiedFluent(arg: ""Two"")",100,100,0,0,stable
+NamerTests,NamerTests.MultipleCalls,100,100,0,0,stable
+NamerTests,"NamerTests.MultipleParams(a: False, b: False)",100,100,0,0,stable
+NamerTests,"NamerTests.MultipleParams(a: True, b: False)",100,100,0,0,stable
+NamerTests,NamerTests.MultipleTarget,100,100,0,0,stable
+NamerTests,NamerTests.MultipleTargetWithDuplicateName,100,100,0,0,stable
+NamerTests,NamerTests.MultipleTargetWithName,100,100,0,0,stable
+NamerTests,NamerTests.NamedGuid(guid: <GUID>),100,200,0,0,stable
+NamerTests,NamerTests.OSPlatform,100,100,0,0,stable
+NamerTests,NamerTests.OSPlatformFluent,100,100,0,0,stable
+NamerTests,"NamerTests.ParametersWithBadPathChars(value: ""The<Value"")",100,100,0,0,stable
+NamerTests,"NamerTests.ParametersWithHash(value: ""x"")",100,100,0,0,stable
+NamerTests,"NamerTests.ParametersWithHash(value: ""x#1"")",100,100,0,0,stable
+NamerTests,NamerTests.Runtime,100,100,0,0,stable
+NamerTests,NamerTests.RuntimeAndVersion,100,100,0,0,stable
+NamerTests,NamerTests.RuntimeAndVersionFluent,100,100,0,0,stable
+NamerTests,NamerTests.RuntimeFluent,100,100,0,0,stable
+NamerTests,NamerTests.SingleTarget,100,100,0,0,stable
+NamerTests,NamerTests.SingleTargetWithName,100,100,0,0,stable
+NamerTests,NamerTests.TargetFramework,100,100,0,0,stable
+NamerTests,NamerTests.TargetFrameworkAndVersion,100,100,0,0,stable
+NamerTests,NamerTests.TargetFrameworkAndVersionFluent,100,100,0,0,stable
+NamerTests,NamerTests.TargetFrameworkAndVersionFluentWithAssembly,100,100,0,0,stable
+NamerTests,NamerTests.TargetFrameworkAndVersionWithAssembly,100,100,0,0,stable
+NamerTests,NamerTests.TargetFrameworkFluent,100,100,0,0,stable
+NamerTests,NamerTests.TargetFrameworkFluentWithAssembly,100,100,0,0,stable
+NamerTests,NamerTests.TargetFrameworkWithAssembly,100,100,0,0,stable
+NamerTests,"NamerTests.TheoryWithArray(values: [""One""])",100,100,0,0,stable
+NamerTests,"NamerTests.TheoryWithArray(values: [""foo"", ""bar"", ""baz""])",100,100,0,0,stable
+NamerTests,NamerTests.UniqueForAssemblyConfigurationAndUniqueForTargetFrameworkAndVersion,100,100,0,0,stable
+NamerTests,NamerTests.UseDirectory,100,100,0,0,stable
+NamerTests,NamerTests.UseDirectoryFluent,100,100,0,0,stable
+NamerTests,NamerTests.UseFileName,100,100,0,0,stable
+NamerTests,NamerTests.UseFileNameFluent,100,100,0,0,stable
+NamerTests,NamerTests.UseFileNameWithUnique,100,100,0,0,stable
+NamerTests,NamerTests.UseMethodName,100,100,0,0,stable
+NamerTests,NamerTests.UseMethodNameFluent,100,100,0,0,stable
+NamerTests,"NamerTests.UseParametersAppender(arg1: ""One"", arg2: ""Two"")",100,100,0,0,stable
+NamerTests,"NamerTests.UseParametersAppender(arg1: ""Three"", arg2: ""Four"")",100,100,0,0,stable
+NamerTests,NamerTests.UseSplitModeForUniqueDirectory,100,100,0,0,stable
+NamerTests,NamerTests.UseSplitModeForUniqueDirectoryFluent,100,100,0,0,stable
+NamerTests,NamerTests.UseTextForParametersNoParam,100,100,0,0,stable
+NamerTests,"NamerTests.UseTooManyParameters(param1: ""Value1"")",100,100,0,0,stable
+NamerTests,NamerTests.UseTypeName,100,100,0,0,stable
+NamerTests,NamerTests.UseTypeNameFluent,100,100,0,0,stable
+NamerTests,NamerTests.UseUniqueDirectory,100,100,0,0,stable
+NamerTests,NamerTests.UseUniqueDirectoryFluent,100,100,0,0,stable
+NamerTests,NamerTests.UseUniqueDirectory_FileName,100,100,0,0,stable
+NamerTests,NamerTests.UseUniqueDirectory_MethodName,100,100,0,0,stable
+NamerTests,NamerTests.UseUniqueDirectory_Parameter,100,100,0,0,stable
+NamerTests,NamerTests.UseUniqueDirectory_Target,100,100,0,0,stable
+NamerTests,NamerTests.UseUniqueDirectory_TargetWithName,100,100,0,0,stable
+NamerTests,NamerTests.UseUniqueDirectory_TyeName,100,100,0,0,stable
+NamerTests,NamerTests.UseUniqueDirectory_UniqueForRuntime,100,100,0,0,stable
+NamerTests,NamerTests.UseUniqueDirectory_UniqueForTargetFrameworkAndVersion,100,100,0,0,stable
+NewLineTests,NewLineTests.Newlines,100,100,0,0,stable
+NewLineTests,NewLineTests.StringWithDifferingNewline,100,100,0,0,stable
+NewLineTests,NewLineTests.TrailingNewlinesRaw,100,100,0,0,stable
+NewLineTests,NewLineTests.WithNestedNewlineAddedByScrubber,100,100,0,0,stable
+NewLineTests,NewLineTests.WithNewline,100,100,0,0,stable
+NewLineTests,NewLineTests.WithRootNewlineAddedByScrubber,100,100,0,0,stable
+NumericIdSample,NumericIdSample.Test,100,100,0,0,stable
+OrderTests,OrderTests.DictionaryOrderInt,100,100,0,0,stable
+OrderTests,OrderTests.DictionaryOrderNonComparable,100,100,0,0,stable
+OrderTests,OrderTests.DictionaryOrderOrdinal,100,100,0,0,stable
+OrderTests,OrderTests.DictionaryOrderString,100,100,0,0,stable
+OrderTests,OrderTests.DictionaryOrderStringAndIgnore,100,100,0,0,stable
+OrderTests,OrderTests.DontOrderDictionaries,100,100,0,0,stable
+OrderTests,OrderTests.EnumerableOrder,100,100,0,0,stable
+OrderTests,OrderTests.EnumerableOrderDirect,100,100,0,0,stable
+OrderTests,OrderTests.EnumerableOrderDirectFluent,100,100,0,0,stable
+OrderTests,OrderTests.EnumerableOrderFluent,100,100,0,0,stable
+OrderTests,OrderTests.EnumerableOrderWithNull,100,100,0,0,stable
+OrderTests,OrderTests.OrderEnumerableByDescending,100,100,0,0,stable
+OrderTests,OrderTests.OrderEnumerableByDescendingDirect,100,100,0,0,stable
+OrderTests,OrderTests.OrderEnumerableByDescendingDirectFluent,100,100,0,0,stable
+OrderTests,OrderTests.OrderEnumerableByDescendingFluent,100,100,0,0,stable
+OrderTests,OrderTests.OrderEnumerableByDescendingGlobal,100,100,0,0,stable
+OrderTests,OrderTests.OrderEnumerableByGlobal,100,100,0,0,stable
+OrderTests,OrderTests.SortedDictionaryInt,100,100,0,0,stable
+OrderTests,OrderTests.SortedDictionaryOrder,100,100,0,0,stable
+PagedConversionTests,PagedConversionTests.ADerivedTargetOfAnotherKind,100,100,0,0,stable
+PagedConversionTests,PagedConversionTests.ADerivedTargetRequiresAName,100,100,0,0,stable
+PagedConversionTests,PagedConversionTests.AskingForThePagesRecordsTheCount,100,100,0,0,stable
+PagedConversionTests,PagedConversionTests.EmptyTextIsNoText,100,100,0,0,stable
+PagedConversionTests,PagedConversionTests.NoImages,100,100,0,0,stable
+PagedConversionTests,PagedConversionTests.NoSource,100,100,0,0,stable
+PagedConversionTests,PagedConversionTests.NoText,100,100,0,0,stable
+PagedConversionTests,PagedConversionTests.PageNames,100,100,0,0,stable
+PagedConversionTests,PagedConversionTests.PageNumbersAreOneBased,100,100,0,0,stable
+PagedConversionTests,PagedConversionTests.PagesAreOrderedByNumber,100,100,0,0,stable
+PagedConversionTests,PagedConversionTests.PagesDrawnAllAtOnceAreFilteredAfterwards,100,100,0,0,stable
+PagedConversionTests,PagedConversionTests.Sample,100,100,0,0,stable
+PagedConversionTests,PagedConversionTests.TextInTheInfoByDefault,100,100,0,0,stable
+PagedConversionTests,PagedConversionTests.TextOfTheWholeDocument,100,100,0,0,stable
+PagedConversionTests,PagedConversionTests.TextPerPage,100,100,0,0,stable
+PagedConversionTests,PagedConversionTests.TheFirstPages,100,100,0,0,stable
+PagedConversionTests,PagedConversionTests.ThePagesAskedFor,100,100,0,0,stable
+PagedConversionTests,PagedConversionTests.TheSettingsOfTheVerificationDecideWhatIsIncluded,100,100,0,0,stable
+PluginConventionTests,PluginConventionTests.Find,100,100,0,0,stable
+PluginConventionTests,"PluginConventionTests.GetTypeName(assemblyName: ""Verify.ICSharpCode.Decompiler"", expectedTypeName: ""VerifyTests.VerifyICSharpCodeDecompiler"")",100,100,0,0,stable
+PluginConventionTests,"PluginConventionTests.GetTypeName(assemblyName: ""VerifySamplePlugin"", expectedTypeName: ""VerifyTests.VerifySamplePlugin"")",100,100,0,0,stable
+PluginConventionTests,PluginConventionTests.InvokeInitialize,100,100,0,0,stable
+PluginConventionTests,PluginConventionTests.InvokeInitializeWithAmbiguous,100,100,0,0,stable
+PluginConventionTests,PluginConventionTests.InvokeInitializeWithOneNotDefault,100,100,0,0,stable
+PluginConventionTests,PluginConventionTests.InvokeInitializeWithOptional,100,100,0,0,stable
+PluginConventionTests,PluginConventionTests.InvokeInitialized,100,100,0,0,stable
+PluginConventionTests,PluginConventionTests.ReadDepsFileThrowsForEmpty,100,100,0,0,stable
+PluginConventionTests,PluginConventionTests.ReadDepsFileThrowsForMalformed,100,100,0,0,stable
+PluginConventionTests,PluginConventionTests.ReadReferencedFileNames,100,100,0,0,stable
+PluginConventionTests,PluginConventionTests.ReferencedAssemblyFilesIncludesReferencedPlugin,100,100,0,0,stable
+PluginConventionTests,PluginConventionTests.StaleUnreferencedPluginIsSkipped,100,100,0,0,stable
+PluginConventionTests,PluginConventionTests.TryGetType,100,100,0,0,stable
+PluginConventionTests,PluginConventionTests.TryGetTypeNullAssembly,100,100,0,0,stable
+PngDecoderTests,PngDecoderTests.Empty_1x1_Rgba,100,100,0,0,stable
+PngDecoderTests,PngDecoderTests.Large_256x256,100,100,0,0,stable
+PngDecoderTests,PngDecoderTests.Medium_64x64,100,100,0,0,stable
+PngDecoderTests,PngDecoderTests.Multiple_Idat_Chunks,100,100,0,0,stable
+PngDecoderTests,PngDecoderTests.Paletted_With_Transparency,100,100,0,0,stable
+PngDecoderTests,PngDecoderTests.Paletted_Without_Transparency_Defaults_To_Opaque,100,100,0,0,stable
+PngDecoderTests,PngDecoderTests.Rejects_Bad_Signature,100,100,0,0,stable
+PngDecoderTests,PngDecoderTests.Rejects_Missing_Idat,100,100,0,0,stable
+PngDecoderTests,PngDecoderTests.Rejects_Truncated_Stream,100,100,0,0,stable
+PngDecoderTests,PngDecoderTests.Small_8x8_Rgb,100,100,0,0,stable
+PngDecoderTests,PngDecoderTests.Small_GrayAlpha,100,100,0,0,stable
+PngDecoderTests,PngDecoderTests.Small_Grayscale,100,100,0,0,stable
+PngImageTests,PngImageTests.Buffer_Length_Mismatch_Throws,100,100,0,0,stable
+PngImageTests,PngImageTests.Valid,100,100,0,0,stable
+PngImageTests,PngImageTests.Zero_Height_Throws,100,100,0,0,stable
+PngImageTests,PngImageTests.Zero_Width_Throws,100,100,0,0,stable
+PngSsimComparerTests,PngSsimComparerTests.BuildCompare_Captures_Threshold_Per_Instance,100,100,0,0,stable
+PngSsimComparerTests,PngSsimComparerTests.Completely_Different_Fails,100,100,0,0,stable
+PngSsimComparerTests,PngSsimComparerTests.Corrupt_Png_Throws,100,100,0,0,stable
+PngSsimComparerTests,PngSsimComparerTests.Dimension_Mismatch_NotEqual_With_Message,100,100,0,0,stable
+PngSsimComparerTests,PngSsimComparerTests.Identical_Byte_For_Byte_Equal,100,100,0,0,stable
+PngSsimComparerTests,PngSsimComparerTests.Near_Identical_Passes_Default_Threshold,100,100,0,0,stable
+PngSsimComparerTests,PngSsimComparerTests.Single_Pixel_Grayscale_Identical,100,100,0,0,stable
+PngSsimComparerTests,PngSsimComparerTests.Threshold_Tuning_Tightens_Comparison,100,100,0,0,stable
+PrefixUniqueTests,PrefixUniqueTests.CaseOnlyDifferenceIsNotUnique,100,100,0,0,stable
+PrefixUniqueTests,PrefixUniqueTests.DistinctPrefixesAreUnique,100,100,0,0,stable
+ReEntrantConverterTests,ReEntrantConverterTests.Test,100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,ReadStringBuilderWithFixedLinesTests.All,100,0,0,100,skipped
+ReadStringBuilderWithFixedLinesTests,ReadStringBuilderWithFixedLinesTests.Edges(length: 1022),100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,ReadStringBuilderWithFixedLinesTests.Edges(length: 1023),100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,ReadStringBuilderWithFixedLinesTests.Edges(length: 1024),100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,ReadStringBuilderWithFixedLinesTests.Edges(length: 1025),100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,ReadStringBuilderWithFixedLinesTests.Edges(length: 1026),100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,ReadStringBuilderWithFixedLinesTests.Edges(length: 2046),100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,ReadStringBuilderWithFixedLinesTests.Edges(length: 2047),100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,ReadStringBuilderWithFixedLinesTests.Edges(length: 2048),100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,ReadStringBuilderWithFixedLinesTests.Edges(length: 2049),100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,ReadStringBuilderWithFixedLinesTests.Edges(length: 2050),100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,"ReadStringBuilderWithFixedLinesTests.Run(input: """", expected: """")",100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,"ReadStringBuilderWithFixedLinesTests.Run(input: ""\n"", expected: ""\n"")",100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,"ReadStringBuilderWithFixedLinesTests.Run(input: ""\n\n"", expected: ""\n\n"")",100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,"ReadStringBuilderWithFixedLinesTests.Run(input: ""\n\n\n"", expected: ""\n\n\n"")",100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,"ReadStringBuilderWithFixedLinesTests.Run(input: ""\r"", expected: ""\n"")",100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,"ReadStringBuilderWithFixedLinesTests.Run(input: ""\r\n"", expected: ""\n"")",100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,"ReadStringBuilderWithFixedLinesTests.Run(input: ""\r\n\n"", expected: ""\n\n"")",100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,"ReadStringBuilderWithFixedLinesTests.Run(input: ""\r\n\r\n"", expected: ""\n\n"")",100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,"ReadStringBuilderWithFixedLinesTests.Run(input: ""\r\r"", expected: ""\n\n"")",100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,"ReadStringBuilderWithFixedLinesTests.Run(input: ""\r\r\n"", expected: ""\n\n"")",100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,"ReadStringBuilderWithFixedLinesTests.Run(input: ""\r\r\r"", expected: ""\n\n\n"")",100,100,0,0,stable
+ReadStringBuilderWithFixedLinesTests,"ReadStringBuilderWithFixedLinesTests.Run(input: ""\t"", expected: ""\t"")",100,100,0,0,stable
+RecordingTests,RecordingTests.AppendIdentifier,100,100,0,0,stable
+RecordingTests,RecordingTests.Case,100,100,0,0,stable
+RecordingTests,RecordingTests.CaseIdentifier,100,100,0,0,stable
+RecordingTests,RecordingTests.Clear,100,100,0,0,stable
+RecordingTests,RecordingTests.ClearIdentifier,100,100,0,0,stable
+RecordingTests,RecordingTests.Dates,100,100,0,0,stable
+RecordingTests,RecordingTests.DisposeAfterStopDoesNotThrow,100,100,0,0,stable
+RecordingTests,RecordingTests.DisposeNamedAfterStopDoesNotThrow,100,100,0,0,stable
+RecordingTests,RecordingTests.DisposeNamedReleasesTheIdentifier,100,100,0,0,stable
+RecordingTests,RecordingTests.Identifier,100,100,0,0,stable
+RecordingTests,RecordingTests.Ignore,100,100,0,0,stable
+RecordingTests,RecordingTests.IgnoreNames,100,100,0,0,stable
+RecordingTests,RecordingTests.IsRecording,100,100,0,0,stable
+RecordingTests,RecordingTests.IsRecordingIdentifier,100,100,0,0,stable
+RecordingTests,RecordingTests.Multiple,100,100,0,0,stable
+RecordingTests,RecordingTests.MultipleIdentifier,100,100,0,0,stable
+RecordingTests,RecordingTests.NameExists,100,100,0,0,stable
+RecordingTests,RecordingTests.NoRecording,100,100,0,0,stable
+RecordingTests,RecordingTests.NoRecordingIdentifier,100,100,0,0,stable
+RecordingTests,RecordingTests.NoValue,100,100,0,0,stable
+RecordingTests,RecordingTests.PauseResume,100,100,0,0,stable
+RecordingTests,RecordingTests.PauseResumeIdentifier,100,100,0,0,stable
+RecordingTests,RecordingTests.RecordingScoped,100,100,0,0,stable
+RecordingTests,RecordingTests.SameKey,100,100,0,0,stable
+RecordingTests,RecordingTests.Scrub,100,100,0,0,stable
+RecordingTests,RecordingTests.StartAfterConsumedInChildContext,100,100,0,0,stable
+RecordingTests,RecordingTests.StartWhileRecordingStillThrows,100,100,0,0,stable
+RecordingTests,RecordingTests.Stop,100,100,0,0,stable
+RecordingTests,RecordingTests.StopIdentifier,100,100,0,0,stable
+RecordingTests,RecordingTests.StopNotInResult,100,100,0,0,stable
+RecordingTests,RecordingTests.StoppedInChildContextIsNotRecording,100,100,0,0,stable
+RecordingTests,RecordingTests.ToDictionary,100,100,0,0,stable
+RecordingTests,RecordingTests.TryAdd,100,100,0,0,stable
+RecordingTests,RecordingTests.TryStopNoStart,100,100,0,0,stable
+RecordingTests,RecordingTests.TryStopNoStartIdentifier,100,100,0,0,stable
+RecordingTests,RecordingTests.Usage,100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.InheritsFrom(type: typeof(System.Collections.Generic.Dictionary<int, string>), parent: typeof(System.Collections.Generic.IDictionary<,>), match: True)",100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.InheritsFrom(type: typeof(System.Collections.Generic.Dictionary<int, string>), parent: typeof(System.Collections.Generic.IDictionary<int, string>), match: True)",100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.InheritsFrom(type: typeof(System.Collections.Generic.Dictionary<int, string>), parent: typeof(System.Collections.Generic.IDictionary<string, string>), match: False)",100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.InheritsFrom(type: typeof(System.Collections.Generic.Dictionary<int, string>), parent: typeof(System.Collections.IDictionary), match: True)",100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.InheritsFrom(type: typeof(System.Collections.Generic.IDictionary<int, string>), parent: typeof(System.Collections.Generic.ICollection<>), match: True)",100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.InheritsFrom(type: typeof(System.Collections.Generic.IDictionary<int, string>), parent: typeof(System.Collections.Generic.ICollection<KeyValuePair<int, string>>), match: True)",100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.InheritsFrom(type: typeof(System.Collections.Generic.IDictionary<int, string>), parent: typeof(System.Collections.Generic.IDictionary<,>), match: True)",100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.InheritsFrom(type: typeof(System.Collections.Generic.IDictionary<int, string>), parent: typeof(System.Collections.Generic.IDictionary<string, string>), match: False)",100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.InheritsFrom(type: typeof(object), parent: typeof(object), match: True)",100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.InheritsFrom(type: typeof(object), parent: typeof(string), match: False)",100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.InheritsFrom(type: typeof(string), parent: typeof(System.ICloneable), match: True)",100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.InheritsFrom(type: typeof(string), parent: typeof(System.IComparable<>), match: True)",100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.InheritsFrom(type: typeof(string), parent: typeof(System.IComparable<int>), match: False)",100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.InheritsFrom(type: typeof(string), parent: typeof(System.IComparable<string>), match: True)",100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.InheritsFrom(type: typeof(string), parent: typeof(object), match: True)",100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.InheritsFrom(type: typeof(string), parent: typeof(string), match: True)",100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.IsEmptyCollectionOrDictionary(o: InvalidOperationException was thrown formatting an object of type ""System.Collections.Immutable.ImmutableArray`1[System.Int32]"", isEmpty: True)",100,200,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.IsEmptyCollectionOrDictionary(o: [1], isEmpty: False)",100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.IsEmptyCollectionOrDictionary(o: [[1] = [1]], isEmpty: False)",100,100,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.IsEmptyCollectionOrDictionary(o: [], isEmpty: True)",100,600,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.IsEmptyCollectionOrDictionary(o: [···], isEmpty: False)",100,200,0,0,stable
+ReflectionHelpersTests,"ReflectionHelpersTests.IsEmptyCollectionOrDictionary(o: [···], isEmpty: True)",100,100,0,0,stable
+ScrubStackTraceTests,ScrubStackTraceTests.Dotnet,100,100,0,0,stable
+ScrubStackTraceTests,ScrubStackTraceTests.Dotnet_RemoveParams,100,100,0,0,stable
+ScrubStackTraceTests,ScrubStackTraceTests.NoParens,100,100,0,0,stable
+ScrubStackTraceTests,ScrubStackTraceTests.NoParens_RemoveParams,100,100,0,0,stable
+ScrubStackTraceTests,ScrubStackTraceTests.WhiteSpace,100,100,0,0,stable
+SerializationSettingsCopyTests,SerializationSettingsCopyTests.PreservesOrderDictionaries,100,100,0,0,stable
+SerializationSettingsTests,SerializationSettingsTests.ExplicitConverterPositionIsPreserved,100,100,0,0,stable
+SerializationSettingsTests,SerializationSettingsTests.ExtraConverterOverridesBuiltIn,100,100,0,0,stable
+SerializationSettingsTests,SerializationSettingsTests.ExtraSettingsPreserveOrder,100,100,0,0,stable
+SerializationSettingsTests,SerializationSettingsTests.RemovedConverterDoesNotAffectPriority,100,100,0,0,stable
+SerializationTests,SerializationTests.AddExtraSettings,100,100,0,0,stable
+SerializationTests,SerializationTests.AddExtraSettingsFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.AddIgnoreInstance,100,100,0,0,stable
+SerializationTests,SerializationTests.AddIgnoreInstanceFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.AddIgnoreInstanceInList,100,100,0,0,stable
+SerializationTests,SerializationTests.AddScrubInstance,100,100,0,0,stable
+SerializationTests,SerializationTests.AddScrubInstanceFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.AlwaysIncludeType,100,100,0,0,stable
+SerializationTests,SerializationTests.BoolDefault,100,100,0,0,stable
+SerializationTests,SerializationTests.BoolFalse,100,100,0,0,stable
+SerializationTests,SerializationTests.BoolFalseWithDefaultValueIgnore,100,100,0,0,stable
+SerializationTests,SerializationTests.BoolFalseWithDefaultValueInclude,100,100,0,0,stable
+SerializationTests,SerializationTests.BoolTrue,100,100,0,0,stable
+SerializationTests,SerializationTests.BoxedKeys,100,100,0,0,stable
+SerializationTests,SerializationTests.CancellationToken_Cancelled,100,100,0,0,stable
+SerializationTests,SerializationTests.CancellationToken_CancelledDisposed,100,100,0,0,stable
+SerializationTests,SerializationTests.Char,100,100,0,0,stable
+SerializationTests,SerializationTests.Claim,100,100,0,0,stable
+SerializationTests,SerializationTests.ClaimWithClaimType,100,100,0,0,stable
+SerializationTests,SerializationTests.ClaimsIdentity,100,100,0,0,stable
+SerializationTests,SerializationTests.ClaimsPrincipal,100,100,0,0,stable
+SerializationTests,SerializationTests.ClassWithNullStructPropertyInclude,100,100,0,0,stable
+SerializationTests,SerializationTests.Constructor,100,100,0,0,stable
+SerializationTests,SerializationTests.CustomExceptionProp,100,100,0,0,stable
+SerializationTests,SerializationTests.CustomExceptionPropFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.DateKeys,100,100,0,0,stable
+SerializationTests,SerializationTests.DateScrubbingDisabled_ExplicitScrubber,100,100,0,0,stable
+SerializationTests,SerializationTests.DateTimeDifferByKind,100,100,0,0,stable
+SerializationTests,SerializationTests.DateTimeKeys,100,100,0,0,stable
+SerializationTests,SerializationTests.DateTimeMax,100,100,0,0,stable
+SerializationTests,SerializationTests.DateTimeMin,100,100,0,0,stable
+SerializationTests,SerializationTests.DateTimeOffsetDifferOffset,100,100,0,0,stable
+SerializationTests,SerializationTests.DateTimeOffsetKeys,100,100,0,0,stable
+SerializationTests,SerializationTests.DateTimeOffsetScrubbingDisabled,100,100,0,0,stable
+SerializationTests,SerializationTests.DateTimeScrubbingDisabled,100,100,0,0,stable
+SerializationTests,SerializationTests.DateTimeScrubbingDisabled_ExplicitScrubber,100,100,0,0,stable
+SerializationTests,SerializationTests.DateWithNoScrubbing,100,100,0,0,stable
+SerializationTests,SerializationTests.DelegateProp,100,100,0,0,stable
+SerializationTests,SerializationTests.DictionaryOrderInt,100,100,0,0,stable
+SerializationTests,SerializationTests.DictionaryOrderNonComparable,100,100,0,0,stable
+SerializationTests,SerializationTests.DictionaryOrderOrdinal,100,100,0,0,stable
+SerializationTests,SerializationTests.DictionaryOrderString,100,100,0,0,stable
+SerializationTests,SerializationTests.DictionaryOrderStringAndIgnore,100,100,0,0,stable
+SerializationTests,SerializationTests.Dictionary_ScrubDictionaryKeys,100,100,0,0,stable
+SerializationTests,SerializationTests.DisableDateCounting,100,100,0,0,stable
+SerializationTests,SerializationTests.DisableDateCountingFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.DisableDateCountingInline,100,100,0,0,stable
+SerializationTests,SerializationTests.DontOrderDictionaries,100,100,0,0,stable
+SerializationTests,SerializationTests.DontScrubDateTimes,100,100,0,0,stable
+SerializationTests,SerializationTests.DontScrubDateTimesFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.EmptyDictionaryProperty,100,100,0,0,stable
+SerializationTests,SerializationTests.EmptyLookupProperty,100,100,0,0,stable
+SerializationTests,SerializationTests.EncodingValue,100,100,0,0,stable
+SerializationTests,SerializationTests.EncodingValueNested,100,100,0,0,stable
+SerializationTests,SerializationTests.Escaping,100,100,0,0,stable
+SerializationTests,SerializationTests.ExampleNonDefaults,100,100,0,0,stable
+SerializationTests,SerializationTests.ExceptionMessageProp,100,100,0,0,stable
+SerializationTests,SerializationTests.ExceptionMessagePropFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.ExceptionNotIgnoreMessageProp,100,100,0,0,stable
+SerializationTests,SerializationTests.ExceptionProp,100,100,0,0,stable
+SerializationTests,SerializationTests.ExceptionProps,100,100,0,0,stable
+SerializationTests,SerializationTests.ExpressionString,100,100,0,0,stable
+SerializationTests,SerializationTests.ExpressionStringNested,100,100,0,0,stable
+SerializationTests,SerializationTests.ExtensionAwareScrubbers,100,100,0,0,stable
+SerializationTests,SerializationTests.Field,100,100,0,0,stable
+SerializationTests,SerializationTests.GetProperty,100,100,0,0,stable
+SerializationTests,SerializationTests.GuidKeys,100,100,0,0,stable
+SerializationTests,SerializationTests.GuidScrubbingDisabled,100,100,0,0,stable
+SerializationTests,SerializationTests.GuidScrubbingDisabledFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.GuidScrubbingDisabledNested,100,100,0,0,stable
+SerializationTests,SerializationTests.GuidScrubbingDisabled_ExplicitScrubber,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreDateTimeDefaults,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreDictionaryByPredicate,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreDictionaryKeyByName,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreEmptyList,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreGuidDefaults,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreMemberByExpression,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreMemberByExpressionFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreMemberByName,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreMemberByNameFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreMemberByPredicate,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreMemberByPredicateFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreMemberSubClass,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreMembersNullable,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreMembersNullableNested,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreOnInterfaceChildTyped,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreOnInterfaceNamed,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreOnInterfaceTyped,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreType,100,100,0,0,stable
+SerializationTests,SerializationTests.IgnoreTypeFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.ImmutableArray_Empty,100,100,0,0,stable
+SerializationTests,SerializationTests.ImmutableArray_Uninitialized,100,100,0,0,stable
+SerializationTests,SerializationTests.ListIgnoreLoopReference,100,100,0,0,stable
+SerializationTests,SerializationTests.MemberConverterByExpression,100,100,0,0,stable
+SerializationTests,SerializationTests.MemberConverterExactType,100,100,0,0,stable
+SerializationTests,SerializationTests.Method,100,100,0,0,stable
+SerializationTests,SerializationTests.MethodWithParameters,100,100,0,0,stable
+SerializationTests,SerializationTests.MoreSpecificScrubberShouldOverride,100,100,0,0,stable
+SerializationTests,SerializationTests.MultilineStringInArray,100,100,0,0,stable
+SerializationTests,SerializationTests.NameValueCollection,100,100,0,0,stable
+SerializationTests,SerializationTests.NameValueCollection_ScrubDictionaryKeys,100,100,0,0,stable
+SerializationTests,SerializationTests.NamedTuple,100,100,0,0,stable
+SerializationTests,SerializationTests.NamedTupleWithNull,100,100,0,0,stable
+SerializationTests,SerializationTests.NestedNamedTupleThrows,100,100,0,0,stable
+SerializationTests,SerializationTests.NestedTargetInvocationException,100,100,0,0,stable
+SerializationTests,SerializationTests.NewLineNotEscapedInProperty,100,100,0,0,stable
+SerializationTests,SerializationTests.NineNamedTupleElements,100,100,0,0,stable
+SerializationTests,SerializationTests.NotImplementedExceptionProp,100,100,0,0,stable
+SerializationTests,SerializationTests.NotScrubInlineGuidsByDefault,100,100,0,0,stable
+SerializationTests,SerializationTests.NotScrubNonStringDictionaryValues,100,100,0,0,stable
+SerializationTests,SerializationTests.NotSupportedExceptionProp,100,100,0,0,stable
+SerializationTests,SerializationTests.NullProperty,100,100,0,0,stable
+SerializationTests,SerializationTests.NullPropertyInclude,100,100,0,0,stable
+SerializationTests,SerializationTests.NullStructPropertyInclude,100,100,0,0,stable
+SerializationTests,SerializationTests.OnlyScrubInlineProperties,100,100,0,0,stable
+SerializationTests,SerializationTests.OnlySpecificDates,100,100,0,0,stable
+SerializationTests,SerializationTests.Parameter,100,100,0,0,stable
+SerializationTests,SerializationTests.PartialNamedTuple,100,100,0,0,stable
+SerializationTests,SerializationTests.PathInfos,100,100,0,0,stable
+SerializationTests,SerializationTests.Property,100,100,0,0,stable
+SerializationTests,SerializationTests.QuoteEscaping,100,100,0,0,stable
+SerializationTests,SerializationTests.ReUseDateTime,100,100,0,0,stable
+SerializationTests,SerializationTests.ReUseGuid,100,100,0,0,stable
+SerializationTests,SerializationTests.Ref,100,100,0,0,stable
+SerializationTests,SerializationTests.RespectEmptyGuid,100,100,0,0,stable
+SerializationTests,SerializationTests.ScopedSerializer,100,100,0,0,stable
+SerializationTests,SerializationTests.ScopedSerializerFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubBaseDirectory,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubBeforeNewline,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubCurrentDirectory,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubDateTime,100,0,100,0,broken
+SerializationTests,SerializationTests.ScrubDateTimeInstance,100,0,100,0,broken
+SerializationTests,SerializationTests.ScrubDictionaryByPredicate,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubDictionaryKey,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubDictionaryKeyByName,100,100,0,0,stable
+SerializationTests,"SerializationTests.ScrubDictionaryValue(value: ""10"", name: ""NoMatch"")",100,100,0,0,stable
+SerializationTests,"SerializationTests.ScrubDictionaryValue(value: ""BeforeValue"", name: ""BeforeValue"")",100,100,0,0,stable
+SerializationTests,"SerializationTests.ScrubDictionaryValue(value: ""BeforeValueAfter"", name: ""BeforeValueAfter"")",100,100,0,0,stable
+SerializationTests,"SerializationTests.ScrubDictionaryValue(value: ""Before\nValue"", name: ""BeforeValueWithNewLine"")",100,100,0,0,stable
+SerializationTests,"SerializationTests.ScrubDictionaryValue(value: ""Before\nValue\nAfter"", name: ""BeforeValueAfterNewLine"")",100,100,0,0,stable
+SerializationTests,"SerializationTests.ScrubDictionaryValue(value: ""Value"", name: ""Value"")",100,100,0,0,stable
+SerializationTests,"SerializationTests.ScrubDictionaryValue(value: ""ValueAfter"", name: ""ValueAfter"")",100,100,0,0,stable
+SerializationTests,"SerializationTests.ScrubDictionaryValue(value: ""Value\nAfter"", name: ""ValueAfterWithNewLine"")",100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubEmptyLineEnd,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubEmptyLinesEndProperty,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubEmptyLinesMiddle,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubEmptyLinesMiddleProperty,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubEmptyLinesStart,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubEmptyLinesStartAndEnd,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubEmptyLinesStartAndEndAndWhiteSpace,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubEmptyLinesStartAndEndAndWhiteSpaceProperty,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubEmptyLinesStartAndEndProperty,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubEmptyLinesStartProperty,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubEngineMethods,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubGuid,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimes,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesEndingInNewline1,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesEndingInNewline2,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesEndingLetters,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesEndingWithSymbol,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesInValidFormat,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesInstance,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesLong,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesPaddedF,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesShort,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesStartingInLetters,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesStartingInNewline1,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesStartingInNewline2,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesStartingWithSymbol,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesUsG,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesWithLongAmPm,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesWrappedInDash,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesWrappedInLetters,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesWrappedInNewLine,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesWrappedInNumber,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesWrappedInSymbols,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineDateTimesWrappedWithSymbol,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuids,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuidsEndingInNewline1,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuidsEndingInNewline2,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuidsEndingLetters,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuidsEndingWithSymbol,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuidsFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuidsInString,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuidsInstance,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuidsNFormatInString,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuidsStartingInLetters,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuidsStartingInNewline1,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuidsStartingInNewline2,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuidsStartingWithSymbol,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuidsWrappedInDash,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuidsWrappedInLetters,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuidsWrappedInNewLine,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuidsWrappedInNumber,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuidsWrappedInSymbols,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubInlineGuidsWrappedWithSymbol,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubMemberByExpression,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubMemberByExpressionFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubMemberByName,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubMemberByNameFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubMemberByPredicate,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubMemberByPredicateFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubMembersNullable,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubMembersNullableNested,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubNumericIdsFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubNumericIdsInstance,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubNumericIdsLong,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubNumericIdsNamedType,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubNumericIdsSameValues,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubNumericIdsUlong,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubProjectDirectory,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubPropertyBeforeNewline,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubSolutionDirectory,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubTempPath,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubType,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubTypeFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubUserProfile,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubberDefaultOrder,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubberInvertOrder,100,100,0,0,stable
+SerializationTests,SerializationTests.ScrubberWithBadNewLine,100,100,0,0,stable
+SerializationTests,SerializationTests.SecondsFractionUpperLong,100,100,0,0,stable
+SerializationTests,SerializationTests.SecondsFractionUpperShort,100,100,0,0,stable
+SerializationTests,SerializationTests.SelfReferencingWithArray,100,100,0,0,stable
+SerializationTests,SerializationTests.SetProperty,100,100,0,0,stable
+SerializationTests,SerializationTests.SettingsIsCloned,100,100,0,0,stable
+SerializationTests,SerializationTests.SortedDictionaryInt,100,100,0,0,stable
+SerializationTests,SerializationTests.SortedDictionaryOrder,100,100,0,0,stable
+SerializationTests,SerializationTests.StringCastToObject,100,100,0,0,stable
+SerializationTests,SerializationTests.StringCastToObjectWithAppend,100,100,0,0,stable
+SerializationTests,SerializationTests.StringDateKeys,100,100,0,0,stable
+SerializationTests,SerializationTests.StringDateTimeKeys,100,100,0,0,stable
+SerializationTests,SerializationTests.StringDateTimeOffsetKeys,100,100,0,0,stable
+SerializationTests,SerializationTests.StringDictionary,100,100,0,0,stable
+SerializationTests,SerializationTests.StringDictionary_ScrubDictionaryKeys,100,100,0,0,stable
+SerializationTests,SerializationTests.StringGuidKeys,100,100,0,0,stable
+SerializationTests,SerializationTests.StringTimeKeys,100,100,0,0,stable
+SerializationTests,SerializationTests.TargetInvocationException,100,100,0,0,stable
+SerializationTests,SerializationTests.Tasks,100,100,0,0,stable
+SerializationTests,SerializationTests.TestConverterFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.TestConverterUsingCounterEdges,100,100,0,0,stable
+SerializationTests,SerializationTests.TestConverterWithBadNewline,100,100,0,0,stable
+SerializationTests,SerializationTests.TestConverterWithBadNewlineScrubEmptyLines,100,100,0,0,stable
+SerializationTests,SerializationTests.TestEnumerableWithExistingConverter,100,100,0,0,stable
+SerializationTests,SerializationTests.TestEnumerableWithExistingItemConverter,100,100,0,0,stable
+SerializationTests,SerializationTests.Time,100,100,0,0,stable
+SerializationTests,SerializationTests.TimeKeys,100,100,0,0,stable
+SerializationTests,SerializationTests.TimeNested,100,100,0,0,stable
+SerializationTests,SerializationTests.TimeNestedWithNoScrubbing,100,100,0,0,stable
+SerializationTests,SerializationTests.TimeWithNoScrubbing,100,100,0,0,stable
+SerializationTests,SerializationTests.Timespan,100,100,0,0,stable
+SerializationTests,SerializationTests.Tuple,100,100,0,0,stable
+SerializationTests,SerializationTests.Type,100,100,0,0,stable
+SerializationTests,SerializationTests.TypeNameHandlingAll,100,100,0,0,stable
+SerializationTests,SerializationTests.TypeNameHandlingInArray(typeHandling: All),100,100,0,0,stable
+SerializationTests,SerializationTests.TypeNameHandlingInArray(typeHandling: Arrays),100,100,0,0,stable
+SerializationTests,SerializationTests.TypeNameHandlingInArray(typeHandling: Auto),100,100,0,0,stable
+SerializationTests,SerializationTests.TypeNameHandlingInArray(typeHandling: None),100,100,0,0,stable
+SerializationTests,SerializationTests.TypeNameHandlingInArray(typeHandling: Objects),100,100,0,0,stable
+SerializationTests,SerializationTests.UseShortTypeName,100,100,0,0,stable
+SerializationTests,SerializationTests.UseStrictJson,100,100,0,0,stable
+SerializationTests,SerializationTests.UseStrictJsonFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.ValueTasks,100,100,0,0,stable
+SerializationTests,SerializationTests.VerifyJsonUseStrictJson,100,100,0,0,stable
+SerializationTests,SerializationTests.VerifyJsonUseStrictJsonFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.WithConverter,100,100,0,0,stable
+SerializationTests,SerializationTests.WithConverterAndIgnore,100,100,0,0,stable
+SerializationTests,SerializationTests.WithConverterAndMemberConverter,100,100,0,0,stable
+SerializationTests,SerializationTests.WithConverterAndNewline,100,100,0,0,stable
+SerializationTests,SerializationTests.WithConverterIgnoreDefault,100,100,0,0,stable
+SerializationTests,SerializationTests.WithConverterWithQuotes,100,100,0,0,stable
+SerializationTests,SerializationTests.WithExtraDateTimeFormat,100,100,0,0,stable
+SerializationTests,SerializationTests.WithObsoleteProp,100,100,0,0,stable
+SerializationTests,SerializationTests.WithObsoletePropIncluded,100,100,0,0,stable
+SerializationTests,SerializationTests.WithObsoletePropIncludedFluent,100,100,0,0,stable
+SerializationTests,SerializationTests.WithRecursiveConverter,100,100,0,0,stable
+SerializationTests,SerializationTests.WithWriteMemberNull,100,100,0,0,stable
+SerializationTests,SerializationTests.WithWriteMemberNullIgnored,100,100,0,0,stable
+SerializationTests,SerializationTests.WithWriteMemberNullIgnored_Include,100,100,0,0,stable
+SerializationTests,SerializationTests.WithWriteMemberNullScrubbed,100,100,0,0,stable
+SerializationTests,SerializationTests.WithWriteMemberNullScrubbed_Include,100,100,0,0,stable
+SerializationTests,SerializationTests.WithWriteMemberNull_Include,100,100,0,0,stable
+SerializationTests,SerializationTests.WriteRawInConverterTest,100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.DateTimeWrappedInTask,100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.GuidWrappedInTask,100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.Null,100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.NullWrappedInTask,100,100,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: ""ConstantExpression"")",100,100,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: ""stringValue"")",100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.Run(arg: 01/01/2000),100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.Run(arg: 01:01),100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.Run(arg: 1),100,600,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: 1,1)",100,100,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: 1,10000002)",100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.Run(arg: 10),100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.Run(arg: 2000-01-01T00:01:01.0010000+00:00),100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.Run(arg: 2000-01-01T01:01:01.0000000Z),100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.Run(arg: <GUID>),100,100,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: ASCIIEncodingSealed { BodyName = ""us-ascii"", CodePage = 20127, DecoderFallback = DecoderReplacementFallback { DefaultString = ""?"", MaxCharCount = 1 }, EncoderFallback = EncoderReplacementFallback { DefaultString = ""?"", MaxCharCount = 1 }, EncodingName = ""US-ASCII"", ··· })",100,100,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1268, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1388, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1448, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1460, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1464, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1468, ··· })",2,2,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1476, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1480, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1492, ··· })",2,2,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1496, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1512, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1516, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1528, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1532, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1536, ··· })",2,2,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1544, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1548, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1552, ··· })",2,2,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1556, ··· })",2,2,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1560, ··· })",2,2,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1564, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1568, ··· })",2,2,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1572, ··· })",3,3,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1576, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1584, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1588, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1592, ··· })",2,2,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1596, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1600, ··· })",2,2,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1604, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1608, ··· })",3,3,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1616, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1620, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1624, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1628, ··· })",5,5,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1632, ··· })",2,2,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1636, ··· })",4,4,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1640, ··· })",2,2,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1644, ··· })",3,3,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1648, ··· })",6,6,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1652, ··· })",3,3,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1656, ··· })",6,6,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1660, ··· })",3,3,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1664, ··· })",3,3,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1668, ··· })",2,2,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1672, ··· })",3,3,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1676, ··· })",4,4,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1680, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1684, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1688, ··· })",2,2,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1692, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1704, ··· })",1,1,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: FileStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = False, Handle = 1712, ··· })",1,1,0,0,stable
+SimpleTypeTests,SimpleTypeTests.Run(arg: True),100,100,0,0,stable
+SimpleTypeTests,"SimpleTypeTests.Run(arg: [""theKey""] = 10)",100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.Run(arg: [1]),100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.Run(arg: [···]),100,200,0,0,stable
+SimpleTypeTests,SimpleTypeTests.Run(arg: stringBuilderValue),100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.Run(arg: typeof(bool)),100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.StringEmpty,100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.StringEmptyWrappedInTask,100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.StringNull,100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.StringNullWrappedInTask,100,100,0,0,stable
+SimpleTypeTests,SimpleTypeTests.StringWrappedInTask,100,100,0,0,stable
+Snippets,Snippets.AutoVerifyFluent,100,100,0,0,stable
+Snippets,Snippets.AutoVerifyFluentDelegate,100,100,0,0,stable
+Snippets,Snippets.AutoVerifyIncludeBuildServer,100,100,0,0,stable
+SolutionDiscoveryTests,SolutionDiscoveryTests.BothSlnxAndSln_PreferSlnx,100,100,0,0,stable
+SolutionDiscoveryTests,SolutionDiscoveryTests.ExplicitSolutionName_OverridesDiscovery,100,100,0,0,stable
+SolutionDiscoveryTests,SolutionDiscoveryTests.MultipleSlnFiles_ShowsWarning,100,100,0,0,stable
+SolutionDiscoveryTests,SolutionDiscoveryTests.MultipleSlnxFiles_ShowsWarning,100,100,0,0,stable
+SolutionDiscoveryTests,SolutionDiscoveryTests.NoSolutionFile_NoMetadata,100,100,0,0,stable
+SolutionDiscoveryTests,SolutionDiscoveryTests.RebuildFromAnotherSolution_UpdatesMetadata,100,100,0,0,stable
+SolutionDiscoveryTests,SolutionDiscoveryTests.SingleSlnFile,100,100,0,0,stable
+SolutionDiscoveryTests,SolutionDiscoveryTests.SingleSlnxFile,100,100,0,0,stable
+SolutionDiscoveryTests,SolutionDiscoveryTests.SolutionInParentDirectory,100,100,0,0,stable
+SolutionDiscoveryTests,SolutionDiscoveryTests.SolutionInParentsParentDirectory,100,100,0,0,stable
+SourceDerivedTests,SourceDerivedTests.AConverterCanAskWhetherADerivedTargetIsExcluded,100,100,0,0,stable
+SourceDerivedTests,SourceDerivedTests.ADerivedTargetCanBeExcluded,100,100,0,0,stable
+SourceDerivedTests,SourceDerivedTests.ADerivedTargetKeepsTheNameItsConverterGaveIt,100,100,0,0,stable
+SourceDerivedTests,SourceDerivedTests.ADifferingSourceHasItsDerivedTargetsComparedExactly,100,100,0,0,stable
+SourceDerivedTests,SourceDerivedTests.ADifferingSourceLeavesTheTargetsOfAnotherToTheirComparers,100,100,0,0,stable
+SourceDerivedTests,SourceDerivedTests.ADocumentInsideAContainerIsNamedAfterItsPlaceInIt,100,100,0,0,stable
+SourceDerivedTests,SourceDerivedTests.ASourceIsNotConvertedAgain,100,100,0,0,stable
+SourceDerivedTests,SourceDerivedTests.ATargetAConverterReturnedCanOptOutOfConversion,100,100,0,0,stable
+SourceDerivedTests,SourceDerivedTests.ATypedConverterNamesItsSourceTheSameWay,100,100,0,0,stable
+SourceDerivedTests,SourceDerivedTests.AnInfoThatDiffersLeavesThePagesOfAnUnchangedSourceToTheirComparers,100,100,0,0,stable
+SourceDerivedTests,SourceDerivedTests.ExcludingADerivedExtensionLeavesTheSameExtensionElsewhere,100,100,0,0,stable
+SourceDerivedTests,SourceDerivedTests.ExcludingEveryTargetThrows,100,100,0,0,stable
+SourceDerivedTests,SourceDerivedTests.ExcludingEveryTargetThrowsWhenTheConverterLeftThemOutItself,100,100,0,0,stable
+SourceDerivedTests,SourceDerivedTests.NamesAreRelativeToTheTargetThatWasConverted,100,100,0,0,stable
+SourceDerivedTests,SourceDerivedTests.NoExtensionsThrows,100,100,0,0,stable
+SourceDerivedTests,SourceDerivedTests.TheInfoOfADifferingSourceIsComparedExactlyToo,100,100,0,0,stable
+SourceDerivedTests,SourceDerivedTests.WhatIsConvertedFromADerivedTargetIsDerived,100,100,0,0,stable
+SsimTests,SsimTests.Bytes_Overload,100,100,0,0,stable
+SsimTests,SsimTests.Dimension_Mismatch_Throws,100,100,0,0,stable
+SsimTests,SsimTests.Identical_Returns_One,100,100,0,0,stable
+SsimTests,SsimTests.Large_Difference_Low_Score,100,100,0,0,stable
+SsimTests,SsimTests.Noise_Reduces_Score,100,100,0,0,stable
+SsimTests,SsimTests.Small_Difference_High_Score,100,100,0,0,stable
+SsimTests,SsimTests.Stream_Overload,100,100,0,0,stable
+SsimTests,SsimTests.Stream_Overload_Dimension_Mismatch_Throws,100,100,0,0,stable
+SsimTests,SsimTests.Streaming_Matches_InMemory_BitForBit,100,100,0,0,stable
+SsimTests,SsimTests.Tiny_Sub_Window,100,100,0,0,stable
+SsimTests,SsimTests.Uniform_Gray_Identical,100,100,0,0,stable
+StaticFileAppenderTests,StaticFileAppenderTests.Anon,100,100,0,0,stable
+StaticFileAppenderTests,StaticFileAppenderTests.EmptyString,100,100,0,0,stable
+StaticFileAppenderTests,StaticFileAppenderTests.File,100,100,0,0,stable
+StaticFileAppenderTests,StaticFileAppenderTests.NullText,100,100,0,0,stable
+StaticFileAppenderTests,StaticFileAppenderTests.Stream,100,100,0,0,stable
+StaticFileAppenderTests,StaticFileAppenderTests.Text,100,100,0,0,stable
+StaticFileAppenderWithScrubberTests,StaticFileAppenderWithScrubberTests.Text,100,100,0,0,stable
+StaticSettings,StaticSettings.Test,100,100,0,0,stable
+StreamComparerTests,StreamComparerTests.BinaryEquals,100,100,0,0,stable
+StreamComparerTests,StreamComparerTests.BinaryNotEquals,100,100,0,0,stable
+StreamComparerTests,StreamComparerTests.BinaryNotEqualsSameLength,100,100,0,0,stable
+StreamComparerTests,StreamComparerTests.EmptyReceivedIsNotEqual,100,100,0,0,stable
+StreamComparerTests,StreamComparerTests.EqualWithLengthNotMultipleOfEight,100,100,0,0,stable
+StreamComparerTests,StreamComparerTests.EqualWithShortReads,100,100,0,0,stable
+StreamComparerTests,StreamComparerTests.LongerReceivedIsNotEqual,100,100,0,0,stable
+StreamComparerTests,StreamComparerTests.MixedEqualSpanningMultipleBuffers,100,100,0,0,stable
+StreamComparerTests,StreamComparerTests.NotEqualInPartialFinalBlock,100,100,0,0,stable
+StreamComparerTests,StreamComparerTests.PrefixIsNotEqual,100,100,0,0,stable
+StreamComparerTests,StreamComparerTests.ShouldNotLock,100,100,0,0,stable
+StreamTests,StreamTests.ByteArray,100,100,0,0,stable
+StreamTests,StreamTests.ByteArrayTask,100,100,0,0,stable
+StreamTests,StreamTests.ByteArrayWithExtension,100,100,0,0,stable
+StreamTests,StreamTests.EmptyBinary,100,100,0,0,stable
+StreamTests,StreamTests.FileStream,100,100,0,0,stable
+StreamTests,StreamTests.FileStreamTask,100,100,0,0,stable
+StreamTests,StreamTests.LengthNotSupportedException,100,100,0,0,stable
+StreamTests,StreamTests.MemoryStreamNotAtStart,100,100,0,0,stable
+StreamTests,StreamTests.MemoryStreamWithExtensionNotAtStart,100,100,0,0,stable
+StreamTests,StreamTests.NestedByteArray,100,100,0,0,stable
+StreamTests,StreamTests.NoLengthStream,100,100,0,0,stable
+StreamTests,StreamTests.OnlyExtension,100,100,0,0,stable
+StreamTests,StreamTests.OnlyExtensionAppendFile,100,100,0,0,stable
+StreamTests,StreamTests.OnlyExtensionAppendTextFile,100,100,0,0,stable
+StreamTests,StreamTests.Stream,100,100,0,0,stable
+StreamTests,StreamTests.StreamMember,100,100,0,0,stable
+StreamTests,StreamTests.StreamNotAtStart,100,100,0,0,stable
+StreamTests,StreamTests.StreamNotAtStartAsText,100,100,0,0,stable
+StreamTests,StreamTests.StreamTask,100,100,0,0,stable
+StreamTests,StreamTests.StreamWithExtension,100,100,0,0,stable
+StreamTests,StreamTests.Streams,100,100,0,0,stable
+StreamTests,StreamTests.StreamsWithInfo,100,100,0,0,stable
+StreamTests,StreamTests.VerifyBytes,100,100,0,0,stable
+StreamTests,StreamTests.VerifyBytesAsync,100,100,0,0,stable
+StreamTests,StreamTests.VerifyFileNotLocked,100,100,0,0,stable
+StreamTests,StreamTests.VerifyFilePath,100,100,0,0,stable
+StreamTests,StreamTests.VerifyFilePathWithExtension,100,100,0,0,stable
+StreamTests,StreamTests.VerifyFileWithAppend,100,100,0,0,stable
+StreamTests,StreamTests.VerifyFileWithInfo,100,100,0,0,stable
+SynchronizationContextTests,SynchronizationContextTests.DoesNotCaptureCallerSynchronizationContext,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.AddOperator,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.AddOperatorUsage,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.CleanupDoesNotThrowForUndeletableDirectory,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.CreatesDirectory,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.CreatesUniqueDirectories,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.DeleteDirectory,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.DeleteOldDirectories,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.DeleteOldDirectoriesWithContents,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.DirectoryInfoConversion,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.Dispose_DeletesDirectory,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.Dispose_DeletesDirectoryWithContents,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.IgnoreLockedFiles,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.IgnoreLockedFiles_DefaultIsFalse,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.IgnoreLockedFiles_NoLockedFiles_DeletesDirectory,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.ImplicitStringConversion_ReturnsDirectoryPath,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.InfoProperty,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.MultipleInstances_CanCoexist,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.NoUsing,100,0,0,100,skipped
+TempDirectoryTests,TempDirectoryTests.OpenExplorerAndDebug,100,0,0,100,skipped
+TempDirectoryTests,TempDirectoryTests.PathProperty,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.RootDirectory,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.StringConversion,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.ToStringOverride,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.Usage,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.VerifyDirectoryInstance,100,100,0,0,stable
+TempDirectoryTests,TempDirectoryTests.WithNoVerify,100,100,0,0,stable
+TempFileTests,TempFileTests.CleanupDoesNotThrowForUndeletableFile,100,100,0,0,stable
+TempFileTests,TempFileTests.Cleanup_HandlesFileNotFoundRaceCondition,100,100,0,0,stable
+TempFileTests,TempFileTests.Cleanup_KeepsRecentFiles,100,100,0,0,stable
+TempFileTests,TempFileTests.Cleanup_RemovesOldFiles,100,100,0,0,stable
+TempFileTests,TempFileTests.ConcurrentInstancesDoNotCorruptState,100,100,0,0,stable
+TempFileTests,TempFileTests.Constructor_CreatesFilePathInRootDirectory,100,100,0,0,stable
+TempFileTests,TempFileTests.Constructor_WithEmptyExtension_ThrowsArgumentException,100,100,0,0,stable
+TempFileTests,TempFileTests.Constructor_WithExtension_AppliesExtension,100,100,0,0,stable
+TempFileTests,"TempFileTests.Constructor_WithVariousExtensions_AppliesCorrectly(extension: "".csv"")",100,100,0,0,stable
+TempFileTests,"TempFileTests.Constructor_WithVariousExtensions_AppliesCorrectly(extension: "".json"")",100,100,0,0,stable
+TempFileTests,"TempFileTests.Constructor_WithVariousExtensions_AppliesCorrectly(extension: "".xml"")",100,100,0,0,stable
+TempFileTests,TempFileTests.Create,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateBinary,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateBinaryWithExtension,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateBinary_CanBeVerified,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateBinary_DisposesCorrectly,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateBinary_WithContent_CreatesFileWithBinaryContent,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateBinary_WithEmptyContent_CreatesEmptyFile,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateBinary_WithExtension_CreatesFileWithExtensionAndContent,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateBinary_WithImageData_CreatesValidFile,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateBinary_WithLargeBinaryData_WritesCorrectly,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateText,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateTextWithEncoding,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateTextWithExtension,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateText_CanBeVerified,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateText_DisposesCorrectly,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateText_WithAsciiEncoding_CreatesFileWithAsciiEncoding,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateText_WithContent_CreatesFileWithContent,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateText_WithEmptyContent_CreatesEmptyFile,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateText_WithEncoding_CreatesFileWithBom,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateText_WithEncoding_CreatesFileWithSpecifiedEncoding,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateText_WithExtension_CreatesFileWithExtensionAndContent,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateText_WithJsonContent_CreatesValidJsonFile,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateText_WithMultilineContent_PreservesLineBreaks,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateText_WithXmlContent_CreatesValidXmlFile,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateWithEncoding,100,100,0,0,stable
+TempFileTests,TempFileTests.CreateWithExtension,100,100,0,0,stable
+TempFileTests,TempFileTests.Create_CanBeUsedConcurrently,100,100,0,0,stable
+TempFileTests,TempFileTests.Create_CanWriteAndReadContent,100,100,0,0,stable
+TempFileTests,TempFileTests.Create_WithEncoding_CreatesFileWithBom,100,100,0,0,stable
+TempFileTests,TempFileTests.Create_WithExtension_CreatesFileWithExtension,100,100,0,0,stable
+TempFileTests,TempFileTests.Create_WithoutExtension_CreatesEmptyFile,100,100,0,0,stable
+TempFileTests,TempFileTests.Dispose_DeletesFile,100,100,0,0,stable
+TempFileTests,TempFileTests.Dispose_WhenFileDoesNotExist_DoesNotThrow,100,100,0,0,stable
+TempFileTests,TempFileTests.FileInfoConversion,100,100,0,0,stable
+TempFileTests,TempFileTests.ImplicitFileInfoOperator_ReturnsFileInfo,100,100,0,0,stable
+TempFileTests,TempFileTests.ImplicitStringOperator_ReturnsPath,100,100,0,0,stable
+TempFileTests,TempFileTests.InfoProperty,100,100,0,0,stable
+TempFileTests,TempFileTests.Info_ReturnsFileInfo,100,100,0,0,stable
+TempFileTests,TempFileTests.MultipleInstances_CreateUniqueFiles,100,100,0,0,stable
+TempFileTests,TempFileTests.NoUsing,100,0,0,100,skipped
+TempFileTests,TempFileTests.OpenExplorerAndDebug,100,0,0,100,skipped
+TempFileTests,TempFileTests.OpenExplorerAndDebug_OnBuildServer_ThrowsException,100,100,0,0,stable
+TempFileTests,TempFileTests.PathProperty,100,100,0,0,stable
+TempFileTests,TempFileTests.RootDirectory,100,100,0,0,stable
+TempFileTests,TempFileTests.RootDirectory_Exists,100,100,0,0,stable
+TempFileTests,TempFileTests.RootDirectory_IsInSystemTemp,100,100,0,0,stable
+TempFileTests,TempFileTests.StringConversion,100,100,0,0,stable
+TempFileTests,TempFileTests.ToString_ReturnsPath,100,100,0,0,stable
+TempFileTests,TempFileTests.Usage,100,100,0,0,stable
+TempFileTests,TempFileTests.VerifyFileInstance,100,100,0,0,stable
+TempFileTests,TempFileTests.WithNoVerify,100,100,0,0,stable
+Tests,Tests.AsyncEnumerable,100,100,0,0,stable
+Tests,Tests.AsyncEnumerableAsyncDisposable,100,100,0,0,stable
+Tests,Tests.AsyncEnumerableDisposable,100,100,0,0,stable
+Tests,Tests.DanglingFiles,100,100,0,0,stable
+Tests,"Tests.DanglingFilesIgnoreParametersForVerified(param: ""param"")",100,100,0,0,stable
+Tests,Tests.EnsureUtf8BomPreamble,100,100,0,0,stable
+Tests,Tests.FuncOfTaskResult,100,100,0,0,stable
+Tests,Tests.FuncOfTaskResultAsyncDisposable,100,100,0,0,stable
+Tests,Tests.FuncOfTaskResultDisposable,100,100,0,0,stable
+Tests,Tests.FuncOfTaskResultNull,100,100,0,0,stable
+Tests,"Tests.IncorrectParameterCount_TooMany(one: 1, two: 2)",100,100,0,0,stable
+Tests,Tests.MisMatchcase,100,100,0,0,stable
+Tests,Tests.NestedStringBuilder,100,100,0,0,stable
+Tests,Tests.NestedTextWriter,100,100,0,0,stable
+Tests,Tests.Null,100,100,0,0,stable
+Tests,Tests.OnCallbacks,100,100,0,0,stable
+Tests,Tests.OnCallbacksTest,100,100,0,0,stable
+Tests,Tests.OnFirstVerify,100,100,0,0,stable
+Tests,Tests.OnFluentCallbacks,100,100,0,0,stable
+Tests,Tests.OnVerifyMismatch,100,100,0,0,stable
+Tests,"Tests.ParameterCount_TooFew(one: 1, two: 2)",100,100,0,0,stable
+Tests,"Tests.ReplaceInvalidParamChar(value: ""a"")",100,100,0,0,stable
+Tests,Tests.Result,100,100,0,0,stable
+Tests,Tests.ResultAutoVerify,100,100,0,0,stable
+Tests,Tests.ResultAutoVerifyMissingVerified,100,100,0,0,stable
+Tests,Tests.ShouldNotIgnoreCase,100,100,0,0,stable
+Tests,Tests.StringBuilder,100,100,0,0,stable
+Tests,Tests.StringExtension,100,100,0,0,stable
+Tests,Tests.StringWithUtf8Bom,100,100,0,0,stable
+Tests,Tests.TaskResult,100,100,0,0,stable
+Tests,Tests.TaskResultAsyncDisposable,100,100,0,0,stable
+Tests,Tests.TaskResultDisposable,100,100,0,0,stable
+Tests,Tests.TextWriter,100,100,0,0,stable
+Tests,Tests.ThrowForTerminatedFluent,100,100,0,0,stable
+Tests,Tests.TreatAsString,100,100,0,0,stable
+TheNamespace.Bar.NamerInNamespaceTests,TheNamespace.Bar.NamerInNamespaceTests.Run,100,100,0,0,stable
+ThrowIfVerifyHasBeenRunTests,ThrowIfVerifyHasBeenRunTests.NamesTheApi,100,100,0,0,stable
+ThrowIfVerifyHasBeenRunTests,ThrowIfVerifyHasBeenRunTests.ParameterlessOverloadRetainedForCompiledPlugins,100,100,0,0,stable
+ThrowsTests,ThrowsTests.ExceptionResult,100,100,0,0,stable
+ThrowsTests,ThrowsTests.TestMethodThatThrows,100,100,0,0,stable
+ThrowsTests,ThrowsTests.TestMethodThatThrowsIgnoreStackTraceFluent,100,100,0,0,stable
+ThrowsTests,ThrowsTests.TestMethodThatThrowsIgnoreStackTraceSettings,100,100,0,0,stable
+ThrowsTests,ThrowsTests.TestThrowsTask,100,100,0,0,stable
+ThrowsTests,ThrowsTests.TestThrowsValueTask,100,100,0,0,stable
+ThrowsTests,ThrowsTests.ThrowsAggregate,100,100,0,0,stable
+ThrowsTests,ThrowsTests.ThrowsArgumentException,100,100,0,0,stable
+ThrowsTests,ThrowsTests.ThrowsEmptyAggregate,100,100,0,0,stable
+ThrowsTests,ThrowsTests.ThrowsInheritedArgumentException,100,100,0,0,stable
+ThrowsTests,ThrowsTests.ThrowsNested,100,100,0,0,stable
+ThrowsTests,ThrowsTests.ThrowsTaskGeneric,100,100,0,0,stable
+ThrowsTests,ThrowsTests.ThrowsValueTaskGeneric,100,100,0,0,stable
+ThrowsTests,ThrowsTests.ThrowsWithInner,100,100,0,0,stable
+UnionTests,UnionTests.CasesWithMatchingShapeAreIndistinguishable,100,100,0,0,stable
+UnionTests,UnionTests.ClosedTypeInList,100,100,0,0,stable
+UnionTests,UnionTests.ClosedTypeThroughProperty,100,100,0,0,stable
+UnionTests,UnionTests.DefaultUnionIsOmitted,100,100,0,0,stable
+UnionTests,UnionTests.ListCase,100,100,0,0,stable
+UnionTests,UnionTests.NumberCase,100,100,0,0,stable
+UnionTests,UnionTests.ObjectCase,100,100,0,0,stable
+UnionTests,UnionTests.ScrubbersApplyInsideUnion,100,100,0,0,stable
+UnionTests,UnionTests.StringCase,100,100,0,0,stable
+UnionTests,UnionTests.UnionAsMember,100,100,0,0,stable
+UniqueDirectoryReceivedTests,UniqueDirectoryReceivedTests.ReceivedIsScopedToRuntimeAndVersion,100,0,100,0,broken
+UniqueDirectoryReceivedTests,UniqueDirectoryReceivedTests.SplitModeReceivedIsScopedToRuntimeAndVersion,100,0,100,0,broken
+UniquenessSegmentsTests,UniquenessSegmentsTests.AnotherArchitectureIsAnotherRunEvenWhenCovered,100,100,0,0,stable
+UniquenessSegmentsTests,UniquenessSegmentsTests.AnotherPlatformIsAnotherRunEvenWhenCovered,100,100,0,0,stable
+UniquenessSegmentsTests,UniquenessSegmentsTests.AnotherRuntimeIsAnotherRun,100,100,0,0,stable
+UniquenessSegmentsTests,UniquenessSegmentsTests.AnotherVersionOfThisRuntimeIsAnotherRun,100,100,0,0,stable
+UniquenessSegmentsTests,UniquenessSegmentsTests.CaseIsPartOfTheMatch,100,100,0,0,stable
+UniquenessSegmentsTests,UniquenessSegmentsTests.ConfigurationIsNotRecognised,100,100,0,0,stable
+UniquenessSegmentsTests,UniquenessSegmentsTests.NamesStartingWithAUniquenessTokenAreNotUniqueness,100,100,0,0,stable
+UniquenessSegmentsTests,UniquenessSegmentsTests.NoUniquenessIsNotAnotherRun,100,100,0,0,stable
+UniquenessSegmentsTests,UniquenessSegmentsTests.OnlyMajorMinorIsAVersion,100,100,0,0,stable
+UniquenessSegmentsTests,UniquenessSegmentsTests.ParametersAreNotUniqueness,100,100,0,0,stable
+UniquenessSegmentsTests,UniquenessSegmentsTests.RuntimeIsIgnoredOnceFrameworksAreCovered,100,100,0,0,stable
+UniquenessSegmentsTests,UniquenessSegmentsTests.SeveralUniquenessSegments,100,100,0,0,stable
+UniquenessSegmentsTests,UniquenessSegmentsTests.SplitModeUniqueDirectory,100,100,0,0,stable
+UniquenessSegmentsTests,UniquenessSegmentsTests.ThisArchitectureIsNotAnotherRun,100,100,0,0,stable
+UniquenessSegmentsTests,UniquenessSegmentsTests.ThisPlatformIsNotAnotherRun,100,100,0,0,stable
+UniquenessSegmentsTests,UniquenessSegmentsTests.ThisRuntimeIsNotAnotherRun,100,100,0,0,stable
+UniquenessSegmentsTests,UniquenessSegmentsTests.UniqueDirectory,100,100,0,0,stable
+UniquenessSegmentsTests,UniquenessSegmentsTests.UniquenessAfterParameters,100,100,0,0,stable
+UniquenessSegmentsTests,UniquenessSegmentsTests.UniquenessBeforeAnIndex,100,100,0,0,stable
+UseComparerDifferentTargets,UseComparerDifferentTargets.Test,100,100,0,0,stable
+UseTextForParametersTests,"UseTextForParametersTests.InvalidCharactersThrow(text: ""a#1"")",100,100,0,0,stable
+UseTextForParametersTests,"UseTextForParametersTests.InvalidCharactersThrow(text: ""a*b"")",100,100,0,0,stable
+UseTextForParametersTests,"UseTextForParametersTests.InvalidCharactersThrow(text: ""a?b"")",100,100,0,0,stable
+UseTextForParametersTests,"UseTextForParametersTests.InvalidCharactersThrow(text: ""a|b"")",100,100,0,0,stable
+UseTextForParametersTests,"UseTextForParametersTests.InvalidCharactersThrow(text: ""ratio 16:9"")",100,100,0,0,stable
+UseTextForParametersTests,UseTextForParametersTests.ValidTextIsAccepted,100,100,0,0,stable
+VerifyChecksTests,VerifyChecksTests.BuildIndentSectionHeader_MultipleExtensions,100,100,0,0,stable
+VerifyChecksTests,VerifyChecksTests.BuildIndentSectionHeader_NoIndentExtensions,100,100,0,0,stable
+VerifyChecksTests,VerifyChecksTests.BuildIndentSectionHeader_SingleExtension,100,100,0,0,stable
+VerifyChecksTests,VerifyChecksTests.EditorConfig,100,100,0,0,stable
+VerifyChecksTests,VerifyChecksTests.GetExtensions,100,100,0,0,stable
+VerifyChecksTests,VerifyChecksTests.GitAttributes,100,100,0,0,stable
+VerifyChecksTests,VerifyChecksTests.GitIgnore,100,100,0,0,stable
+VerifyChecksTests,VerifyChecksTests.IncorrectlyImportedSnapshots,100,100,0,0,stable
+VerifyChecksTests,VerifyChecksTests.Invalid,100,100,0,0,stable
+VerifyChecksTests,VerifyChecksTests.MissingIndentEditorConfig,100,100,0,0,stable
+VerifyChecksTests,VerifyChecksTests.PartialEditorConfig,100,100,0,0,stable
+VerifyChecksTests,VerifyChecksTests.PartialGitAttributes,100,100,0,0,stable
+VerifyChecksTests,VerifyChecksTests.Superset,100,100,0,0,stable
+VerifyChecksTests,VerifyChecksTests.Valid,100,100,0,0,stable
+VerifyDirectoryTests,VerifyDirectoryTests.WithDirectory,100,100,0,0,stable
+VerifyDirectoryTests,VerifyDirectoryTests.WithDirectoryWithInfo,100,100,0,0,stable
+VerifyJsonWriterTests,VerifyJsonWriterTests.ShouldWriteScrubbed_WhenValueIsIgnored,100,100,0,0,stable
+VerifyJsonWriterTests,VerifyJsonWriterTests.ShouldWriteScrubbed_WhenValueIsScrubbed,100,100,0,0,stable
+VerifyJsonWriterTests,VerifyJsonWriterTests.ShouldWriteValue,100,100,0,0,stable
+VerifySettingsTests,VerifySettingsTests.AddContextRejectsEmptyName,100,100,0,0,stable
+VerifySettingsTests,VerifySettingsTests.AddContextReplacesExisting,100,100,0,0,stable
+VerifySettingsTests,VerifySettingsTests.ContextIsCloned,100,100,0,0,stable
+VerifyXmlStreamTests,VerifyXmlStreamTests.DisposesStream,100,100,0,0,stable
+XmlTests,XmlTests.CData,100,100,0,0,stable
+XmlTests,XmlTests.CDataMix,100,100,0,0,stable
+XmlTests,XmlTests.CDataMix_WithScrub,100,100,0,0,stable
+XmlTests,XmlTests.CData_WithScrub,100,100,0,0,stable
+XmlTests,XmlTests.Comment,100,100,0,0,stable
+XmlTests,XmlTests.Comment_Mix,100,100,0,0,stable
+XmlTests,XmlTests.Comment_Mix_WithScrub,100,100,0,0,stable
+XmlTests,XmlTests.Comment_WithScrub,100,100,0,0,stable
+XmlTests,XmlTests.DateOnlyScrubbing,100,100,0,0,stable
+XmlTests,XmlTests.DateOnlyScrubbingAttribute,100,100,0,0,stable
+XmlTests,XmlTests.DateOnlyScrubbingDisableCounting,100,100,0,0,stable
+XmlTests,XmlTests.DateOnlyScrubbingMultiple,100,100,0,0,stable
+XmlTests,XmlTests.EmptyTag,100,100,0,0,stable
+XmlTests,XmlTests.EmptyTagWithAttributes,100,100,0,0,stable
+XmlTests,XmlTests.IgnoreAttribute,100,100,0,0,stable
+XmlTests,XmlTests.NoDeclaration,100,100,0,0,stable
+XmlTests,XmlTests.ScrubAttribute,100,100,0,0,stable
+XmlTests,XmlTests.Scrubbing,100,100,0,0,stable
+XmlTests,XmlTests.XDoc,100,100,0,0,stable
+XmlTests,XmlTests.XDocIgnoreMember,100,100,0,0,stable
+XmlTests,XmlTests.XDocScrubMember,100,100,0,0,stable
+XmlTests,XmlTests.XElement,100,100,0,0,stable
+XmlTests,XmlTests.Xml,100,100,0,0,stable
+XmlTests,XmlTests.XmlDoc,100,100,0,0,stable
+XmlTests,XmlTests.XmlDocIgnoreMember,100,100,0,0,stable
+XmlTests,XmlTests.XmlDocScrubMember,100,100,0,0,stable
+XmlTests,XmlTests.XmlElement,100,100,0,0,stable
+XmlTests,XmlTests.XmlIgnoreMember,100,100,0,0,stable
+XmlTests,XmlTests.XmlScrubMember,100,100,0,0,stable

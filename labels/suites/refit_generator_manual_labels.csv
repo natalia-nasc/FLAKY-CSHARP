@@ -1,0 +1,863 @@
+﻿className,test,runs_presente,passed,failed,skipped,label
+Refit.GeneratorTests.AnalyzerEmbeddedParserComponentTests,EmbeddedAliasQualificationHandlesGlobalAndAliasOnlyReferences,20,20,0,0,stable
+Refit.GeneratorTests.AnalyzerEmbeddedParserComponentTests,EmbeddedParserConsumesCompiledMethodsAndAttributesDirectly,20,20,0,0,stable
+Refit.GeneratorTests.AnalyzerEmbeddedParserComponentTests,EmbeddedParserHandlesNonGenericApiResponseAndEmptyQueryParts,20,20,0,0,stable
+Refit.GeneratorTests.AnalyzerEmbeddedParserComponentTests,EmbeddedParserHelpersClassifyPathsBodiesAndHeaders,20,20,0,0,stable
+Refit.GeneratorTests.AnalyzerEmbeddedParserComponentTests,EmbeddedPathLocationsFindMatchesAndReturnEmptyForMisses,20,20,0,0,stable
+Refit.GeneratorTests.AnalyzerEmbeddedParserComponentTests,PathParameterLocationsUseBackingOccurrenceIdentity,20,20,0,0,stable
+Refit.GeneratorTests.AnalyzerEmbeddedParserComponentTests,RawArraysUseStructuralEquality,20,20,0,0,stable
+Refit.GeneratorTests.AnalyzerEmbeddedParserComponentTests,RequestModelsRetainAllValues,20,20,0,0,stable
+Refit.GeneratorTests.AnalyzerEmbeddedParserComponentTests,TypeHierarchyChecksIncludeInterfacesOnlyWhenRequested,20,20,0,0,stable
+Refit.GeneratorTests.AnalyzerPackagingTests,MinimumCompilerVersionMatchesThePackagedAnalyzerSlot,20,20,0,0,stable
+Refit.GeneratorTests.AnalyzerPackagingTests,PackageDeclaresExactlyOneRoslynAnalyzerSlot,20,20,0,0,stable
+Refit.GeneratorTests.AnalyzerPackagingTests,PackagedAnalyzerAssembliesAreShippedOnce,20,20,0,0,stable
+Refit.GeneratorTests.AnalyzerPackagingTests,RequireGeneratedRequestsProfileIsOptInAndPromotesOnlyRf006,20,20,0,0,stable
+Refit.GeneratorTests.EscapedIdentifierBindingTests,KeywordHeaderParameterSetsHeaderValue,20,20,0,0,stable
+Refit.GeneratorTests.EscapedIdentifierBindingTests,KeywordPathParameterFlowsIntoRequestPath,20,20,0,0,stable
+Refit.GeneratorTests.EscapedIdentifierBindingTests,KeywordQueryParametersFlowIntoQueryString,20,20,0,0,stable
+Refit.GeneratorTests.EscapedIdentifierGenerationTests,AliasedQueryParameter,20,20,0,0,stable
+Refit.GeneratorTests.EscapedIdentifierGenerationTests,BodyParameter,20,20,0,0,stable
+Refit.GeneratorTests.EscapedIdentifierGenerationTests,BuildRequestReturnShape,20,20,0,0,stable
+Refit.GeneratorTests.EscapedIdentifierGenerationTests,CancellationTokenKeywordName,20,20,0,0,stable
+Refit.GeneratorTests.EscapedIdentifierGenerationTests,EncodedRoundTripParameter,20,20,0,0,stable
+Refit.GeneratorTests.EscapedIdentifierGenerationTests,HeaderCollectionParameter,20,20,0,0,stable
+Refit.GeneratorTests.EscapedIdentifierGenerationTests,HeaderParameter,20,20,0,0,stable
+Refit.GeneratorTests.EscapedIdentifierGenerationTests,KeywordMethodName,20,20,0,0,stable
+Refit.GeneratorTests.EscapedIdentifierGenerationTests,MixedKeywordPositions,20,20,0,0,stable
+Refit.GeneratorTests.EscapedIdentifierGenerationTests,MultipartParameters,20,20,0,0,stable
+Refit.GeneratorTests.EscapedIdentifierGenerationTests,OptionalPathParameter,20,20,0,0,stable
+Refit.GeneratorTests.EscapedIdentifierGenerationTests,PathParameter,20,20,0,0,stable
+Refit.GeneratorTests.EscapedIdentifierGenerationTests,PropertyMember,20,20,0,0,stable
+Refit.GeneratorTests.EscapedIdentifierGenerationTests,PropertyParameter,20,20,0,0,stable
+Refit.GeneratorTests.EscapedIdentifierGenerationTests,QueryParameters,20,20,0,0,stable
+Refit.GeneratorTests.ExternAliasTests,ExternAliasedArrayBodyParameterGeneratesAliasQualifiedAndCompiles,20,20,0,0,stable
+Refit.GeneratorTests.ExternAliasTests,ExternAliasedBodyParameterGeneratesAliasQualifiedAndCompiles,20,20,0,0,stable
+Refit.GeneratorTests.ExternAliasTests,ExternAliasedGenericOverTypeParameterGeneratesAliasQualified,20,20,0,0,stable
+Refit.GeneratorTests.ExternAliasTests,ExternAliasedInterfacePropertyGeneratesAliasQualifiedAndCompiles,20,20,0,0,stable
+Refit.GeneratorTests.ExternAliasTests,ExternAliasedNullableEnumQueryGeneratesAliasQualifiedAndCompiles,20,20,0,0,stable
+Refit.GeneratorTests.ExternAliasTests,ExternAliasedQueryEnumGeneratesAliasQualifiedAndCompiles,20,20,0,0,stable
+Refit.GeneratorTests.ExternAliasTests,ExternAliasedReturnTypeGeneratesAliasQualifiedAndCompiles,20,20,0,0,stable
+Refit.GeneratorTests.ExternAliasTests,GlobalAliasedReferenceGeneratesPlainQualifiedNameAndCompiles,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedCodeComplianceTests,GeneratedFormBodyUnrollCompilesWithCSharp73Baseline,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedCodeComplianceTests,GeneratedFormDescriptorCompilesWithCSharp73Baseline,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedCodeComplianceTests,GeneratedInfrastructureFieldsAvoidInterfaceMemberNames,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedCodeComplianceTests,GeneratedSourcesCompileUnderStrictWarnings,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedCodeComplianceTests,GeneratedSourcesCompileWithCSharp73Baseline,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedCodeComplianceTests,GeneratedSourcesEmitNullableAnnotationsWhenSupported,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedCodeComplianceTests,GeneratedSourcesUseAnalyzerRecognizedMarkers,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackContractTests,ConstrainedGenericPathBoundMethodIsNotFlaggedWhileUnconstrainedIs,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackContractTests,"FallbackMethodsAreFlagged([Get(""/query-map"")] Task<string> Search(object filters);, Search)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackContractTests,"FallbackMethodsAreFlagged([Multipart][Post(""/upload"")] Task<string> Upload(object payload);, Upload)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackContractTests,"FallbackMethodsAreFlagged([Post(""/form"")] Task<string> PostForm<T>([Body(BodySerializationMethod·UrlEncoded)] T form);, PostForm)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackContractTests,"InlineMethodsAreNotFlagged([Get(""/cal/{**rest}"")] Task<string> RoundTrip(string rest);, RoundTrip)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackContractTests,"InlineMethodsAreNotFlagged([Get(""/items"")] Task<string> Items([Query(CollectionFormat·Multi)] int[] ids);, Items)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackContractTests,"InlineMethodsAreNotFlagged([Get(""/ping"")] Task Ping([Header(""X-Trace"")] string trace, CancellationToken token);, Ping)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackContractTests,"InlineMethodsAreNotFlagged([Get(""/signin"")] Task<string> SignIn([AliasAs(""login"")] string login);, SignIn)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackContractTests,"InlineMethodsAreNotFlagged([Get(""/stream"")] IObservable<string> Observe();, Observe)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackContractTests,"InlineMethodsAreNotFlagged([Get(""/users"")] Task<string> List();, List)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackContractTests,"InlineMethodsAreNotFlagged([Get(""/users/{id}"")] Task<string> GetUser(string id);, GetUser)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackContractTests,"InlineMethodsAreNotFlagged([Get(""/values"")] Task<T> GetValue<T>();, GetValue)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackContractTests,"InlineMethodsAreNotFlagged([Multipart][Post(""/upload"")] Task<string> Upload([AliasAs(""file"")] StreamPart stream);, Upload)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackContractTests,"InlineMethodsAreNotFlagged([Post(""/create"")] Task<string> Post(System·IO·Stream payload, string tag);, Post)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackContractTests,"InlineMethodsAreNotFlagged([Post(""/echo"")] Task<T> Echo<T>([Body] T payload);, Echo)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackContractTests,"InlineMethodsAreNotFlagged([Post(""/users"")] Task<string> Create([Body] string payload);, Create)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,EveryReasonHasSpecificWording,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackReportsReasonAtResponsibleDeclaration([Get("""")] Task<string> Fetch([Url] int target);, Fetch, UrlParameterType, target, Invalid)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackReportsReasonAtResponsibleDeclaration([Get(""/a/{id"")] Task<string> Broken(string id);, Broken, UnsupportedPathTemplate, Get(""/a/{id""), Invalid)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackReportsReasonAtResponsibleDeclaration([Get(""/auth"")] Task<string> Auth([Authorize] string a, [Authorize] string b);, Auth, MultipleAuthorizeParameters, b, Invalid)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackReportsReasonAtResponsibleDeclaration([Get(""/cal/{**rest}"")] Task<string> RoundTrip([Encoded] int rest);, RoundTrip, EncodedRoundTripNotString, rest, Reflection)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackReportsReasonAtResponsibleDeclaration([Get(""/foos/{request·someProperty}"")] Task Sample<T>(T request);, Sample, UnresolvedPathProperty, request, Reflection)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackReportsReasonAtResponsibleDeclaration([Get(""/h"")] Task<string> Headers([HeaderCollection] IDictionary<string, string> a, [HeaderCollection] IDictionary<string, string> b);, Headers, MultipleHeaderCollections, b, Invalid)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackReportsReasonAtResponsibleDeclaration([Get(""/items"")] Task<string> Fetch([Url] string target);, Fetch, UrlParameterWithPath, target, Invalid)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackReportsReasonAtResponsibleDeclaration([Get(""/query-map"")] Task<string> Search(object filters);, Search, UnsupportedQueryType, filters, Reflection)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackReportsReasonAtResponsibleDeclaration([Get(""/sync"")] string Sync();, Sync, UnsupportedReturnType, string, Reflection)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackReportsReasonAtResponsibleDeclaration([Get(""/tokens"")] Task<string> Tokens(CancellationToken first, CancellationToken second);, Tokens, MultipleCancellationTokens, second, Invalid)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackReportsReasonAtResponsibleDeclaration([Get(""/users/{id}"")] Task<string> GetUser(object id);, GetUser, UnsupportedPathParameterType, id, Reflection)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackReportsReasonAtResponsibleDeclaration([Multipart][Post(""/upload"")] Task<string> Upload([Body] string payload);, Upload, MultipartWithBody, payload, Invalid)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackReportsReasonAtResponsibleDeclaration([Multipart][Post(""/upload"")] Task<string> Upload(object payload);, Upload, UnsupportedMultipartPart, payload, Reflection)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackReportsReasonAtResponsibleDeclaration([Post(""/form"")] Task<string> PostForm<T>([Body(BodySerializationMethod·UrlEncoded)] T form);, PostForm, GenericUrlEncodedBody, form, Reflection)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackReportsReasonAtResponsibleDeclaration([Post(""/pair"")] Task<string> Pair(System·IO·Stream first, System·IO·Stream second);, Pair, SecondImplicitBody, second, Invalid)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackReportsReasonAtResponsibleDeclaration([Post(""/raw"")] Task<string> Raw([Body((BodySerializationMethod)42)] string payload);, Raw, UnknownBodySerialization, payload, Reflection)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackReportsReasonAtResponsibleDeclaration([Post(""/users"")] Task<string> TwoBodies([Body] string first, [Body] string second);, TwoBodies, MultipleBodies, second, Invalid)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackWithSupportingDeclarationsReportsReason(using System·Net·Http;
+using System·Threading·Tasks;
+using Refit;
+
+namespace RefitGeneratorTest;
+
+public sealed class DynamicVerbAttribute(string path) : HttpMethodAttribute(path)
+{
+    private readonly string _verb = ""PURGE"";
+
+    public override HttpMethod Method => new(_verb);
+}
+
+public interface IGeneratedClient
+{
+    [DynamicVerb(""/cache"")]
+    Task Purge();
+}, Purge, UnreadableHttpMethod, DynamicVerb(""/cache""), Reflection)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackWithSupportingDeclarationsReportsReason(using System·Threading·Tasks;
+using Refit;
+
+namespace RefitGeneratorTest;
+
+public sealed class Form
+{
+    public string? Name { get; set; }
+}
+
+public interface IGeneratedClient
+{
+    [Multipart]
+    [Post(""/upload"")]
+    Task<string> Upload([FormObject] Form form);
+}, Upload, FormObjectMultipartPart, form, Reflection)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"FallbackWithSupportingDeclarationsReportsReason(using System·Threading·Tasks;
+using Refit;
+
+namespace RefitGeneratorTest;
+
+public sealed class Lookup
+{
+    public int Id { get; set; }
+
+    public object? Extra { get; set; }
+}
+
+public interface IGeneratedClient
+{
+    [Get(""/items/{lookup·Id}"")]
+    Task<string> Find(Lookup lookup);
+}, Find, UnsupportedPathObjectQuery, lookup, Reflection)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,MethodLevelFallbackWithoutPreciseDeclarationIsLocatedOnTheMethod,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"SupportedShapesReportNoFallback([Get(""/cal/{**rest}"")] Task<string> RoundTrip([Encoded] string rest);)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"SupportedShapesReportNoFallback([Get(""/query"")] Task<string> Search([QueryConverter(typeof(FilterConverter))] object filters);)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingFallbackReasonTests,"SupportedShapesReportNoFallback([Get(""/users/{id}"")] Task<string> GetUser(int id);)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,DefaultUsesGeneratedRequestConstruction,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,DisableSourceGeneratorProducesNoSources,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,DoesNotReemitGeneratedClientProperty,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,EmitsInlineConstructionForNonTemplatedQueryParameters,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,EmitsInlineConstructionForPathParameters,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,ExplicitSwitchOffUsesReflectiveRequestBuilder,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,GeneratesInlineForRoundTripPathPlaceholders,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,ImplementsInheritedRegularInterfaceProperty,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,ParameterNamedLikeGeneratedLocalCompiles(refitArguments),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,ParameterNamedLikeGeneratedLocalCompiles(refitFunc),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,ParameterNamedLikeGeneratedLocalCompiles(refitRequest),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,ParameterNamedLikeGeneratedLocalCompiles(refitRequestBuilder),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,ParameterNamedLikeGeneratedLocalCompiles(refitSettings),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnDiscoversQualifiedBuiltInHttpMethodAttributes,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsAllBuiltInHttpMethodsInline,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsApiResponseAndRawBodyReturnShapes,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsAsyncJsonLinesBodyContentForAsyncEnumerableBody,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsBodyBufferModesAndSerializationModes,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsDynamicHeader,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsHeaderCollection,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsInheritedPropertiesMethodsAndDispose,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsInlineConstructionForDerivedRefitMethod,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsInlineRequestConstructionForSimpleMethod,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsInterfacePathPrefixInRoute,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsInterfacePropertyRequestProperty,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsJsonLinesBodyContent,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsNullableHeaderValues,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsPathPrefixOnInheritedMethod,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsReflectiveFallbackForGenericMethodsWithConstraints,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsReflectiveFallbackForSynchronousReturnShapes,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsStaticHeaders,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsTypedJsonLinesBodyContentForSealedElementBody,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsTypedJsonLinesBodyContentForValueTypeElementBody,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsTypedPropertyParameter,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsUntypedJsonLinesBodyContentForStringBody,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEmitsUrlEncodedBodyContent,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnEscapesInlineStringLiterals,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnFallbackReturnsTheRequestBuilderTaskWithoutAwaiting,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnFallsBackForCustomHttpMethodAttributes,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnFallsBackForInvalidHeaderCollection,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnFallsBackForUnsupportedInlineBodySerialization,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnFallsBackForUnsupportedInlinePathAndMetadata,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnFallsBackForUnsupportedParametersAndDuplicateSpecialParameters,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnGeneratedRequestConstructionCompiles,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnGeneratesInlineForCustomHttpVerbLiteral,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnGeneratesInlineForQueryUriFormat,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnGeneratesInlineForQueryVerbWithBody,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnMapsLegacyJsonBodySerializationToSerialized,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnRemovesEmptyQueryKeysFromInlineConstantPaths,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnRemovesWhitespaceAndEmptyQueryKeysFromInlineConstantPaths,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnStripsFragmentsFromInlineConstantPaths,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnStripsQueryAfterFragmentFromInlineConstantPaths,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnUsesParameterNameForPropertyWithoutExplicitKey,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,SwitchOnWrapsValueTaskInlineReturns,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,TimeoutAttributeEmitsSetRequestTimeout,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,UrlEncodedFormBodyEmitsGeneratedFieldDescriptors,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,UrlEncodedFormBodyEmitsInheritedAndPrefixedFieldDescriptors,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,UrlEncodedFormBodyEscapesSpecialCharactersInFieldNames,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,"UrlEncodedIneligibleBodyKeepsReflectionContentPath(System·Collections·Generic·Dictionary<string, string>)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,UrlEncodedIneligibleBodyKeepsReflectionContentPath(System·Collections·Generic·List<string>),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,UrlEncodedIneligibleBodyKeepsReflectionContentPath(System·IDisposable),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,UrlEncodedIneligibleBodyKeepsReflectionContentPath(int[]),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,UrlEncodedIneligibleBodyKeepsReflectionContentPath(object),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,UrlEncodedStringBodyKeepsReflectionContentPath,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,UsesGeneratedRequestBuilderForTemplatedQueryParameters,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestBuildingTests,WithoutTimeoutAttributeEmitsNoSetRequestTimeout,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,JsonMetadataColumnMatchesTheParsedRequest(ApiResponse<T> reply),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,JsonMetadataColumnMatchesTheParsedRequest(Form-url-encoded body),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,JsonMetadataColumnMatchesTheParsedRequest(Generic body and reply),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,JsonMetadataColumnMatchesTheParsedRequest(Generic form-url-encoded body),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,JsonMetadataColumnMatchesTheParsedRequest(JSON Lines upload),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,JsonMetadataColumnMatchesTheParsedRequest(JSON body with JsonTypeInfo<T>),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,JsonMetadataColumnMatchesTheParsedRequest(JSON body),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,JsonMetadataColumnMatchesTheParsedRequest(Multipart part of unknown shape),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,JsonMetadataColumnMatchesTheParsedRequest(Multipart stream part),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,JsonMetadataColumnMatchesTheParsedRequest(Observable reply),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,JsonMetadataColumnMatchesTheParsedRequest(Path value of unknown shape),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,"JsonMetadataColumnMatchesTheParsedRequest(Path value, JSON reply)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,JsonMetadataColumnMatchesTheParsedRequest(Query converter),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,JsonMetadataColumnMatchesTheParsedRequest(Query object of unknown shape),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,JsonMetadataColumnMatchesTheParsedRequest(Query values and collections),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,JsonMetadataColumnMatchesTheParsedRequest(Raw string body),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,JsonMetadataColumnMatchesTheParsedRequest(Streamed reply),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,JsonMetadataColumnMatchesTheParsedRequest(Synchronous return),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,JsonMetadataColumnMatchesTheParsedRequest([FormObject] multipart part),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,NativeAotSmokeColumnNamesAnExecutedMethod(ApiResponse<T> reply),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,NativeAotSmokeColumnNamesAnExecutedMethod(Form-url-encoded body),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,NativeAotSmokeColumnNamesAnExecutedMethod(Generic body and reply),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,NativeAotSmokeColumnNamesAnExecutedMethod(Generic form-url-encoded body),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,NativeAotSmokeColumnNamesAnExecutedMethod(JSON Lines upload),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,NativeAotSmokeColumnNamesAnExecutedMethod(JSON body with JsonTypeInfo<T>),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,NativeAotSmokeColumnNamesAnExecutedMethod(JSON body),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,NativeAotSmokeColumnNamesAnExecutedMethod(Multipart part of unknown shape),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,NativeAotSmokeColumnNamesAnExecutedMethod(Multipart stream part),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,NativeAotSmokeColumnNamesAnExecutedMethod(Observable reply),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,NativeAotSmokeColumnNamesAnExecutedMethod(Path value of unknown shape),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,"NativeAotSmokeColumnNamesAnExecutedMethod(Path value, JSON reply)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,NativeAotSmokeColumnNamesAnExecutedMethod(Query converter),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,NativeAotSmokeColumnNamesAnExecutedMethod(Query object of unknown shape),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,NativeAotSmokeColumnNamesAnExecutedMethod(Query values and collections),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,NativeAotSmokeColumnNamesAnExecutedMethod(Raw string body),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,NativeAotSmokeColumnNamesAnExecutedMethod(Streamed reply),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,NativeAotSmokeColumnNamesAnExecutedMethod(Synchronous return),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,NativeAotSmokeColumnNamesAnExecutedMethod([FormObject] multipart part),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,RequestGeneratedColumnMatchesTheClassifier(ApiResponse<T> reply),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,RequestGeneratedColumnMatchesTheClassifier(Form-url-encoded body),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,RequestGeneratedColumnMatchesTheClassifier(Generic body and reply),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,RequestGeneratedColumnMatchesTheClassifier(Generic form-url-encoded body),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,RequestGeneratedColumnMatchesTheClassifier(JSON Lines upload),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,RequestGeneratedColumnMatchesTheClassifier(JSON body with JsonTypeInfo<T>),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,RequestGeneratedColumnMatchesTheClassifier(JSON body),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,RequestGeneratedColumnMatchesTheClassifier(Multipart part of unknown shape),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,RequestGeneratedColumnMatchesTheClassifier(Multipart stream part),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,RequestGeneratedColumnMatchesTheClassifier(Observable reply),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,RequestGeneratedColumnMatchesTheClassifier(Path value of unknown shape),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,"RequestGeneratedColumnMatchesTheClassifier(Path value, JSON reply)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,RequestGeneratedColumnMatchesTheClassifier(Query converter),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,RequestGeneratedColumnMatchesTheClassifier(Query object of unknown shape),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,RequestGeneratedColumnMatchesTheClassifier(Query values and collections),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,RequestGeneratedColumnMatchesTheClassifier(Raw string body),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,RequestGeneratedColumnMatchesTheClassifier(Streamed reply),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,RequestGeneratedColumnMatchesTheClassifier(Synchronous return),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedRequestSupportTableTests,RequestGeneratedColumnMatchesTheClassifier([FormObject] multipart part),20,20,0,0,stable
+Refit.GeneratorTests.GeneratedTest,ShouldEmitAllFiles,20,20,0,0,stable
+Refit.GeneratorTests.GeneratedTest,ShouldNotEmitFilesWhenNoRefitInterfaces,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,AppendEscapedCharacter_DoublesBracesWhenInterpolated,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,AppendEscapedCharacter_HandlesSpecialCharacters,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,AppendEscapedCharacter_HandlesTheWholeCharacterRange,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,BodyExpressionHelpers_HandleBufferModes,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,BuildGeneratedFileHeader_SupportsNonGeneratedMarkers,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,BuildMethodOpening_QualifiesExplicitInterfaceMethods,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,BuildParameterInfoFieldEmitsSingleTypeProviderForOneAttributeType,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,BuildParameterInfoFieldGroupsRepeatedAttributeTypes,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,BuildParameterTypeList_HandlesEmptyAndPopulatedParameters,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,BuildRefitMethod_EmitsExplicitInterfaceForExplicitMethod,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,CanUseGeneratedSettingsFactory_RejectsEmptyInterfaces,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,CombineCandidateMethods_CombinesStandardAndCustomMethods,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,EscapeSequence_ReturnsEscapesForSpecialCharactersAndNullOtherwise,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,HasConstraintKeywords_HandlesOverrideAndNonOverridePaths,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,InlineEmitterHandlesNonNullableIndexedCollectionsAndAttributeFreeParameters,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,Int32Length_HandlesZeroAndMultipleDigits,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,IsStandardHttpMethodAttributeName_HandlesQualifiedAndAliasNames,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,LiteralAndHttpMethodHelpers_HandleKnownAndInvalidValues,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,LiteralOrNullLength_AccountsForEscapesAndNull,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,PropertyAccessHelpers_HandleGeneratedExplicitAndPublicProperties,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,ReturnStatementPrefix_HandlesKnownAndInvalidValues,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+EmitterHelperTests,ToXmlDocumentationText_EscapesSpecialCharacters,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+ITypeSymbolExtensionsTests,InheritsFromOrEquals_BaseType_IsTrue,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+ITypeSymbolExtensionsTests,InheritsFromOrEquals_Interface_HonorsIncludeInterfacesFlag,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+ITypeSymbolExtensionsTests,InheritsFromOrEquals_SameType_IsTrue,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+ITypeSymbolExtensionsTests,InheritsFromOrEquals_TransitiveBaseType_IsTrue,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+ITypeSymbolExtensionsTests,InheritsFromOrEquals_UnrelatedType_IsFalse,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+InterfaceSemanticParsingTests,"ApplyGeneratorOptions_EmptyInterfaces_PreservesOptions(False, False)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+InterfaceSemanticParsingTests,"ApplyGeneratorOptions_EmptyInterfaces_PreservesOptions(True, True)",20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+InterfaceSemanticParsingTests,CombineInterfaceModels_OverlappingCandidates_PreservesFirstModel,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+InterfaceSemanticParsingTests,ParseInheritedInterface_FirstCandidate_CollectsAllDerivedInterfaces,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+InterfaceSemanticParsingTests,ParseInheritedInterface_NoRefitMethods_ReturnsEmpty,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+InterfaceSemanticParsingTests,ParseMethodInterface_NoHttpAttribute_ReturnsEmpty,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+MemberNameCollectionTests,CollectMemberNames_DeduplicatesOverloadedMembers,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+ParserRequestHelperTests,AddStaticHeader_SkipsBlankAndReplacesExistingValues,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+ParserRequestHelperTests,BodyAndDisposalHelpers_ClassifySupportedValues,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+ParserRequestHelperTests,CombinePathPrefix_NormalizesSlashesAndNoOpsEmptyPrefix,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+ParserRequestHelperTests,CompressionHelpers_MapEnumValuesToMemberNames,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+ParserRequestHelperTests,ComputeSpanFormattableTiers_ClassifiesSupportedTypesAndFormats,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+ParserRequestHelperTests,FindJsonLinesElementType_ClassifiesAsynchronousBodies,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+ParserRequestHelperTests,FindJsonLinesElementType_ClassifiesSynchronousBodiesAndNonSequences,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+ParserRequestHelperTests,InlinePathHelpers_NormalizeAndClassifyPaths,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+ParserRequestHelperTests,IsInNamespace_HandlesNullSymbolAndNamespaceBoundaries,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+PathParameterLocationTests,DottedPlaceholderDetection_MatchesOnlyTheOwningParameterName,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+PathParameterLocationTests,Equality_ComparesBackingOccurrenceIdentity,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+PathParameterLocationTests,RoundTripMatching_MatchesDoubleStarPrefixAndRejectsNearMisses,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+PathParameterLocationTests,Scanner_SkipsBraceTerminatedBySlash_AndResumesAtNextBrace,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+PooledStringBuilderTests,ReturnBuffer_DropsSurplusBuffers_WhenFreeListIsFull,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+ReturnTypeClassificationTests,GetReturnTypeInfo_ClassifiesEveryShape,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+UniqueNameBuilderTests,IndependentBuilders_DoNotShareGeneratedNames,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+UniqueNameBuilderTests,IndependentBuilders_DoNotShareReservations,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+UniqueNameBuilderTests,New_AppendsSuffix_OnCollision,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+UniqueNameBuilderTests,New_ReturnsOriginalName_WhenUnused,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+UniqueNameBuilderTests,Reserve_DuplicateEnumerableNames_PreservesOrdinalComparison,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+UniqueNameBuilderTests,Reserve_EmptyEnumerable_LeavesNamesAvailable,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+UniqueNameBuilderTests,Reserve_Enumerable_PreventsAllNames,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+UniqueNameBuilderTests,Reserve_NullEnumerable_DoesNotThrow,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorComponentTests+UniqueNameBuilderTests,Reserve_PreventsName_FromBeingHandedOut,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorModelEqualityTests,ContextGeneration_EqualsAndHashCode_CompareAllBindings,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorModelEqualityTests,Equals_DifferentSequence_IsFalse,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorModelEqualityTests,Equals_SameSequence_MatchesHash,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorModelEqualityTests,InlineValueFormat_EqualsAndHashCode_CompareAllBindings,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorModelEqualityTests,InterfaceMembers_EqualsAndHashCode_CompareAllBindings,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorModelEqualityTests,Interface_EqualsAndHashCode_CompareAllBindings,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorModelEqualityTests,Method_EqualsAndHashCode_CompareAllBindings,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorModelEqualityTests,PagingContinuation_EqualsAndHashCode_CompareAllBindings,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorModelEqualityTests,Paging_EqualsAndHashCode_CompareAllBindings,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorModelEqualityTests,ParameterAttribute_EqualsAndHashCode_CompareAllArguments,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorModelEqualityTests,QueryDictionary_EqualsAndHashCode_CompareAllBindings,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorModelEqualityTests,QueryObjectProperty_EqualsAndHashCode_CompareAllBindings,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorModelEqualityTests,QueryParameter_EqualsAndHashCode_CompareAllBindings,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorModelEqualityTests,RequestBindings_CompareNestedContents,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorModelEqualityTests,RequestParameter_EqualsAndHashCode_CompareAllBindings,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorModelEqualityTests,Request_EqualsAndHashCode_CompareAllBindings,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorModelEqualityTests,RequiredArrays_DefaultAndEmpty_AreEqual,20,20,0,0,stable
+Refit.GeneratorTests.GeneratorModelEqualityTests,TypeConstraint_EqualsAndHashCode_CompareAllBindings,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.CrossFileInheritanceTest,EditingBaseInterfaceInAnotherFileRegeneratesDerivedInterface,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.CrossFileInheritanceTest,EditingBaseInterfaceInSameFileRegeneratesDerivedInterface,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.CrossFileInheritanceTest,EditingUnrelatedInterfaceInAnotherFileLeavesOtherInterfaceUnchanged,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.FunctionTest,AddNonRefitMethodDoesRegenerate,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.FunctionTest,AddParameterDoesRegenerate,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.FunctionTest,ModifyParameterNameDoesRegenerate,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.FunctionTest,ModifyParameterNullabilityDoesRegenerate,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.FunctionTest,ModifyParameterTypeDoesRegenerate,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.FunctionTest,ModifyReturnObjectNullabilityDoesNotRegenerate,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.FunctionTest,ModifyReturnTypeDoesRegenerate,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.FunctionTest,ModifyReturnValueNullabilityDoesRegenerate,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.GenericTest,AddGenericConstraintDoesRegenerate,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.GenericTest,AddGenericTypeDoesRegenerate,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.GenericTest,AddObjectGenericConstraintDoesRegenerate,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.GenericTest,RenameGenericTypeDoesRegenerate,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.IncrementalTest,AddNewMemberDoesRegenerate,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.IncrementalTest,AddUnrelatedTypeDoesntRegenerate,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.IncrementalTest,SmallChangeDoesntRegenerate,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.InheritanceTest,InheritFromIDisposableDoesRegenerate,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.InheritanceTest,InheritFromInterfaceDoesRegenerate,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.PipelineModelTests,CachedModels_DoNotRetainCompilerState(BuildRefit),20,20,0,0,stable
+Refit.GeneratorTests.Incremental.PipelineModelTests,CachedModels_DoNotRetainCompilerState(ParseInterfaces),20,20,0,0,stable
+Refit.GeneratorTests.Incremental.PipelineModelTests,CachedModels_DoNotRetainCompilerState(ParserInputs),20,20,0,0,stable
+Refit.GeneratorTests.Incremental.PipelineModelTests,ContractDiagnostics_AreNotInTheGeneratorPipeline,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.PipelineModelTests,ParseInterfaces_UnrelatedEdit_OutputIsUnchanged,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.PipelineModelTests,SemanticExtraction_CustomAttributeWithStandardName_DoesNotBlockStandardInterface,20,20,0,0,stable
+Refit.GeneratorTests.Incremental.PipelineModelTests,SemanticExtraction_DoesNotRetainCompilerState,20,20,0,0,stable
+Refit.GeneratorTests.IndexedCollectionGenerationTests,EmptyIndexedDelimiterConcatenatesWithoutSeparator,20,20,0,0,stable
+Refit.GeneratorTests.IndexedCollectionGenerationTests,GeneratedSourceContainsIndexedKeyExpression,20,20,0,0,stable
+Refit.GeneratorTests.IndexedCollectionGenerationTests,IndexedWithAliasedPropertyGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.IndexedCollectionGenerationTests,IndexedWithComplexIndexElementFallsBackToReflective,20,20,0,0,stable
+Refit.GeneratorTests.IndexedCollectionGenerationTests,IndexedWithElementCollectionPropertyGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.IndexedCollectionGenerationTests,IndexedWithScalarElementGeneratesAsRegularCollection,20,20,0,0,stable
+Refit.GeneratorTests.IndexedCollectionGenerationTests,NonNullableIndexedCollectionGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.IndexedCollectionGenerationTests,NullableIndexedCollectionGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.IndexedCollectionGenerationTests,UnspecifiedIndexedDelimiterUsesDot,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceMemberGenerationCoverageTests,ExplicitInterfaceReDeclarationsResolveThroughImplementations,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceMemberGenerationCoverageTests,InheritedNonRefitMembersPartitionAcrossKinds,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceMemberGenerationCoverageTests,InheritedRefitMethodGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceMemberGenerationCoverageTests,InterfaceIndexerPropertyIsNotEmitted,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceMemberGenerationCoverageTests,InterfacePropertyEmissionSkipsStaticAndDefaultImplementedMembers,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceMemberGenerationCoverageTests,RefitAttributeLookalikesInForeignNamespacesAreIgnored,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceMemberGenerationCoverageTests,TrimAttributeLookalikeInForeignNamespaceIsIgnored,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceStubGeneratorTests,FindInterfacesSmokeTest,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceStubGeneratorTests,GenerateInterfaceStubsWithoutNamespaceSmokeTest,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceStubGeneratorTests,NoRefitInterfacesSmokeTest,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceStubGeneratorV2Tests,CombineCandidateMethods_BothEmpty_ReturnsEmptyArray,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceStubGeneratorV2Tests,CombineCandidateMethods_NonEmptyInputs_PreservesOrderAndDuplicates,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceStubGeneratorV2Tests,CombineCandidateMethods_OneEmptySide_ReturnsOtherArray(False),20,20,0,0,stable
+Refit.GeneratorTests.InterfaceStubGeneratorV2Tests,CombineCandidateMethods_OneEmptySide_ReturnsOtherArray(True),20,20,0,0,stable
+Refit.GeneratorTests.InterfaceStubGeneratorV2Tests,CombineStandardHttpMethodCandidates_EmptyProviders_ReturnsEmptyArray,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceStubGeneratorV2Tests,CombineStandardHttpMethodCandidates_PreservesVerbAndDeclarationOrder,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceTests,ContainedInterfaceTest,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceTests,DefaultInterfaceMethod,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceTests,DerivedDefaultInterfaceMethod,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceTests,DisposableTest,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceTests,GlobalNamespaceTest,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceTests,InterfaceDerivedFromRefitBaseTest,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceTests,InterfaceWithGenericConstraint,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceTests,InterfacesWithDifferentCasing,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceTests,InterfacesWithDifferentSignature,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceTests,NestedNamespaceTest,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceTests,NonRefitMethodShouldRaiseDiagnostic,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceTests,RefitInterfaceDerivedFromBaseTest,20,20,0,0,stable
+Refit.GeneratorTests.InterfaceTests,RefitInterfaceDerivedFromRefitBaseTest,20,20,0,0,stable
+Refit.GeneratorTests.InternalsVisibleToGenerationTests,GeneratedContainerNameMatchesRuntimeConventionForGenericInterface,20,20,0,0,stable
+Refit.GeneratorTests.InternalsVisibleToGenerationTests,GeneratedHelperTypesDoNotConflictAcrossInternalsVisibleToBoundary,20,20,0,0,stable
+Refit.GeneratorTests.InternalsVisibleToGenerationTests,UnnamedCompilationEmitsUnscopedContainerName,20,20,0,0,stable
+Refit.GeneratorTests.InterpolatedStringBuilderTest,AuthorizationSchemeContainingBracesCompiles,20,20,0,0,stable
+Refit.GeneratorTests.InterpolatedStringBuilderTest,BuilderEscapesLiteralBraces,20,20,0,0,stable
+Refit.GeneratorTests.InterpolatedStringBuilderTest,NestedAliasContainingBracesCompiles,20,20,0,0,stable
+Refit.GeneratorTests.InterpolatedStringBuilderTest,NestedSerializerNameContainingBracesCompiles,20,20,0,0,stable
+Refit.GeneratorTests.InterpolatedStringBuilderTest,QueryPrefixAndDelimiterContainingBracesCompile,20,20,0,0,stable
+Refit.GeneratorTests.JsonLinesBodySnapshotTests,AsyncSequenceBody,20,20,0,0,stable
+Refit.GeneratorTests.JsonLinesBodySnapshotTests,TypedSynchronousSequenceBody,20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,BodyAndReplyMetadata_AreEmittedIntoTheRequest,20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,BodyWithoutMetadata_KeepsTheLookupBasedCall,20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,ForeignJsonTypeInfo_IsNotTreatedAsMetadata,20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,GeneratedRequestBuildingOff_ReportsNothingWithoutAMetadataParameter,20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,GeneratedRequestBuildingOff_ReportsTheMetadataParameter,20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] Task A(JsonTypeInfo<Order> info);, matches neither the JSON body type nor the type the reply is read as)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] Task<Order> A(JsonTypeInfo<Other> info);, matches neither the JSON body type nor the type the reply is read as)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a\\b"")] Task<Order> A(JsonTypeInfo<Order> info);, its request cannot be generated inline)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"InvalidMethod_IsReportedWithItsReason([Multipart] [Post(""/a"")] Task A(Order order, JsonTypeInfo<Order> info);, matches neither the JSON body type nor the type the reply is read as)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"InvalidMethod_IsReportedWithItsReason([Post(""/a"")] Task A([Body(BodySerializationMethod·JsonLines)] List<Order> order, JsonTypeInfo<List<Order>> info);, matches neither the JSON body type nor the type the reply is read as)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"InvalidMethod_IsReportedWithItsReason([Post(""/a"")] Task A([Body(BodySerializationMethod·UrlEncoded)] Order order, JsonTypeInfo<Order> info);, matches neither the JSON body type nor the type the reply is read as)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"InvalidMethod_IsReportedWithItsReason([Post(""/a"")] Task<Order> A([Body] Order order, JsonTypeInfo<Order> first, JsonTypeInfo<Order> second);, more than one JsonTypeInfo<global::TypeInfoTest·Order> parameter)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"InvalidMethod_IsReportedWithItsReason([Post(""/a"")] Task<Order> A([Body] Other body, JsonTypeInfo<Receipt> info);, matches neither the JSON body type nor the type the reply is read as)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,StreamedReplyMetadata_IsEmittedIntoTheRequest,20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] IAsyncEnumerable<Order> A(JsonTypeInfo<Order> info);)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] IObservable<Order> A(JsonTypeInfo<Order> info);)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] Task<ApiResponse<Order>> A(JsonTypeInfo<Order> info);)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] Task<List<Order>> A(JsonTypeInfo<List<Order>> info);)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] Task<Order> @class(JsonTypeInfo<Order> @string);)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] Task<Order> A(JsonTypeInfo<Order> info);
+[Get(""/b"")] Task<Receipt> A(string other, JsonTypeInfo<Receipt> info);)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] Task<Order> A(JsonTypeInfo<Order> info);)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Next = ""Next"")] PagedEnumerable<OrderPage, Order> A(JsonTypeInfo<OrderPage> info, [PageToken] string? token);)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a/{id}"")] Task<Order> A(int id, JsonTypeInfo<Order> info, CancellationToken cancellationToken);)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"ValidMethod_GeneratesCompilableOutput([Post(""/a"")] Task A([Body] Order order, JsonTypeInfo<Order> info);)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"ValidMethod_GeneratesCompilableOutput([Post(""/a"")] Task<Order> A(Order order, JsonTypeInfo<Order> info);)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"ValidMethod_GeneratesCompilableOutput([Post(""/a"")] Task<Order> A([Body(BodySerializationMethod·Serialized)] Order order, JsonTypeInfo<Order> info);)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"ValidMethod_GeneratesCompilableOutput([Post(""/a"")] Task<Order> A([Body] Order order, JsonTypeInfo<Order>? info = null);)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"ValidMethod_GeneratesCompilableOutput([Post(""/a"")] Task<Receipt> A([Body(BodySerializationMethod·UrlEncoded)] Order order, JsonTypeInfo<Receipt> info);)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterGenerationTests,"ValidMethod_GeneratesCompilableOutput([Post(""/a"")] Task<Receipt> A([Body] Order order, JsonTypeInfo<Order> orderInfo, JsonTypeInfo<Receipt> receiptInfo);)",20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterSnapshotTests,BodyAndReplyMetadata,20,20,0,0,stable
+Refit.GeneratorTests.JsonTypeInfoParameterSnapshotTests,StreamedReplyMetadata,20,20,0,0,stable
+Refit.GeneratorTests.LiveCompilationTests,AliasedPathAndHeaderBindingUsesSameArgument,20,20,0,0,stable
+Refit.GeneratorTests.LiveCompilationTests,GeneratedRequestBuildingCanBeInvoked,20,20,0,0,stable
+Refit.GeneratorTests.LiveCompilationTests,PathAndHeaderBindingUsesSameArgument,20,20,0,0,stable
+Refit.GeneratorTests.MethodTests,MethodsWithGenericConstraints,20,20,0,0,stable
+Refit.GeneratorTests.ModuleInitializerSupportTests,CompilationWithTheAttributeIsUnguarded,20,20,0,0,stable
+Refit.GeneratorTests.ModuleInitializerSupportTests,CompilationWithoutTheAttributeNeedsThePolyfill,20,20,0,0,stable
+Refit.GeneratorTests.ModuleInitializerSupportTests,GuardedModuleKeepsTheFrameworkCheck,20,20,0,0,stable
+Refit.GeneratorTests.ModuleInitializerSupportTests,OldLanguageVersionStaysGuarded,20,20,0,0,stable
+Refit.GeneratorTests.ModuleInitializerSupportTests,PolyfillModuleDeclaresTheAttributeForOlderTargets,20,20,0,0,stable
+Refit.GeneratorTests.ModuleInitializerSupportTests,UnguardedModuleDropsTheFrameworkCheck,20,20,0,0,stable
+Refit.GeneratorTests.MultipartRequestBuildingLiveTests,FileAndEnumerablePartsMatchReflection,20,20,0,0,stable
+Refit.GeneratorTests.MultipartRequestBuildingLiveTests,FormObjectPartFlattensThroughGeneratedClient,20,20,0,0,stable
+Refit.GeneratorTests.MultipartRequestBuildingLiveTests,HeaderPropertyAndPathParametersAreNotParts,20,20,0,0,stable
+Refit.GeneratorTests.MultipartRequestBuildingLiveTests,SerializedPartsMatchReflection,20,20,0,0,stable
+Refit.GeneratorTests.MultipartRequestBuildingLiveTests,StreamAndBinaryPartsMatchReflection,20,20,0,0,stable
+Refit.GeneratorTests.MultipartRequestBuildingLiveTests,TextAndFormattablePartsMatchReflection,20,20,0,0,stable
+Refit.GeneratorTests.NamedArgumentEdgeGenerationTests,ArrayReturnTypeIsHandled,20,20,0,0,stable
+Refit.GeneratorTests.NamedArgumentEdgeGenerationTests,AttributedNonRefitMethodIsIgnored,20,20,0,0,stable
+Refit.GeneratorTests.NamedArgumentEdgeGenerationTests,CompilationWithoutRefitProducesNothing,20,20,0,0,stable
+Refit.GeneratorTests.NamedArgumentEdgeGenerationTests,IndexedQueryCollectionWithExplicitDelimiterIsGenerated,20,20,0,0,stable
+Refit.GeneratorTests.NamedArgumentEdgeGenerationTests,InheritedInterfaceDeclaredInAnotherFileIsHandled,20,20,0,0,stable
+Refit.GeneratorTests.NamedArgumentEdgeGenerationTests,PartialInterfaceSplitAcrossFilesIsHandled,20,20,0,0,stable
+Refit.GeneratorTests.NamedArgumentEdgeGenerationTests,QueryCollectionOfUnflattenableElementsIsHandled,20,20,0,0,stable
+Refit.GeneratorTests.NamedArgumentEdgeGenerationTests,QueryNameSetToNullKeepsTheParameterName,20,20,0,0,stable
+Refit.GeneratorTests.NamedArgumentEdgeGenerationTests,RelativeUrlParameterOnObservableSelectsRelativeOrAbsoluteKind,20,20,0,0,stable
+Refit.GeneratorTests.NamedArgumentEdgeGenerationTests,RelativeUrlParameterSelectsRelativeOrAbsoluteKind,20,20,0,0,stable
+Refit.GeneratorTests.NamedArgumentEdgeGenerationTests,ThreeUrlParametersAreHandled,20,20,0,0,stable
+Refit.GeneratorTests.ObservableReturnRequestBuildingLiveTests,ColdObservableResendsPerSubscriptionAndMatchesReflection,20,20,0,0,stable
+Refit.GeneratorTests.PackagedAnalyzerReferenceTests,EveryPackagedAnalyzerAssemblyIsBuilt,20,20,0,0,stable
+Refit.GeneratorTests.PackagedAnalyzerReferenceTests,PackagedAnalyzersReferenceOnlyHostSuppliedAssemblyVersions,20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,CSharp73Baseline_GeneratesCompilableOutput,20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,ForeignPagedEnumerable_IsNotTreatedAsAPagedReturn,20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,GeneratedRequestBuildingOff_ReportsThePagedAttribute,20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,GenericInterface_GeneratesCompilableOutput,20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,InheritedMethod_IsImplementedExplicitly,20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] PagedEnumerable<Page, Item> A([PageToken] string? token);, add a [Paged] attribute)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Items = ""Hidden"", Next = ""Next"")] PagedEnumerable<Page, Item> A([PageToken] string? token);, 'Hidden' is not a readable)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Items = ""Missing"", Next = ""Next"")] PagedEnumerable<Page, Item> A([PageToken] string? token);, 'Missing' is not a readable)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Items = ""Next"", Next = ""Next"")] PagedEnumerable<Page, Item> A([PageToken] string? token);, is not a sequence of)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""Count"")] PagedEnumerable<Page, Item> A([PageToken] int offset);, must be nullable)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""Count"", SameOrigin = true)] PagedEnumerable<Page, Item> A();, must be a string or a Uri)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""Meta·Missing"")] PagedEnumerable<Page, Item> A([PageToken] string? token);, 'Missing' is not a readable)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""Missing"", SameOrigin = true)] PagedEnumerable<Page, Item> A();, 'Missing' is not a readable)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""Next"")] PagedEnumerable<Item[], Item> A([PageToken] string? token);, has no member that is a sequence of)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""Next"")] PagedEnumerable<NoLists, Item> A([PageToken] string? token);, has no member that is a sequence)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""Next"")] PagedEnumerable<Page, Item> A([PageToken] string? first, [PageToken] string? second);, only one parameter can be marked [PageToken])",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""Next"")] PagedEnumerable<Page, Item> A([PageToken] string? token, CancellationToken cancellationToken);, cannot declare a CancellationToken)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""Next"")] PagedEnumerable<Page, Item> A<T>([PageToken] string? token);, cannot be generic)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""Next"")] PagedEnumerable<Page, char> A([PageToken] string? token);, has no member that is a sequence of 'char')",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""Next"")] PagedEnumerable<Page, string> A([PageToken] string? token);, has no member that is a sequence of 'string')",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""Next"")] PagedEnumerable<TwoLists, Item> A([PageToken] string? token);, more than one member)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""Next"")] Task<Page> A([PageToken] string? token);, applies only to a method that returns PagedEnumerable)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""Next"", SameOrigin = true)] PagedEnumerable<Page, Item> A([PageToken] string? token);, apply only to a method that follows links)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""Next"", Total = ""Total"")] PagedEnumerable<Page, Item> A([PageToken] string? token);, name exactly one of Next, NextHeader or Total)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""NextLink"")] PagedEnumerable<Page, Item> A();, exactly one of Origins, SameOrigin or AnyOrigin)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""NextLink"", Origins = new string[0])] PagedEnumerable<Page, Item> A();, exactly one of Origins, SameOrigin or AnyOrigin)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""NextLink"", Origins = new[] { "" "" })] PagedEnumerable<Page, Item> A();, exactly one of Origins, SameOrigin or AnyOrigin)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""NextLink"", Origins = new[] { ""ftp://files·example·com"" })] PagedEnumerable<Page, Item> A();, is not an absolute http or https origin)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""NextLink"", Origins = new[] { ""not a url"" })] PagedEnumerable<Page, Item> A();, is not an absolute http or https origin)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""NextLink"", SameOrigin = true, AnyOrigin = true)] PagedEnumerable<Page, Item> A();, exactly one of Origins, SameOrigin or AnyOrigin)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Next = ""NextOffset"")] PagedEnumerable<Page, Item> A([PageToken] string? token);, but the [PageToken] parameter is a)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(NextHeader = ""Link"", SameOrigin = true)] PagedEnumerable<Page, Item> A();, reading a header needs)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(NextHeader = ""x-continuation"")] PagedEnumerable<ApiResponse<Page>, Item> A([PageToken] int token);, must be a string)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(NextHeader = ""x-continuation"")] PagedEnumerable<IApiResponse, Item> A([PageToken] string? token);, has no member that is a sequence)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(NextHeader = ""x-continuation"")] PagedEnumerable<Page, Item> A([PageToken] string? token);, reading a header needs)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(SameOrigin = true)] PagedEnumerable<Page, Item> A();, names exactly one of Next or NextHeader)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Total = ""Missing"")] PagedEnumerable<Page, Item> A([PageToken] int offset);, 'Missing' is not a readable)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Total = ""Next"")] PagedEnumerable<Page, Item> A([PageToken] int offset);, must be an int or a long)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Total = ""Total"")] PagedEnumerable<Page, Item> A([PageToken] string? token);, must be an int offset)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged(Total = ""Total"", SameOrigin = true)] PagedEnumerable<Page, Item> A();, names exactly one of Next or NextHeader)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"InvalidMethod_IsReportedWithItsReason([Get(""/a"")] [Paged] PagedEnumerable<Page, Item> A([PageToken] string? token);, name exactly one of Next, NextHeader or Total)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,RequestThatCannotBeGeneratedInline_ReportsThePagedAttribute,20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Items = "" "", Next = ""Next"", SameOrigin = false)] PagedEnumerable<Page, Item> A([PageToken] string? token);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Items = ""Content·Items"", NextHeader = ""Link"", AnyOrigin = true)] PagedEnumerable<ApiResponse<Page>, Item> A();)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Items = ""Entries"", Next = ""Cursor"")] PagedEnumerable<FieldPage, Item> A([PageToken] string? token);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Items = ""Items"", Next = ""Meta·NextCursor"")] PagedEnumerable<Page, Item> A([PageToken] string? token);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Items = ""Second"", Next = ""Next"")] PagedEnumerable<TwoLists, Item> A([PageToken] string? token);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Next = ""Content·Next"")] PagedEnumerable<ApiResponse<Page>, Item> A([PageToken] string? token);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Next = ""Cursor"")] PagedEnumerable<FieldPage, Item> A([PageToken] string? token);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Next = ""Next"")] PagedEnumerable<IDerivedPage, Item> A([PageToken] string? token);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Next = ""Next"")] PagedEnumerable<IndexerPage, Item> A([PageToken] string? token);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Next = ""Next"")] PagedEnumerable<Page, Item> @class([PageToken] string? @string);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Next = ""Next"")] PagedEnumerable<Page, Item> A([PageToken] string? token);
+[Get(""/b"")] [Paged(Next = ""Next"")] PagedEnumerable<Page, Item> A(string other, [PageToken] string? token);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Next = ""Next"")] PagedEnumerable<Page, Item> A([PageToken] string? token);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Next = ""Next"")] PagedEnumerable<SequencePage, Item> A([PageToken] string? token);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Next = ""NextLink"", Origins = new[] { ""https://api·example·com"" })] PagedEnumerable<Page, Item> A();)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Next = ""NextLink"", SameOrigin = false, AnyOrigin = true)] PagedEnumerable<Page, Item> A();)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Next = ""NextOffset"")] PagedEnumerable<Page, Item> A([PageToken] int offset);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Next = ""NextOffset"")] PagedEnumerable<Page, Item> A([PageToken] int? offset);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Next = ""NextUri"", SameOrigin = true)] PagedEnumerable<Page, Item> A();)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(NextHeader = ""Link"", SameOrigin = true)] PagedEnumerable<ApiResponse<List<Item>>, Item> A();)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(NextHeader = ""x-continuation"")] PagedEnumerable<ApiResponse<Page>, Item> A([PageToken, Header(""x-continuation"")] string? token);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Total = ""LongTotal"")] PagedEnumerable<Page, Item> A([PageToken] int offset);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a"")] [Paged(Total = ""Total"")] PagedEnumerable<Page, Item> A([PageToken] int offset);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Get(""/a/{token}"")] [Paged(Next = ""Next"")] PagedEnumerable<Page, Item> A([PageToken] string token);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnGenerationTests,"ValidMethod_GeneratesCompilableOutput([Post(""/a"")] [Paged(Next = ""Next"")] PagedEnumerable<Page, Item> A([Body] Item filter, [PageToken] string? token);)",20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnSnapshotTests,CursorFromBody,20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnSnapshotTests,CursorFromHeader,20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnSnapshotTests,LinksFromBody,20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnSnapshotTests,LinksFromLinkHeader,20,20,0,0,stable
+Refit.GeneratorTests.PagedReturnSnapshotTests,OffsetFromTotal,20,20,0,0,stable
+Refit.GeneratorTests.ParameterTests,NullableRouteParameter,20,20,0,0,stable
+Refit.GeneratorTests.ParameterTests,NullableValueTypeRouteParameter,20,20,0,0,stable
+Refit.GeneratorTests.ParameterTests,RouteParameter,20,20,0,0,stable
+Refit.GeneratorTests.ParameterTests,ValueTypeRouteParameter,20,20,0,0,stable
+Refit.GeneratorTests.ParameterTests,ValueTypeRouteParameterInQueryWithAttribute,20,20,0,0,stable
+Refit.GeneratorTests.ParameterTests,ValueTypeRouteParameterInQueryWithoutAttribute,20,20,0,0,stable
+Refit.GeneratorTests.ParameterTests,ValueTypeRouteParameterWithAttribute,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,BuildDeclaredBaseNameStripsExplicitInterfaceQualifier,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,CanBuildRequestInlineClassifiesAsyncEnumerableReturnShape,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,CanBuildRequestInlineClassifiesAsyncReturnShapesAndForeignLookalikes,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,CanBuildRequestInlineClassifiesNonNamedAndNamedReturnShapes,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,CanBuildRequestInlineClassifiesTaskOfHttpRequestMessage,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,CanBuildRequestInlineRejectsMethodWithoutHttpAttribute,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,CollectRefitInterfacesHandlesInheritedAndEmptyCandidates,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,DiscoverReturnTypeAdaptersReturnsEmptyWhenInterfaceUnresolved,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,GenerateInterfaceStubsHandlesMixedRefitAndNonRefitMethods,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,GenerateInterfaceStubsHonorsCompilationLevelNullableContext,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,GenerateInterfaceStubsRejectsNullCompilation,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,GenerateInterfaceStubsReportsMissingRefitReference,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,GenerateInterfaceStubsSanitizesInternalNamespaceSegments,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,GenerateInterfaceStubsUsesNoNullabilityWhenLanguageVersionDoesNotSupportIt,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,InternalHelpersHandleFallbackPaths,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,IsRefitMethodReturnsFalseForNullMethod,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,IsRouteCandidateExcludesNonRouteParameters,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,TypeSymbolInheritanceHelpersHandleBaseClassesAndInterfaces,20,20,0,0,stable
+Refit.GeneratorTests.ParserCoverageTests,WellKnownTypesCachesResolvedAndMissingSymbols,20,20,0,0,stable
+Refit.GeneratorTests.ParserTests,BuildSortedExternAliases_MixedCase_SortsOrdinally,20,20,0,0,stable
+Refit.GeneratorTests.ParserTests,GenerateInterfaceStubs_DuplicateSimpleNames_PreservesEveryInterface,20,20,0,0,stable
+Refit.GeneratorTests.ParserTests,GenerateInterfaceStubs_NoCandidates_ReturnsEmptyModel,20,20,0,0,stable
+Refit.GeneratorTests.PathObjectBindingGenerationTests,ConstrainedGenericDottedPathBindsInline,20,20,0,0,stable
+Refit.GeneratorTests.PathObjectBindingGenerationTests,ConstrainedGenericDottedPathFlattensResidualQueryInline,20,20,0,0,stable
+Refit.GeneratorTests.PathObjectBindingGenerationTests,ConstrainedGenericDottedPathWithUnknownPropertyFallsBack,20,20,0,0,stable
+Refit.GeneratorTests.PathObjectBindingGenerationTests,DottedPathBindsDuplicateEnumPropertyInline,20,20,0,0,stable
+Refit.GeneratorTests.PathObjectBindingGenerationTests,DottedPathBindsInheritedPropertyInline,20,20,0,0,stable
+Refit.GeneratorTests.PathObjectBindingGenerationTests,DottedPathIgnoresForeignPlaceholderAndBindsInline,20,20,0,0,stable
+Refit.GeneratorTests.PathObjectBindingGenerationTests,DottedPathOnInterfaceWithUnknownPropertyFallsBack,20,20,0,0,stable
+Refit.GeneratorTests.PathObjectBindingGenerationTests,DottedPathResidualPropertyHonorsQueryPrefixAndDelimiter,20,20,0,0,stable
+Refit.GeneratorTests.PathObjectBindingGenerationTests,DottedPathWithEmptyPropertyNameFallsBack,20,20,0,0,stable
+Refit.GeneratorTests.PathObjectBindingGenerationTests,DottedPathWithUnknownPropertyFallsBack,20,20,0,0,stable
+Refit.GeneratorTests.PathObjectBindingGenerationTests,GeneratesInlineForDottedPathPlaceholders,20,20,0,0,stable
+Refit.GeneratorTests.PathObjectBindingGenerationTests,GeneratesInlineForDottedPathWithResidualQueryProperty,20,20,0,0,stable
+Refit.GeneratorTests.PathObjectBindingGenerationTests,InterfaceConstrainedGenericDottedPathFallsBack,20,20,0,0,stable
+Refit.GeneratorTests.PathObjectBindingGenerationTests,RepeatedDottedPathPlaceholderBindsEveryOccurrenceInline,20,20,0,0,stable
+Refit.GeneratorTests.PathObjectBindingGenerationTests,UnconstrainedGenericDottedPathFallsBack,20,20,0,0,stable
+Refit.GeneratorTests.PathObjectBindingGenerationTests,UsesFallbackForDottedPathWithUnsupportedResidualProperty,20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,"ConcreteOrValuePathParameterGeneratesInline(public class OpenValue { public override string ToString() => ""x""; }, OpenValue)",20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,"ConcreteOrValuePathParameterGeneratesInline(public readonly struct Coordinate { public override string ToString() => ""1,2""; }, Coordinate)",20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,"ConcreteOrValuePathParameterGeneratesInline(public sealed class Money { public override string ToString() => ""$5""; }, Money)",20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,DuplicateEnumPathParameterUsesFormatter,20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,"PolymorphicPathParameterFallsBack(, object)",20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,"PolymorphicPathParameterFallsBack(public interface IThing { }, IThing)",20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(System·Collections·Generic·List<int>),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(System·DateOnly),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(System·DateOnly?),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(System·DateTime),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(System·DateTimeOffset),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(System·DayOfWeek),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(System·Guid),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(System·Half),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(System·Int128),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(System·TimeOnly),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(System·TimeSpan),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(bool),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(byte),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(byte[]),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(char),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(decimal),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(double),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(int),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(int[]),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(long),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(sbyte),20,20,0,0,stable
+Refit.GeneratorTests.PathParameterTypeTests,ScalarOrCollectionPathParameterGeneratesInline(string),20,20,0,0,stable
+Refit.GeneratorTests.QueryNestingDelimiterTests,ExplicitDelimiterIsUsed,20,20,0,0,stable
+Refit.GeneratorTests.QueryNestingDelimiterTests,MissingDelimiterUsesTheDefault,20,20,0,0,stable
+Refit.GeneratorTests.QueryObjectFlatteningGenerationTests,NullableStructQueryObjectFlattensInline,20,20,0,0,stable
+Refit.GeneratorTests.QueryObjectFlatteningGenerationTests,QueryObjectCollectionPropertiesCoverEveryGuardShape,20,20,0,0,stable
+Refit.GeneratorTests.QueryObjectFlatteningGenerationTests,QueryObjectDictionaryPropertiesFlattenInline,20,20,0,0,stable
+Refit.GeneratorTests.QueryObjectFlatteningGenerationTests,QueryObjectFlattensInline,20,20,0,0,stable
+Refit.GeneratorTests.QueryObjectFlatteningGenerationTests,QueryObjectFormatOnNonSimplePropertyRendersWholeValueInline,20,20,0,0,stable
+Refit.GeneratorTests.QueryObjectFlatteningGenerationTests,QueryObjectFormattingLocalDecisionCoversNestedAndFormatterOnly,20,20,0,0,stable
+Refit.GeneratorTests.QueryObjectFlatteningGenerationTests,StructQueryObjectFlattensInline,20,20,0,0,stable
+Refit.GeneratorTests.QueryObjectFlatteningGenerationTests,ValueTypeDictionaryFlattensThroughUnguardedBranch,20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,AmbiguousDictionaryQueryParameterFallsBack,20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,AmbiguousEnumerableQueryParameterFallsBack,20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,CollectionPropertyObjectGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,CyclicObjectPropertyFallsBack,20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"DictionaryQueryShapeGeneratesInline([Get(""/i"")] Task<string> Get(System·Collections·Generic·Dictionary<string, string> map);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"DictionaryQueryShapeGeneratesInline([Get(""/i"")] Task<string> Get(System·Collections·Generic·IDictionary<int, string> map);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"DictionaryQueryShapeGeneratesInline([Get(""/i"")] Task<string> Get([Query] System·Collections·Generic·Dictionary<string, string> map);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,EnumMemberOverrideReadingHandlesMissingAndNonEnumMemberAttributes,20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,EnumQueryWithFormatEmitsFormattedNumericFallback,20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ImplicitBodyGeneratesInlineContent,20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ImplicitComplexBodyGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,NestedObjectPropertyGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,NonNullableDictionaryQueryParameterGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,NullableValueTypeQueryParameterUsesSpanFastWrite,20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,QueryConverterOnFallbackMethodReportsError,20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,QueryConverterParameterGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,QueryConverterWithNullTypeFallsBack,20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarCollectionQueryParameterGeneratesInline(System·Collections·Generic·IEnumerable<string>),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarCollectionQueryParameterGeneratesInline(System·Collections·Generic·IReadOnlyList<System·Guid>),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarCollectionQueryParameterGeneratesInline(System·Collections·Generic·List<int>),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarCollectionQueryParameterGeneratesInline(int?[]),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarCollectionQueryParameterGeneratesInline(int[]),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarCollectionQueryParameterGeneratesInline(string[]),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarQueryParameterGeneratesInline(System·DateOnly),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarQueryParameterGeneratesInline(System·DateTime),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarQueryParameterGeneratesInline(System·DateTimeOffset),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarQueryParameterGeneratesInline(System·DayOfWeek),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarQueryParameterGeneratesInline(System·DayOfWeek?),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarQueryParameterGeneratesInline(System·Globalization·CultureInfo),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarQueryParameterGeneratesInline(System·Guid),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarQueryParameterGeneratesInline(System·TimeSpan),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarQueryParameterGeneratesInline(bool),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarQueryParameterGeneratesInline(char),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarQueryParameterGeneratesInline(decimal),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarQueryParameterGeneratesInline(double),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarQueryParameterGeneratesInline(int),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarQueryParameterGeneratesInline(int?),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarQueryParameterGeneratesInline(long),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarQueryParameterGeneratesInline(string),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,ScalarQueryParameterGeneratesInline(string?),20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"SourceGenOnlyAttributeOnFallbackMethodReportsError([Get(""/i"")] Task<string> Get([QueryName] string flag, object other);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"SourceGenOnlyAttributeOnFallbackMethodReportsError([Get(""/i/{**rest}"")] Task<string> Get([Encoded] int rest);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"SourceGenOnlyAttributeOnFallbackMethodReportsError([Multipart][Post(""/i"")] Task<string> Post([QueryName] string flag, object payload);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,SourceGenOnlyAttributeOnInlineMethodReportsNothing,20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,SourceGenOnlyAttributeWithBuildingDisabledReportsError,20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"SupportedQueryShapeGeneratesInline([Get(""/i"")] Task<string> Get([AliasAs(""q"")] string value);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"SupportedQueryShapeGeneratesInline([Get(""/i"")] Task<string> Get([Encoded] string value);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"SupportedQueryShapeGeneratesInline([Get(""/i"")] Task<string> Get([Property(""key"")][Query] string value);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"SupportedQueryShapeGeneratesInline([Get(""/i"")] Task<string> Get([Query(CollectionFormat·Multi)] int[] values);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"SupportedQueryShapeGeneratesInline([Get(""/i"")] Task<string> Get([Query(Format = ""0·00"")] double value);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"SupportedQueryShapeGeneratesInline([Get(""/i"")] Task<string> Get([Query(TreatAsString = true)] object value);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"SupportedQueryShapeGeneratesInline([Get(""/i"")] Task<string> Get([QueryName] string flag);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"SupportedQueryShapeGeneratesInline([Get(""/i"")] Task<string> Get([QueryName] string[] flags);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"SupportedQueryShapeGeneratesInline([Get(""/i/{**rest}"")] Task<string> Get([Encoded] string rest);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"SupportedQueryShapeGeneratesInline([Get(""/i/{**rest}"")] Task<string> Get(string rest);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"SupportedQueryShapeGeneratesInline([Get(""/signin"")] Task<string> SignIn([AliasAs(""login"")] string login, [AliasAs(""tok"")] string token);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"SupportedQueryShapeGeneratesInline([Get(""/signin?login={login}&tok={token}"")] Task<string> SignIn(string login, string token);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"SupportedQueryShapeGeneratesInline([Post(""/i"")] Task<string> Post(System·IO·Stream body, string tag);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"UnsupportedQueryShapeFallsBack([Get(""/i"")] Task<string> Get(System·Collections·Generic·Dictionary<string, object> map);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"UnsupportedQueryShapeFallsBack([Get(""/i"")] Task<string> Get([Query] System·Collections·Generic·IDictionary<string, object> map);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"UnsupportedQueryShapeFallsBack([Get(""/i"")] Task<string> Get(object value);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryParameterTypeTests,"UnsupportedQueryShapeFallsBack([Post(""/i"")] Task<string> Post(object first, object second);)",20,20,0,0,stable
+Refit.GeneratorTests.QueryRequestBuildingLiveTests,CaseDifferingPathAndQueryParametersMatchReflection,20,20,0,0,stable
+Refit.GeneratorTests.QueryRequestBuildingLiveTests,CollectionQueryParametersMatchReflection,20,20,0,0,stable
+Refit.GeneratorTests.QueryRequestBuildingLiveTests,CustomFormatterMatchesReflection,20,20,0,0,stable
+Refit.GeneratorTests.QueryRequestBuildingLiveTests,DictionaryOfConcreteValuesMatchesReflection,20,20,0,0,stable
+Refit.GeneratorTests.QueryRequestBuildingLiveTests,DottedPathParametersMatchReflection,20,20,0,0,stable
+Refit.GeneratorTests.QueryRequestBuildingLiveTests,EncodedValuesPassThroughVerbatim,20,20,0,0,stable
+Refit.GeneratorTests.QueryRequestBuildingLiveTests,FormattedComplexQueryPropertyMatchesReflection,20,20,0,0,stable
+Refit.GeneratorTests.QueryRequestBuildingLiveTests,FormattedQueryParametersMatchReflection,20,20,0,0,stable
+Refit.GeneratorTests.QueryRequestBuildingLiveTests,ImplicitBodyWithQueryMatchesReflection,20,20,0,0,stable
+Refit.GeneratorTests.QueryRequestBuildingLiveTests,IndexedCollectionQueryParametersMatchReflection,20,20,0,0,stable
+Refit.GeneratorTests.QueryRequestBuildingLiveTests,NestedPathPropertyMatchesReflection,20,20,0,0,stable
+Refit.GeneratorTests.QueryRequestBuildingLiveTests,NullableStructQueryObjectMatchesReflection,20,20,0,0,stable
+Refit.GeneratorTests.QueryRequestBuildingLiveTests,OptionalPathSegmentsMatchReflection,20,20,0,0,stable
+Refit.GeneratorTests.QueryRequestBuildingLiveTests,QueryNameFlagsRenderValuelessSegments,20,20,0,0,stable
+Refit.GeneratorTests.QueryRequestBuildingLiveTests,QueryUriFormatMatchesReflection,20,20,0,0,stable
+Refit.GeneratorTests.QueryRequestBuildingLiveTests,QueryVerbMatchesReflection,20,20,0,0,stable
+Refit.GeneratorTests.QueryRequestBuildingLiveTests,ScalarQueryParametersMatchReflection,20,20,0,0,stable
+Refit.GeneratorTests.QueryRequestBuildingLiveTests,SealedToStringPathParameterMatchesReflection,20,20,0,0,stable
+Refit.GeneratorTests.ReflectionFallbackAnnotationTests,AnnotatedFallbackMethodMirrorsTrimAttributes,20,20,0,0,stable
+Refit.GeneratorTests.ReflectionFallbackAnnotationTests,UnannotatedFallbackMethodSuppressesTrimWarnings,20,20,0,0,stable
+Refit.GeneratorTests.RelativePathResolutionLiveTests,GeneratedInlinesNoLeadingSlashPath,20,20,0,0,stable
+Refit.GeneratorTests.RelativePathResolutionLiveTests,LegacyRejectsNoLeadingSlashLikeReflection,20,20,0,0,stable
+Refit.GeneratorTests.RelativePathResolutionLiveTests,Rfc3986RelativePathMatchesReflection,20,20,0,0,stable
+Refit.GeneratorTests.RequestCompressionGenerationTests,ALevelDeclaredWithoutACodingIsStillEmitted,20,20,0,0,stable
+Refit.GeneratorTests.RequestCompressionGenerationTests,AnErroneousNamedArgumentFallsBackToTheDefaults,20,20,0,0,stable
+Refit.GeneratorTests.RequestCompressionGenerationTests,CodingAppliesToAJsonLinesBody,20,20,0,0,stable
+Refit.GeneratorTests.RequestCompressionGenerationTests,CodingAppliesToAUrlEncodedFormBody,20,20,0,0,stable
+Refit.GeneratorTests.RequestCompressionGenerationTests,DeclaredCodingAndLevelAreEmitted,20,20,0,0,stable
+Refit.GeneratorTests.RequestCompressionGenerationTests,DeclaredNoneEmitsNoCall,20,20,0,0,stable
+Refit.GeneratorTests.RequestCompressionGenerationTests,EveryDeclaredCodingIsEmitted(Brotli),20,20,0,0,stable
+Refit.GeneratorTests.RequestCompressionGenerationTests,EveryDeclaredCodingIsEmitted(GZip),20,20,0,0,stable
+Refit.GeneratorTests.RequestCompressionGenerationTests,EveryDeclaredCodingIsEmitted(Zstandard),20,20,0,0,stable
+Refit.GeneratorTests.RequestCompressionGenerationTests,EveryDeclaredLevelIsEmitted(Fastest),20,20,0,0,stable
+Refit.GeneratorTests.RequestCompressionGenerationTests,EveryDeclaredLevelIsEmitted(NoCompression),20,20,0,0,stable
+Refit.GeneratorTests.RequestCompressionGenerationTests,EveryDeclaredLevelIsEmitted(Optimal),20,20,0,0,stable
+Refit.GeneratorTests.RequestCompressionGenerationTests,EveryDeclaredLevelIsEmitted(SmallestSize),20,20,0,0,stable
+Refit.GeneratorTests.RequestCompressionGenerationTests,UndeclaredCodingEmitsTheCallSoSettingsStillApply,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,AllStandardHttpVerbsResolveInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,AuthorizeParameterGeneratesInlineAuthorizationHeader,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,AuthorizeWithNullSchemeUsesDefaultScheme,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,ComplexFormBodyPropertyUsesReflectionContent(public Nested Detail { get; set; }),20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,"ComplexFormBodyPropertyUsesReflectionContent(public System·Collections·Generic·Dictionary<string, string> Extra { get; set; })",20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,ComplexFormBodyPropertyUsesReflectionContent(public System·Collections·Generic·List<Nested> Items { get; set; }),20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,CustomHttpMethodAttributeGetterShapesResolveVerbsInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,CustomHttpMethodAttributesWithUnreadableVerbsFallBack,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,DictionaryQueryWithComplexValuesAndPrefixFlattensInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,DottedPathWithComplexFinalPropertyFallsBack,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,DottedPathWithMissingNestedPropertyFallsBack,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,DuplicateAndMultiplePathPlaceholdersGenerateInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,DuplicateEnumDictionaryAndObjectQueriesUseFormatterOnlyBranches,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,EmptyPathPlaceholderIsParsedWithoutOptionalMarkerStrip,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,EnumMemberWithNullValueOverrideGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,EnumQueryValuesGenerateInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,FindHttpMethodAttributeReturnsNullWithoutHttpAttribute,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,FormattableAndStringKeyedDictionaryQueriesGenerateInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,GenericApiResponseInterfaceReturnIsClassified,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,GlobalNamespaceInterfaceGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,HeaderParametersCoverNameValidation,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,HttpAttributeOnClassMethodIsIgnored,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,HttpAttributeOnlyOnClassMethodsProducesNoClient,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,IneligibleFormBodyTypeKindsUseReflectionContent(Task Post([Body(BodySerializationMethod·UrlEncoded)] MissingBodyType body);),20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,IneligibleFormBodyTypeKindsUseReflectionContent(Task Post([Body(BodySerializationMethod·UrlEncoded)] dynamic body);),20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,IneligibleFormBodyTypeKindsUseReflectionContent(Task Post([Body(BodySerializationMethod·UrlEncoded)] int* body);),20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,IneligibleFormBodyTypeKindsUseReflectionContent(Task Post<T>([Body(BodySerializationMethod·UrlEncoded)] System·Collections·Generic·List<T> body);),20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,IneligibleFormBodyTypeKindsUseReflectionContent(Task Post<TBody>([Body(BodySerializationMethod·UrlEncoded)] TBody body);),20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,IsPathSupportedRejectsUnbalancedBraceSegment,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,MultipartAttachmentNameOverridesFileName,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,MultipartConcreteModelPartWithoutFormObjectGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,MultipartEnumerableAndNullableElementPartsGenerateInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,MultipartFormObjectGenericParameterFallsBack,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,"MultipartFormObjectPartFallsBackForAnyModelShape(, System·Collections·Generic·Dictionary<string, string>)",20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,"MultipartFormObjectPartFallsBackForAnyModelShape(, object)",20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,"MultipartFormObjectPartFallsBackForAnyModelShape(public class FormModel { public string? Name { get; set; } }, FormModel)",20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,"MultipartFormObjectPartFallsBackForAnyModelShape(public interface IFormModel { string? Name { get; } }, IFormModel)",20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,"MultipartFormObjectPartFallsBackForAnyModelShape(public record FormModel(string? Name);, FormModel)",20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,"MultipartFormObjectPartFallsBackForAnyModelShape(public sealed class FormModel { public string? Name { get; set; } }, FormModel)",20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,"MultipartFormObjectPartFallsBackForAnyModelShape(public struct FormModel { public string? Name { get; set; } }, FormModel)",20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,MultipartHttpContentPartGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,MultipartMethodGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,MultipartMethodWithObjectPartFallsBack,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,MultipartNullBoundaryArgumentUsesDefaultBoundary,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,MultipartQueryParameterFeedsQueryStringInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,"MultipartUndispatchablePartsFallBack([Multipart][Post(""/a"")] Task<string> A([Query] object filter, [AliasAs(""file"")] StreamPart part);)",20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,"MultipartUndispatchablePartsFallBack([Multipart][Post(""/b"")] Task<string> B([AliasAs(""o"")] System·Collections·Generic·IEnumerable<object> objs);)",20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,"MultipartUndispatchablePartsFallBack([Multipart][Post(""/c"")] Task<string> C([AliasAs(""n"")] int[] nums);)",20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,"MultipartUndispatchablePartsFallBack([Multipart][Post(""/d"")] Task<string> D([AliasAs(""n"")] System·Collections·Generic·IEnumerable<int> nums);)",20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,NonNamedReturnTypeIsParsed,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,NonNullableQueryParameterShapesGenerateInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,ObjectDelimiterAndPrefixedConverterQueriesGenerateInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,ParameterAttributeWithNullArgumentRendersNullLiteral,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,PropertyAndQueryParameterOfUnflattenableTypeFallsBack,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,QueryObjectPropertyBranchesFlattenInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,RefitNonResponseReturnTypeIsNotClassifiedAsApiResponse,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,RepeatedPathParameterAttributesEmitGroupedProvider,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,RepeatedQueryConverterTypeReusesField,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,RoundTripCatchAllPathGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,ScalarClassifierEvaluatesSpecialTypePattern(System·DateTime),20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,ScalarClassifierEvaluatesSpecialTypePattern(System·Guid),20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,ScalarClassifierEvaluatesSpecialTypePattern(int),20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,ScalarClassifierEvaluatesSpecialTypePattern(object),20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,ScalarClassifierEvaluatesSpecialTypePattern(string),20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,UnresolvedHeaderArgumentFallsBack,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,UnresolvedHttpAttributeArgumentProducesEmptyPath,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,UnrolledFormBodyEmitsSerializeNullEmptyBranch,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,UnrolledFormBodyUsesSerializerAwareKeyAndStyleGuard,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,UnrolledFormBodyWithFormatterOnlyFieldGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,UriQueryParameterGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,UrlEncodedFormBodyCoversAllQueryShapes,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,UrlEncodedFormBodyCoversNullableCollectionAndEscapedNames,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,UrlEncodedFormBodyDescriptorCarriesSerializerNames,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,UrlEncodedFormBodyDescriptorReadsNamedAttributeArguments,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,ValueAndNullableElementCollectionQueriesGenerateInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestGenerationCoverageTests,ValueTypeQueryParametersGenerateInline,20,20,0,0,stable
+Refit.GeneratorTests.RequestParameterBodyModelEqualityTests,AsyncJsonLinesDifferenceIsDetected,20,20,0,0,stable
+Refit.GeneratorTests.RequestParameterBodyModelEqualityTests,BufferModeDifferenceIsDetected,20,20,0,0,stable
+Refit.GeneratorTests.RequestParameterBodyModelEqualityTests,CompressionDifferenceIsDetected,20,20,0,0,stable
+Refit.GeneratorTests.RequestParameterBodyModelEqualityTests,CompressionLevelDifferenceIsDetected,20,20,0,0,stable
+Refit.GeneratorTests.RequestParameterBodyModelEqualityTests,EqualModelsAreEqualAndHashAlike,20,20,0,0,stable
+Refit.GeneratorTests.RequestParameterBodyModelEqualityTests,FormFieldsDifferenceIsDetected,20,20,0,0,stable
+Refit.GeneratorTests.RequestParameterBodyModelEqualityTests,JsonLinesElementTypeDifferenceIsDetected,20,20,0,0,stable
+Refit.GeneratorTests.RequestParameterBodyModelEqualityTests,MultipartPartDifferenceIsDetected,20,20,0,0,stable
+Refit.GeneratorTests.RequestParameterBodyModelEqualityTests,SerializationMethodDifferenceIsDetected,20,20,0,0,stable
+Refit.GeneratorTests.ReturnShapeInlineGenerationTests,IAsyncEnumerableSwitchOffUsesReflectiveRequestBuilder,20,20,0,0,stable
+Refit.GeneratorTests.ReturnShapeInlineGenerationTests,IAsyncEnumerableUsesInlineStreamAsync,20,20,0,0,stable
+Refit.GeneratorTests.ReturnShapeInlineGenerationTests,ObservableBodyMethodBuildsContentInline,20,20,0,0,stable
+Refit.GeneratorTests.ReturnShapeInlineGenerationTests,ObservableMultipartMethodBuildsContentInline,20,20,0,0,stable
+Refit.GeneratorTests.ReturnShapeInlineGenerationTests,ObservableSwitchOffUsesReflectiveRequestBuilder,20,20,0,0,stable
+Refit.GeneratorTests.ReturnShapeInlineGenerationTests,ObservableTimeoutMethodStashesTimeoutInline,20,20,0,0,stable
+Refit.GeneratorTests.ReturnShapeInlineGenerationTests,ObservableUrlMethodDispatchesToAbsoluteUriInline,20,20,0,0,stable
+Refit.GeneratorTests.ReturnShapeInlineGenerationTests,ObservableUsesInlineSendObservable,20,20,0,0,stable
+Refit.GeneratorTests.ReturnShapeInlineGenerationTests,RequestMessageReturnBuildsRequestInlineWithoutSending,20,20,0,0,stable
+Refit.GeneratorTests.ReturnShapeInlineGenerationTests,RequestMessageReturnSwitchOffUsesReflectiveRequestBuilder,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeAdapterGenerationTests,AdapterBackedReturnTypeGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeAdapterGenerationTests,AdapterImplementingUnrelatedInterfaceStillMatchesReturnType,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeAdapterGenerationTests,AdapterTypeArgumentBindingRejectsNonSurfacingWrappers,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeAdapterGenerationTests,AdapterWithBareTypeParameterReturnDoesNotSurfaceGenericReturn,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeAdapterGenerationTests,AdapterWithGenericResultTypeGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeAdapterGenerationTests,NonGenericAdapterBackedReturnTypeGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeAdapterGenerationTests,ReorderedAdapterBackedReturnTypeGeneratesInline,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeAdapterGenerationTests,ReturnTypeMatchingRejectsNonSurfacingAdapters,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeInfoClassificationTests,"ReturnTypeShapesAreClassified(Array, Return)",20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeInfoClassificationTests,"ReturnTypeShapesAreClassified(AsyncEnumerable, AsyncEnumerable)",20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeInfoClassificationTests,"ReturnTypeShapesAreClassified(AsyncResult, AsyncResult)",20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeInfoClassificationTests,"ReturnTypeShapesAreClassified(AsyncVoid, AsyncVoid)",20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeInfoClassificationTests,"ReturnTypeShapesAreClassified(LookAlikePaged, Return)",20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeInfoClassificationTests,"ReturnTypeShapesAreClassified(Observable, Observable)",20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeInfoClassificationTests,"ReturnTypeShapesAreClassified(Paged, Paged)",20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeInfoClassificationTests,"ReturnTypeShapesAreClassified(Plain, Return)",20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeInfoClassificationTests,"ReturnTypeShapesAreClassified(RequestMessage, RequestMessage)",20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeInfoClassificationTests,"ReturnTypeShapesAreClassified(SyncVoid, SyncVoid)",20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeInfoClassificationTests,"ReturnTypeShapesAreClassified(ThreeArguments, Return)",20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeInfoClassificationTests,"ReturnTypeShapesAreClassified(ValueResult, AsyncResult)",20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeTests,GenericConstraintReturnTask,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeTests,GenericStructConstraintReturnTask,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeTests,GenericTaskShouldWork,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeTests,GenericUnmanagedConstraintReturnTask,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeTests,GenericValueTaskShouldWork,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeTests,ReturnIObservable,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeTests,ReturnNullableObject,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeTests,ReturnNullableValueType,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeTests,ReturnUnsupportedType,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeTests,ValueTaskApiResponseShouldWork,20,20,0,0,stable
+Refit.GeneratorTests.ReturnTypeTests,VoidTaskShouldWork,20,20,0,0,stable
+Refit.GeneratorTests.UrlAttributeGenerationTests,MultipleUrlParametersFallBack,20,20,0,0,stable
+Refit.GeneratorTests.UrlAttributeGenerationTests,NonStringOrUriUrlParameterFallsBack,20,20,0,0,stable
+Refit.GeneratorTests.UrlAttributeGenerationTests,QueryParameterAppendsToAbsoluteUrlInline,20,20,0,0,stable
+Refit.GeneratorTests.UrlAttributeGenerationTests,"QueryParameterWithExplicitUrlOption_CompilesInline(System·Uri, True)",20,20,0,0,stable
+Refit.GeneratorTests.UrlAttributeGenerationTests,"QueryParameterWithExplicitUrlOption_CompilesInline(string, False)",20,20,0,0,stable
+Refit.GeneratorTests.UrlAttributeGenerationTests,"QueryParameterWithExplicitUrlOption_CompilesInline(string, True)",20,20,0,0,stable
+Refit.GeneratorTests.UrlAttributeGenerationTests,StringUrlParameterGeneratesAbsoluteUriInline,20,20,0,0,stable
+Refit.GeneratorTests.UrlAttributeGenerationTests,UriUrlParameterGeneratesAbsoluteUriInline,20,20,0,0,stable
+Refit.GeneratorTests.UrlAttributeGenerationTests,UrlParameterWithPathTemplateFallsBack,20,20,0,0,stable

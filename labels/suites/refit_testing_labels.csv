@@ -1,0 +1,252 @@
+﻿className,test,runs_presente,passed,failed,skipped,label
+Refit.Testing.Tests.CapturingContentTests,CaptureStream_SeekableInner_ReportsNonSeekable,100,100,0,0,stable
+Refit.Testing.Tests.CapturingContentTests,SerializeToStreamAsync_LegacyHook_RecordsBodyAndLeavesTargetOpen,100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,Constructor_RejectsInvalidJitterMode(-1),100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,Constructor_RejectsInvalidJitterMode(2),100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,Constructor_RejectsInvalidJitterRatios(-0.1),100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,Constructor_RejectsInvalidJitterRatios(-Infinity),100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,Constructor_RejectsInvalidJitterRatios(1.1),100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,Constructor_RejectsInvalidJitterRatios(Infinity),100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,Constructor_RejectsInvalidJitterRatios(NaN),100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,Constructor_SnapshotsOptions,100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,Constructor_ValidatesOptions,100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_CallbackFailureDisposesResponse(False),100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_CallbackFailureDisposesResponse(True),100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_CancellationAbortsWait(False),100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_CancellationAbortsWait(True),100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_ClassifiesStatuses(BadGateway, 2)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_ClassifiesStatuses(Forbidden, 1)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_ClassifiesStatuses(GatewayTimeout, 2)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_ClassifiesStatuses(HttpVersionNotSupported, 1)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_ClassifiesStatuses(InternalServerError, 2)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_ClassifiesStatuses(NotFound, 1)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_ClassifiesStatuses(NotImplemented, 1)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_ClassifiesStatuses(OK, 1)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_ClassifiesStatuses(RequestTimeout, 2)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_ClassifiesStatuses(ServiceUnavailable, 2)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_ClassifiesStatuses(TooManyRequests, 2)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_ClassifiesStatuses(Unauthorized, 1)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_DisposesOnlyFailedResponses,100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_DoesNotRetryNonTransientExceptions(cancellation),100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_DoesNotRetryNonTransientExceptions(cancelledTransport),100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_DoesNotRetryNonTransientExceptions(other),100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_ExhaustedTransportFailurePropagates(False, 1)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_ExhaustedTransportFailurePropagates(True, 2)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_ExponentialBackoffIsCapped,100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_GitHubQuotaHintMakesForbiddenRetryable,100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_HonorsServerInterval,100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_JitterStaysWithinBackoff,100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_RejectsOutOfBudgetHints(-1),100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_RejectsOutOfBudgetHints(31),100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_RejectsOversizedBodyBeforeSending,100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_ReplaysBodyAndMetadata,100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_RequiresSafeReplay(DELETE, False, 1)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_RequiresSafeReplay(GET, False, 2)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_RequiresSafeReplay(HEAD, False, 2)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_RequiresSafeReplay(OPTIONS, False, 2)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_RequiresSafeReplay(PATCH, False, 1)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_RequiresSafeReplay(POST, False, 1)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_RequiresSafeReplay(POST, True, 2)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_RequiresSafeReplay(PUT, False, 1)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,"SendAsync_RequiresSafeReplay(TRACE, False, 2)",100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_RetriesTransportFailure,100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_ServerJitterStaysAboveFloor,100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_UsesCustomPredicate(False),100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_UsesCustomPredicate(True),100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_ZeroRetriesBypassesCloning,100,100,0,0,stable
+Refit.Testing.Tests.HttpRetryHandlerTests,SendAsync_ZeroSymmetricRatioKeepsBackoff,100,100,0,0,stable
+Refit.Testing.Tests.NetworkBehaviorTests,ErrorRateReturnsErrorStatus,100,100,0,0,stable
+Refit.Testing.Tests.NetworkBehaviorTests,FailureRateAlwaysThrows,100,100,0,0,stable
+Refit.Testing.Tests.NetworkBehaviorTests,NoFaultsYieldStubbedResponse,100,100,0,0,stable
+Refit.Testing.Tests.NetworkBehaviorTests,ProbabilityBoundariesAreHonored,100,100,0,0,stable
+Refit.Testing.Tests.NetworkBehaviorTests,SeededDelaysAreReproducible,100,100,0,0,stable
+Refit.Testing.Tests.ReplyFromCancellableTests,BoundedCaptureForwardsCancellationToTheBody,100,100,0,0,stable
+Refit.Testing.Tests.ReplyFromCancellableTests,CancellationDuringResponderBodyCopyIsObserved,100,100,0,0,stable
+Refit.Testing.Tests.ReplyFromCancellableTests,ResponderReceivesTheSendsCancellationToken,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,BodyMatcherRequiresFullCapture,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,BoundedCaptureExceedingLimitThrowsWhenRead,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,BoundedCaptureHandlesMissingContentType,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,BoundedCaptureLeavesStreamingUploadForResponderToConsume,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,BoundedCaptureNotReadToEndThrows,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,BoundedCaptureWithinLimitAndReadToEndDeserializes,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,BoundedRejectsNegativeLimit,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,CaptureStreamSyncAndAsyncReadWriteAndDisposeOwnership,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,CapturedRequestBodyRoundTripsWithinLimit,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,CapturedRequestBodyThrowsWhenIncomplete,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,CapturedRequestBodyTruncatesPastLimit,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,CapturedRequestBodyUnlimitedNeverTruncates,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,CapturingContentCopiesHeadersExceptContentLength,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,CapturingContentReadPathRecordsAndCompletes,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,CapturingContentReportsLengthFromInner,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,CapturingContentWritePathRecordsAndCompletes,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,DefaultCaptureIsFull,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,NoneCaptureLeavesStreamingUploadForResponderToConsume,100,100,0,0,stable
+Refit.Testing.Tests.RequestCaptureTests,StaticPoliciesCarryDocumentedFlags,100,100,0,0,stable
+Refit.Testing.Tests.RetryAndTimeoutTests,ExhaustedRetriesSurfaceApiException,100,100,0,0,stable
+Refit.Testing.Tests.RetryAndTimeoutTests,RequestFasterThanClientTimeoutSucceeds,100,100,0,0,stable
+Refit.Testing.Tests.RetryAndTimeoutTests,RequestSlowerThanClientTimeoutThrowsApiRequestException,100,100,0,0,stable
+Refit.Testing.Tests.RetryAndTimeoutTests,RetryRecoversFromSimulatedNetworkFailure,100,100,0,0,stable
+Refit.Testing.Tests.RetryAndTimeoutTests,RetryRecoversFromTransientErrorStatus,100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,Azure_PrefersMilliseconds,100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"GitHub_RequiresExhaustedQuota(Forbidden, 0, True)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"GitHub_RequiresExhaustedQuota(Forbidden, 1, False)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"GitHub_RequiresExhaustedQuota(Forbidden, null, False)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"GitHub_RequiresExhaustedQuota(OK, 0, False)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"GitHub_RequiresExhaustedQuota(TooManyRequests, 0, True)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,Jira_IgnoresUnthrottledReset,100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,Providers_FallBackToStandardHeader(Aws),100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,Providers_FallBackToStandardHeader(Azure),100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,Providers_FallBackToStandardHeader(GitHub),100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,Providers_FallBackToStandardHeader(Jira),100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"Providers_ReadTheirOwnFormats(Aws, x-amz-retry-after, 1500, 1500)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"Providers_ReadTheirOwnFormats(Aws, x-amz-retry-after, bad, null)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"Providers_ReadTheirOwnFormats(Azure, retry-after-ms, 1500, 1500)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"Providers_ReadTheirOwnFormats(Azure, x-ms-retry-after-ms, bad, null)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"Providers_ReadTheirOwnFormats(Jira, Other, 1, null)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"Providers_ReadTheirOwnFormats(Jira, X-RateLimit-Reset, 1970-01-01T00:00:20Z, 10000)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,ReadHeader_GuardsArgumentsAndCancellation,100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,ReadHeader_RejectsAmbiguousHints(combined),100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,ReadHeader_RejectsAmbiguousHints(duplicates),100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,ReadHeader_RejectsAmbiguousHints(empty),100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,ReadHeader_RejectsAmbiguousHints(missing),100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"ReadHeader_ValidatesEncoding(Iso8601Date, , null)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"ReadHeader_ValidatesEncoding(Iso8601Date, 1970-01-01T00:00:00·000Z, 0)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"ReadHeader_ValidatesEncoding(Iso8601Date, 1970-01-01T00:00:20, null)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"ReadHeader_ValidatesEncoding(Iso8601Date, 1970-01-01T00:00:20Z, 10000)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"ReadHeader_ValidatesEncoding(Iso8601Date, 1970-01-01T01:00:20+01:00, 10000)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"ReadHeader_ValidatesEncoding(Iso8601Date, tomorrow, null)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"ReadHeader_ValidatesEncoding(Milliseconds, -2, null)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"ReadHeader_ValidatesEncoding(Milliseconds, 0, 0)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"ReadHeader_ValidatesEncoding(Milliseconds, 1500, 1500)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"ReadHeader_ValidatesEncoding(Milliseconds, 1·5, null)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"ReadHeader_ValidatesEncoding(Milliseconds, 9223372036854775807, null)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"ReadHeader_ValidatesEncoding(Seconds,  2 , 2000)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"ReadHeader_ValidatesEncoding(Seconds, 9223372036854775807, null)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"ReadHeader_ValidatesEncoding(UnixTimeSeconds, 0, 0)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"ReadHeader_ValidatesEncoding(UnixTimeSeconds, 20, 10000)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"ReadHeader_ValidatesEncoding(UnixTimeSeconds, 253402300799, 253402300789000)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"ReadHeader_ValidatesEncoding(UnixTimeSeconds, 253402300800, null)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"RetryAfter_ParsesValidIntervals(-1, null)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"RetryAfter_ParsesValidIntervals(0, 0)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"RetryAfter_ParsesValidIntervals(12, 12)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"RetryAfter_ParsesValidIntervals(1·5, null)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"RetryAfter_ParsesValidIntervals(999999999999999999999999, null)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"RetryAfter_ParsesValidIntervals(Thu, 01 Jan 1970 00:00:00 GMT, 0)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"RetryAfter_ParsesValidIntervals(Thu, 01 Jan 1970 00:00:20 GMT, 10)",100,100,0,0,stable
+Refit.Testing.Tests.RetryDelayProvidersTests,"RetryAfter_ParsesValidIntervals(garbage, null)",100,100,0,0,stable
+Refit.Testing.Tests.RetryReplyTests,After_FormatsUtcDate,100,100,0,0,stable
+Refit.Testing.Tests.RetryReplyTests,"After_RoundsUpSeconds(0, 0)",100,100,0,0,stable
+Refit.Testing.Tests.RetryReplyTests,"After_RoundsUpSeconds(1500, 2)",100,100,0,0,stable
+Refit.Testing.Tests.RetryReplyTests,Factories_ValidateArguments,100,100,0,0,stable
+Refit.Testing.Tests.RetryReplyTests,Header_PreservesInvalidHint,100,100,0,0,stable
+Refit.Testing.Tests.RetryReplyTests,Header_ProducesFreshResponseOnEveryCall,100,100,0,0,stable
+Refit.Testing.Tests.RouteTableFeatureTests,FallbackRouteIsTriedLastRegardlessOfDeclarationOrder,100,100,0,0,stable
+Refit.Testing.Tests.RouteTableFeatureTests,LastRequestBodyDeserializesSentPayload,100,100,0,0,stable
+Refit.Testing.Tests.RouteTableFeatureTests,TemplatePlaceholderMatchesPathSegment,100,100,0,0,stable
+Refit.Testing.Tests.RouteTableFeatureTests,TypedReplyCarriesStatusCode,100,100,0,0,stable
+Refit.Testing.Tests.RouteTableFeatureTests,TypedReplyIsSerializedByClientSerializer,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceContentTests,BufferingReadsWholeReleasedBody,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceContentTests,ContentTypeHeaderMatchesSourceMediaType,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceContentTests,DisposingContentClosesSource,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceContentTests,NeverReportsContentLength,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceContentTests,ReadDrainsChunkThenAdvancesToNext,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceContentTests,ReadStreamReportsCapabilitiesAndThrowsForUnsupportedMembers,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceContentTests,ReadingPastEndReturnsZeroRepeatedly,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceContentTests,SyncCreateContentReadStreamReturnsStream,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceContentTests,SyncReadCopiesReleasedChunk,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,CancelledReadThrowsOperationCanceled,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,CloseCompletesClosedTask,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,CreateContentTwiceThrows,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,DefaultConstructorSelectsJsonLines,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,DisconnectDeliversChunksThenIOException,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,FailDeliversCustomException,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,FailRejectsNull,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,"FormatSelectsMediaType(JsonArray, application/json)",100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,"FormatSelectsMediaType(JsonLines, application/x-ndjson)",100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,"FormatSelectsMediaType(ServerSentEvents, text/event-stream)",100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,JsonArrayEmptyCompletesAsEmptyArray,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,JsonArrayFramesItemsWithBracketsAndSeparators,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,JsonLinesFramesItemWithTrailingNewline,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,ReadAfterCloseThrowsObjectDisposed,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,ReadWaitsThenCompletesOnRelease,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,ReleaseAfterCompleteThrows,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,ReleaseBytesAllowsEmptyChunk,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,ReleaseBytesRejectsNull,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,ReleaseBytesSendsRawBytes,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,ReleaseTextRejectsNull,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,ReleaseTextSendsRawBytes,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,ReleasedAndReadCountersTrackActivity,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,ServerSentEventsFramesMultiLinePayload,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,TwoConcurrentPendingReadsBothComplete,100,100,0,0,stable
+Refit.Testing.Tests.StreamSourceTests,UndefinedFormatThrows,100,100,0,0,stable
+Refit.Testing.Tests.StreamingReplyTests,BreakingOutOfForeachClosesSource,100,100,0,0,stable
+Refit.Testing.Tests.StreamingReplyTests,CancellationDuringStalledReadClosesSource,100,100,0,0,stable
+Refit.Testing.Tests.StreamingReplyTests,DisconnectAfterTwoItemsThenIOException,100,100,0,0,stable
+Refit.Testing.Tests.StreamingReplyTests,DisposingEnumeratorClosesSource,100,100,0,0,stable
+Refit.Testing.Tests.StreamingReplyTests,FailSurfacesCustomException,100,100,0,0,stable
+Refit.Testing.Tests.StreamingReplyTests,HeadersArriveWhileBodyStalls,100,100,0,0,stable
+Refit.Testing.Tests.StreamingReplyTests,ItemsArriveOnlyAfterRelease(JsonArray),100,100,0,0,stable
+Refit.Testing.Tests.StreamingReplyTests,ItemsArriveOnlyAfterRelease(JsonLines),100,100,0,0,stable
+Refit.Testing.Tests.StreamingReplyTests,ItemsArriveOnlyAfterRelease(ServerSentEvents),100,100,0,0,stable
+Refit.Testing.Tests.StreamingReplyTests,JsonLinesReusableRouteAnswersEachRequestFresh,100,100,0,0,stable
+Refit.Testing.Tests.StreamingReplyTests,ReplyJsonLinesRejectsNullItems,100,100,0,0,stable
+Refit.Testing.Tests.StreamingReplyTests,ReplyServerSentEventsRejectsNullItems,100,100,0,0,stable
+Refit.Testing.Tests.StreamingReplyTests,ReplyStreamRejectsNullSource,100,100,0,0,stable
+Refit.Testing.Tests.StreamingReplyTests,ServerSentEventsStreamsAllItemsInOrder,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,BodyMatcherTreatsMissingContentAsEmpty,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,BufferSkipsUnbufferableBody,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,CapturesBodyWithoutContentType,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,CreateGeneratedClientConstructsInstance,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,EmptyQueryPairIsIgnored,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,ExactQueryParamsRejectWrongValue,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,HandlerEnumeratesRoutes,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,HeaderMatcherMatchesContentHeaders,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,LastRequestBodyIsDefaultForBodylessRequest,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,LastRequestBodyThrowsWhenNoRequests,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,NullRequestUriMatchesNoRoute,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,NullUriEvaluatesQueryAsEmpty,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,QueryTokenWithoutEqualsParsesEmptyValue,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,ReplyContentUsesSuppliedContent,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,ReplyJsonWithStatusCarriesBoth,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,ReplyTextWithContentTypeUsesIt,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,RequestBodyAsyncRejectsNegativeIndex,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,RequestBodyByIndexRoundTripsAndValidatesRange,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,RouteFactoriesMatchTheirMethods,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,StubApiResponseErrorAccessorsAndDispose,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,TemplatePlaceholderRejectsEmptySegment,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,TemplateRejectsLiteralMismatch,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpCoverageTests,TemplateRejectsSegmentCountMismatch,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpRetryTests,CreateRetryHandler_RespectsExplicitClock,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpRetryTests,CreateRetryHandler_SharesStubClockForGeneratedClient,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,BodyMatcherComparesContent,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,BodyMatcherFailsOnMismatch,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,EmptyExactQueryMatchesNoQuery,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,ExactQueryParamsMatchDecodedPairs,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,ExactQueryStringMatchesRawEncoded,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,ExactQueryStringRejectsExtras,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,FormDataMatcherChecksPairs,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,HeaderMatcherRequiresHeader,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,MatchesMethodAndUrlAndReturnsJson,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,NonReusableExchangesAreOneShotInOrder,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,NullMethodMatchesAnyMethod,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,PartialQueryFailsWhenMissing,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,PartialQueryMatchesSubset,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,RequestsAreRecorded,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,RespondWithAsyncAwaitsRequestBody,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,RespondWithProducesCustomResponse,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,ReusableExchangeMatchesRepeatedly,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,ToSettingsPreservesBaseSettings,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,ToSettingsWiresHandlerFactory,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,UrlMatchesIgnoringQuery,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,VerifyAllCalledAsyncThrowsOnTimeout,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,VerifyAllCalledAsyncWaitsForPendingRequest,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,VerifyAllCalledThrowsForUnmetExpectation,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,WherePredicateGatesMatch,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,WildcardUrlMatchesAnything,100,100,0,0,stable
+Refit.Testing.Tests.StubHttpTests,WrongMethodDoesNotMatch,100,100,0,0,stable
+Refit.Testing.Tests.TimeControlTests,NetworkDelayWaitsForFakeClockAdvance,100,100,0,0,stable
+Refit.Testing.Tests.TimeControlTests,NullRequestCaptureThrows,100,100,0,0,stable
+Refit.Testing.Tests.TimeControlTests,NullTimeProviderThrows,100,100,0,0,stable
+Refit.Testing.Tests.TimeControlTests,TimeProviderGetterReflectsDefaultAndAssignedValue,100,100,0,0,stable
+Refit.Testing.Tests.TimeControlTests,VerifyAllCalledFaultsOnlyAfterTimeoutAdvance,100,100,0,0,stable
+Refit.Testing.Tests.TimeControlTests,VerifyAllCalledSucceedsWhenRequestArrivesBeforeTimeout,100,100,0,0,stable
