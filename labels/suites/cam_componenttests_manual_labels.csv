@@ -1,0 +1,4 @@
+﻿className,test,runs_presente,passed,failed,skipped,label
+ComponentTests.V1.GetAccountsTests,ComponentTests.V1.GetAccountsTests.GetAccountsReturnsList,20,20,0,0,stable
+ComponentTests.V1.SunnyDayTests,ComponentTests.V1.SunnyDayTests.GetAccount_Withdraw_Deposit_Withdraw_Withdraw_Close,20,20,0,0,stable
+ComponentTests.V2.SunnyDayTests,ComponentTests.V2.SunnyDayTests.GetAccounts_GetAccount,20,20,0,0,stable

@@ -1,0 +1,256 @@
+﻿className,test,runs_presente,passed,failed,skipped,label
+CommandLineTests+Filters,CommandLineTests+Filters.DefaultFilters,20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.DisplayNameFiltersAreExcludedPriorToVersion4(switch: \""-displayName-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.DisplayNameFiltersAreExcludedPriorToVersion4(switch: \""-displayName\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MissingOptionValue(switch: \""-CLASS-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MissingOptionValue(switch: \""-CLASS\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MissingOptionValue(switch: \""-DISPLAYNAME-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MissingOptionValue(switch: \""-DISPLAYNAME\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MissingOptionValue(switch: \""-METHOD-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MissingOptionValue(switch: \""-METHOD\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MissingOptionValue(switch: \""-NAMESPACE-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MissingOptionValue(switch: \""-NAMESPACE\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MissingOptionValue(switch: \""-class-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MissingOptionValue(switch: \""-class\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MissingOptionValue(switch: \""-displayName-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MissingOptionValue(switch: \""-displayName\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MissingOptionValue(switch: \""-method-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MissingOptionValue(switch: \""-method\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MissingOptionValue(switch: \""-namespace-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MissingOptionValue(switch: \""-namespace\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MultipleValidArguments(switch: \""-CLASS-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MultipleValidArguments(switch: \""-CLASS\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MultipleValidArguments(switch: \""-DISPLAYNAME-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MultipleValidArguments(switch: \""-DISPLAYNAME\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MultipleValidArguments(switch: \""-METHOD-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MultipleValidArguments(switch: \""-METHOD\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MultipleValidArguments(switch: \""-NAMESPACE-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MultipleValidArguments(switch: \""-NAMESPACE\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MultipleValidArguments(switch: \""-class-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MultipleValidArguments(switch: \""-class\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MultipleValidArguments(switch: \""-displayName-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MultipleValidArguments(switch: \""-displayName\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MultipleValidArguments(switch: \""-method-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MultipleValidArguments(switch: \""-method\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MultipleValidArguments(switch: \""-namespace-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.MultipleValidArguments(switch: \""-namespace\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.SingleValidArgument(switch: \""-CLASS-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.SingleValidArgument(switch: \""-CLASS\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.SingleValidArgument(switch: \""-DISPLAYNAME-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.SingleValidArgument(switch: \""-DISPLAYNAME\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.SingleValidArgument(switch: \""-METHOD-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.SingleValidArgument(switch: \""-METHOD\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.SingleValidArgument(switch: \""-NAMESPACE-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.SingleValidArgument(switch: \""-NAMESPACE\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.SingleValidArgument(switch: \""-class-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.SingleValidArgument(switch: \""-class\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.SingleValidArgument(switch: \""-displayName-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.SingleValidArgument(switch: \""-displayName\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.SingleValidArgument(switch: \""-method-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.SingleValidArgument(switch: \""-method\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.SingleValidArgument(switch: \""-namespace-\"")",20,20,0,0,stable
+CommandLineTests+Filters,"CommandLineTests+Filters.SingleValidArgument(switch: \""-namespace\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.ImproperlyFormattedOptionValue(switch: \""-TRAIT-\"", optionValue: \""=bar\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.ImproperlyFormattedOptionValue(switch: \""-TRAIT-\"", optionValue: \""foo=\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.ImproperlyFormattedOptionValue(switch: \""-TRAIT-\"", optionValue: \""foo=bar=baz\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.ImproperlyFormattedOptionValue(switch: \""-TRAIT-\"", optionValue: \""foobar\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.ImproperlyFormattedOptionValue(switch: \""-TRAIT\"", optionValue: \""=bar\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.ImproperlyFormattedOptionValue(switch: \""-TRAIT\"", optionValue: \""foo=\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.ImproperlyFormattedOptionValue(switch: \""-TRAIT\"", optionValue: \""foo=bar=baz\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.ImproperlyFormattedOptionValue(switch: \""-TRAIT\"", optionValue: \""foobar\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.ImproperlyFormattedOptionValue(switch: \""-trait-\"", optionValue: \""=bar\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.ImproperlyFormattedOptionValue(switch: \""-trait-\"", optionValue: \""foo=\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.ImproperlyFormattedOptionValue(switch: \""-trait-\"", optionValue: \""foo=bar=baz\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.ImproperlyFormattedOptionValue(switch: \""-trait-\"", optionValue: \""foobar\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.ImproperlyFormattedOptionValue(switch: \""-trait\"", optionValue: \""=bar\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.ImproperlyFormattedOptionValue(switch: \""-trait\"", optionValue: \""foo=\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.ImproperlyFormattedOptionValue(switch: \""-trait\"", optionValue: \""foo=bar=baz\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.ImproperlyFormattedOptionValue(switch: \""-trait\"", optionValue: \""foobar\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.MissingOptionValue(switch: \""-TRAIT-\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.MissingOptionValue(switch: \""-TRAIT\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.MissingOptionValue(switch: \""-trait-\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.MissingOptionValue(switch: \""-trait\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.MultipleValidTraitArguments(switch: \""-TRAIT-\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.MultipleValidTraitArguments(switch: \""-TRAIT\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.MultipleValidTraitArguments(switch: \""-trait-\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.MultipleValidTraitArguments(switch: \""-trait\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.SingleValidTraitArgument(switch: \""-TRAIT-\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.SingleValidTraitArgument(switch: \""-TRAIT\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.SingleValidTraitArgument(switch: \""-trait-\"")",20,20,0,0,stable
+CommandLineTests+Filters+Traits,"CommandLineTests+Filters+Traits.SingleValidTraitArgument(switch: \""-trait\"")",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+AssertEquivalentMaxDepth,CommandLineTests+OptionsWithArguments+AssertEquivalentMaxDepth.DefaultValueIsNull,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+AssertEquivalentMaxDepth,CommandLineTests+OptionsWithArguments+AssertEquivalentMaxDepth.ValueIsPreserved,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+Automated,CommandLineTests+OptionsWithArguments+Automated.AsyncIsFalse,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+Automated,CommandLineTests+OptionsWithArguments+Automated.DefaultValueIsNull,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+Automated,CommandLineTests+OptionsWithArguments+Automated.SyncIsTrue,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+Automated,CommandLineTests+OptionsWithArguments+Automated.UnspecifiedValueIsNull,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+Culture,CommandLineTests+OptionsWithArguments+Culture.DefaultValueIsNull,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+Culture,CommandLineTests+OptionsWithArguments+Culture.ExplicitDefaultValueIsNull,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+Culture,CommandLineTests+OptionsWithArguments+Culture.InvariantCultureIsEmptyString,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+Culture,CommandLineTests+OptionsWithArguments+Culture.ValueIsPreserved,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+ID,CommandLineTests+OptionsWithArguments+ID.AddsIDsToList,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+ID,CommandLineTests+OptionsWithArguments+ID.DefaultIsEmpty,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+LongRunning,CommandLineTests+OptionsWithArguments+LongRunning.DefaultValueIsNull,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+LongRunning,CommandLineTests+OptionsWithArguments+LongRunning.InvalidValue,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+LongRunning,CommandLineTests+OptionsWithArguments+LongRunning.MissingValue,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+LongRunning,CommandLineTests+OptionsWithArguments+LongRunning.ValidValue,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+MaxThreads,CommandLineTests+OptionsWithArguments+MaxThreads.DefaultValueIsNull,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+MaxThreads,"CommandLineTests+OptionsWithArguments+MaxThreads.InvalidValues(value: \"",0x\"")",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+MaxThreads,"CommandLineTests+OptionsWithArguments+MaxThreads.InvalidValues(value: \"".0x\"")",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+MaxThreads,"CommandLineTests+OptionsWithArguments+MaxThreads.InvalidValues(value: \""0,ax\"")",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+MaxThreads,"CommandLineTests+OptionsWithArguments+MaxThreads.InvalidValues(value: \""0.0x\"")",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+MaxThreads,"CommandLineTests+OptionsWithArguments+MaxThreads.InvalidValues(value: \""0.ax\"")",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+MaxThreads,"CommandLineTests+OptionsWithArguments+MaxThreads.InvalidValues(value: \""0x\"")",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+MaxThreads,"CommandLineTests+OptionsWithArguments+MaxThreads.InvalidValues(value: \""abc\"")",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+MaxThreads,CommandLineTests+OptionsWithArguments+MaxThreads.MissingValue,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+MaxThreads,"CommandLineTests+OptionsWithArguments+MaxThreads.MultiplierValue(value: \""2,0x\"")",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+MaxThreads,"CommandLineTests+OptionsWithArguments+MaxThreads.MultiplierValue(value: \""2.0x\"")",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+MaxThreads,"CommandLineTests+OptionsWithArguments+MaxThreads.MultiplierValue(value: \""2x\"")",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+MaxThreads,"CommandLineTests+OptionsWithArguments+MaxThreads.MultiplierValueRoundingDownToZero_ReturnsOne(value: \""0,0001x\"")",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+MaxThreads,"CommandLineTests+OptionsWithArguments+MaxThreads.MultiplierValueRoundingDownToZero_ReturnsOne(value: \""0.0001x\"")",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+MaxThreads,"CommandLineTests+OptionsWithArguments+MaxThreads.ValidValues(value: \""0\"", expected: null)",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+MaxThreads,"CommandLineTests+OptionsWithArguments+MaxThreads.ValidValues(value: \""16\"", expected: 16)",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+MaxThreads,"CommandLineTests+OptionsWithArguments+MaxThreads.ValidValues(value: \""default\"", expected: null)",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+MaxThreads,"CommandLineTests+OptionsWithArguments+MaxThreads.ValidValues(value: \""unlimited\"", expected: -1)",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+Parallelization,CommandLineTests+OptionsWithArguments+Parallelization.ParallelModeInvalid,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+Parallelization,CommandLineTests+OptionsWithArguments+Parallelization.ParallelModeIsNullByDefault,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+Parallelization,"CommandLineTests+OptionsWithArguments+Parallelization.ParallelModeSet_ParallelIgnored(parallelOption: \""collections\"")",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+Parallelization,"CommandLineTests+OptionsWithArguments+Parallelization.ParallelModeSet_ParallelIgnored(parallelOption: \""none\"")",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+Parallelization,"CommandLineTests+OptionsWithArguments+Parallelization.ParallelModeUnset_OverriddenByParallel(parallelOption: \""collections\"", expectedParallelMode: Collections)",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+Parallelization,"CommandLineTests+OptionsWithArguments+Parallelization.ParallelModeUnset_OverriddenByParallel(parallelOption: \""none\"", expectedParallelMode: None)",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+Parallelization,"CommandLineTests+OptionsWithArguments+Parallelization.ParallelModeValid(parallelModeOption: \""all\"", expectedParallelMode: All)",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+Parallelization,"CommandLineTests+OptionsWithArguments+Parallelization.ParallelModeValid(parallelModeOption: \""collections\"", expectedParallelMode: Collections)",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+Parallelization,"CommandLineTests+OptionsWithArguments+Parallelization.ParallelModeValid(parallelModeOption: \""none\"", expectedParallelMode: None)",20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+PrintMaxEnumerableLength,CommandLineTests+OptionsWithArguments+PrintMaxEnumerableLength.DefaultValueIsNull,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+PrintMaxEnumerableLength,CommandLineTests+OptionsWithArguments+PrintMaxEnumerableLength.ValueIsPreserved,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+PrintMaxObjectDepth,CommandLineTests+OptionsWithArguments+PrintMaxObjectDepth.DefaultValueIsNull,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+PrintMaxObjectDepth,CommandLineTests+OptionsWithArguments+PrintMaxObjectDepth.ValueIsPreserved,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+PrintMaxObjectMemberCount,CommandLineTests+OptionsWithArguments+PrintMaxObjectMemberCount.DefaultValueIsNull,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+PrintMaxObjectMemberCount,CommandLineTests+OptionsWithArguments+PrintMaxObjectMemberCount.ValueIsPreserved,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+PrintMaxStringLength,CommandLineTests+OptionsWithArguments+PrintMaxStringLength.DefaultValueIsNull,20,20,0,0,stable
+CommandLineTests+OptionsWithArguments+PrintMaxStringLength,CommandLineTests+OptionsWithArguments+PrintMaxStringLength.ValueIsPreserved,20,20,0,0,stable
+CommandLineTests+Project,CommandLineTests+Project.ConfigFileDoesNotExist_Throws,20,20,0,0,stable
+CommandLineTests+Project,CommandLineTests+Project.ConfigFileUnsupportedFormat_Throws,20,20,0,0,stable
+CommandLineTests+Project,CommandLineTests+Project.DefaultValues,20,20,0,0,stable
+CommandLineTests+Project,CommandLineTests+Project.TwoConfigFiles_Throws,20,20,0,0,stable
+CommandLineTests+Project,CommandLineTests+Project.WithConfigFile,20,20,0,0,stable
+CommandLineTests+Reporters,CommandLineTests+Reporters.ExplicitReporter_NoEnvironmentalOverride_UsesExplicitReporter,20,20,0,0,stable
+CommandLineTests+Reporters,CommandLineTests+Reporters.ExplicitReporter_WithEnvironmentalOverride_UsesEnvironmentalOverride,20,20,0,0,stable
+CommandLineTests+Reporters,CommandLineTests+Reporters.NoExplicitReporter_NoEnvironmentallyEnabledReporters_UsesDefaultReporter,20,20,0,0,stable
+CommandLineTests+Reporters,CommandLineTests+Reporters.NoExplicitReporter_SelectsFirstEnvironmentallyEnabledReporter,20,20,0,0,stable
+CommandLineTests+Reporters,CommandLineTests+Reporters.NoReporters_UsesDefaultReporter,20,20,0,0,stable
+CommandLineTests+Reporters,CommandLineTests+Reporters.WithEnvironmentalOverride_WithEnvironmentalOverridesDisabled_UsesDefaultReporter,20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-CTRF\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-HTML\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-JUNIT\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-NUNIT\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-TRX\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-XMLV1\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-XML\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-ctrf\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-html\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-junit\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-nunit\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-result-CTRF\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-result-HTML\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-result-JUNIT\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-result-MARKDOWN\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-result-NUNIT\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-result-TRX\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-result-XMLV1\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-result-XML\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-result-ctrf\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-result-html\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-result-junit\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-result-markdown\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-result-nunit\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-result-trx\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-result-xml\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-result-xmlv1\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-trx\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-xml\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.Output(switch: \""-xmlv1\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-CTRF\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-HTML\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-JUNIT\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-NUNIT\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-TRX\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-XMLV1\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-XML\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-ctrf\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-html\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-junit\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-nunit\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-result-CTRF\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-result-HTML\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-result-JUNIT\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-result-MARKDOWN\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-result-NUNIT\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-result-TRX\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-result-XMLV1\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-result-XML\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-result-ctrf\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-result-html\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-result-junit\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-result-markdown\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-result-nunit\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-result-trx\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-result-xml\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-result-xmlv1\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-trx\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-xml\"")",20,20,0,0,stable
+CommandLineTests+ResultWriters,"CommandLineTests+ResultWriters.OutputMissingFilename(switch: \""-xmlv1\"")",20,20,0,0,stable
+CommandLineTests+Switches,CommandLineTests+Switches.NoColorSetsEnvironmentVariable,20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-DEBUG\"", accessor: assembly => assembly.Project.Configuration.DebugOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-DIAGNOSTICS\"", accessor: assembly => assembly.Configuration.DiagnosticMessagesOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-FAILSKIPS\"", accessor: assembly => assembly.Configuration.FailSkipsOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-IGNOREFAILURES\"", accessor: assembly => assembly.Project.Configuration.IgnoreFailuresOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-INTERNALDIAGNOSTICS\"", accessor: assembly => assembly.Configuration.InternalDiagnosticMessagesOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-NOAUTOREPORTERS\"", accessor: assembly => assembly.Project.Configuration.NoAutoReportersOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-NOCOLOR\"", accessor: assembly => assembly.Project.Configuration.NoColorOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-NOLOGO\"", accessor: assembly => assembly.Project.Configuration.NoLogoOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-PAUSE\"", accessor: assembly => assembly.Project.Configuration.PauseOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-PREENUMERATETHEORIES\"", accessor: assembly => (assembly.Configuration.PreEnumerateTheories ?? False))",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-SHOWLIVEOUTPUT\"", accessor: assembly => assembly.Configuration.ShowLiveOutputOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-STOPONFAIL\"", accessor: assembly => assembly.Configuration.StopOnFailOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-WAIT\"", accessor: assembly => assembly.Project.Configuration.WaitOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-debug\"", accessor: assembly => assembly.Project.Configuration.DebugOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-diagnostics\"", accessor: assembly => assembly.Configuration.DiagnosticMessagesOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-failskips\"", accessor: assembly => assembly.Configuration.FailSkipsOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-ignorefailures\"", accessor: assembly => assembly.Project.Configuration.IgnoreFailuresOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-internaldiagnostics\"", accessor: assembly => assembly.Configuration.InternalDiagnosticMessagesOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-noautoreporters\"", accessor: assembly => assembly.Project.Configuration.NoAutoReportersOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-nocolor\"", accessor: assembly => assembly.Project.Configuration.NoColorOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-nologo\"", accessor: assembly => assembly.Project.Configuration.NoLogoOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-pause\"", accessor: assembly => assembly.Project.Configuration.PauseOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-preenumeratetheories\"", accessor: assembly => (assembly.Configuration.PreEnumerateTheories ?? False))",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-showliveoutput\"", accessor: assembly => assembly.Configuration.ShowLiveOutputOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-stoponfail\"", accessor: assembly => assembly.Configuration.StopOnFailOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchDefault(_: \""-wait\"", accessor: assembly => assembly.Project.Configuration.WaitOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-DEBUG\"", accessor: assembly => assembly.Project.Configuration.DebugOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-DIAGNOSTICS\"", accessor: assembly => assembly.Configuration.DiagnosticMessagesOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-FAILSKIPS\"", accessor: assembly => assembly.Configuration.FailSkipsOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-IGNOREFAILURES\"", accessor: assembly => assembly.Project.Configuration.IgnoreFailuresOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-INTERNALDIAGNOSTICS\"", accessor: assembly => assembly.Configuration.InternalDiagnosticMessagesOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-NOAUTOREPORTERS\"", accessor: assembly => assembly.Project.Configuration.NoAutoReportersOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-NOCOLOR\"", accessor: assembly => assembly.Project.Configuration.NoColorOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-NOLOGO\"", accessor: assembly => assembly.Project.Configuration.NoLogoOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-PAUSE\"", accessor: assembly => assembly.Project.Configuration.PauseOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-PREENUMERATETHEORIES\"", accessor: assembly => (assembly.Configuration.PreEnumerateTheories ?? False))",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-SHOWLIVEOUTPUT\"", accessor: assembly => assembly.Configuration.ShowLiveOutputOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-STOPONFAIL\"", accessor: assembly => assembly.Configuration.StopOnFailOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-WAIT\"", accessor: assembly => assembly.Project.Configuration.WaitOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-debug\"", accessor: assembly => assembly.Project.Configuration.DebugOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-diagnostics\"", accessor: assembly => assembly.Configuration.DiagnosticMessagesOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-failskips\"", accessor: assembly => assembly.Configuration.FailSkipsOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-ignorefailures\"", accessor: assembly => assembly.Project.Configuration.IgnoreFailuresOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-internaldiagnostics\"", accessor: assembly => assembly.Configuration.InternalDiagnosticMessagesOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-noautoreporters\"", accessor: assembly => assembly.Project.Configuration.NoAutoReportersOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-nocolor\"", accessor: assembly => assembly.Project.Configuration.NoColorOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-nologo\"", accessor: assembly => assembly.Project.Configuration.NoLogoOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-pause\"", accessor: assembly => assembly.Project.Configuration.PauseOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-preenumeratetheories\"", accessor: assembly => (assembly.Configuration.PreEnumerateTheories ?? False))",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-showliveoutput\"", accessor: assembly => assembly.Configuration.ShowLiveOutputOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-stoponfail\"", accessor: assembly => assembly.Configuration.StopOnFailOrDefault)",20,20,0,0,stable
+CommandLineTests+Switches,"CommandLineTests+Switches.SwitchOverride(switch: \""-wait\"", accessor: assembly => assembly.Project.Configuration.WaitOrDefault)",20,20,0,0,stable
+CommandLineTests+UnknownOption,CommandLineTests+UnknownOption.UnknownOptionThrows,20,20,0,0,stable

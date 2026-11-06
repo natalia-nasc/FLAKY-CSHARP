@@ -1,0 +1,149 @@
+﻿className,test,runs_presente,passed,failed,skipped,label
+AssemblyUtilityTests,AssemblyUtilityTests.GetAssemblyMetadata,20,20,0,0,stable
+ConfigReader_JsonTests,ConfigReader_JsonTests.ConfigurationFileWithInvalidValues_FallsBackToDefaultValues,20,20,0,0,stable
+ConfigReader_JsonTests,"ConfigReader_JsonTests.ConfigurationFileWithMaxThreadsAsMultiplierRoundingDownToZero_ReturnsOne(multiplier: \""0,0001x\"")",20,20,0,0,stable
+ConfigReader_JsonTests,"ConfigReader_JsonTests.ConfigurationFileWithMaxThreadsAsMultiplierRoundingDownToZero_ReturnsOne(multiplier: \""0.0001x\"")",20,20,0,0,stable
+ConfigReader_JsonTests,"ConfigReader_JsonTests.ConfigurationFileWithMaxThreadsAsMultiplier_ReturnsMultipliedValue(multiplier: \""2,0x\"")",20,20,0,0,stable
+ConfigReader_JsonTests,"ConfigReader_JsonTests.ConfigurationFileWithMaxThreadsAsMultiplier_ReturnsMultipliedValue(multiplier: \""2.0x\"")",20,20,0,0,stable
+ConfigReader_JsonTests,"ConfigReader_JsonTests.ConfigurationFileWithMaxThreadsAsMultiplier_ReturnsMultipliedValue(multiplier: \""2x\"")",20,20,0,0,stable
+ConfigReader_JsonTests,"ConfigReader_JsonTests.ConfigurationFileWithMaxThreadsAsZeroMultiplier_IsIgnored(multiplier: \""0,0x\"")",20,20,0,0,stable
+ConfigReader_JsonTests,"ConfigReader_JsonTests.ConfigurationFileWithMaxThreadsAsZeroMultiplier_IsIgnored(multiplier: \""0.0x\"")",20,20,0,0,stable
+ConfigReader_JsonTests,"ConfigReader_JsonTests.ConfigurationFileWithMaxThreadsAsZeroMultiplier_IsIgnored(multiplier: \""0x\"")",20,20,0,0,stable
+ConfigReader_JsonTests,ConfigReader_JsonTests.ConfigurationFileWithMaxThreadsExplicitDefault_ReturnsProcessorCount,20,20,0,0,stable
+ConfigReader_JsonTests,ConfigReader_JsonTests.ConfigurationFileWithMaxThreadsExplicitUnlimited_ReturnsUnlimited,20,20,0,0,stable
+ConfigReader_JsonTests,ConfigReader_JsonTests.ConfigurationFileWithNegativeThreadValue_ReturnsConfiguredValue,20,20,0,0,stable
+ConfigReader_JsonTests,ConfigReader_JsonTests.ConfigurationFileWithValidValues_ReturnsConfiguredValues,20,20,0,0,stable
+ConfigReader_JsonTests,ConfigReader_JsonTests.ConfigurationFileWithZeroThreads_ReturnsProcessorCount,20,20,0,0,stable
+ConfigReader_JsonTests,ConfigReader_JsonTests.EmptyConfigurationFile_ReturnsDefaultValues,20,20,0,0,stable
+ConfigReader_JsonTests,ConfigReader_JsonTests.SupportDefaultCulture,20,20,0,0,stable
+ConfigReader_JsonTests,ConfigReader_JsonTests.SupportInvariantCulture,20,20,0,0,stable
+CrashDetectionDiscoverySinkTests,CrashDetectionDiscoverySinkTests.WithStarting_WithComplete_SendsNothing,20,20,0,0,stable
+CrashDetectionDiscoverySinkTests,CrashDetectionDiscoverySinkTests.WithStarting_WithoutComplete_SendsError_SendsComplete,20,20,0,0,stable
+CrashDetectionDiscoverySinkTests,CrashDetectionDiscoverySinkTests.WithoutStarting_WithoutComplete_SendsStarting_SendsError_SendsComplete,20,20,0,0,stable
+CrashDetectionExecutionSinkTests,CrashDetectionExecutionSinkTests.WithStarting_WithFinished_SendsNothing,20,20,0,0,stable
+CrashDetectionExecutionSinkTests,CrashDetectionExecutionSinkTests.WithStarting_WithoutFinished_SendsError_SendsFinished,20,20,0,0,stable
+CrashDetectionExecutionSinkTests,CrashDetectionExecutionSinkTests.WithoutStarting_WithoutFinished_SendsStarting_SendsError_SendsFinished,20,20,0,0,stable
+DiscoveryStartingCompleteMessageSinkTests,DiscoveryStartingCompleteMessageSinkTests.NoTestCases,20,20,0,0,stable
+DiscoveryStartingCompleteMessageSinkTests,DiscoveryStartingCompleteMessageSinkTests.TwoTestCases,20,20,0,0,stable
+ExceptionUtilityTests+CombineMessages,ExceptionUtilityTests+CombineMessages.AggregateException,20,20,0,0,stable
+ExceptionUtilityTests+CombineMessages,ExceptionUtilityTests+CombineMessages.MissingExceptionTypes,20,20,0,0,stable
+ExceptionUtilityTests+CombineMessages,ExceptionUtilityTests+CombineMessages.NonXunitException,20,20,0,0,stable
+ExceptionUtilityTests+CombineMessages,ExceptionUtilityTests+CombineMessages.NonXunitExceptionWithInnerExceptions,20,20,0,0,stable
+ExceptionUtilityTests+CombineMessages,ExceptionUtilityTests+CombineMessages.XunitException,20,20,0,0,stable
+ExceptionUtilityTests+CombineStackTraces,ExceptionUtilityTests+CombineStackTraces.HandlesAggregateException,20,20,0,0,stable
+ExceptionUtilityTests+CombineStackTraces,ExceptionUtilityTests+CombineStackTraces.MissingStackTracesAndExceptionTypes,20,20,0,0,stable
+ExceptionUtilityTests+CombineStackTraces,ExceptionUtilityTests+CombineStackTraces.NonXunitException,20,20,0,0,stable
+ExceptionUtilityTests+CombineStackTraces,ExceptionUtilityTests+CombineStackTraces.NonXunitExceptionWithInnerExceptions,20,20,0,0,stable
+ExceptionUtilityTests+CombineStackTraces,ExceptionUtilityTests+CombineStackTraces.XunitException,20,20,0,0,stable
+MessageSplitMessageSinkTests,"MessageSplitMessageSinkTests.DiagnosticMessages(message: DiagnosticMessage message=\""message\"")",20,20,0,0,stable
+MessageSplitMessageSinkTests,"MessageSplitMessageSinkTests.DiagnosticMessages(message: InternalDiagnosticMessage message=\""message\"")",20,20,0,0,stable
+MessageSplitMessageSinkTests,"MessageSplitMessageSinkTests.NonDiagnosticMessages(message: DiscoveryComplete(\""asm-id\"") testCasesToRun=42)",20,20,0,0,stable
+MessageSplitMessageSinkTests,"MessageSplitMessageSinkTests.NonDiagnosticMessages(message: Xunit.Runner.Common.ErrorMessage types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+ProcessCancellationMessageSinkTests,ProcessCancellationMessageSinkTests.False_Cancellation,20,20,0,0,stable
+ProcessCancellationMessageSinkTests,ProcessCancellationMessageSinkTests.True_NoCancellation,20,20,0,0,stable
+SourceInformationMessageSinkTests,SourceInformationMessageSinkTests.TestCaseDiscovered_WhenNonNull_DoesNotOverwrite,20,20,0,0,stable
+SourceInformationMessageSinkTests,SourceInformationMessageSinkTests.TestCaseDiscovered_WhenNull_Overwrites,20,20,0,0,stable
+SourceInformationMessageSinkTests,SourceInformationMessageSinkTests.TestCaseStarting_WhenNonNull_DoesNotOverwrite,20,20,0,0,stable
+SourceInformationMessageSinkTests,SourceInformationMessageSinkTests.TestCaseStarting_WhenNull_Overwrites,20,20,0,0,stable
+TestDiscoverySinkTests,TestDiscoverySinkTests.CollectsTestCases,20,20,0,0,stable
+TokenSourceCancellationMessageSinkTests,TokenSourceCancellationMessageSinkTests.False_Cancellation,20,20,0,0,stable
+TokenSourceCancellationMessageSinkTests,TokenSourceCancellationMessageSinkTests.True_NoCancellation,20,20,0,0,stable
+Xunit2MessageAdapterTests+BeforeAfterTestAttributeTests,Xunit2MessageAdapterTests+BeforeAfterTestAttributeTests.AfterTestFinished,20,20,0,0,stable
+Xunit2MessageAdapterTests+BeforeAfterTestAttributeTests,Xunit2MessageAdapterTests+BeforeAfterTestAttributeTests.AfterTestStarting,20,20,0,0,stable
+Xunit2MessageAdapterTests+BeforeAfterTestAttributeTests,Xunit2MessageAdapterTests+BeforeAfterTestAttributeTests.BeforeTestFinished,20,20,0,0,stable
+Xunit2MessageAdapterTests+BeforeAfterTestAttributeTests,Xunit2MessageAdapterTests+BeforeAfterTestAttributeTests.BeforeTestStarting,20,20,0,0,stable
+Xunit2MessageAdapterTests+DiagnosticMessageTests,Xunit2MessageAdapterTests+DiagnosticMessageTests.DiagnosticMessage,20,20,0,0,stable
+Xunit2MessageAdapterTests+DiscoveryTests,Xunit2MessageAdapterTests+DiscoveryTests.TestCaseDiscoveryMessage,20,20,0,0,stable
+Xunit2MessageAdapterTests+FatalErrorTests,Xunit2MessageAdapterTests+FatalErrorTests.ErrorMessage,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestAssemblyTests,Xunit2MessageAdapterTests+TestAssemblyTests.TestAssemblyCleanupFailure,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestAssemblyTests,Xunit2MessageAdapterTests+TestAssemblyTests.TestAssemblyFinished,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestAssemblyTests,Xunit2MessageAdapterTests+TestAssemblyTests.TestAssemblyStarting,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestCaseTests,Xunit2MessageAdapterTests+TestCaseTests.TestCaseCleanupFailure,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestCaseTests,Xunit2MessageAdapterTests+TestCaseTests.TestCaseFinished,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestCaseTests,Xunit2MessageAdapterTests+TestCaseTests.TestCaseStarting,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestClassTests,Xunit2MessageAdapterTests+TestClassTests.TestClassCleanupFailure,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestClassTests,Xunit2MessageAdapterTests+TestClassTests.TestClassFinished,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestClassTests,Xunit2MessageAdapterTests+TestClassTests.TestClassStarting,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestCollectionTests,Xunit2MessageAdapterTests+TestCollectionTests.TestCollectionCleanupFailure,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestCollectionTests,Xunit2MessageAdapterTests+TestCollectionTests.TestCollectionFinished,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestCollectionTests,Xunit2MessageAdapterTests+TestCollectionTests.TestCollectionStarting,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestMethodTests,Xunit2MessageAdapterTests+TestMethodTests.TestMethodCleanupFailure,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestMethodTests,Xunit2MessageAdapterTests+TestMethodTests.TestMethodFinished,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestMethodTests,Xunit2MessageAdapterTests+TestMethodTests.TestMethodStarting,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestTests,Xunit2MessageAdapterTests+TestTests.TestClassConstructionFinished,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestTests,Xunit2MessageAdapterTests+TestTests.TestClassConstructionStarting,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestTests,Xunit2MessageAdapterTests+TestTests.TestClassDisposeFinished,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestTests,Xunit2MessageAdapterTests+TestTests.TestClassDisposeStarting,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestTests,Xunit2MessageAdapterTests+TestTests.TestCleanupFailure,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestTests,Xunit2MessageAdapterTests+TestTests.TestFailed,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestTests,Xunit2MessageAdapterTests+TestTests.TestFinished,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestTests,Xunit2MessageAdapterTests+TestTests.TestOutput,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestTests,Xunit2MessageAdapterTests+TestTests.TestPassed,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestTests,Xunit2MessageAdapterTests+TestTests.TestSkipped,20,20,0,0,stable
+Xunit2MessageAdapterTests+TestTests,Xunit2MessageAdapterTests+TestTests.TestStarting,20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFind,Xunit3ArgumentFactoryTests+ForFind.AddConfigFile,20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFind,Xunit3ArgumentFactoryTests+ForFind.AddFilters,20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFind,Xunit3ArgumentFactoryTests+ForFind.AddListOption(listOption: Classes),20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFind,Xunit3ArgumentFactoryTests+ForFind.AddListOption(listOption: Full),20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFind,Xunit3ArgumentFactoryTests+ForFind.AddListOption(listOption: Methods),20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFind,Xunit3ArgumentFactoryTests+ForFind.AddListOption(listOption: Tests),20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFind,Xunit3ArgumentFactoryTests+ForFind.AddListOption(listOption: Traits),20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFind,Xunit3ArgumentFactoryTests+ForFind.AddWaitForDebugger,20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFind,Xunit3ArgumentFactoryTests+ForFind.DefaultOptions,20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFind,Xunit3ArgumentFactoryTests+ForFind.DoesNotSendSyncParameterToAutomatedForOlderTestProjects,20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFind,"Xunit3ArgumentFactoryTests+ForFind.FullOptions(culture: \""\"", expectedCulture: \""invariant\"")",20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFind,"Xunit3ArgumentFactoryTests+ForFind.FullOptions(culture: \""en-US\"", expectedCulture: \""en-US\"")",20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFind,Xunit3ArgumentFactoryTests+ForFind.IntValuesOutOfRange,20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFindAndRun,Xunit3ArgumentFactoryTests+ForFindAndRun.AddConfigFile,20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFindAndRun,Xunit3ArgumentFactoryTests+ForFindAndRun.AddFilters,20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFindAndRun,Xunit3ArgumentFactoryTests+ForFindAndRun.AddWaitForDebugger,20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFindAndRun,Xunit3ArgumentFactoryTests+ForFindAndRun.DefaultOptions,20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFindAndRun,"Xunit3ArgumentFactoryTests+ForFindAndRun.FullOptions(culture: \""\"", expectedCulture: \""invariant\"")",20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFindAndRun,"Xunit3ArgumentFactoryTests+ForFindAndRun.FullOptions(culture: \""en-US\"", expectedCulture: \""en-US\"")",20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFindAndRun,Xunit3ArgumentFactoryTests+ForFindAndRun.IntValuesOutOfRange,20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFindAndRun,Xunit3ArgumentFactoryTests+ForFindAndRun.Pre_0_3_0_DoesNotSendSyncParameterToAutomated(discoverySynchronous: False),20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFindAndRun,Xunit3ArgumentFactoryTests+ForFindAndRun.Pre_0_3_0_DoesNotSendSyncParameterToAutomated(discoverySynchronous: True),20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFindAndRun,"Xunit3ArgumentFactoryTests+ForFindAndRun.Pre_4_0_0_SendsParallelModeAsParallel(parallelMode: All, expectedParallel: \""collections\"")",20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFindAndRun,"Xunit3ArgumentFactoryTests+ForFindAndRun.Pre_4_0_0_SendsParallelModeAsParallel(parallelMode: Collections, expectedParallel: \""collections\"")",20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForFindAndRun,"Xunit3ArgumentFactoryTests+ForFindAndRun.Pre_4_0_0_SendsParallelModeAsParallel(parallelMode: None, expectedParallel: \""none\"")",20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForRun,Xunit3ArgumentFactoryTests+ForRun.AddConfigFile,20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForRun,Xunit3ArgumentFactoryTests+ForRun.AddWaitForDebugger,20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForRun,Xunit3ArgumentFactoryTests+ForRun.DefaultOptions,20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForRun,"Xunit3ArgumentFactoryTests+ForRun.FullOptions(culture: \""\"", expectedCulture: \""invariant\"")",20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForRun,"Xunit3ArgumentFactoryTests+ForRun.FullOptions(culture: \""en-US\"", expectedCulture: \""en-US\"")",20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForRun,Xunit3ArgumentFactoryTests+ForRun.IntValuesOutOfRange,20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForRun,"Xunit3ArgumentFactoryTests+ForRun.MaxParallelThreads(maxParallelThreadsValue: -1, expectedArgumentValue: \""unlimited\"")",20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForRun,"Xunit3ArgumentFactoryTests+ForRun.MaxParallelThreads(maxParallelThreadsValue: -42, expectedArgumentValue: \""unlimited\"")",20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForRun,"Xunit3ArgumentFactoryTests+ForRun.MaxParallelThreads(maxParallelThreadsValue: 0, expectedArgumentValue: \""default\"")",20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForRun,"Xunit3ArgumentFactoryTests+ForRun.MaxParallelThreads(maxParallelThreadsValue: 1, expectedArgumentValue: \""1\"")",20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForRun,"Xunit3ArgumentFactoryTests+ForRun.MaxParallelThreads(maxParallelThreadsValue: 42, expectedArgumentValue: \""42\"")",20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForRun,Xunit3ArgumentFactoryTests+ForRun.Pre_0_3_0_DoesNotSendSyncParameterToAutomated,20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForRun,"Xunit3ArgumentFactoryTests+ForRun.Pre_4_0_0_SendsParallelModeAsParallel(parallelMode: All, expectedParallel: \""collections\"")",20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForRun,"Xunit3ArgumentFactoryTests+ForRun.Pre_4_0_0_SendsParallelModeAsParallel(parallelMode: Collections, expectedParallel: \""collections\"")",20,20,0,0,stable
+Xunit3ArgumentFactoryTests+ForRun,"Xunit3ArgumentFactoryTests+ForRun.Pre_4_0_0_SendsParallelModeAsParallel(parallelMode: None, expectedParallel: \""none\"")",20,20,0,0,stable
+Xunit3Tests,"Xunit3Tests.CanFindFilteredTestsAndRunThem_UsingFindAndRun_Other(runInProcess: False, synchronousMessageReporting: False)",20,20,0,0,stable
+Xunit3Tests,"Xunit3Tests.CanFindFilteredTestsAndRunThem_UsingFindAndRun_Other(runInProcess: False, synchronousMessageReporting: True)",20,20,0,0,stable
+Xunit3Tests,"Xunit3Tests.CanFindFilteredTestsAndRunThem_UsingFindAndRun_Other(runInProcess: True, synchronousMessageReporting: False)",20,20,0,0,stable
+Xunit3Tests,"Xunit3Tests.CanFindFilteredTestsAndRunThem_UsingFindAndRun_Other(runInProcess: True, synchronousMessageReporting: True)",20,20,0,0,stable
+Xunit3Tests,"Xunit3Tests.CanFindFilteredTestsAndRunThem_UsingFindAndRun_Self(runInProcess: False, synchronousMessageReporting: False)",20,20,0,0,stable
+Xunit3Tests,"Xunit3Tests.CanFindFilteredTestsAndRunThem_UsingFindAndRun_Self(runInProcess: False, synchronousMessageReporting: True)",20,20,0,0,stable
+Xunit3Tests,"Xunit3Tests.CanFindFilteredTestsAndRunThem_UsingFindAndRun_Self(runInProcess: True, synchronousMessageReporting: False)",20,20,0,0,stable
+Xunit3Tests,"Xunit3Tests.CanFindFilteredTestsAndRunThem_UsingFindAndRun_Self(runInProcess: True, synchronousMessageReporting: True)",20,20,0,0,stable
+Xunit3Tests,"Xunit3Tests.CanFindFilteredTestsAndRunThem_UsingFind_UsingRun_Other(runInProcess: False, synchronousMessageReporting: False)",20,20,0,0,stable
+Xunit3Tests,"Xunit3Tests.CanFindFilteredTestsAndRunThem_UsingFind_UsingRun_Other(runInProcess: False, synchronousMessageReporting: True)",20,20,0,0,stable
+Xunit3Tests,"Xunit3Tests.CanFindFilteredTestsAndRunThem_UsingFind_UsingRun_Other(runInProcess: True, synchronousMessageReporting: False)",20,20,0,0,stable
+Xunit3Tests,"Xunit3Tests.CanFindFilteredTestsAndRunThem_UsingFind_UsingRun_Other(runInProcess: True, synchronousMessageReporting: True)",20,20,0,0,stable
+Xunit3Tests,"Xunit3Tests.CanFindFilteredTestsAndRunThem_UsingFind_UsingRun_Self(runInProcess: False, synchronousMessageReporting: False)",20,20,0,0,stable
+Xunit3Tests,"Xunit3Tests.CanFindFilteredTestsAndRunThem_UsingFind_UsingRun_Self(runInProcess: False, synchronousMessageReporting: True)",20,20,0,0,stable
+Xunit3Tests,"Xunit3Tests.CanFindFilteredTestsAndRunThem_UsingFind_UsingRun_Self(runInProcess: True, synchronousMessageReporting: False)",20,20,0,0,stable
+Xunit3Tests,"Xunit3Tests.CanFindFilteredTestsAndRunThem_UsingFind_UsingRun_Self(runInProcess: True, synchronousMessageReporting: True)",20,20,0,0,stable
+Xunit3Tests,Xunit3Tests.GathersAssemblyInformation_Other(runInProcess: False),20,20,0,0,stable
+Xunit3Tests,Xunit3Tests.GathersAssemblyInformation_Other(runInProcess: True),20,20,0,0,stable
+Xunit3Tests,Xunit3Tests.GathersAssemblyInformation_Self(runInProcess: False),20,20,0,0,stable
+Xunit3Tests,Xunit3Tests.GathersAssemblyInformation_Self(runInProcess: True),20,20,0,0,stable
+Xunit3Tests,Xunit3Tests.GuardClauses_Ctor,20,20,0,0,stable
+Xunit3Tests,Xunit3Tests.GuardClauses_Find,20,20,0,0,stable
+Xunit3Tests,Xunit3Tests.GuardClauses_FindAndRun,20,20,0,0,stable
+Xunit3Tests,Xunit3Tests.GuardClauses_Run,20,20,0,0,stable
+XunitFrontControllerAcceptanceTests+SourceInformation,XunitFrontControllerAcceptanceTests+SourceInformation.v3_Fact,20,20,0,0,stable
+XunitFrontControllerAcceptanceTests+SourceInformation,XunitFrontControllerAcceptanceTests+SourceInformation.v3_Theory,20,20,0,0,stable

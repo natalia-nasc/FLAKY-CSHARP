@@ -1,0 +1,868 @@
+﻿className,test,runs_presente,passed,failed,skipped,label
+AssemblyExtensionsTests,AssemblyExtensionsTests.GetTargetFramework,100,100,0,0,stable
+AssemblyExtensionsTests+GetLocalCodeBase,AssemblyExtensionsTests+GetLocalCodeBase.NullAssembly_ReturnsNull,100,100,0,0,stable
+AssemblyExtensionsTests+GetLocalCodeBase,AssemblyExtensionsTests+GetLocalCodeBase.NullCodeBase_ReturnsNull,100,100,0,0,stable
+AssemblyExtensionsTests+GetLocalCodeBase,AssemblyExtensionsTests+GetLocalCodeBase.PosixSystem_LocalPath,100,100,0,0,stable
+AssemblyExtensionsTests+GetLocalCodeBase,AssemblyExtensionsTests+GetLocalCodeBase.PosixSystem_UNCPath_Throws,100,100,0,0,stable
+AssemblyExtensionsTests+GetLocalCodeBase,AssemblyExtensionsTests+GetLocalCodeBase.UnsupportedCodeBaseFormat_Throws,100,100,0,0,stable
+AssemblyExtensionsTests+GetLocalCodeBase,AssemblyExtensionsTests+GetLocalCodeBase.UnsupportedDirectorySeparator_Throws,100,100,0,0,stable
+AssemblyExtensionsTests+GetLocalCodeBase,AssemblyExtensionsTests+GetLocalCodeBase.WindowsSystem_LocalPath,100,100,0,0,stable
+AssemblyExtensionsTests+GetLocalCodeBase,AssemblyExtensionsTests+GetLocalCodeBase.WindowsSystem_UNCPath,100,100,0,0,stable
+DisposalTrackerTests+AfterDisposed,DisposalTrackerTests+AfterDisposed.AddThrows,100,100,0,0,stable
+DisposalTrackerTests+AfterDisposed,DisposalTrackerTests+AfterDisposed.DisposeAsyncDoesNotDoubleDispose,100,100,0,0,stable
+DisposalTrackerTests+ExceptionHandling,DisposalTrackerTests+ExceptionHandling.MultipleExceptions_ThrowsAggregateException,100,100,0,0,stable
+DisposalTrackerTests+ExceptionHandling,DisposalTrackerTests+ExceptionHandling.NoExceptions_DoesNotThrow,100,100,0,0,stable
+DisposalTrackerTests+ExceptionHandling,DisposalTrackerTests+ExceptionHandling.SingleException_CleansUpAllObjects_ThrowsTheSingleException,100,100,0,0,stable
+DisposalTrackerTests+MultiObject,DisposalTrackerTests+MultiObject.FirstInLastAsyncDisposed,100,100,0,0,stable
+DisposalTrackerTests+MultiObject,DisposalTrackerTests+MultiObject.FirstInLastDisposed,100,100,0,0,stable
+DisposalTrackerTests+MultiObject,DisposalTrackerTests+MultiObject.MixedObjectTypes,100,100,0,0,stable
+DisposalTrackerTests+MultiObject,DisposalTrackerTests+MultiObject.TrackedObjectsReturnsReverseOrder,100,100,0,0,stable
+DisposalTrackerTests+WithAction,DisposalTrackerTests+WithAction.DisposeCallsAction,100,100,0,0,stable
+DisposalTrackerTests+WithAction,DisposalTrackerTests+WithAction.GuardClause,100,100,0,0,stable
+DisposalTrackerTests+WithAsyncAction,DisposalTrackerTests+WithAsyncAction.DisposeCallsAction,100,100,0,0,stable
+DisposalTrackerTests+WithAsyncAction,DisposalTrackerTests+WithAsyncAction.GuardClause,100,100,0,0,stable
+DisposalTrackerTests+WithAsyncDisposable,DisposalTrackerTests+WithAsyncDisposable.ClearRemovesAllObjects,100,100,0,0,stable
+DisposalTrackerTests+WithAsyncDisposable,DisposalTrackerTests+WithAsyncDisposable.ObjectIsAsyncDisposed,100,100,0,0,stable
+DisposalTrackerTests+WithDisposable,DisposalTrackerTests+WithDisposable.ClearRemovesAllObjects,100,100,0,0,stable
+DisposalTrackerTests+WithDisposable,DisposalTrackerTests+WithDisposable.ObjectIsDisposed,100,100,0,0,stable
+DisposalTrackerTests+WithMixedDisposalObject,DisposalTrackerTests+WithMixedDisposalObject.ClearRemovesAllObjects,100,100,0,0,stable
+DisposalTrackerTests+WithMixedDisposalObject,DisposalTrackerTests+WithMixedDisposalObject.OnlyDisposeAsyncIsCalled,100,100,0,0,stable
+IAssemblyMetadataExtensionsTests+SimpleAssemblyName,IAssemblyMetadataExtensionsTests+SimpleAssemblyName.GuardClauses,100,100,0,0,stable
+IAssemblyMetadataExtensionsTests+SimpleAssemblyName,IAssemblyMetadataExtensionsTests+SimpleAssemblyName.ReturnsSimpleName,100,100,0,0,stable
+JsonArraySerializerTests,"JsonArraySerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_0(Xunit.Sdk.JsonArraySerializer), Target = <>c { } }, expectedResult: \""[]\"")",100,100,0,0,stable
+JsonArraySerializerTests,"JsonArraySerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_1(Xunit.Sdk.JsonArraySerializer), Target = <>c { } }, expectedResult: \""[42]\"")",100,100,0,0,stable
+JsonArraySerializerTests,"JsonArraySerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_2(Xunit.Sdk.JsonArraySerializer), Target = <>c { } }, expectedResult: \""[null]\"")",100,100,0,0,stable
+JsonArraySerializerTests,"JsonArraySerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_3(Xunit.Sdk.JsonArraySerializer), Target = <>c { } }, expectedResult: \""[\\\""Hello\\\""]\"")",100,100,0,0,stable
+JsonArraySerializerTests,"JsonArraySerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_4(Xunit.Sdk.JsonArraySerializer), Target = <>c { } }, expectedResult: \""[null]\"")",100,100,0,0,stable
+JsonArraySerializerTests,"JsonArraySerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_5(Xunit.Sdk.JsonArraySerializer), Target = <>c { } }, expectedResult: \""[42,\\\""Hello\\\"",2112]\"")",100,100,0,0,stable
+JsonArraySerializerTests,"JsonArraySerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_6(Xunit.Sdk.JsonArraySerializer), Target = <>c { } }, expectedResult: \""[42,[2112,\\\""Hello\\\""],{\\\""first\\\"":\\\""Brad\\\"",\\\""last\\\"":\\\""Wilson\\\""\""···)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeArrays(itemJson: \"" 21.12\"", expectedItem: 21.12)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeArrays(itemJson: \"" \\\""Hello\\\""\"", expectedItem: \""Hello\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeArrays(itemJson: \"" true\"", expectedItem: True)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeArrays(itemJson: \""-2600 \"", expectedItem: -2600)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeArrays(itemJson: \""1.5E+3\"", expectedItem: 1500)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeArrays(itemJson: \""1.5E-3\"", expectedItem: 0.0015)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeArrays(itemJson: \""42\"", expectedItem: 42)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeArrays(itemJson: \""\\\""World\\\"" \"", expectedItem: \""World\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeArrays(itemJson: \""\\\""\\\\u0000\\\\u0001\\\\u0002\\\\u0003\\\\u0004\\\\u0005\\\\u0006\\\\u0007\\\\\""···, expectedItem: \""\\0\\x01\\x02\\x03\\x04\\x05\\x06\\a\\b\\t\\n\\v\\f\\r\\x0e\\x0f\\x10\\x11\\x12\\x13\\x14\\x15\\x16\\x17\\x18\\x19\\x1a\\x1b\\x1c\\x1d\\x1e\\x1f\\\""\\\\\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeArrays(itemJson: \""false \"", expectedItem: False)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeArrays(itemJson: \""null\"", expectedItem: null)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeIntrinsicValues(json: \"" 21.12\"", expected: 21.12)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeIntrinsicValues(json: \"" \\\""Hello\\\""\"", expected: \""Hello\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeIntrinsicValues(json: \"" true\"", expected: True)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeIntrinsicValues(json: \""-2600 \"", expected: -2600)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeIntrinsicValues(json: \""1.5E+3\"", expected: 1500)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeIntrinsicValues(json: \""1.5E-3\"", expected: 0.0015)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeIntrinsicValues(json: \""42\"", expected: 42)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeIntrinsicValues(json: \""\\\""World\\\"" \"", expected: \""World\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeIntrinsicValues(json: \""\\\""\\\\u0000\\\\u0001\\\\u0002\\\\u0003\\\\u0004\\\\u0005\\\\u0006\\\\u0007\\\\\""···, expected: \""\\0\\x01\\x02\\x03\\x04\\x05\\x06\\a\\b\\t\\n\\v\\f\\r\\x0e\\x0f\\x10\\x11\\x12\\x13\\x14\\x15\\x16\\x17\\x18\\x19\\x1a\\x1b\\x1c\\x1d\\x1e\\x1f\\\""\\\\\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeIntrinsicValues(json: \""false \"", expected: False)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeIntrinsicValues(json: \""null\"", expected: null)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeObjectsAsDictionaries(itemJson: \"" 21.12\"", expectedItem: 21.12)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeObjectsAsDictionaries(itemJson: \"" \\\""Hello\\\""\"", expectedItem: \""Hello\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeObjectsAsDictionaries(itemJson: \"" true\"", expectedItem: True)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeObjectsAsDictionaries(itemJson: \""-2600 \"", expectedItem: -2600)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeObjectsAsDictionaries(itemJson: \""1.5E+3\"", expectedItem: 1500)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeObjectsAsDictionaries(itemJson: \""1.5E-3\"", expectedItem: 0.0015)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeObjectsAsDictionaries(itemJson: \""42\"", expectedItem: 42)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeObjectsAsDictionaries(itemJson: \""\\\""World\\\"" \"", expectedItem: \""World\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeObjectsAsDictionaries(itemJson: \""\\\""\\\\u0000\\\\u0001\\\\u0002\\\\u0003\\\\u0004\\\\u0005\\\\u0006\\\\u0007\\\\\""···, expectedItem: \""\\0\\x01\\x02\\x03\\x04\\x05\\x06\\a\\b\\t\\n\\v\\f\\r\\x0e\\x0f\\x10\\x11\\x12\\x13\\x14\\x15\\x16\\x17\\x18\\x19\\x1a\\x1b\\x1c\\x1d\\x1e\\x1f\\\""\\\\\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeObjectsAsDictionaries(itemJson: \""false \"", expectedItem: False)",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.CanDeserializeObjectsAsDictionaries(itemJson: \""null\"", expectedItem: null)",100,100,0,0,stable
+JsonDeserializerTests,JsonDeserializerTests.GuardClause,100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.IllegalJson_ReturnsFalse(json: \""1a2\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.IllegalJson_ReturnsFalse(json: \""[1,]\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.IllegalJson_ReturnsFalse(json: \""[1\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.IllegalJson_ReturnsFalse(json: \""\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.IllegalJson_ReturnsFalse(json: \""\\\""Hello\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.IllegalJson_ReturnsFalse(json: \""\\\""Hello\\r\\nWorld\\\""\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.IllegalJson_ReturnsFalse(json: \""\\\""\\\\\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.IllegalJson_ReturnsFalse(json: \""foo\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.IllegalJson_ReturnsFalse(json: \""nul\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.IllegalJson_ReturnsFalse(json: \""null :\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.IllegalJson_ReturnsFalse(json: \""undefined\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.IllegalJson_ReturnsFalse(json: \""{12 : \\\""Hello\\\""}\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.IllegalJson_ReturnsFalse(json: \""{\\\""Hello\\\"":\\\""World\\\"",}\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.IllegalJson_ReturnsFalse(json: \""{\\\""Hello\\\"":\\\""World\\\""\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.IllegalJson_ReturnsFalse(json: \""{\\\""Hello\\\"":}\"")",100,100,0,0,stable
+JsonDeserializerTests,"JsonDeserializerTests.IllegalJson_ReturnsFalse(json: \""{\\\""Hello\\\""}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_0(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_1(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":true}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_10(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":\\\""Method\\\""}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_11(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":null}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_12(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_13(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":2147483647}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_14(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":null}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_15(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_16(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":9223372036854775807}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_17(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":null}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_18(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_19(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":\\\""Hello\\\""}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_2(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":null}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_20(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":\\\""\\\\u0000\\\\u0001\\\\u0002\\\\u0003\\\\u0004\\\\u0005\\\\u00\""···)",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_21(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":null}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_22(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_23(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":[1,2,3]}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_24(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":null}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_25(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_26(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":[\\\""Hello\\\"",null,\\\""World\\\""]}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_27(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":null}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_28(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_3(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_30(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""valid\\\"":true,\\\""input\\\"":[42,\\\""Hello\\\""],\\\""name\\\"":{\\\""first\\\""\""···)",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_4(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":\\\""0001-01-01T00:00:00.0000000+00:00\\\""}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_5(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":null}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_6(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_7(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":21.12}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_8(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{\\\""value\\\"":null}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__0_9(Xunit.Sdk.JsonObjectSerializer), Target = <>c { } }, expectedResult: \""{}\"")",100,100,0,0,stable
+JsonObjectSerializerTests,"JsonObjectSerializerTests.SerializeValues(action: Action`1 { Method = Void <ValueFuncs>b__29(Xunit.Sdk.JsonObjectSerializer), Target = <>c__DisplayClass0_0 { traits = [···] } }, expectedResult: \""{\\\""value\\\"":{\\\""biff\\\"":[\\\""bop\\\""],\\\""foo\\\"":[\\\""bar\\\"",\\\""baz\\\""]}}\"")",100,100,0,0,stable
+ObjectExtensionsTests+AsValueTask,ObjectExtensionsTests+AsValueTask.NonTaskValue,100,100,0,0,stable
+ObjectExtensionsTests+AsValueTask,ObjectExtensionsTests+AsValueTask.NullValue,100,100,0,0,stable
+ObjectExtensionsTests+AsValueTask,ObjectExtensionsTests+AsValueTask.TaskValue,100,100,0,0,stable
+ObjectExtensionsTests+AsValueTask,ObjectExtensionsTests+AsValueTask.ValueTaskValue,100,100,0,0,stable
+ReflectionExtensionsTests,ReflectionExtensionsTests.GetDefaultValue,100,100,0,0,stable
+ReflectionExtensionsTests,"ReflectionExtensionsTests.GetDisplayNameWithArguments(methodName: \""OneGeneric\"", arguments: [42], genericTypes: [typeof(int)], expectedDisplayName: \""OneGeneric<Int32>(x: 42)\"")",100,100,0,0,stable
+ReflectionExtensionsTests,"ReflectionExtensionsTests.GetDisplayNameWithArguments(methodName: \""OneParameter\"", arguments: [42], genericTypes: null, expectedDisplayName: \""OneParameter(x: 42)\"")",100,100,0,0,stable
+ReflectionExtensionsTests,"ReflectionExtensionsTests.GetDisplayNameWithArguments(methodName: \""OneParameter\"", arguments: [], genericTypes: null, expectedDisplayName: \""OneParameter(x: ???)\"")",100,100,0,0,stable
+ReflectionExtensionsTests,"ReflectionExtensionsTests.GetDisplayNameWithArguments(methodName: \""Optional\"", arguments: [42], genericTypes: null, expectedDisplayName: \""Optional(x: 42)\"")",100,100,0,0,stable
+ReflectionExtensionsTests,"ReflectionExtensionsTests.GetDisplayNameWithArguments(methodName: \""Optional\"", arguments: [], genericTypes: null, expectedDisplayName: \""Optional(x: 2112)\"")",100,100,0,0,stable
+ReflectionExtensionsTests,"ReflectionExtensionsTests.GetDisplayNameWithArguments(methodName: \""Parameterless\"", arguments: [42], genericTypes: null, expectedDisplayName: \""Parameterless(???: 42)\"")",100,100,0,0,stable
+ReflectionExtensionsTests,"ReflectionExtensionsTests.GetDisplayNameWithArguments(methodName: \""Parameterless\"", arguments: [], genericTypes: null, expectedDisplayName: \""Parameterless()\"")",100,100,0,0,stable
+ReflectionExtensionsTests,"ReflectionExtensionsTests.GetDisplayNameWithArguments(methodName: \""Parameterless\"", arguments: null, genericTypes: null, expectedDisplayName: \""Parameterless\"")",100,100,0,0,stable
+ReflectionExtensionsTests,ReflectionExtensionsTests.IsFromLocalAssembly,100,100,0,0,stable
+ReflectionExtensionsTests,ReflectionExtensionsTests.IsNullable,100,100,0,0,stable
+ReflectionExtensionsTests,ReflectionExtensionsTests.IsNullableEnum,100,100,0,0,stable
+ReflectionExtensionsTests,ReflectionExtensionsTests.SafeName,100,100,0,0,stable
+ReflectionExtensionsTests,ReflectionExtensionsTests.ToCommaSeparatedList,100,100,0,0,stable
+ReflectionExtensionsTests,ReflectionExtensionsTests.ToSimpleName,100,100,0,0,stable
+ReflectionExtensionsTests,"ReflectionExtensionsTests.ToVSTestTypeName_NoTestClass(type: typeof(int), expectedName: \""System.Int32\"")",100,100,0,0,stable
+ReflectionExtensionsTests,"ReflectionExtensionsTests.ToVSTestTypeName_NoTestClass(type: typeof(int?), expectedName: \""System.Nullable`1<System.Int32>\"")",100,100,0,0,stable
+ReflectionExtensionsTests,"ReflectionExtensionsTests.ToVSTestTypeName_NoTestClass(type: typeof(int?[,]), expectedName: \""System.Nullable`1<System.Int32>[,]\"")",100,100,0,0,stable
+ReflectionExtensionsTests,"ReflectionExtensionsTests.ToVSTestTypeName_NoTestClass(type: typeof(int?[]), expectedName: \""System.Nullable`1<System.Int32>[]\"")",100,100,0,0,stable
+ReflectionExtensionsTests,"ReflectionExtensionsTests.ToVSTestTypeName_NoTestClass(type: typeof(int[,]), expectedName: \""System.Int32[,]\"")",100,100,0,0,stable
+ReflectionExtensionsTests,"ReflectionExtensionsTests.ToVSTestTypeName_NoTestClass(type: typeof(int[]), expectedName: \""System.Int32[]\"")",100,100,0,0,stable
+ReflectionExtensionsTests,ReflectionExtensionsTests.UnwrapNullable,100,100,0,0,stable
+ReflectionExtensionsTests_reflection,ReflectionExtensionsTests_reflection.Implements,100,100,0,0,stable
+ReflectionExtensionsTests_reflection,ReflectionExtensionsTests_reflection.ToDisplayName,100,100,0,0,stable
+ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes,ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes.ForAssembly_Generic,100,100,0,0,stable
+ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes,ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes.ForAssembly_NonGeneric,100,100,0,0,stable
+ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes,ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes.ForAttribute_Generic,100,100,0,0,stable
+ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes,ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes.ForAttribute_NonGeneric,100,100,0,0,stable
+ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes,ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes.ForMethod_Generic,100,100,0,0,stable
+ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes,ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes.ForMethod_NonGeneric,100,100,0,0,stable
+ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes,ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes.ForParameter_Generic,100,100,0,0,stable
+ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes,ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes.ForParameter_NonGeneric,100,100,0,0,stable
+ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes,ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes.ForType_Generic,100,100,0,0,stable
+ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes,ReflectionExtensionsTests_reflection+GetMatchingCustomAttributes.ForType_NonGeneric,100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""CrazyGenericMethod\"", parameters: [GenericClass3`3 { }], expected: [typeof(bool), typeof(ulong), typeof(long), typeof(object), typeof(uint)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""EmbeddedGeneric1_NoGenericParameters\"", parameters: [GenericClass`1 { }], expected: [])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""EmbeddedGeneric1_OneGenericParameter_Array\"", parameters: [GenericClass`1 { }], expected: [typeof(string)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""EmbeddedGeneric1_OneGenericParameter_Nullable\"", parameters: [GenericClass`1 { }], expected: [typeof(int)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""EmbeddedGeneric1_OneGenericParameter_Recursive\"", parameters: [GenericClass`1 { }], expected: [typeof(string)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""EmbeddedGeneric1_OneGenericParameter_Unused\"", parameters: [GenericClass`1 { }], expected: [typeof(object)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""EmbeddedGeneric1_OneGenericParameter_Used\"", parameters: [GenericClass`1 { }], expected: [typeof(ReflectionExtensionsTests_reflection+ResolveGenericTypes+GenericClass<string>)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""EmbeddedGeneric1_OneGenericParameter_Used\"", parameters: [GenericClass`1 { }], expected: [typeof(string)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""EmbeddedGeneric2_NotGeneric\"", parameters: [GenericClass2`2 { }], expected: [])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""EmbeddedGeneric2_OneGeneric_Unused\"", parameters: [GenericClass2`2 { }], expected: [typeof(object)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""EmbeddedGeneric2_TwoGenericParameters_DifferentTyp\""···, parameters: [GenericClass2`2 { }, GenericClass2`2 { }], expected: [typeof(int), typeof(long)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""EmbeddedGeneric2_TwoGenericParameters_DifferentTyp\""···, parameters: [GenericClass2`2 { }, GenericClass2`2 { }], expected: [typeof(int), typeof(ulong)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""EmbeddedGeneric2_TwoGenericParameters_DifferentTyp\""···, parameters: [GenericClass2`2 { }, GenericClass2`2 { }], expected: [typeof(string), typeof(long)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""EmbeddedGeneric2_TwoGenericParameters_DifferentTyp\""···, parameters: [GenericClass2`2 { }, GenericClass2`2 { }], expected: [typeof(string), typeof(ulong)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""EmbeddedGeneric2_TwoGenericParameters_SameType\"", parameters: [GenericClass2`2 { }], expected: [typeof(string), typeof(int)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""EmbeddedGenericGeneric2_OneGenericParameter_First\"", parameters: [GenericClass2`2 { }], expected: [typeof(string)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""EmbeddedGenericGeneric2_OneGenericParameter_Second\"", parameters: [GenericClass2`2 { }], expected: [typeof(int)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""FuncTestMethod\"", parameters: [[4, 5, 6, 7], 0, 0, Func`2 { Method = Single <MethodTestData>b__0_0(Int32), Target = <>c { } }], expected: [typeof(float)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""FuncTestMethod\"", parameters: [[4, 5, 6, 7], 0, 1, Func`2 { Method = Double <MethodTestData>b__0_1(Int32), Target = <>c { } }], expected: [typeof(double)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""FuncTestMethod\"", parameters: [[4, 5, 6, 7], 0, 2, Func`2 { Method = Int32 <MethodTestData>b__0_2(Int32), Target = <>c { } }], expected: [typeof(int)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""GenericArrayOfEmbeddedGeneric1_OneGenericParameter\"", parameters: [[null]], expected: [typeof(int)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""GenericArrayOfGenericNullable1_OneGenericParameter\"", parameters: [[null]], expected: [typeof(int)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""GenericArrayTest\"", parameters: [[0, 0, 0, 0, 0]], expected: [typeof(int)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""GenericRefTest\"", parameters: [\""abc\""], expected: [typeof(string)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""NoGenericParameters_NoParameters\"", parameters: [], expected: [])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""NoGenericParameters_OneParameter\"", parameters: [1], expected: [])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""OneGenericParameter_GenericBaseClass\"", parameters: [GenericImplements1BaseClass`2 { }], expected: [typeof(string)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""OneGenericParameter_GenericBaseClass\"", parameters: [GenericImplements2SubClassOf1BaseClass`2 { }], expected: [typeof(string)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""OneGenericParameter_GenericBaseClass\"", parameters: [ImplementsGeneric1BaseClass { }], expected: [typeof(int)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""OneGenericParameter_GenericInterface\"", parameters: [GenericImplements1Interface`2 { }], expected: [typeof(string)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""OneGenericParameter_GenericInterface\"", parameters: [GenericImplements2InterfaceOf1Interface`2 { }], expected: [typeof(string)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""OneGenericParameter_GenericInterface\"", parameters: [GenericImplements2SubClassOf1Interface`2 { }], expected: [typeof(string)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""OneGenericParameter_GenericInterface\"", parameters: [GenericImplementsTwo1Interfaces`2 { }], expected: [typeof(string)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""OneGenericParameter_GenericInterface\"", parameters: [ImplementsGeneric1Interface { }], expected: [typeof(int)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""OneGenericParameter_NotUsed_NoParameters\"", parameters: [], expected: [typeof(object)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""OneGenericParameter_NotUsed_OneParameter\"", parameters: [1], expected: [typeof(object)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""OneGenericParameter_UsedOnceFirst_TwoParameters\"", parameters: [\""1\"", 2], expected: [typeof(string)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""OneGenericParameter_UsedOnceSecond_TwoParameters\"", parameters: [1, \""2\""], expected: [typeof(string)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""OneGenericParameter_UsedTwice_TwoParameters\"", parameters: [1, 2], expected: [typeof(int)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""OneGenericParameter_UsedTwice_TwoParameters\"", parameters: [1, \""2\""], expected: [typeof(int)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""OneGenericParameter_Used_OneParameter\"", parameters: [1], expected: [typeof(int)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""OneGenericParameter_Used_OneParameter\"", parameters: [[0, 0, 0, 0, 0]], expected: [typeof(int[])])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""OneGenericParameter_Used_OneParameter\"", parameters: [null], expected: [typeof(object)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_FirstUsedFirst_TwoParameters\"", parameters: [\""5\"", 5], expected: [typeof(string), typeof(object)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_FirstUsedSecond_TwoParameters\"", parameters: [5, \""5\""], expected: [typeof(string), typeof(object)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_GenericBaseClass\"", parameters: [GenericImplements2BaseClass`1 { }], expected: [typeof(int), typeof(string)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_GenericBaseClass\"", parameters: [ImplementsGeneric2BaseClass { }], expected: [typeof(int), typeof(uint)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_GenericInterface\"", parameters: [GenericImplements2Interface`1 { }], expected: [typeof(int), typeof(string)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_GenericInterface\"", parameters: [ImplementsGeneric2Interface { }], expected: [typeof(int), typeof(uint)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_NoneUsed_NoParameters\"", parameters: [], expected: [typeof(object), typeof(object)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_NoneUsed_OneParameter\"", parameters: [1], expected: [typeof(object), typeof(object)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_NoneUsed_TwoParameters\"", parameters: [1, 2], expected: [typeof(object), typeof(object)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_OnlyFirstUsed_OneParameter\"", parameters: [1], expected: [typeof(int), typeof(object)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_OnlyFirstUsed_TwoParameters\"", parameters: [1, 2], expected: [typeof(int), typeof(object)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_OnlyFirstUsed_TwoParameters\"", parameters: [1, \""2\""], expected: [typeof(int), typeof(object)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_OnlySecondUsed_OneParameter\"", parameters: [1], expected: [typeof(object), typeof(int)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_OnlySecondUsed_TwoParameters\"", parameters: [1, 2], expected: [typeof(object), typeof(int)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_OnlySecondUsed_TwoParameters\"", parameters: [1, \""2\""], expected: [typeof(object), typeof(int)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_SecondUsedFirst_TwoParameters\"", parameters: [\""5\"", 5], expected: [typeof(object), typeof(string)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_SecondUsedSecond_TwoParameter\""···, parameters: [5, \""5\""], expected: [typeof(object), typeof(string)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_TwoUsed_TwoParameters\"", parameters: [5, null], expected: [typeof(int), typeof(object)])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveGenericTypes,"ReflectionExtensionsTests_reflection+ResolveGenericTypes.ResolveGenericType(methodName: \""TwoGenericParameters_TwoUsed_TwoParameters\"", parameters: [[0], [null]], expected: [typeof(int[]), typeof(string[])])",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveMethodArguments,"ReflectionExtensionsTests_reflection+ResolveMethodArguments.CanConvert(input: 42, expectedConversion: \""int: 42\"")",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveMethodArguments,"ReflectionExtensionsTests_reflection+ResolveMethodArguments.CanConvert(input: \""Hello\"", expectedConversion: \""string: Hello\"")",100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveMethodArguments,ReflectionExtensionsTests_reflection+ResolveMethodArguments.MethodWithDefaultValue_UsesDefaultValue,100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveMethodArguments,ReflectionExtensionsTests_reflection+ResolveMethodArguments.MethodWithParams_DirectArrayProvided,100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveMethodArguments,ReflectionExtensionsTests_reflection+ResolveMethodArguments.MethodWithParams_MultipleValuesProvided,100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveMethodArguments,ReflectionExtensionsTests_reflection+ResolveMethodArguments.MethodWithParams_NoValuesProvided,100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveMethodArguments,ReflectionExtensionsTests_reflection+ResolveMethodArguments.MethodWithParams_NullProvided,100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveMethodArguments,ReflectionExtensionsTests_reflection+ResolveMethodArguments.MethodWithParams_WrongType,100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveMethodArguments,ReflectionExtensionsTests_reflection+ResolveMethodArguments.NoArguments,100,100,0,0,stable
+ReflectionExtensionsTests_reflection+ResolveMethodArguments,ReflectionExtensionsTests_reflection+ResolveMethodArguments.TooFewArguments,100,100,0,0,stable
+SerializationHelperTests+Deserialize,SerializationHelperTests+Deserialize.ArraysCanBeNull,100,100,0,0,stable
+SerializationHelperTests+Deserialize,SerializationHelperTests+Deserialize.GuardClauseForNullSerializedValue,100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.GuardClauseForUnknownTypeIndex(value: \""abc:123\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.GuardClauseForUnknownTypeIndex(value: \""abc\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,SerializationHelperTests+Deserialize.HidingBothParseAndTryParseFails,100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<BigInteger>(expectedValue: 123456789009876543210123456789, serialization: \""17:123456789009876543210123456789\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Boolean>(expectedValue: True, serialization: \""13:True\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Byte>(expectedValue: 1, serialization: \""2:1\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Char>(expectedValue: 'a', serialization: \""1:97\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<DateOnly>(expectedValue: 2023-01-07, serialization: \""18:738526\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<DateTime>(expectedValue: 2022-04-21T23:18:19.0200000, serialization: \""14:2022-04-21T23:18:19.0200000\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<DateTime>(expectedValue: 2022-04-21T23:18:19.0200000-03:00, serialization: \""14:2022-04-21T23:18:19.0200000-03:00\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<DateTime>(expectedValue: 2022-04-21T23:18:19.0200000Z, serialization: \""14:2022-04-21T23:18:19.0200000Z\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<DateTimeOffset>(expectedValue: 2022-04-21T23:19:20.0210000+00:00, serialization: \""15:2022-04-21T23:19:20.0210000+00:00\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<DateTimeOffset>(expectedValue: 2022-04-21T23:19:20.0210000+05:00, serialization: \""15:2022-04-21T23:19:20.0210000+05:00\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<DateTimeOffset>(expectedValue: 2022-04-21T23:19:20.0210000-05:30, serialization: \""15:2022-04-21T23:19:20.0210000-05:30\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Decimal>(expectedValue: 21.12, serialization: \""12:21.12\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Dictionary<String, HashSet<String>>>(expectedValue: [[\""foo\""] = [\""bar\"", \""\""], [\""biff\""] = [\""hello\""]], serialization: \""-2:V20wNWRncFpiV3h0V21jOVBRPT0KV1cxR2VRbz0KWVVkV2M\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Double>(expectedValue: 21.120000000000001, serialization: \""11:dDotNDpTeXN0ZW0uQnl0ZQpyOjY6MQp0bDo2OjgKbDA6Njo\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Guid>(expectedValue: <GUID>, serialization: \""23:cbe55b7a51ad4e97a3d9e41e1db75364\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Index>(expectedValue: ^42, serialization: \""21:^42\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Int16>(expectedValue: 3, serialization: \""4:3\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Int32>(expectedValue: 5, serialization: \""6:5\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Int32[]>(expectedValue: [1, 2, 3], serialization: \""[]:dDotNDpTeXN0ZW0uSW50MzIKcjo2OjEKdGw6NjozCmwwOjY\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Int64>(expectedValue: 7, serialization: \""8:7\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Nullable>(expectedValue: [1, null, 3], serialization: \""[]:dDotNDpTeXN0ZW0uTnVsbGFibGVgMVtbU3lzdGVtLkludDM\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Object[]>(expectedValue: [1, \""2\"", 3.4, null], serialization: \""[]:dDotNDpTeXN0ZW0uT2JqZWN0CnI6NjoxCnRsOjY6NApsMDo\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Range>(expectedValue: 10..^10, serialization: \""22:10..^10\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<RuntimeType>(expectedValue: typeof(string), serialization: \""-4:System.String\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<SByte>(expectedValue: 2, serialization: \""3:2\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<SerializationHelperTests+FormattableAndParsableStringWrapper>(expectedValue: FormattableAndParsableStringWrapper { Value = \""Hello world\"" }, serialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK0Zvcm1hdHRhYmx\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<SerializationHelperTests+FormattableAndParsableViaWrapperInterface>(expectedValue: FormattableAndParsableViaWrapperInterface { Value = \""Hello world\"" }, serialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK0Zvcm1hdHRhYmx\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<SerializationHelperTests+MyCustomType>(expectedValue: MyCustomType { Age = 42, Name = \""Someone\"" }, serialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015Q3VzdG9tVHl\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<SerializationHelperTests+MyCustomType[]>(expectedValue: [MyCustomType { Age = 42, Name = \""Someone\"" }], serialization: \""[]:dDotNDpTZXJpYWxpemF0aW9uSGVscGVyVGVzdHMrTXlDdXN\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<SerializationHelperTests+MyEnum>(expectedValue: -2147483648, serialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015RW51bSx4dW5\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<SerializationHelperTests+MyEnum>(expectedValue: 2147483647, serialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015RW51bSx4dW5\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<SerializationHelperTests+MyEnum>(expectedValue: MyValue, serialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015RW51bSx4dW5\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<SerializationHelperTests+MyEnum[]>(expectedValue: [MyValue], serialization: \""[]:dDotNDpTZXJpYWxpemF0aW9uSGVscGVyVGVzdHMrTXlFbnV\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<SerializationHelperTests+MySerializable>(expectedValue: MySerializable { P1 = 1, P2 = \""2\"", P3 = 3.4 }, serialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015U2VyaWFsaXp\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<SerializationHelperTests+MyUnsignedEnum>(expectedValue: 0, serialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015VW5zaWduZWR\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<SerializationHelperTests+MyUnsignedEnum>(expectedValue: 18446744073709551615, serialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015VW5zaWduZWR\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Single>(expectedValue: 21.1200008, serialization: \""10:dDotNDpTeXN0ZW0uQnl0ZQpyOjY6MQp0bDo2OjQKbDA6Njo\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<String>(expectedValue: \""String value\"", serialization: \""0:U3RyaW5nIHZhbHVl\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<TimeOnly>(expectedValue: 09:04, serialization: \""19:326550000000\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<TimeSpan>(expectedValue: 1.02:03:04.0050000, serialization: \""16:1.02:03:04.0050000\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Tuple<String, Int32>>(expectedValue: Tuple (null, 2112), serialization: \""-3:U3lzdGVtLlR1cGxlYDJbW1N5c3RlbS5TdHJpbmddLFtTeXN\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<UInt16>(expectedValue: 4, serialization: \""5:4\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<UInt32>(expectedValue: 6, serialization: \""7:6\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<UInt64>(expectedValue: 8, serialization: \""9:8\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Uri>(expectedValue: a/b#c, serialization: \""24:YS9iI2M=\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Uri>(expectedValue: https://xunit.net/, serialization: \""24:aHR0cHM6Ly94dW5pdC5uZXQv\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<ValueTuple<Int32, Int32, Int32, Int32, Int32, Int32, Int32, ValueTuple<Int32, Int32, Int32, Int32, Int32, Int32, Int32, ValueTuple<Int32, Int32, Int32>>>>(expectedValue: Tuple (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17), serialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgOFtbU3lzdGVtLkludDMyXSx\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<ValueTuple<Int32, Int32, Int32, Int32, Int32, Int32, Int32, ValueTuple<Int32, Int32, Int32>>>(expectedValue: Tuple (8, 9, 10, 11, 12, 13, 14, 15, 16, 17), serialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgOFtbU3lzdGVtLkludDMyXSx\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<ValueTuple<Int32, Int32, Int32>>(expectedValue: Tuple (15, 16, 17), serialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgM1tbU3lzdGVtLkludDMyXSx\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<ValueTuple<Object, Int32>>(expectedValue: Tuple (null, 2600), serialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgMltbU3lzdGVtLk9iamVjdF0\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<ValueTuple<String, Int32>>(expectedValue: Tuple (\""Hello world\"", 42), serialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgMltbU3lzdGVtLlN0cmluZ10\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[en-US]<Version>(expectedValue: 1.2.3.4, serialization: \""20:1.2.3.4\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<BigInteger>(expectedValue: 123456789009876543210123456789, serialization: \""17:123456789009876543210123456789\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Boolean>(expectedValue: True, serialization: \""13:True\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Byte>(expectedValue: 1, serialization: \""2:1\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Char>(expectedValue: 'a', serialization: \""1:97\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<DateOnly>(expectedValue: 2023-01-07, serialization: \""18:738526\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<DateTime>(expectedValue: 2022-04-21T23:18:19.0200000, serialization: \""14:2022-04-21T23:18:19.0200000\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<DateTime>(expectedValue: 2022-04-21T23:18:19.0200000-03:00, serialization: \""14:2022-04-21T23:18:19.0200000-03:00\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<DateTime>(expectedValue: 2022-04-21T23:18:19.0200000Z, serialization: \""14:2022-04-21T23:18:19.0200000Z\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<DateTimeOffset>(expectedValue: 2022-04-21T23:19:20.0210000+00:00, serialization: \""15:2022-04-21T23:19:20.0210000+00:00\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<DateTimeOffset>(expectedValue: 2022-04-21T23:19:20.0210000+05:00, serialization: \""15:2022-04-21T23:19:20.0210000+05:00\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<DateTimeOffset>(expectedValue: 2022-04-21T23:19:20.0210000-05:30, serialization: \""15:2022-04-21T23:19:20.0210000-05:30\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Decimal>(expectedValue: 21.12, serialization: \""12:21.12\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Dictionary<String, HashSet<String>>>(expectedValue: [[\""foo\""] = [\""bar\"", \""\""], [\""biff\""] = [\""hello\""]], serialization: \""-2:V20wNWRncFpiV3h0V21jOVBRPT0KV1cxR2VRbz0KWVVkV2M\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Double>(expectedValue: 21.120000000000001, serialization: \""11:dDotNDpTeXN0ZW0uQnl0ZQpyOjY6MQp0bDo2OjgKbDA6Njo\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Guid>(expectedValue: <GUID>, serialization: \""23:cbe55b7a51ad4e97a3d9e41e1db75364\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Index>(expectedValue: ^42, serialization: \""21:^42\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Int16>(expectedValue: 3, serialization: \""4:3\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Int32>(expectedValue: 5, serialization: \""6:5\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Int32[]>(expectedValue: [1, 2, 3], serialization: \""[]:dDotNDpTeXN0ZW0uSW50MzIKcjo2OjEKdGw6NjozCmwwOjY\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Int64>(expectedValue: 7, serialization: \""8:7\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Nullable>(expectedValue: [1, null, 3], serialization: \""[]:dDotNDpTeXN0ZW0uTnVsbGFibGVgMVtbU3lzdGVtLkludDM\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Object[]>(expectedValue: [1, \""2\"", 3.4, null], serialization: \""[]:dDotNDpTeXN0ZW0uT2JqZWN0CnI6NjoxCnRsOjY6NApsMDo\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Range>(expectedValue: 10..^10, serialization: \""22:10..^10\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<RuntimeType>(expectedValue: typeof(string), serialization: \""-4:System.String\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<SByte>(expectedValue: 2, serialization: \""3:2\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+FormattableAndParsableStringWrapper>(expectedValue: FormattableAndParsableStringWrapper { Value = \""Hello world\"" }, serialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK0Zvcm1hdHRhYmx\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+FormattableAndParsableViaWrapperInterface>(expectedValue: FormattableAndParsableViaWrapperInterface { Value = \""Hello world\"" }, serialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK0Zvcm1hdHRhYmx\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+MyCustomType>(expectedValue: MyCustomType { Age = 42, Name = \""Someone\"" }, serialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015Q3VzdG9tVHl\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+MyCustomType[]>(expectedValue: [MyCustomType { Age = 42, Name = \""Someone\"" }], serialization: \""[]:dDotNDpTZXJpYWxpemF0aW9uSGVscGVyVGVzdHMrTXlDdXN\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+MyEnum>(expectedValue: -2147483648, serialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015RW51bSx4dW5\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+MyEnum>(expectedValue: 2147483647, serialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015RW51bSx4dW5\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+MyEnum>(expectedValue: MyValue, serialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015RW51bSx4dW5\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+MyEnum[]>(expectedValue: [MyValue], serialization: \""[]:dDotNDpTZXJpYWxpemF0aW9uSGVscGVyVGVzdHMrTXlFbnV\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+MySerializable>(expectedValue: MySerializable { P1 = 1, P2 = \""2\"", P3 = 3.4 }, serialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015U2VyaWFsaXp\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+MyUnsignedEnum>(expectedValue: 0, serialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015VW5zaWduZWR\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+MyUnsignedEnum>(expectedValue: 18446744073709551615, serialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015VW5zaWduZWR\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Single>(expectedValue: 21.1200008, serialization: \""10:dDotNDpTeXN0ZW0uQnl0ZQpyOjY6MQp0bDo2OjQKbDA6Njo\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<String>(expectedValue: \""String value\"", serialization: \""0:U3RyaW5nIHZhbHVl\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<TimeOnly>(expectedValue: 09:04, serialization: \""19:326550000000\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<TimeSpan>(expectedValue: 1.02:03:04.0050000, serialization: \""16:1.02:03:04.0050000\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Tuple<String, Int32>>(expectedValue: Tuple (null, 2112), serialization: \""-3:U3lzdGVtLlR1cGxlYDJbW1N5c3RlbS5TdHJpbmddLFtTeXN\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<UInt16>(expectedValue: 4, serialization: \""5:4\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<UInt32>(expectedValue: 6, serialization: \""7:6\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<UInt64>(expectedValue: 8, serialization: \""9:8\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Uri>(expectedValue: a/b#c, serialization: \""24:YS9iI2M=\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Uri>(expectedValue: https://xunit.net/, serialization: \""24:aHR0cHM6Ly94dW5pdC5uZXQv\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<ValueTuple<Int32, Int32, Int32, Int32, Int32, Int32, Int32, ValueTuple<Int32, Int32, Int32, Int32, Int32, Int32, Int32, ValueTuple<Int32, Int32, Int32>>>>(expectedValue: Tuple (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17), serialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgOFtbU3lzdGVtLkludDMyXSx\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<ValueTuple<Int32, Int32, Int32, Int32, Int32, Int32, Int32, ValueTuple<Int32, Int32, Int32>>>(expectedValue: Tuple (8, 9, 10, 11, 12, 13, 14, 15, 16, 17), serialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgOFtbU3lzdGVtLkludDMyXSx\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<ValueTuple<Int32, Int32, Int32>>(expectedValue: Tuple (15, 16, 17), serialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgM1tbU3lzdGVtLkludDMyXSx\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<ValueTuple<Object, Int32>>(expectedValue: Tuple (null, 2600), serialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgMltbU3lzdGVtLk9iamVjdF0\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<ValueTuple<String, Int32>>(expectedValue: Tuple (\""Hello world\"", 42), serialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgMltbU3lzdGVtLlN0cmluZ10\""···)",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NonNullSuccessCases[fo-FO]<Version>(expectedValue: 1.2.3.4, serialization: \""20:1.2.3.4\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(BigInteger?), serialization: \""17\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(DateOnly?), serialization: \""18\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(DateTime?), serialization: \""14\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(DateTimeOffset?), serialization: \""15\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(Guid?), serialization: \""23\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(Index?), serialization: \""21\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(MyEnum?), serialization: \""-3\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(Range?), serialization: \""22\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(SerializationHelperTests+MyCustomType), serialization: \""-3\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(SerializationHelperTests+MySerializable), serialization: \""-3\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(System.Collections.Generic.Dictionary<string, HashSet<string>>), serialization: \""-2\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(System.Tuple<string, int>), serialization: \""-3\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(System.Type), serialization: \""-4\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(System.Uri), serialization: \""24\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(System.Version), serialization: \""20\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(TimeOnly?), serialization: \""19\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(TimeSpan?), serialization: \""16\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(ValueTuple<string, int>?), serialization: \""-3\"")",100,200,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(bool?), serialization: \""13\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(byte?), serialization: \""2\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(char?), serialization: \""1\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(decimal?), serialization: \""12\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(double?), serialization: \""11\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(float?), serialization: \""10\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(int?), serialization: \""6\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(long?), serialization: \""8\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(object), serialization: \""-1\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(sbyte?), serialization: \""3\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(short?), serialization: \""4\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(string), serialization: \""0\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(uint?), serialization: \""7\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(ulong?), serialization: \""9\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[en-US](_: typeof(ushort?), serialization: \""5\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(BigInteger?), serialization: \""17\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(DateOnly?), serialization: \""18\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(DateTime?), serialization: \""14\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(DateTimeOffset?), serialization: \""15\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(Guid?), serialization: \""23\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(Index?), serialization: \""21\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(MyEnum?), serialization: \""-3\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(Range?), serialization: \""22\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(SerializationHelperTests+MyCustomType), serialization: \""-3\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(SerializationHelperTests+MySerializable), serialization: \""-3\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(System.Collections.Generic.Dictionary<string, HashSet<string>>), serialization: \""-2\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(System.Tuple<string, int>), serialization: \""-3\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(System.Type), serialization: \""-4\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(System.Uri), serialization: \""24\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(System.Version), serialization: \""20\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(TimeOnly?), serialization: \""19\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(TimeSpan?), serialization: \""16\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(ValueTuple<string, int>?), serialization: \""-3\"")",100,200,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(bool?), serialization: \""13\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(byte?), serialization: \""2\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(char?), serialization: \""1\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(decimal?), serialization: \""12\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(double?), serialization: \""11\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(float?), serialization: \""10\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(int?), serialization: \""6\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(long?), serialization: \""8\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(object), serialization: \""-1\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(sbyte?), serialization: \""3\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(short?), serialization: \""4\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(string), serialization: \""0\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(uint?), serialization: \""7\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(ulong?), serialization: \""9\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,"SerializationHelperTests+Deserialize.NullSuccessCases[fo-FO](_: typeof(ushort?), serialization: \""5\"")",100,100,0,0,stable
+SerializationHelperTests+Deserialize,SerializationHelperTests+Deserialize.ParseReturningNullValueFails,100,100,0,0,stable
+SerializationHelperTests+Deserialize,SerializationHelperTests+Deserialize.TryParseReturningFalseFails,100,100,0,0,stable
+SerializationHelperTests+Deserialize,SerializationHelperTests+Deserialize.TryParseReturningNullValueFails,100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.CanSerializeRuntimeType,100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.CannotSerializeGenericArgumentType,100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.CannotSerializeGenericArgumentTypeInsideArray,100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(SerializationHelperTests+MyCustomType)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(SerializationHelperTests+MyEnum)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,"SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(System.Collections.Generic.Dictionary<string, HashSet<string>>))",100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(System.DateOnly)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(System.DateTime)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(System.DateTimeOffset)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(System.Guid)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(System.Index)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(System.Numerics.BigInteger)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(System.Range)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(System.TimeOnly)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(System.TimeSpan)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,"SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(System.Tuple<string, int>))",100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(System.Type)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(System.Uri)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,"SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(System.ValueTuple<string, int>))",100,200,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(System.Version)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(Xunit.Sdk.IXunitSerializable)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(bool)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(byte)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(char)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(decimal)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(double)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(float)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(int)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(long)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(object)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(sbyte)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(short)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(string)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(uint)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(ulong)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[en-US](type: typeof(ushort)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(SerializationHelperTests+MyCustomType)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(SerializationHelperTests+MyEnum)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,"SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(System.Collections.Generic.Dictionary<string, HashSet<string>>))",100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(System.DateOnly)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(System.DateTime)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(System.DateTimeOffset)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(System.Guid)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(System.Index)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(System.Numerics.BigInteger)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(System.Range)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(System.TimeOnly)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(System.TimeSpan)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,"SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(System.Tuple<string, int>))",100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(System.Type)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(System.Uri)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,"SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(System.ValueTuple<string, int>))",100,200,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(System.Version)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(Xunit.Sdk.IXunitSerializable)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(bool)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(byte)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(char)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(decimal)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(double)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(float)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(int)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(long)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(object)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(sbyte)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(short)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(string)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(uint)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(ulong)),100,100,0,0,stable
+SerializationHelperTests+IsSerializable,SerializationHelperTests+IsSerializable.SuccessCases[fo-FO](type: typeof(ushort)),100,100,0,0,stable
+SerializationHelperTests+Serialize,SerializationHelperTests+Serialize.ArraysCanBeNull(arrayType: typeof(int?[])),100,100,0,0,stable
+SerializationHelperTests+Serialize,SerializationHelperTests+Serialize.ArraysCanBeNull(arrayType: typeof(object[])),100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.FailureCases[en-US](value: Object { }, valueType: typeof(SerializationHelperTests+MyEnum), expectedExceptionMessage: \""Cannot serialize a value of type 'System.Object' a\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.FailureCases[en-US](value: Object { }, valueType: typeof(object), expectedExceptionMessage: \""Cannot serialize a non-null value of type 'System.\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.FailureCases[en-US](value: SerializationHelperTests { }, valueType: typeof(SerializationHelperTests), expectedExceptionMessage: \""Cannot serialize a value of type 'SerializationHel\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.FailureCases[en-US](value: System.Exception: Exception of type 'System.Exception' was thrown., valueType: typeof(System.Exception), expectedExceptionMessage: \""Cannot serialize a value of type 'System.Exception\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.FailureCases[en-US](value: Tuple (Object { }), valueType: typeof(System.Tuple<object>), expectedExceptionMessage: \""Exception serializing tuple value of type 'Tuple<o\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.FailureCases[en-US](value: Tuple (System.Exception: Exception of type 'System.Exception' was thrown.), valueType: typeof(System.ValueTuple<Exception>), expectedExceptionMessage: \""Exception serializing tuple value of type 'ValueTu\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.FailureCases[en-US](value: Unserializable { }, valueType: typeof(SerializationHelperTests+Unserializable), expectedExceptionMessage: \""I always fail\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.FailureCases[en-US](value: null, valueType: typeof(int), expectedExceptionMessage: \""Cannot serialize a null value as type 'System.Int3\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.FailureCases[en-US](value: typeof(U), valueType: typeof(System.Type), expectedExceptionMessage: \""Cannot serialize typeof(U) because it has no full \""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.FailureCases[fo-FO](value: Object { }, valueType: typeof(SerializationHelperTests+MyEnum), expectedExceptionMessage: \""Cannot serialize a value of type 'System.Object' a\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.FailureCases[fo-FO](value: Object { }, valueType: typeof(object), expectedExceptionMessage: \""Cannot serialize a non-null value of type 'System.\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.FailureCases[fo-FO](value: SerializationHelperTests { }, valueType: typeof(SerializationHelperTests), expectedExceptionMessage: \""Cannot serialize a value of type 'SerializationHel\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.FailureCases[fo-FO](value: System.Exception: Exception of type 'System.Exception' was thrown., valueType: typeof(System.Exception), expectedExceptionMessage: \""Cannot serialize a value of type 'System.Exception\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.FailureCases[fo-FO](value: Tuple (Object { }), valueType: typeof(System.Tuple<object>), expectedExceptionMessage: \""Exception serializing tuple value of type 'Tuple<o\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.FailureCases[fo-FO](value: Tuple (System.Exception: Exception of type 'System.Exception' was thrown.), valueType: typeof(System.ValueTuple<Exception>), expectedExceptionMessage: \""Exception serializing tuple value of type 'ValueTu\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.FailureCases[fo-FO](value: Unserializable { }, valueType: typeof(SerializationHelperTests+Unserializable), expectedExceptionMessage: \""I always fail\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.FailureCases[fo-FO](value: null, valueType: typeof(int), expectedExceptionMessage: \""Cannot serialize a null value as type 'System.Int3\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.FailureCases[fo-FO](value: typeof(U), valueType: typeof(System.Type), expectedExceptionMessage: \""Cannot serialize typeof(U) because it has no full \""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,SerializationHelperTests+Serialize.FormattableWithoutParsableFails,100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<BigInteger>(value: 123456789009876543210123456789, expectedSerialization: \""17:123456789009876543210123456789\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Boolean>(value: True, expectedSerialization: \""13:True\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Byte>(value: 1, expectedSerialization: \""2:1\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Char>(value: 'a', expectedSerialization: \""1:97\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<DateOnly>(value: 2023-01-07, expectedSerialization: \""18:738526\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<DateTime>(value: 2022-04-21T23:18:19.0200000, expectedSerialization: \""14:2022-04-21T23:18:19.0200000\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<DateTime>(value: 2022-04-21T23:18:19.0200000-03:00, expectedSerialization: \""14:2022-04-21T23:18:19.0200000-03:00\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<DateTime>(value: 2022-04-21T23:18:19.0200000Z, expectedSerialization: \""14:2022-04-21T23:18:19.0200000Z\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<DateTimeOffset>(value: 2022-04-21T23:19:20.0210000+00:00, expectedSerialization: \""15:2022-04-21T23:19:20.0210000+00:00\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<DateTimeOffset>(value: 2022-04-21T23:19:20.0210000+05:00, expectedSerialization: \""15:2022-04-21T23:19:20.0210000+05:00\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<DateTimeOffset>(value: 2022-04-21T23:19:20.0210000-05:30, expectedSerialization: \""15:2022-04-21T23:19:20.0210000-05:30\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Decimal>(value: 21.12, expectedSerialization: \""12:21.12\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Dictionary<String, HashSet<String>>>(value: [[\""foo\""] = [\""bar\"", \""\""], [\""biff\""] = [\""hello\""]], expectedSerialization: \""-2:V20wNWRncFpiV3h0V21jOVBRPT0KV1cxR2VRbz0KWVVkV2M\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Double>(value: 21.120000000000001, expectedSerialization: \""11:dDotNDpTeXN0ZW0uQnl0ZQpyOjY6MQp0bDo2OjgKbDA6Njo\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Guid>(value: <GUID>, expectedSerialization: \""23:cbe55b7a51ad4e97a3d9e41e1db75364\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Index>(value: ^42, expectedSerialization: \""21:^42\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Int16>(value: 3, expectedSerialization: \""4:3\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Int32>(value: 5, expectedSerialization: \""6:5\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Int32[]>(value: [1, 2, 3], expectedSerialization: \""[]:dDotNDpTeXN0ZW0uSW50MzIKcjo2OjEKdGw6NjozCmwwOjY\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Int64>(value: 7, expectedSerialization: \""8:7\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Nullable>(value: [1, null, 3], expectedSerialization: \""[]:dDotNDpTeXN0ZW0uTnVsbGFibGVgMVtbU3lzdGVtLkludDM\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Object[]>(value: [1, \""2\"", 3.4, null], expectedSerialization: \""[]:dDotNDpTeXN0ZW0uT2JqZWN0CnI6NjoxCnRsOjY6NApsMDo\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Range>(value: 10..^10, expectedSerialization: \""22:10..^10\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<RuntimeType>(value: typeof(string), expectedSerialization: \""-4:System.String\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<SByte>(value: 2, expectedSerialization: \""3:2\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<SerializationHelperTests+FormattableAndParsableStringWrapper>(value: FormattableAndParsableStringWrapper { Value = \""Hello world\"" }, expectedSerialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK0Zvcm1hdHRhYmx\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<SerializationHelperTests+FormattableAndParsableViaWrapperInterface>(value: FormattableAndParsableViaWrapperInterface { Value = \""Hello world\"" }, expectedSerialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK0Zvcm1hdHRhYmx\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<SerializationHelperTests+MyCustomType>(value: MyCustomType { Age = 42, Name = \""Someone\"" }, expectedSerialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015Q3VzdG9tVHl\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<SerializationHelperTests+MyCustomType[]>(value: [MyCustomType { Age = 42, Name = \""Someone\"" }], expectedSerialization: \""[]:dDotNDpTZXJpYWxpemF0aW9uSGVscGVyVGVzdHMrTXlDdXN\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<SerializationHelperTests+MyEnum>(value: -2147483648, expectedSerialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015RW51bSx4dW5\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<SerializationHelperTests+MyEnum>(value: 2147483647, expectedSerialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015RW51bSx4dW5\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<SerializationHelperTests+MyEnum>(value: MyValue, expectedSerialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015RW51bSx4dW5\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<SerializationHelperTests+MyEnum[]>(value: [MyValue], expectedSerialization: \""[]:dDotNDpTZXJpYWxpemF0aW9uSGVscGVyVGVzdHMrTXlFbnV\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<SerializationHelperTests+MySerializable>(value: MySerializable { P1 = 1, P2 = \""2\"", P3 = 3.4 }, expectedSerialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015U2VyaWFsaXp\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<SerializationHelperTests+MyUnsignedEnum>(value: 0, expectedSerialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015VW5zaWduZWR\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<SerializationHelperTests+MyUnsignedEnum>(value: 18446744073709551615, expectedSerialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015VW5zaWduZWR\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Single>(value: 21.1200008, expectedSerialization: \""10:dDotNDpTeXN0ZW0uQnl0ZQpyOjY6MQp0bDo2OjQKbDA6Njo\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<String>(value: \""String value\"", expectedSerialization: \""0:U3RyaW5nIHZhbHVl\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<TimeOnly>(value: 09:04, expectedSerialization: \""19:326550000000\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<TimeSpan>(value: 1.02:03:04.0050000, expectedSerialization: \""16:1.02:03:04.0050000\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Tuple<String, Int32>>(value: Tuple (null, 2112), expectedSerialization: \""-3:U3lzdGVtLlR1cGxlYDJbW1N5c3RlbS5TdHJpbmddLFtTeXN\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<UInt16>(value: 4, expectedSerialization: \""5:4\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<UInt32>(value: 6, expectedSerialization: \""7:6\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<UInt64>(value: 8, expectedSerialization: \""9:8\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Uri>(value: a/b#c, expectedSerialization: \""24:YS9iI2M=\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Uri>(value: https://xunit.net/, expectedSerialization: \""24:aHR0cHM6Ly94dW5pdC5uZXQv\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<ValueTuple<Int32, Int32, Int32, Int32, Int32, Int32, Int32, ValueTuple<Int32, Int32, Int32, Int32, Int32, Int32, Int32, ValueTuple<Int32, Int32, Int32>>>>(value: Tuple (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17), expectedSerialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgOFtbU3lzdGVtLkludDMyXSx\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<ValueTuple<Int32, Int32, Int32, Int32, Int32, Int32, Int32, ValueTuple<Int32, Int32, Int32>>>(value: Tuple (8, 9, 10, 11, 12, 13, 14, 15, 16, 17), expectedSerialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgOFtbU3lzdGVtLkludDMyXSx\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<ValueTuple<Int32, Int32, Int32>>(value: Tuple (15, 16, 17), expectedSerialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgM1tbU3lzdGVtLkludDMyXSx\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<ValueTuple<Object, Int32>>(value: Tuple (null, 2600), expectedSerialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgMltbU3lzdGVtLk9iamVjdF0\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<ValueTuple<String, Int32>>(value: Tuple (\""Hello world\"", 42), expectedSerialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgMltbU3lzdGVtLlN0cmluZ10\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[en-US]<Version>(value: 1.2.3.4, expectedSerialization: \""20:1.2.3.4\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<BigInteger>(value: 123456789009876543210123456789, expectedSerialization: \""17:123456789009876543210123456789\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Boolean>(value: True, expectedSerialization: \""13:True\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Byte>(value: 1, expectedSerialization: \""2:1\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Char>(value: 'a', expectedSerialization: \""1:97\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<DateOnly>(value: 2023-01-07, expectedSerialization: \""18:738526\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<DateTime>(value: 2022-04-21T23:18:19.0200000, expectedSerialization: \""14:2022-04-21T23:18:19.0200000\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<DateTime>(value: 2022-04-21T23:18:19.0200000-03:00, expectedSerialization: \""14:2022-04-21T23:18:19.0200000-03:00\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<DateTime>(value: 2022-04-21T23:18:19.0200000Z, expectedSerialization: \""14:2022-04-21T23:18:19.0200000Z\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<DateTimeOffset>(value: 2022-04-21T23:19:20.0210000+00:00, expectedSerialization: \""15:2022-04-21T23:19:20.0210000+00:00\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<DateTimeOffset>(value: 2022-04-21T23:19:20.0210000+05:00, expectedSerialization: \""15:2022-04-21T23:19:20.0210000+05:00\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<DateTimeOffset>(value: 2022-04-21T23:19:20.0210000-05:30, expectedSerialization: \""15:2022-04-21T23:19:20.0210000-05:30\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Decimal>(value: 21.12, expectedSerialization: \""12:21.12\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Dictionary<String, HashSet<String>>>(value: [[\""foo\""] = [\""bar\"", \""\""], [\""biff\""] = [\""hello\""]], expectedSerialization: \""-2:V20wNWRncFpiV3h0V21jOVBRPT0KV1cxR2VRbz0KWVVkV2M\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Double>(value: 21.120000000000001, expectedSerialization: \""11:dDotNDpTeXN0ZW0uQnl0ZQpyOjY6MQp0bDo2OjgKbDA6Njo\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Guid>(value: <GUID>, expectedSerialization: \""23:cbe55b7a51ad4e97a3d9e41e1db75364\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Index>(value: ^42, expectedSerialization: \""21:^42\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Int16>(value: 3, expectedSerialization: \""4:3\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Int32>(value: 5, expectedSerialization: \""6:5\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Int32[]>(value: [1, 2, 3], expectedSerialization: \""[]:dDotNDpTeXN0ZW0uSW50MzIKcjo2OjEKdGw6NjozCmwwOjY\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Int64>(value: 7, expectedSerialization: \""8:7\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Nullable>(value: [1, null, 3], expectedSerialization: \""[]:dDotNDpTeXN0ZW0uTnVsbGFibGVgMVtbU3lzdGVtLkludDM\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Object[]>(value: [1, \""2\"", 3.4, null], expectedSerialization: \""[]:dDotNDpTeXN0ZW0uT2JqZWN0CnI6NjoxCnRsOjY6NApsMDo\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Range>(value: 10..^10, expectedSerialization: \""22:10..^10\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<RuntimeType>(value: typeof(string), expectedSerialization: \""-4:System.String\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<SByte>(value: 2, expectedSerialization: \""3:2\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+FormattableAndParsableStringWrapper>(value: FormattableAndParsableStringWrapper { Value = \""Hello world\"" }, expectedSerialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK0Zvcm1hdHRhYmx\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+FormattableAndParsableViaWrapperInterface>(value: FormattableAndParsableViaWrapperInterface { Value = \""Hello world\"" }, expectedSerialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK0Zvcm1hdHRhYmx\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+MyCustomType>(value: MyCustomType { Age = 42, Name = \""Someone\"" }, expectedSerialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015Q3VzdG9tVHl\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+MyCustomType[]>(value: [MyCustomType { Age = 42, Name = \""Someone\"" }], expectedSerialization: \""[]:dDotNDpTZXJpYWxpemF0aW9uSGVscGVyVGVzdHMrTXlDdXN\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+MyEnum>(value: -2147483648, expectedSerialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015RW51bSx4dW5\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+MyEnum>(value: 2147483647, expectedSerialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015RW51bSx4dW5\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+MyEnum>(value: MyValue, expectedSerialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015RW51bSx4dW5\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+MyEnum[]>(value: [MyValue], expectedSerialization: \""[]:dDotNDpTZXJpYWxpemF0aW9uSGVscGVyVGVzdHMrTXlFbnV\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+MySerializable>(value: MySerializable { P1 = 1, P2 = \""2\"", P3 = 3.4 }, expectedSerialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015U2VyaWFsaXp\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+MyUnsignedEnum>(value: 0, expectedSerialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015VW5zaWduZWR\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<SerializationHelperTests+MyUnsignedEnum>(value: 18446744073709551615, expectedSerialization: \""-3:U2VyaWFsaXphdGlvbkhlbHBlclRlc3RzK015VW5zaWduZWR\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Single>(value: 21.1200008, expectedSerialization: \""10:dDotNDpTeXN0ZW0uQnl0ZQpyOjY6MQp0bDo2OjQKbDA6Njo\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<String>(value: \""String value\"", expectedSerialization: \""0:U3RyaW5nIHZhbHVl\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<TimeOnly>(value: 09:04, expectedSerialization: \""19:326550000000\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<TimeSpan>(value: 1.02:03:04.0050000, expectedSerialization: \""16:1.02:03:04.0050000\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Tuple<String, Int32>>(value: Tuple (null, 2112), expectedSerialization: \""-3:U3lzdGVtLlR1cGxlYDJbW1N5c3RlbS5TdHJpbmddLFtTeXN\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<UInt16>(value: 4, expectedSerialization: \""5:4\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<UInt32>(value: 6, expectedSerialization: \""7:6\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<UInt64>(value: 8, expectedSerialization: \""9:8\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Uri>(value: a/b#c, expectedSerialization: \""24:YS9iI2M=\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Uri>(value: https://xunit.net/, expectedSerialization: \""24:aHR0cHM6Ly94dW5pdC5uZXQv\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<ValueTuple<Int32, Int32, Int32, Int32, Int32, Int32, Int32, ValueTuple<Int32, Int32, Int32, Int32, Int32, Int32, Int32, ValueTuple<Int32, Int32, Int32>>>>(value: Tuple (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17), expectedSerialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgOFtbU3lzdGVtLkludDMyXSx\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<ValueTuple<Int32, Int32, Int32, Int32, Int32, Int32, Int32, ValueTuple<Int32, Int32, Int32>>>(value: Tuple (8, 9, 10, 11, 12, 13, 14, 15, 16, 17), expectedSerialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgOFtbU3lzdGVtLkludDMyXSx\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<ValueTuple<Int32, Int32, Int32>>(value: Tuple (15, 16, 17), expectedSerialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgM1tbU3lzdGVtLkludDMyXSx\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<ValueTuple<Object, Int32>>(value: Tuple (null, 2600), expectedSerialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgMltbU3lzdGVtLk9iamVjdF0\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<ValueTuple<String, Int32>>(value: Tuple (\""Hello world\"", 42), expectedSerialization: \""-3:U3lzdGVtLlZhbHVlVHVwbGVgMltbU3lzdGVtLlN0cmluZ10\""···)",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NonNullSuccessCases[fo-FO]<Version>(value: 1.2.3.4, expectedSerialization: \""20:1.2.3.4\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(BigInteger?), expectedSerialization: \""17\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(DateOnly?), expectedSerialization: \""18\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(DateTime?), expectedSerialization: \""14\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(DateTimeOffset?), expectedSerialization: \""15\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(Guid?), expectedSerialization: \""23\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(Index?), expectedSerialization: \""21\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(MyEnum?), expectedSerialization: \""-3\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(Range?), expectedSerialization: \""22\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(SerializationHelperTests+MyCustomType), expectedSerialization: \""-3\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(SerializationHelperTests+MySerializable), expectedSerialization: \""-3\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(System.Collections.Generic.Dictionary<string, HashSet<string>>), expectedSerialization: \""-2\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(System.Tuple<string, int>), expectedSerialization: \""-3\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(System.Type), expectedSerialization: \""-4\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(System.Uri), expectedSerialization: \""24\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(System.Version), expectedSerialization: \""20\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(TimeOnly?), expectedSerialization: \""19\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(TimeSpan?), expectedSerialization: \""16\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(ValueTuple<string, int>?), expectedSerialization: \""-3\"")",100,200,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(bool?), expectedSerialization: \""13\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(byte?), expectedSerialization: \""2\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(char?), expectedSerialization: \""1\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(decimal?), expectedSerialization: \""12\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(double?), expectedSerialization: \""11\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(float?), expectedSerialization: \""10\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(int?), expectedSerialization: \""6\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(long?), expectedSerialization: \""8\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(object), expectedSerialization: \""-1\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(sbyte?), expectedSerialization: \""3\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(short?), expectedSerialization: \""4\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(string), expectedSerialization: \""0\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(uint?), expectedSerialization: \""7\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(ulong?), expectedSerialization: \""9\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[en-US](nullableType: typeof(ushort?), expectedSerialization: \""5\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(BigInteger?), expectedSerialization: \""17\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(DateOnly?), expectedSerialization: \""18\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(DateTime?), expectedSerialization: \""14\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(DateTimeOffset?), expectedSerialization: \""15\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(Guid?), expectedSerialization: \""23\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(Index?), expectedSerialization: \""21\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(MyEnum?), expectedSerialization: \""-3\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(Range?), expectedSerialization: \""22\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(SerializationHelperTests+MyCustomType), expectedSerialization: \""-3\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(SerializationHelperTests+MySerializable), expectedSerialization: \""-3\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(System.Collections.Generic.Dictionary<string, HashSet<string>>), expectedSerialization: \""-2\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(System.Tuple<string, int>), expectedSerialization: \""-3\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(System.Type), expectedSerialization: \""-4\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(System.Uri), expectedSerialization: \""24\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(System.Version), expectedSerialization: \""20\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(TimeOnly?), expectedSerialization: \""19\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(TimeSpan?), expectedSerialization: \""16\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(ValueTuple<string, int>?), expectedSerialization: \""-3\"")",100,200,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(bool?), expectedSerialization: \""13\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(byte?), expectedSerialization: \""2\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(char?), expectedSerialization: \""1\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(decimal?), expectedSerialization: \""12\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(double?), expectedSerialization: \""11\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(float?), expectedSerialization: \""10\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(int?), expectedSerialization: \""6\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(long?), expectedSerialization: \""8\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(object), expectedSerialization: \""-1\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(sbyte?), expectedSerialization: \""3\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(short?), expectedSerialization: \""4\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(string), expectedSerialization: \""0\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(uint?), expectedSerialization: \""7\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(ulong?), expectedSerialization: \""9\"")",100,100,0,0,stable
+SerializationHelperTests+Serialize,"SerializationHelperTests+Serialize.NullSuccessCases[fo-FO](nullableType: typeof(ushort?), expectedSerialization: \""5\"")",100,100,0,0,stable
+SerializationHelperTests+SerializerRegistration,SerializationHelperTests+SerializerRegistration.CannotRegisterForArray,100,100,0,0,stable
+SerializationHelperTests+SerializerRegistration,SerializationHelperTests+SerializerRegistration.CannotRegisterForBuiltInSupportedType,100,100,0,0,stable
+SerializationHelperTests+SerializerRegistration,SerializationHelperTests+SerializerRegistration.CannotRegisterForTypeThatsAlreadyRegistered,100,100,0,0,stable
+SerializationHelperTests+SerializerRegistration,SerializationHelperTests+SerializerRegistration.CustomSerializerChosenBeforeBuiltInSerializer,100,100,0,0,stable
+SerializationHelperTests+SerializerRegistration,SerializationHelperTests+SerializerRegistration.ExceptionThrownBySerializerConstruction,100,100,0,0,stable
+SerializationHelperTests+SerializerRegistration,SerializationHelperTests+SerializerRegistration.NoSupportedTypes,100,100,0,0,stable
+SerializationHelperTests+SerializerRegistration,SerializationHelperTests+SerializerRegistration.SerializerDoesNotImplementInterface,100,100,0,0,stable
+SerializationHelperTests+TypeNameSerialization,"SerializationHelperTests+TypeNameSerialization.SerializedTypeNameToType(expectedType: typeof(System.Action<FactAttribute[,][]>[][,]), name: \""System.Action`1[[Xunit.FactAttribute[][,],xunit.v3\""···)",100,100,0,0,stable
+SerializationHelperTests+TypeNameSerialization,"SerializationHelperTests+TypeNameSerialization.SerializedTypeNameToType(expectedType: typeof(System.Action<Tuple<object, FactAttribute>, string>), name: \""System.Action`2[[System.Tuple`2[[System.Object],[X\""···)",100,100,0,0,stable
+SerializationHelperTests+TypeNameSerialization,"SerializationHelperTests+TypeNameSerialization.SerializedTypeNameToType(expectedType: typeof(System.Action<object>), name: \""System.Action`1[[System.Object]]\"")",100,100,0,0,stable
+SerializationHelperTests+TypeNameSerialization,"SerializationHelperTests+TypeNameSerialization.SerializedTypeNameToType(expectedType: typeof(System.Collections.Generic.IEnumerable<>), name: \""System.Collections.Generic.IEnumerable`1\"")",100,100,0,0,stable
+SerializationHelperTests+TypeNameSerialization,"SerializationHelperTests+TypeNameSerialization.SerializedTypeNameToType(expectedType: typeof(Xunit.FactAttribute), name: \""Xunit.FactAttribute,xunit.v3.core\"")",100,100,0,0,stable
+SerializationHelperTests+TypeNameSerialization,"SerializationHelperTests+TypeNameSerialization.SerializedTypeNameToType(expectedType: typeof(Xunit.FactAttribute[]), name: \""Xunit.FactAttribute[],xunit.v3.core\"")",100,100,0,0,stable
+SerializationHelperTests+TypeNameSerialization,"SerializationHelperTests+TypeNameSerialization.SerializedTypeNameToType(expectedType: typeof(Xunit.FactAttribute[][,]), name: \""Xunit.FactAttribute[,][],xunit.v3.core\"")",100,100,0,0,stable
+SerializationHelperTests+TypeNameSerialization,"SerializationHelperTests+TypeNameSerialization.SerializedTypeNameToType(expectedType: typeof(Xunit.TheoryData<FactAttribute>), name: \""Xunit.TheoryData`1[[Xunit.FactAttribute,xunit.v3.c\""···)",100,100,0,0,stable
+SerializationHelperTests+TypeNameSerialization,"SerializationHelperTests+TypeNameSerialization.SerializedTypeNameToType(expectedType: typeof(object), name: \""System.Object\"")",100,100,0,0,stable
+SerializationHelperTests+TypeNameSerialization,"SerializationHelperTests+TypeNameSerialization.TypeToSerializedName(type: typeof(System.Action<FactAttribute[,][]>[][,]), expectedName: \""System.Action`1[[Xunit.FactAttribute[][,],xunit.v3\""···)",100,100,0,0,stable
+SerializationHelperTests+TypeNameSerialization,"SerializationHelperTests+TypeNameSerialization.TypeToSerializedName(type: typeof(System.Action<Tuple<object, FactAttribute>, string>), expectedName: \""System.Action`2[[System.Tuple`2[[System.Object],[X\""···)",100,100,0,0,stable
+SerializationHelperTests+TypeNameSerialization,"SerializationHelperTests+TypeNameSerialization.TypeToSerializedName(type: typeof(System.Action<object>), expectedName: \""System.Action`1[[System.Object]]\"")",100,100,0,0,stable
+SerializationHelperTests+TypeNameSerialization,"SerializationHelperTests+TypeNameSerialization.TypeToSerializedName(type: typeof(System.Collections.Generic.IEnumerable<>), expectedName: \""System.Collections.Generic.IEnumerable`1\"")",100,100,0,0,stable
+SerializationHelperTests+TypeNameSerialization,"SerializationHelperTests+TypeNameSerialization.TypeToSerializedName(type: typeof(Xunit.FactAttribute), expectedName: \""Xunit.FactAttribute,xunit.v3.core\"")",100,100,0,0,stable
+SerializationHelperTests+TypeNameSerialization,"SerializationHelperTests+TypeNameSerialization.TypeToSerializedName(type: typeof(Xunit.FactAttribute[]), expectedName: \""Xunit.FactAttribute[],xunit.v3.core\"")",100,100,0,0,stable
+SerializationHelperTests+TypeNameSerialization,"SerializationHelperTests+TypeNameSerialization.TypeToSerializedName(type: typeof(Xunit.FactAttribute[][,]), expectedName: \""Xunit.FactAttribute[,][],xunit.v3.core\"")",100,100,0,0,stable
+SerializationHelperTests+TypeNameSerialization,"SerializationHelperTests+TypeNameSerialization.TypeToSerializedName(type: typeof(Xunit.TheoryData<FactAttribute>), expectedName: \""Xunit.TheoryData`1[[Xunit.FactAttribute,xunit.v3.c\""···)",100,100,0,0,stable
+SerializationHelperTests+TypeNameSerialization,"SerializationHelperTests+TypeNameSerialization.TypeToSerializedName(type: typeof(object), expectedName: \""System.Object\"")",100,100,0,0,stable
+StringExtensionsTests+FormatTestCaseIndex,StringExtensionsTests+FormatTestCaseIndex.NonNullNonZero,100,100,0,0,stable
+StringExtensionsTests+FormatTestCaseIndex,StringExtensionsTests+FormatTestCaseIndex.NullOrZero,100,100,0,0,stable
+StringExtensionsTests+SplitAtOuterCommas,StringExtensionsTests+SplitAtOuterCommas.CommasInsideSquareBrackets,100,100,0,0,stable
+StringExtensionsTests+SplitAtOuterCommas,StringExtensionsTests+SplitAtOuterCommas.CommasOutsideSquareBrackets,100,100,0,0,stable
+StringExtensionsTests+SplitAtOuterCommas,StringExtensionsTests+SplitAtOuterCommas.EscapedCommas,100,100,0,0,stable
+StringExtensionsTests+SplitAtOuterCommas,StringExtensionsTests+SplitAtOuterCommas.NoCommas,100,100,0,0,stable
+StringExtensionsTests+SplitAtOuterCommas,StringExtensionsTests+SplitAtOuterCommas.StartingComma,100,100,0,0,stable
+TypeHelperTests+ConversionAcceptanceTests,TypeHelperTests+ConversionAcceptanceTests.DateTimeAcceptanceTest(actual: 2017-11-03T16:48:00.0000000),100,100,0,0,stable
+TypeHelperTests+ConversionAcceptanceTests,TypeHelperTests+ConversionAcceptanceTests.DateTimeOffsetAcceptanceTest(actual: 2017-11-03T16:48:00.0000000-02:00),100,100,0,0,stable
+TypeHelperTests+ConversionAcceptanceTests,TypeHelperTests+ConversionAcceptanceTests.GuidAcceptanceTest(actual: <GUID>),100,100,0,0,stable
+TypeHelperTests+ConvertArgument,"TypeHelperTests+ConvertArgument.ConvertsStringToDateTime(text: \""16:48\"")",100,100,0,0,stable
+TypeHelperTests+ConvertArgument,"TypeHelperTests+ConvertArgument.ConvertsStringToDateTime(text: \""2017-11-3 16:48\"")",100,100,0,0,stable
+TypeHelperTests+ConvertArgument,"TypeHelperTests+ConvertArgument.ConvertsStringToDateTime(text: \""2017-11-3\"")",100,100,0,0,stable
+TypeHelperTests+ConvertArgument,"TypeHelperTests+ConvertArgument.ConvertsStringToDateTimeOffset(text: \""16:48\"")",100,100,0,0,stable
+TypeHelperTests+ConvertArgument,"TypeHelperTests+ConvertArgument.ConvertsStringToDateTimeOffset(text: \""2017-11-3 16:48\"")",100,100,0,0,stable
+TypeHelperTests+ConvertArgument,"TypeHelperTests+ConvertArgument.ConvertsStringToDateTimeOffset(text: \""2017-11-3\"")",100,100,0,0,stable
+TypeHelperTests+ConvertArgument,"TypeHelperTests+ConvertArgument.ConvertsStringToGuid(text: \""39A3B4C85FEF43A988EB4BB4AC4D4103\"")",100,100,0,0,stable
+TypeHelperTests+ConvertArgument,"TypeHelperTests+ConvertArgument.ConvertsStringToGuid(text: \""39a3b4c85fef43a988eb4bb4ac4d4103\"")",100,100,0,0,stable
+TypeHelperTests+ConvertArgument,"TypeHelperTests+ConvertArgument.ConvertsStringToGuid(text: \""<GUID>\"")",100,200,0,0,stable
+TypeHelperTests+ConvertArgument,"TypeHelperTests+ConvertArgument.ConvertsStringToGuid(text: \""{<GUID>}\"")",100,200,0,0,stable
+TypeHelperTests+ConvertArguments,"TypeHelperTests+ConvertArguments.ConvertsStringToDateTime(text: \""16:48\"")",100,100,0,0,stable
+TypeHelperTests+ConvertArguments,"TypeHelperTests+ConvertArguments.ConvertsStringToDateTime(text: \""2017-11-3 16:48\"")",100,100,0,0,stable
+TypeHelperTests+ConvertArguments,"TypeHelperTests+ConvertArguments.ConvertsStringToDateTime(text: \""2017-11-3\"")",100,100,0,0,stable
+TypeHelperTests+ConvertArguments,"TypeHelperTests+ConvertArguments.ConvertsStringToDateTimeOffset(text: \""16:48\"")",100,100,0,0,stable
+TypeHelperTests+ConvertArguments,"TypeHelperTests+ConvertArguments.ConvertsStringToDateTimeOffset(text: \""2017-11-3 16:48\"")",100,100,0,0,stable
+TypeHelperTests+ConvertArguments,"TypeHelperTests+ConvertArguments.ConvertsStringToDateTimeOffset(text: \""2017-11-3\"")",100,100,0,0,stable
+TypeHelperTests+ConvertArguments,"TypeHelperTests+ConvertArguments.ConvertsStringToGuid(text: \""39A3B4C85FEF43A988EB4BB4AC4D4103\"")",100,100,0,0,stable
+TypeHelperTests+ConvertArguments,"TypeHelperTests+ConvertArguments.ConvertsStringToGuid(text: \""39a3b4c85fef43a988eb4bb4ac4d4103\"")",100,100,0,0,stable
+TypeHelperTests+ConvertArguments,"TypeHelperTests+ConvertArguments.ConvertsStringToGuid(text: \""<GUID>\"")",100,200,0,0,stable
+TypeHelperTests+ConvertArguments,"TypeHelperTests+ConvertArguments.ConvertsStringToGuid(text: \""{<GUID>}\"")",100,200,0,0,stable
+TypeHelperTests+TryConvert,"TypeHelperTests+TryConvert.ConvertsStringToDateTime(text: \""16:48\"")",100,100,0,0,stable
+TypeHelperTests+TryConvert,"TypeHelperTests+TryConvert.ConvertsStringToDateTime(text: \""2017-11-3 16:48\"")",100,100,0,0,stable
+TypeHelperTests+TryConvert,"TypeHelperTests+TryConvert.ConvertsStringToDateTime(text: \""2017-11-3\"")",100,100,0,0,stable
+TypeHelperTests+TryConvert,"TypeHelperTests+TryConvert.ConvertsStringToDateTimeOffset(text: \""16:48\"")",100,100,0,0,stable
+TypeHelperTests+TryConvert,"TypeHelperTests+TryConvert.ConvertsStringToDateTimeOffset(text: \""2017-11-3 16:48\"")",100,100,0,0,stable
+TypeHelperTests+TryConvert,"TypeHelperTests+TryConvert.ConvertsStringToDateTimeOffset(text: \""2017-11-3\"")",100,100,0,0,stable
+TypeHelperTests+TryConvert,"TypeHelperTests+TryConvert.ConvertsStringToGuid(text: \""39A3B4C85FEF43A988EB4BB4AC4D4103\"")",100,100,0,0,stable
+TypeHelperTests+TryConvert,"TypeHelperTests+TryConvert.ConvertsStringToGuid(text: \""39a3b4c85fef43a988eb4bb4ac4d4103\"")",100,100,0,0,stable
+TypeHelperTests+TryConvert,"TypeHelperTests+TryConvert.ConvertsStringToGuid(text: \""<GUID>\"")",100,200,0,0,stable
+TypeHelperTests+TryConvert,"TypeHelperTests+TryConvert.ConvertsStringToGuid(text: \""{<GUID>}\"")",100,200,0,0,stable
+TypeHelperTests+TryConvertNullable,"TypeHelperTests+TryConvertNullable.ConvertsIntToEnum(value: 404, expected: NotFound)",100,100,0,0,stable
+TypeHelperTests+TryConvertNullable,"TypeHelperTests+TryConvertNullable.ConvertsIntToEnum(value: null, expected: null)",100,100,0,0,stable
+TypeHelperTests+TryConvertNullable,"TypeHelperTests+TryConvertNullable.ConvertsStringToDateTime(text: \""16:48\"")",100,100,0,0,stable
+TypeHelperTests+TryConvertNullable,"TypeHelperTests+TryConvertNullable.ConvertsStringToDateTime(text: \""2017-11-3 16:48\"")",100,100,0,0,stable
+TypeHelperTests+TryConvertNullable,"TypeHelperTests+TryConvertNullable.ConvertsStringToDateTime(text: \""2017-11-3\"")",100,100,0,0,stable
+TypeHelperTests+TryConvertNullable,"TypeHelperTests+TryConvertNullable.ConvertsStringToDateTimeOffset(text: \""16:48\"")",100,100,0,0,stable
+TypeHelperTests+TryConvertNullable,"TypeHelperTests+TryConvertNullable.ConvertsStringToDateTimeOffset(text: \""2017-11-3 16:48\"")",100,100,0,0,stable
+TypeHelperTests+TryConvertNullable,"TypeHelperTests+TryConvertNullable.ConvertsStringToDateTimeOffset(text: \""2017-11-3\"")",100,100,0,0,stable
+TypeHelperTests+TryConvertNullable,"TypeHelperTests+TryConvertNullable.ConvertsStringToGuid(text: \""39A3B4C85FEF43A988EB4BB4AC4D4103\"")",100,100,0,0,stable
+TypeHelperTests+TryConvertNullable,"TypeHelperTests+TryConvertNullable.ConvertsStringToGuid(text: \""39a3b4c85fef43a988eb4bb4ac4d4103\"")",100,100,0,0,stable
+TypeHelperTests+TryConvertNullable,"TypeHelperTests+TryConvertNullable.ConvertsStringToGuid(text: \""<GUID>\"")",100,200,0,0,stable
+TypeHelperTests+TryConvertNullable,"TypeHelperTests+TryConvertNullable.ConvertsStringToGuid(text: \""{<GUID>}\"")",100,200,0,0,stable
+TypeHelperTests+TryConvertNullable,TypeHelperTests+TryConvertNullable.ConvertsStringToIntegralTypes,100,100,0,0,stable
+TypeHelperTests+TryConvertNullable,TypeHelperTests+TryConvertNullable.NullableValueType(value: 42),100,100,0,0,stable
+TypeHelperTests+TryConvertNullable,TypeHelperTests+TryConvertNullable.NullableValueType(value: null),100,100,0,0,stable
+TypeHelperTests+TryConvertNullable,TypeHelperTests+TryConvertNullable.SameClass,100,100,0,0,stable
+UniqueIDGeneratorTests+Compute,UniqueIDGeneratorTests+Compute.CannotAddAfterCompute,100,100,0,0,stable
+UniqueIDGeneratorTests+Compute,UniqueIDGeneratorTests+Compute.CannotAddAfterDipose,100,100,0,0,stable
+UniqueIDGeneratorTests+Compute,UniqueIDGeneratorTests+Compute.CannotComputeAfterDispose,100,100,0,0,stable
+UniqueIDGeneratorTests+Compute,UniqueIDGeneratorTests+Compute.CannotComputeTwice,100,100,0,0,stable
+UniqueIDGeneratorTests+Compute,UniqueIDGeneratorTests+Compute.GuardClause,100,100,0,0,stable
+UniqueIDGeneratorTests+Compute,UniqueIDGeneratorTests+Compute.NoData,100,100,0,0,stable
+UniqueIDGeneratorTests+Compute,UniqueIDGeneratorTests+Compute.SingleString,100,100,0,0,stable
+UniqueIDGeneratorTests+ForAssembly,UniqueIDGeneratorTests+ForAssembly.GuardClause,100,100,0,0,stable
+UniqueIDGeneratorTests+ForAssembly,"UniqueIDGeneratorTests+ForAssembly.SuccessCases(assemblyPath: \""asm-path\"", configFilePath: \""config-path\"", expected: \""87f1ea729573561e318de0a470397143c37511bed90420cb0a\""···)",100,100,0,0,stable
+UniqueIDGeneratorTests+ForAssembly,"UniqueIDGeneratorTests+ForAssembly.SuccessCases(assemblyPath: \""asm-path\"", configFilePath: null, expected: \""9b101eb6f7a9ca48b696d43c4384ce51c3b1522ca5d82cddc0\""···)",100,100,0,0,stable
+XunitSerializationInfoTests+Ctor,"XunitSerializationInfoTests+Ctor.EmptySerializedValueResultsInEmptySerialization(serialization: \""\"")",100,100,0,0,stable
+XunitSerializationInfoTests+Ctor,XunitSerializationInfoTests+Ctor.EmptySerializedValueResultsInEmptySerialization(serialization: null),100,100,0,0,stable
+XunitSerializationInfoTests+Ctor,XunitSerializationInfoTests+Ctor.EntryMissingDataThrowsDuringConstructor,100,100,0,0,stable
+XunitSerializationInfoTests+Ctor,XunitSerializationInfoTests+Ctor.GuardClause,100,100,0,0,stable
+XunitSerializationInfoTests+Ctor,XunitSerializationInfoTests+Ctor.InitializedWithSerializedValue,100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,XunitSerializationInfoTests+ToSerializedString.EmptyInfo,100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 'a', valueType: typeof(char))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 'a', valueType: typeof(char?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 1, valueType: typeof(byte))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 1, valueType: typeof(int))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 1, valueType: typeof(long))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 1, valueType: typeof(sbyte))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 1, valueType: typeof(short))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 1, valueType: typeof(uint))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 1, valueType: typeof(ulong))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 1, valueType: typeof(ushort))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 2, valueType: typeof(byte?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 2, valueType: typeof(int?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 2, valueType: typeof(long?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 2, valueType: typeof(sbyte?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 2, valueType: typeof(short?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 2, valueType: typeof(uint?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 2, valueType: typeof(ulong?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 2, valueType: typeof(ushort?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 2022-04-21T23:18:19.0200000Z, valueType: typeof(DateTime?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 2022-04-21T23:18:19.0200000Z, valueType: typeof(System.DateTime))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 2022-04-21T23:19:20.0210000+00:00, valueType: typeof(DateTimeOffset?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 2022-04-21T23:19:20.0210000+00:00, valueType: typeof(System.DateTimeOffset))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 21.12, valueType: typeof(decimal))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 21.12, valueType: typeof(decimal?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 21.120000000000001, valueType: typeof(double))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 21.120000000000001, valueType: typeof(double?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 21.1200008, valueType: typeof(float))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: 21.1200008, valueType: typeof(float?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: False, valueType: typeof(bool?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: MySerializable { P1 = 1, P2 = \""2\"", P3 = 3.4 }, valueType: typeof(XunitSerializationInfoTests+MySerializable))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: MyValue, valueType: typeof(MyEnum?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: MyValue, valueType: typeof(XunitSerializationInfoTests+MyEnum))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: True, valueType: typeof(bool))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: \""Hello\"", valueType: typeof(string))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: null, valueType: typeof(DateTime?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: null, valueType: typeof(DateTimeOffset?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: null, valueType: typeof(MyEnum?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: null, valueType: typeof(XunitSerializationInfoTests+MySerializable))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: null, valueType: typeof(bool?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: null, valueType: typeof(byte?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: null, valueType: typeof(char?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: null, valueType: typeof(decimal?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: null, valueType: typeof(double?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: null, valueType: typeof(float?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: null, valueType: typeof(int?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: null, valueType: typeof(long?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: null, valueType: typeof(sbyte?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: null, valueType: typeof(short?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: null, valueType: typeof(string))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: null, valueType: typeof(uint?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: null, valueType: typeof(ulong?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCases(value: null, valueType: typeof(ushort?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 'a', valueType: typeof(char))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 'a', valueType: typeof(char?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 1, valueType: typeof(byte))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 1, valueType: typeof(int))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 1, valueType: typeof(long))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 1, valueType: typeof(sbyte))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 1, valueType: typeof(short))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 1, valueType: typeof(uint))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 1, valueType: typeof(ulong))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 1, valueType: typeof(ushort))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 2, valueType: typeof(byte?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 2, valueType: typeof(int?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 2, valueType: typeof(long?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 2, valueType: typeof(sbyte?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 2, valueType: typeof(short?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 2, valueType: typeof(uint?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 2, valueType: typeof(ulong?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 2, valueType: typeof(ushort?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 2022-04-21T23:18:19.0200000Z, valueType: typeof(DateTime?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 2022-04-21T23:18:19.0200000Z, valueType: typeof(System.DateTime))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 2022-04-21T23:19:20.0210000+00:00, valueType: typeof(DateTimeOffset?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 2022-04-21T23:19:20.0210000+00:00, valueType: typeof(System.DateTimeOffset))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 21.12, valueType: typeof(decimal))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 21.12, valueType: typeof(decimal?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 21.120000000000001, valueType: typeof(double))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 21.120000000000001, valueType: typeof(double?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 21.1200008, valueType: typeof(float))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: 21.1200008, valueType: typeof(float?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: False, valueType: typeof(bool?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: MySerializable { P1 = 1, P2 = \""2\"", P3 = 3.4 }, valueType: typeof(XunitSerializationInfoTests+MySerializable))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: MyValue, valueType: typeof(MyEnum?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: MyValue, valueType: typeof(XunitSerializationInfoTests+MyEnum))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: True, valueType: typeof(bool))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: \""Hello\"", valueType: typeof(string))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: null, valueType: typeof(DateTime?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: null, valueType: typeof(DateTimeOffset?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: null, valueType: typeof(MyEnum?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: null, valueType: typeof(XunitSerializationInfoTests+MySerializable))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: null, valueType: typeof(bool?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: null, valueType: typeof(byte?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: null, valueType: typeof(char?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: null, valueType: typeof(decimal?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: null, valueType: typeof(double?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: null, valueType: typeof(float?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: null, valueType: typeof(int?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: null, valueType: typeof(long?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: null, valueType: typeof(sbyte?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: null, valueType: typeof(short?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: null, valueType: typeof(string))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: null, valueType: typeof(uint?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: null, valueType: typeof(ulong?))",100,100,0,0,stable
+XunitSerializationInfoTests+ToSerializedString,"XunitSerializationInfoTests+ToSerializedString.SuccessCasesAsArrays(value: null, valueType: typeof(ushort?))",100,100,0,0,stable

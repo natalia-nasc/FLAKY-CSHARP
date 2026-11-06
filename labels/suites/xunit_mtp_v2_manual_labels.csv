@@ -1,0 +1,348 @@
+﻿className,test,runs_presente,passed,failed,skipped,label
+CommandLineOptionsProviderTests+ArgumentSwitches,CommandLineOptionsProviderTests+ArgumentSwitches.AssertEquivalentMaxDepth,20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,CommandLineOptionsProviderTests+ArgumentSwitches.ConfigFile,20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Culture(argValue: \""default\"", expected: null)",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Culture(argValue: \""en-US\"", expected: \""en-US\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Culture(argValue: \""invariant\"", expected: \""\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Explicit(argValue: \""off\"", expected: Off)",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Explicit(argValue: \""on\"", expected: On)",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Explicit(argValue: \""only\"", expected: Only)",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,CommandLineOptionsProviderTests+ArgumentSwitches.LongRunning,20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.MaxThreads(argValue: \""0.0001x\"", expected: 1)",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.MaxThreads(argValue: \""2.5x\"", expected: 20)",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.MaxThreads(argValue: \""42\"", expected: 42)",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.MaxThreads(argValue: \""default\"", expected: null)",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.MaxThreads(argValue: \""unlimited\"", expected: -1)",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.MethodDisplay(argValue: \""classAndMethod\"", expected: ClassAndMethod)",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.MethodDisplay(argValue: \""method\"", expected: Method)",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.MethodDisplayOptions(expected: All, argValues: [\""all\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.MethodDisplayOptions(expected: None, argValues: [\""none\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.MethodDisplayOptions(expected: RemoveAsyncSuffix, argValues: [\""removeAsyncSuffix\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.MethodDisplayOptions(expected: ReplacePeriodWithComma, argValues: [\""replacePeriodWithComma\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.MethodDisplayOptions(expected: ReplaceUnderscoreWithSpace | ReplacePeriodWithComma, argValues: [\""replacePeriodWithComma\"", \""replaceUnderscoreWithSpace\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.MethodDisplayOptions(expected: ReplaceUnderscoreWithSpace, argValues: [\""replaceUnderscoreWithSpace\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.MethodDisplayOptions(expected: UseEscapeSequences, argValues: [\""useEscapeSequences\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.MethodDisplayOptions(expected: UseOperatorMonikers, argValues: [\""useOperatorMonikers\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Parallel(argValue: \""all\"", expected: All)",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Parallel(argValue: \""collections\"", expected: Collections)",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Parallel(argValue: \""none\"", expected: None)",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Parallel_Algorithm(argValue: \""aggressive\"", expected: Aggressive)",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Parallel_Algorithm(argValue: \""conservative\"", expected: Conservative)",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,CommandLineOptionsProviderTests+ArgumentSwitches.PrintMaxEnumerableLength,20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,CommandLineOptionsProviderTests+ArgumentSwitches.PrintMaxObjectDepth,20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,CommandLineOptionsProviderTests+ArgumentSwitches.PrintMaxObjectMemberCount,20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,CommandLineOptionsProviderTests+ArgumentSwitches.PrintMaxStringLength,20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,CommandLineOptionsProviderTests+ArgumentSwitches.Seed,20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Cannot specify 'all' with any other values\"", switch: \""method-display-options\"", argValues: [\""all\"", \""replacePeriodWithComma\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Cannot specify 'none' with any other values\"", switch: \""method-display-options\"", argValues: [\""replacePeriodWithComma\"", \""none\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Invalid value '0' (must be an integer between 1 an\""···, switch: \""assert-equivalent-max-depth\"", argValues: [\""0\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Invalid value '0.0x' (must be one of: 'default', '\""···, switch: \""max-threads\"", argValues: [\""0.0x\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Invalid value '0x' (must be one of: 'default', 'un\""···, switch: \""max-threads\"", argValues: [\""0x\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Invalid value '123'\"", switch: \""culture\"", argValues: [\""123\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Invalid value 'abc' (must be an integer between 0 \""···, switch: \""long-running\"", argValues: [\""abc\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Invalid value 'abc' (must be an integer between 0 \""···, switch: \""print-max-enumerable-length\"", argValues: [\""abc\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Invalid value 'abc' (must be an integer between 0 \""···, switch: \""print-max-object-depth\"", argValues: [\""abc\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Invalid value 'abc' (must be an integer between 0 \""···, switch: \""print-max-object-member-count\"", argValues: [\""abc\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Invalid value 'abc' (must be an integer between 0 \""···, switch: \""print-max-string-length\"", argValues: [\""abc\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Invalid value 'abc' (must be an integer between 0 \""···, switch: \""seed\"", argValues: [\""abc\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Invalid value 'abc' (must be an integer between 1 \""···, switch: \""assert-equivalent-max-depth\"", argValues: [\""abc\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Invalid value 'abc' (must be one of: 'classAndMeth\""···, switch: \""method-display\"", argValues: [\""abc\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Invalid value 'abc' (must be one of: 'conservative\""···, switch: \""parallel-algorithm\"", argValues: [\""abc\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Invalid value 'abc' (must be one of: 'default', 'u\""···, switch: \""max-threads\"", argValues: [\""abc\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Invalid value 'abc' (must be one of: 'none', 'coll\""···, switch: \""parallel\"", argValues: [\""abc\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Invalid value 'abc' (must be one of: 'none', 'repl\""···, switch: \""method-display-options\"", argValues: [\""abc\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+ArgumentSwitches,"CommandLineOptionsProviderTests+ArgumentSwitches.Validation(expectedMessage: \""Invalid value 'abc' (must be one of: 'off', 'on', \""···, switch: \""explicit\"", argValues: [\""abc\""])",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.DisplayNameFiltersAreExcludedPriorToVersion4(mtpSwitch: \""filter-display-name\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.DisplayNameFiltersAreExcludedPriorToVersion4(mtpSwitch: \""filter-not-display-name\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,CommandLineOptionsProviderTests+Filters.FilterTraits,20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.FilterTraitsValidation(switch: \""filter-not-trait\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.FilterTraitsValidation(switch: \""filter-trait\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.Filter_MultiValue(mtpSwitch: \""filter-class\"", xunit3Switch: \""-class\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.Filter_MultiValue(mtpSwitch: \""filter-display-name\"", xunit3Switch: \""-displayname\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.Filter_MultiValue(mtpSwitch: \""filter-method\"", xunit3Switch: \""-method\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.Filter_MultiValue(mtpSwitch: \""filter-namespace\"", xunit3Switch: \""-namespace\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.Filter_MultiValue(mtpSwitch: \""filter-not-class\"", xunit3Switch: \""-class-\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.Filter_MultiValue(mtpSwitch: \""filter-not-display-name\"", xunit3Switch: \""-displayname-\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.Filter_MultiValue(mtpSwitch: \""filter-not-method\"", xunit3Switch: \""-method-\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.Filter_MultiValue(mtpSwitch: \""filter-not-namespace\"", xunit3Switch: \""-namespace-\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.Filter_SingleValue(mtpSwitch: \""filter-class\"", xunit3Switch: \""-class\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.Filter_SingleValue(mtpSwitch: \""filter-display-name\"", xunit3Switch: \""-displayname\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.Filter_SingleValue(mtpSwitch: \""filter-method\"", xunit3Switch: \""-method\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.Filter_SingleValue(mtpSwitch: \""filter-namespace\"", xunit3Switch: \""-namespace\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.Filter_SingleValue(mtpSwitch: \""filter-not-class\"", xunit3Switch: \""-class-\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.Filter_SingleValue(mtpSwitch: \""filter-not-display-name\"", xunit3Switch: \""-displayname-\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.Filter_SingleValue(mtpSwitch: \""filter-not-method\"", xunit3Switch: \""-method-\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,"CommandLineOptionsProviderTests+Filters.Filter_SingleValue(mtpSwitch: \""filter-not-namespace\"", xunit3Switch: \""-namespace-\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Filters,CommandLineOptionsProviderTests+Filters.MixedFiltersNotSupported,20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,CommandLineOptionsProviderTests+OnOffSwitches.AutoReporters_Invalid,20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.AutoReporters_Valid(value: \""off\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.AutoReporters_Valid(value: \""on\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchInvalid(switch: \""fail-skips\"", _: assembly => assembly.Configuration.FailSkips)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchInvalid(switch: \""fail-warns\"", _: assembly => assembly.Configuration.FailTestsWithWarnings)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchInvalid(switch: \""pre-enumerate-theories\"", _: assembly => assembly.Configuration.PreEnumerateTheories)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchInvalid(switch: \""show-live-output\"", _: assembly => assembly.Configuration.ShowLiveOutput)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchInvalid(switch: \""stop-on-fail\"", _: assembly => assembly.Configuration.StopOnFail)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchInvalid(switch: \""xunit-diagnostics\"", _: assembly => assembly.Configuration.DiagnosticMessages)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchInvalid(switch: \""xunit-internal-diagnostics\"", _: assembly => assembly.Configuration.InternalDiagnosticMessages)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchNotPresent(_: \""fail-skips\"", accessor: assembly => assembly.Configuration.FailSkips)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchNotPresent(_: \""fail-warns\"", accessor: assembly => assembly.Configuration.FailTestsWithWarnings)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchNotPresent(_: \""pre-enumerate-theories\"", accessor: assembly => assembly.Configuration.PreEnumerateTheories)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchNotPresent(_: \""show-live-output\"", accessor: assembly => assembly.Configuration.ShowLiveOutput)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchNotPresent(_: \""stop-on-fail\"", accessor: assembly => assembly.Configuration.StopOnFail)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchNotPresent(_: \""xunit-diagnostics\"", accessor: assembly => assembly.Configuration.DiagnosticMessages)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchNotPresent(_: \""xunit-internal-diagnostics\"", accessor: assembly => assembly.Configuration.InternalDiagnosticMessages)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchOff(switch: \""fail-skips\"", accessor: assembly => assembly.Configuration.FailSkips)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchOff(switch: \""fail-warns\"", accessor: assembly => assembly.Configuration.FailTestsWithWarnings)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchOff(switch: \""pre-enumerate-theories\"", accessor: assembly => assembly.Configuration.PreEnumerateTheories)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchOff(switch: \""show-live-output\"", accessor: assembly => assembly.Configuration.ShowLiveOutput)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchOff(switch: \""stop-on-fail\"", accessor: assembly => assembly.Configuration.StopOnFail)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchOff(switch: \""xunit-diagnostics\"", accessor: assembly => assembly.Configuration.DiagnosticMessages)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchOff(switch: \""xunit-internal-diagnostics\"", accessor: assembly => assembly.Configuration.InternalDiagnosticMessages)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchOn(switch: \""fail-skips\"", accessor: assembly => assembly.Configuration.FailSkips)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchOn(switch: \""fail-warns\"", accessor: assembly => assembly.Configuration.FailTestsWithWarnings)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchOn(switch: \""pre-enumerate-theories\"", accessor: assembly => assembly.Configuration.PreEnumerateTheories)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchOn(switch: \""show-live-output\"", accessor: assembly => assembly.Configuration.ShowLiveOutput)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchOn(switch: \""stop-on-fail\"", accessor: assembly => assembly.Configuration.StopOnFail)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchOn(switch: \""xunit-diagnostics\"", accessor: assembly => assembly.Configuration.DiagnosticMessages)",20,20,0,0,stable
+CommandLineOptionsProviderTests+OnOffSwitches,"CommandLineOptionsProviderTests+OnOffSwitches.SwitchOn(switch: \""xunit-internal-diagnostics\"", accessor: assembly => assembly.Configuration.InternalDiagnosticMessages)",20,20,0,0,stable
+CommandLineOptionsProviderTests+Parse,CommandLineOptionsProviderTests+Parse.GuardClauses,20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.FileNameRequiresEnablementOption(option: \""ctrf\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.FileNameRequiresEnablementOption(option: \""html\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.FileNameRequiresEnablementOption(option: \""junit\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.FileNameRequiresEnablementOption(option: \""nunit\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.FileNameRequiresEnablementOption(option: \""trx\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.FileNameRequiresEnablementOption(option: \""xml\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.OptionWithFilename(option: \""ctrf\"", outputKey: \""ctrf\"", _: \""ctrf\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.OptionWithFilename(option: \""html\"", outputKey: \""html\"", _: \""html\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.OptionWithFilename(option: \""junit\"", outputKey: \""junit\"", _: \""junit.xml\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.OptionWithFilename(option: \""nunit\"", outputKey: \""nunit\"", _: \""nunit.xml\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.OptionWithFilename(option: \""trx\"", outputKey: \""trx\"", _: \""trx\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.OptionWithFilename(option: \""xml\"", outputKey: \""xml\"", _: \""xunit.xml\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.OptionWithoutFilename(option: \""ctrf\"", outputKey: \""ctrf\"", extension: \""ctrf\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.OptionWithoutFilename(option: \""html\"", outputKey: \""html\"", extension: \""html\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.OptionWithoutFilename(option: \""junit\"", outputKey: \""junit\"", extension: \""junit.xml\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.OptionWithoutFilename(option: \""nunit\"", outputKey: \""nunit\"", extension: \""nunit.xml\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.OptionWithoutFilename(option: \""trx\"", outputKey: \""trx\"", extension: \""trx\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.OptionWithoutFilename(option: \""xml\"", outputKey: \""xml\"", extension: \""xunit.xml\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.PathValidation(option: \""ctrf\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.PathValidation(option: \""html\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.PathValidation(option: \""junit\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.PathValidation(option: \""nunit\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.PathValidation(option: \""trx\"")",20,20,0,0,stable
+CommandLineOptionsProviderTests+Reports,"CommandLineOptionsProviderTests+Reports.PathValidation(option: \""xml\"")",20,20,0,0,stable
+LoggerDiagnosticMessageSinkTests+OnMessage,"LoggerDiagnosticMessageSinkTests+OnMessage.DoesNotForwardMessagesWhenDisabled(message: DiagnosticMessage message=\""Hello from diagnostics\"", _: \""[Information] Hello from diagnostics\"")",20,20,0,0,stable
+LoggerDiagnosticMessageSinkTests+OnMessage,"LoggerDiagnosticMessageSinkTests+OnMessage.DoesNotForwardMessagesWhenDisabled(message: InternalDiagnosticMessage message=\""Hello from internal diagnostics\"", _: \""[Information] Hello from internal diagnostics\"")",20,20,0,0,stable
+LoggerDiagnosticMessageSinkTests+OnMessage,"LoggerDiagnosticMessageSinkTests+OnMessage.DoesNotForwardMessagesWhenDisabled(message: TestCaseDiscovered(\""test-case-id\"") name=\""test-case-display-name\"", _: null)",20,20,0,0,stable
+LoggerDiagnosticMessageSinkTests+OnMessage,"LoggerDiagnosticMessageSinkTests+OnMessage.ForwardsDiagnosticMessages(message: DiagnosticMessage message=\""Hello from diagnostics\"", expectedLog: \""[Information] Hello from diagnostics\"")",20,20,0,0,stable
+LoggerDiagnosticMessageSinkTests+OnMessage,"LoggerDiagnosticMessageSinkTests+OnMessage.ForwardsDiagnosticMessages(message: InternalDiagnosticMessage message=\""Hello from internal diagnostics\"", expectedLog: \""[Information] Hello from internal diagnostics\"")",20,20,0,0,stable
+LoggerDiagnosticMessageSinkTests+OnMessage,"LoggerDiagnosticMessageSinkTests+OnMessage.ForwardsDiagnosticMessages(message: TestCaseDiscovered(\""test-case-id\"") name=\""test-case-display-name\"", expectedLog: null)",20,20,0,0,stable
+LoggerDiagnosticMessageSinkTests+TryCreate,"LoggerDiagnosticMessageSinkTests+TryCreate.Creation(diagnosticMessages: False, internalDiagnosticMessages: False, objectShouldBeCreated: False)",20,20,0,0,stable
+LoggerDiagnosticMessageSinkTests+TryCreate,"LoggerDiagnosticMessageSinkTests+TryCreate.Creation(diagnosticMessages: False, internalDiagnosticMessages: True, objectShouldBeCreated: True)",20,20,0,0,stable
+LoggerDiagnosticMessageSinkTests+TryCreate,"LoggerDiagnosticMessageSinkTests+TryCreate.Creation(diagnosticMessages: True, internalDiagnosticMessages: False, objectShouldBeCreated: True)",20,20,0,0,stable
+LoggerDiagnosticMessageSinkTests+TryCreate,"LoggerDiagnosticMessageSinkTests+TryCreate.Creation(diagnosticMessages: True, internalDiagnosticMessages: True, objectShouldBeCreated: True)",20,20,0,0,stable
+LoggerRunnerLoggerTests,"LoggerRunnerLoggerTests.ForwardsMessages(action: Action`1 { Method = Void <.cctor>b__2_0(Xunit.Runner.Common.IRunnerLogger), Target = <>c { } }, expectedLog: \""[Error] Error Message\"")",20,20,0,0,stable
+LoggerRunnerLoggerTests,"LoggerRunnerLoggerTests.ForwardsMessages(action: Action`1 { Method = Void <.cctor>b__2_1(Xunit.Runner.Common.IRunnerLogger), Target = <>c { } }, expectedLog: \""[Information] Important Message\"")",20,20,0,0,stable
+LoggerRunnerLoggerTests,"LoggerRunnerLoggerTests.ForwardsMessages(action: Action`1 { Method = Void <.cctor>b__2_2(Xunit.Runner.Common.IRunnerLogger), Target = <>c { } }, expectedLog: \""[Information] Message\"")",20,20,0,0,stable
+LoggerRunnerLoggerTests,"LoggerRunnerLoggerTests.ForwardsMessages(action: Action`1 { Method = Void <.cctor>b__2_3(Xunit.Runner.Common.IRunnerLogger), Target = <>c { } }, expectedLog: \""[Information] Raw Text\"")",20,20,0,0,stable
+LoggerRunnerLoggerTests,"LoggerRunnerLoggerTests.ForwardsMessages(action: Action`1 { Method = Void <.cctor>b__2_4(Xunit.Runner.Common.IRunnerLogger), Target = <>c { } }, expectedLog: \""[Warning] Warning Message\"")",20,20,0,0,stable
+OutputDeviceDiagnosticMessageSinkTests+OnMessage,"OutputDeviceDiagnosticMessageSinkTests+OnMessage.DoesNotForwardMessagesWhenDisabled(message: DiagnosticMessage message=\""Hello from diagnostics\"", _1: \""Hello from diagnostics\"", _2: Yellow)",20,20,0,0,stable
+OutputDeviceDiagnosticMessageSinkTests+OnMessage,"OutputDeviceDiagnosticMessageSinkTests+OnMessage.DoesNotForwardMessagesWhenDisabled(message: InternalDiagnosticMessage message=\""Hello from internal diagnostics\"", _1: \""Hello from internal diagnostics\"", _2: DarkGray)",20,20,0,0,stable
+OutputDeviceDiagnosticMessageSinkTests+OnMessage,"OutputDeviceDiagnosticMessageSinkTests+OnMessage.DoesNotForwardMessagesWhenDisabled(message: TestCaseDiscovered(\""test-case-id\"") name=\""test-case-display-name\"", _1: null, _2: null)",20,20,0,0,stable
+OutputDeviceDiagnosticMessageSinkTests+OnMessage,"OutputDeviceDiagnosticMessageSinkTests+OnMessage.ForwardsDiagnosticMessages(message: DiagnosticMessage message=\""Hello from diagnostics\"", expectedLog: \""Hello from diagnostics\"", expectedColor: Yellow)",20,20,0,0,stable
+OutputDeviceDiagnosticMessageSinkTests+OnMessage,"OutputDeviceDiagnosticMessageSinkTests+OnMessage.ForwardsDiagnosticMessages(message: InternalDiagnosticMessage message=\""Hello from internal diagnostics\"", expectedLog: \""Hello from internal diagnostics\"", expectedColor: DarkGray)",20,20,0,0,stable
+OutputDeviceDiagnosticMessageSinkTests+OnMessage,"OutputDeviceDiagnosticMessageSinkTests+OnMessage.ForwardsDiagnosticMessages(message: TestCaseDiscovered(\""test-case-id\"") name=\""test-case-display-name\"", expectedLog: null, expectedColor: null)",20,20,0,0,stable
+OutputDeviceDiagnosticMessageSinkTests+TryCreate,"OutputDeviceDiagnosticMessageSinkTests+TryCreate.Creation(diagnosticMessages: False, internalDiagnosticMessages: False, objectShouldBeCreated: False)",20,20,0,0,stable
+OutputDeviceDiagnosticMessageSinkTests+TryCreate,"OutputDeviceDiagnosticMessageSinkTests+TryCreate.Creation(diagnosticMessages: False, internalDiagnosticMessages: True, objectShouldBeCreated: True)",20,20,0,0,stable
+OutputDeviceDiagnosticMessageSinkTests+TryCreate,"OutputDeviceDiagnosticMessageSinkTests+TryCreate.Creation(diagnosticMessages: True, internalDiagnosticMessages: False, objectShouldBeCreated: True)",20,20,0,0,stable
+OutputDeviceDiagnosticMessageSinkTests+TryCreate,"OutputDeviceDiagnosticMessageSinkTests+TryCreate.Creation(diagnosticMessages: True, internalDiagnosticMessages: True, objectShouldBeCreated: True)",20,20,0,0,stable
+OutputDeviceRunnerLoggerTests,"OutputDeviceRunnerLoggerTests.ForwardsMessages(action: Action`1 { Method = Void <.cctor>b__2_0(Xunit.Runner.Common.IRunnerLogger), Target = <>c { } }, level: \""Err\"", expectedLog: \""Error Message\"", expectedColor: Red)",20,20,0,0,stable
+OutputDeviceRunnerLoggerTests,"OutputDeviceRunnerLoggerTests.ForwardsMessages(action: Action`1 { Method = Void <.cctor>b__2_1(Xunit.Runner.Common.IRunnerLogger), Target = <>c { } }, level: \""Imp\"", expectedLog: \""Important Message\"", expectedColor: null)",20,20,0,0,stable
+OutputDeviceRunnerLoggerTests,"OutputDeviceRunnerLoggerTests.ForwardsMessages(action: Action`1 { Method = Void <.cctor>b__2_2(Xunit.Runner.Common.IRunnerLogger), Target = <>c { } }, level: \""Inf\"", expectedLog: \""Message\"", expectedColor: DarkGray)",20,20,0,0,stable
+OutputDeviceRunnerLoggerTests,"OutputDeviceRunnerLoggerTests.ForwardsMessages(action: Action`1 { Method = Void <.cctor>b__2_3(Xunit.Runner.Common.IRunnerLogger), Target = <>c { } }, level: \""Raw\"", expectedLog: \""Raw Text\"", expectedColor: null)",20,20,0,0,stable
+OutputDeviceRunnerLoggerTests,"OutputDeviceRunnerLoggerTests.ForwardsMessages(action: Action`1 { Method = Void <.cctor>b__2_4(Xunit.Runner.Common.IRunnerLogger), Target = <>c { } }, level: \""Wrn\"", expectedLog: \""Warning Message\"", expectedColor: Yellow)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.Culture(value: \""default\"", expected: null)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.Culture(value: \""foo\"", expected: \""foo\"")",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.Culture(value: \""invariant\"", expected: \""\"")",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.Culture(value: null, expected: \""<unset>\"")",20,20,0,0,stable
+TestConfigTests,TestConfigTests.DefaultValues,20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MaxParallelThreads(value: \"",0x\"", expected: 26002112)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MaxParallelThreads(value: \""-1\"", expected: -1)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MaxParallelThreads(value: \"".0x\"", expected: 26002112)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MaxParallelThreads(value: \""0,ax\"", expected: 26002112)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MaxParallelThreads(value: \""0.0001x\"", expected: 1)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MaxParallelThreads(value: \""0.0x\"", expected: 26002112)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MaxParallelThreads(value: \""0.ax\"", expected: 26002112)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MaxParallelThreads(value: \""0\"", expected: null)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MaxParallelThreads(value: \""0x\"", expected: 26002112)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MaxParallelThreads(value: \""16\"", expected: 16)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MaxParallelThreads(value: \""2x\"", expected: 16)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MaxParallelThreads(value: \""3.5x\"", expected: 28)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MaxParallelThreads(value: \""5,0x\"", expected: 40)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MaxParallelThreads(value: \""abc\"", expected: 26002112)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MaxParallelThreads(value: \""default\"", expected: null)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MaxParallelThreads(value: \""unlimited\"", expected: -1)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MethodDisplay(value: \""classAndMethod\"", expected: ClassAndMethod)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MethodDisplay(value: \""method\"", expected: Method)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MethodDisplay(value: \""unknownValue\"", expected: null)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MethodDisplayOptions(value: \""UseOperatorMonikers, UseEscapeSequences\"", expected: UseOperatorMonikers | UseEscapeSequences)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MethodDisplayOptions(value: \""all\"", expected: All)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MethodDisplayOptions(value: \""none\"", expected: None)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.MethodDisplayOptions(value: \""unknownValue\"", expected: null)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.ParallelAlgorithms(value: \""aggressive\"", expected: Aggressive)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.ParallelAlgorithms(value: \""conservative\"", expected: Conservative)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.ParallelAlgorithms(value: \""unknownValue\"", expected: null)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.ParallelModeSet_ParallelizeTestCollectionsIgnored(value: \""false\"")",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.ParallelModeSet_ParallelizeTestCollectionsIgnored(value: \""true\"")",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.ParallelModeSet_ParallelizeTestCollectionsIgnored(value: \""unknownValue\"")",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.ParallelModeUnset_OverriddenByParallelizeTestCollections(value: \""0\"", expected: None)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.ParallelModeUnset_OverriddenByParallelizeTestCollections(value: \""1\"", expected: Collections)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.ParallelModeUnset_OverriddenByParallelizeTestCollections(value: \""false\"", expected: None)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.ParallelModeUnset_OverriddenByParallelizeTestCollections(value: \""off\"", expected: None)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.ParallelModeUnset_OverriddenByParallelizeTestCollections(value: \""on\"", expected: Collections)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.ParallelModeUnset_OverriddenByParallelizeTestCollections(value: \""true\"", expected: Collections)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.ParallelModeUnset_OverriddenByParallelizeTestCollections(value: \""unknownValue\"", expected: null)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.ParallelModes(value: \""all\"", expected: All)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.ParallelModes(value: \""collections\"", expected: Collections)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.ParallelModes(value: \""none\"", expected: None)",20,20,0,0,stable
+TestConfigTests,"TestConfigTests.ParallelModes(value: \""unknownValue\"", expected: null)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.InvalidValue(key: \""xUnit:diagnosticMessages\"", value: \""foo\"", accessor: assembly => assembly.Configuration.DiagnosticMessages)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.InvalidValue(key: \""xUnit:failSkips\"", value: \""foo\"", accessor: assembly => assembly.Configuration.FailSkips)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.InvalidValue(key: \""xUnit:failWarns\"", value: \""foo\"", accessor: assembly => assembly.Configuration.FailTestsWithWarnings)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.InvalidValue(key: \""xUnit:internalDiagnosticMessages\"", value: \""foo\"", accessor: assembly => assembly.Configuration.InternalDiagnosticMessages)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.InvalidValue(key: \""xUnit:preEnumerateTheories\"", value: \""foo\"", accessor: assembly => assembly.Configuration.PreEnumerateTheories)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.InvalidValue(key: \""xUnit:showLiveOutput\"", value: \""foo\"", accessor: assembly => assembly.Configuration.ShowLiveOutput)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.InvalidValue(key: \""xUnit:stopOnFail\"", value: \""foo\"", accessor: assembly => assembly.Configuration.StopOnFail)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.InvalidValue(key: \""xUnit:synchronousReporting\"", value: \""foo\"", accessor: assembly => assembly.Configuration.SynchronousMessageReporting)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:diagnosticMessages\"", value: \""0\"", accessor: assembly => assembly.Configuration.DiagnosticMessages, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:diagnosticMessages\"", value: \""1\"", accessor: assembly => assembly.Configuration.DiagnosticMessages, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:diagnosticMessages\"", value: \""false\"", accessor: assembly => assembly.Configuration.DiagnosticMessages, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:diagnosticMessages\"", value: \""off\"", accessor: assembly => assembly.Configuration.DiagnosticMessages, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:diagnosticMessages\"", value: \""on\"", accessor: assembly => assembly.Configuration.DiagnosticMessages, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:diagnosticMessages\"", value: \""true\"", accessor: assembly => assembly.Configuration.DiagnosticMessages, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:failSkips\"", value: \""0\"", accessor: assembly => assembly.Configuration.FailSkips, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:failSkips\"", value: \""1\"", accessor: assembly => assembly.Configuration.FailSkips, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:failSkips\"", value: \""false\"", accessor: assembly => assembly.Configuration.FailSkips, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:failSkips\"", value: \""off\"", accessor: assembly => assembly.Configuration.FailSkips, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:failSkips\"", value: \""on\"", accessor: assembly => assembly.Configuration.FailSkips, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:failSkips\"", value: \""true\"", accessor: assembly => assembly.Configuration.FailSkips, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:failWarns\"", value: \""0\"", accessor: assembly => assembly.Configuration.FailTestsWithWarnings, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:failWarns\"", value: \""1\"", accessor: assembly => assembly.Configuration.FailTestsWithWarnings, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:failWarns\"", value: \""false\"", accessor: assembly => assembly.Configuration.FailTestsWithWarnings, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:failWarns\"", value: \""off\"", accessor: assembly => assembly.Configuration.FailTestsWithWarnings, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:failWarns\"", value: \""on\"", accessor: assembly => assembly.Configuration.FailTestsWithWarnings, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:failWarns\"", value: \""true\"", accessor: assembly => assembly.Configuration.FailTestsWithWarnings, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:internalDiagnosticMessages\"", value: \""0\"", accessor: assembly => assembly.Configuration.InternalDiagnosticMessages, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:internalDiagnosticMessages\"", value: \""1\"", accessor: assembly => assembly.Configuration.InternalDiagnosticMessages, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:internalDiagnosticMessages\"", value: \""false\"", accessor: assembly => assembly.Configuration.InternalDiagnosticMessages, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:internalDiagnosticMessages\"", value: \""off\"", accessor: assembly => assembly.Configuration.InternalDiagnosticMessages, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:internalDiagnosticMessages\"", value: \""on\"", accessor: assembly => assembly.Configuration.InternalDiagnosticMessages, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:internalDiagnosticMessages\"", value: \""true\"", accessor: assembly => assembly.Configuration.InternalDiagnosticMessages, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:preEnumerateTheories\"", value: \""0\"", accessor: assembly => assembly.Configuration.PreEnumerateTheories, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:preEnumerateTheories\"", value: \""1\"", accessor: assembly => assembly.Configuration.PreEnumerateTheories, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:preEnumerateTheories\"", value: \""false\"", accessor: assembly => assembly.Configuration.PreEnumerateTheories, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:preEnumerateTheories\"", value: \""off\"", accessor: assembly => assembly.Configuration.PreEnumerateTheories, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:preEnumerateTheories\"", value: \""on\"", accessor: assembly => assembly.Configuration.PreEnumerateTheories, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:preEnumerateTheories\"", value: \""true\"", accessor: assembly => assembly.Configuration.PreEnumerateTheories, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:showLiveOutput\"", value: \""0\"", accessor: assembly => assembly.Configuration.ShowLiveOutput, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:showLiveOutput\"", value: \""1\"", accessor: assembly => assembly.Configuration.ShowLiveOutput, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:showLiveOutput\"", value: \""false\"", accessor: assembly => assembly.Configuration.ShowLiveOutput, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:showLiveOutput\"", value: \""off\"", accessor: assembly => assembly.Configuration.ShowLiveOutput, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:showLiveOutput\"", value: \""on\"", accessor: assembly => assembly.Configuration.ShowLiveOutput, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:showLiveOutput\"", value: \""true\"", accessor: assembly => assembly.Configuration.ShowLiveOutput, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:stopOnFail\"", value: \""0\"", accessor: assembly => assembly.Configuration.StopOnFail, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:stopOnFail\"", value: \""1\"", accessor: assembly => assembly.Configuration.StopOnFail, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:stopOnFail\"", value: \""false\"", accessor: assembly => assembly.Configuration.StopOnFail, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:stopOnFail\"", value: \""off\"", accessor: assembly => assembly.Configuration.StopOnFail, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:stopOnFail\"", value: \""on\"", accessor: assembly => assembly.Configuration.StopOnFail, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:stopOnFail\"", value: \""true\"", accessor: assembly => assembly.Configuration.StopOnFail, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:synchronousReporting\"", value: \""0\"", accessor: assembly => assembly.Configuration.SynchronousMessageReporting, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:synchronousReporting\"", value: \""1\"", accessor: assembly => assembly.Configuration.SynchronousMessageReporting, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:synchronousReporting\"", value: \""false\"", accessor: assembly => assembly.Configuration.SynchronousMessageReporting, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:synchronousReporting\"", value: \""off\"", accessor: assembly => assembly.Configuration.SynchronousMessageReporting, expected: False)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:synchronousReporting\"", value: \""on\"", accessor: assembly => assembly.Configuration.SynchronousMessageReporting, expected: True)",20,20,0,0,stable
+TestConfigTests+Booleans,"TestConfigTests+Booleans.ValidValue(key: \""xUnit:synchronousReporting\"", value: \""true\"", accessor: assembly => assembly.Configuration.SynchronousMessageReporting, expected: True)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.InvalidValue(key: \""xUnit:assertEquivalentMaxDepth\"", value: \""0\"", accessor: assembly => assembly.Configuration.AssertEquivalentMaxDepth)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.InvalidValue(key: \""xUnit:assertEquivalentMaxDepth\"", value: \""foo\"", accessor: assembly => assembly.Configuration.AssertEquivalentMaxDepth)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.InvalidValue(key: \""xUnit:longRunningTestSeconds\"", value: \""0\"", accessor: assembly => assembly.Configuration.LongRunningTestSeconds)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.InvalidValue(key: \""xUnit:longRunningTestSeconds\"", value: \""foo\"", accessor: assembly => assembly.Configuration.LongRunningTestSeconds)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.InvalidValue(key: \""xUnit:printMaxEnumerableLength\"", value: \""-1\"", accessor: assembly => assembly.Configuration.PrintMaxEnumerableLength)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.InvalidValue(key: \""xUnit:printMaxEnumerableLength\"", value: \""foo\"", accessor: assembly => assembly.Configuration.PrintMaxEnumerableLength)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.InvalidValue(key: \""xUnit:printMaxObjectDepth\"", value: \""-1\"", accessor: assembly => assembly.Configuration.PrintMaxObjectDepth)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.InvalidValue(key: \""xUnit:printMaxObjectDepth\"", value: \""foo\"", accessor: assembly => assembly.Configuration.PrintMaxObjectDepth)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.InvalidValue(key: \""xUnit:printMaxObjectMemberCount\"", value: \""-1\"", accessor: assembly => assembly.Configuration.PrintMaxObjectMemberCount)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.InvalidValue(key: \""xUnit:printMaxObjectMemberCount\"", value: \""foo\"", accessor: assembly => assembly.Configuration.PrintMaxObjectMemberCount)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.InvalidValue(key: \""xUnit:printMaxStringLength\"", value: \""-1\"", accessor: assembly => assembly.Configuration.PrintMaxStringLength)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.InvalidValue(key: \""xUnit:printMaxStringLength\"", value: \""foo\"", accessor: assembly => assembly.Configuration.PrintMaxStringLength)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.InvalidValue(key: \""xUnit:seed\"", value: \""-1\"", accessor: assembly => assembly.Configuration.Seed)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.InvalidValue(key: \""xUnit:seed\"", value: \""foo\"", accessor: assembly => assembly.Configuration.Seed)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.InvalidValue(key: \""xUnit:shutdownForegroundThreadWaitSeconds\"", value: \""0\"", accessor: assembly => assembly.Configuration.ShutdownForegroundThreadWaitSeconds)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.InvalidValue(key: \""xUnit:shutdownForegroundThreadWaitSeconds\"", value: \""foo\"", accessor: assembly => assembly.Configuration.ShutdownForegroundThreadWaitSeconds)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.ValidValue(key: \""xUnit:assertEquivalentMaxDepth\"", value: \""1\"", accessor: assembly => assembly.Configuration.AssertEquivalentMaxDepth, expected: 1)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.ValidValue(key: \""xUnit:assertEquivalentMaxDepth\"", value: \""2147483647\"", accessor: assembly => assembly.Configuration.AssertEquivalentMaxDepth, expected: 2147483647)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.ValidValue(key: \""xUnit:longRunningTestSeconds\"", value: \""1\"", accessor: assembly => assembly.Configuration.LongRunningTestSeconds, expected: 1)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.ValidValue(key: \""xUnit:longRunningTestSeconds\"", value: \""2147483647\"", accessor: assembly => assembly.Configuration.LongRunningTestSeconds, expected: 2147483647)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.ValidValue(key: \""xUnit:printMaxEnumerableLength\"", value: \""0\"", accessor: assembly => assembly.Configuration.PrintMaxEnumerableLength, expected: 0)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.ValidValue(key: \""xUnit:printMaxEnumerableLength\"", value: \""2147483647\"", accessor: assembly => assembly.Configuration.PrintMaxEnumerableLength, expected: 2147483647)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.ValidValue(key: \""xUnit:printMaxObjectDepth\"", value: \""0\"", accessor: assembly => assembly.Configuration.PrintMaxObjectDepth, expected: 0)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.ValidValue(key: \""xUnit:printMaxObjectDepth\"", value: \""2147483647\"", accessor: assembly => assembly.Configuration.PrintMaxObjectDepth, expected: 2147483647)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.ValidValue(key: \""xUnit:printMaxObjectMemberCount\"", value: \""0\"", accessor: assembly => assembly.Configuration.PrintMaxObjectMemberCount, expected: 0)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.ValidValue(key: \""xUnit:printMaxObjectMemberCount\"", value: \""2147483647\"", accessor: assembly => assembly.Configuration.PrintMaxObjectMemberCount, expected: 2147483647)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.ValidValue(key: \""xUnit:printMaxStringLength\"", value: \""0\"", accessor: assembly => assembly.Configuration.PrintMaxStringLength, expected: 0)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.ValidValue(key: \""xUnit:printMaxStringLength\"", value: \""2147483647\"", accessor: assembly => assembly.Configuration.PrintMaxStringLength, expected: 2147483647)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.ValidValue(key: \""xUnit:seed\"", value: \""0\"", accessor: assembly => assembly.Configuration.Seed, expected: 0)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.ValidValue(key: \""xUnit:seed\"", value: \""2147483647\"", accessor: assembly => assembly.Configuration.Seed, expected: 2147483647)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.ValidValue(key: \""xUnit:shutdownForegroundThreadWaitSeconds\"", value: \""1\"", accessor: assembly => assembly.Configuration.ShutdownForegroundThreadWaitSeconds, expected: 1)",20,20,0,0,stable
+TestConfigTests+Integers,"TestConfigTests+Integers.ValidValue(key: \""xUnit:shutdownForegroundThreadWaitSeconds\"", value: \""2147483647\"", accessor: assembly => assembly.Configuration.ShutdownForegroundThreadWaitSeconds, expected: 2147483647)",20,20,0,0,stable
+TestPlatformDiscoveryMessageSinkTests,TestPlatformDiscoveryMessageSinkTests.DelegatesMessages(returnValue: False),20,20,0,0,stable
+TestPlatformDiscoveryMessageSinkTests,TestPlatformDiscoveryMessageSinkTests.DelegatesMessages(returnValue: True),20,20,0,0,stable
+TestPlatformDiscoveryMessageSinkTests,TestPlatformDiscoveryMessageSinkTests.ReturnsFalseWhenCancellationTokenIsCancelled,20,20,0,0,stable
+TestPlatformDiscoveryMessageSinkTests+MessageMapping,TestPlatformDiscoveryMessageSinkTests+MessageMapping.Filtered,20,20,0,0,stable
+TestPlatformDiscoveryMessageSinkTests+MessageMapping,TestPlatformDiscoveryMessageSinkTests+MessageMapping.ITestCaseDiscovered,20,20,0,0,stable
+TestPlatformDiscoveryMessageSinkTests+MessageMapping,TestPlatformDiscoveryMessageSinkTests+MessageMapping.Unfiltered,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests,TestPlatformExecutionMessageSinkTests.DelegatesMessages(returnValue: False),20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests,TestPlatformExecutionMessageSinkTests.DelegatesMessages(returnValue: True),20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+Attachments,TestPlatformExecutionMessageSinkTests+Attachments.WritesAttachmentsToResultsDirectory,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping,TestPlatformExecutionMessageSinkTests+MessageMapping.ITestPassed(trxEnabled: False),20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping,TestPlatformExecutionMessageSinkTests+MessageMapping.ITestPassed(trxEnabled: True),20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping,TestPlatformExecutionMessageSinkTests+MessageMapping.ITestSkipped,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping,TestPlatformExecutionMessageSinkTests+MessageMapping.ITestStarting,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping,TestPlatformExecutionMessageSinkTests+MessageMapping.Warnings,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestAssemblyCleanupFailure,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestAssemblyCleanupFailure.NoMetadata,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestAssemblyCleanupFailure,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestAssemblyCleanupFailure.WithTests,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestAssemblyCleanupFailure,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestAssemblyCleanupFailure.WithoutTests,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestCaseCleanupFailure,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestCaseCleanupFailure.NoMetadata,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestCaseCleanupFailure,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestCaseCleanupFailure.WithTests,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestCaseCleanupFailure,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestCaseCleanupFailure.WithoutTests,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestClassCleanupFailure,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestClassCleanupFailure.NoMetadata,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestClassCleanupFailure,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestClassCleanupFailure.WithTests,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestClassCleanupFailure,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestClassCleanupFailure.WithoutTests,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestCleanupFailure,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestCleanupFailure.NoMetadata,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestCleanupFailure,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestCleanupFailure.WithTests,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestCollectionCleanupFailure,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestCollectionCleanupFailure.NoMetadata,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestCollectionCleanupFailure,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestCollectionCleanupFailure.WithTests,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestCollectionCleanupFailure,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestCollectionCleanupFailure.WithoutTests,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestFailed,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestFailed.Assertion(trxEnabled: False),20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestFailed,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestFailed.Assertion(trxEnabled: True),20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestFailed,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestFailed.Error(failureCause: Exception),20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestFailed,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestFailed.Error(failureCause: Other),20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestFailed,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestFailed.Error(failureCause: Unknown),20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestFailed,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestFailed.Timeout,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestMethodCleanupFailure,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestMethodCleanupFailure.NoMetadata,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestMethodCleanupFailure,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestMethodCleanupFailure.WithTests,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestMethodCleanupFailure,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestMethodCleanupFailure.WithoutTests,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestNotRun,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestNotRun.ServerModeFalse,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestNotRun,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestNotRun.ServerModeTrue,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestOutput,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestOutput.Off,20,20,0,0,stable
+TestPlatformExecutionMessageSinkTests+MessageMapping+ITestOutput,TestPlatformExecutionMessageSinkTests+MessageMapping+ITestOutput.On,20,20,0,0,stable
+TestPlatformTestFrameworkTests+DiscoveryAndExecution,TestPlatformTestFrameworkTests+DiscoveryAndExecution.CanDiscoverAndExecuteTests,20,20,0,0,stable
+TestPlatformTestFrameworkTests+DiscoveryAndExecution,TestPlatformTestFrameworkTests+DiscoveryAndExecution.ExceptionsInPipelineStartupAreLogged,20,20,0,0,stable
+TestPlatformTestFrameworkTests+DiscoveryAndExecution,TestPlatformTestFrameworkTests+DiscoveryAndExecution.SessionMustBeActiveForDiscovery,20,20,0,0,stable
+TestPlatformTestFrameworkTests+DiscoveryAndExecution,TestPlatformTestFrameworkTests+DiscoveryAndExecution.SessionMustBeActiveForExecution,20,20,0,0,stable
+TestPlatformTestFrameworkTests+DiscoveryAndExecution,TestPlatformTestFrameworkTests+DiscoveryAndExecution.UnsupportedDiscoveryFilter,20,20,0,0,stable
+TestPlatformTestFrameworkTests+DiscoveryAndExecution,TestPlatformTestFrameworkTests+DiscoveryAndExecution.UnsupportedExecutionFilter,20,20,0,0,stable
+TestPlatformTestFrameworkTests+SessionManagement,TestPlatformTestFrameworkTests+SessionManagement.CanCreateAndCloseSession,20,20,0,0,stable
+TestPlatformTestFrameworkTests+SessionManagement,TestPlatformTestFrameworkTests+SessionManagement.CannotCloseUnstartedSession,20,20,0,0,stable
+TestPlatformTestFrameworkTests+SessionManagement,TestPlatformTestFrameworkTests+SessionManagement.CannotCreateSameSessionTwice,20,20,0,0,stable
+TestPlatformTestFrameworkTests+SessionManagement,TestPlatformTestFrameworkTests+SessionManagement.CannotRecloseSession,20,20,0,0,stable
+TestPlatformTestFrameworkTests+SessionManagement,TestPlatformTestFrameworkTests+SessionManagement.CreateSession_WithLogo,20,20,0,0,stable
+TestPlatformTestFrameworkTests+SessionManagement,TestPlatformTestFrameworkTests+SessionManagement.CreateSession_WithoutLogo,20,20,0,0,stable

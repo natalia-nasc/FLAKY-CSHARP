@@ -1,0 +1,942 @@
+﻿className,test,runs_presente,passed,failed,skipped,label
+AsyncAcceptanceTests+AsyncLocalUsage,AsyncAcceptanceTests+AsyncLocalUsage.Test,20,20,0,0,stable
+AsyncAcceptanceTests+CustomSynchronizationContext,AsyncAcceptanceTests+CustomSynchronizationContext.SyncContextSetInConstructorPropagates,20,20,0,0,stable
+AsyncAcceptanceTests+PrincipalUsage,AsyncAcceptanceTests+PrincipalUsage.Test,20,20,0,0,stable
+AsyncAcceptanceTests+Tasks,AsyncAcceptanceTests+Tasks.AsyncMethodWhichThrowsTaskCancelledException,20,20,0,0,stable
+AsyncAcceptanceTests+Tasks,AsyncAcceptanceTests+Tasks.AsyncTestsRunCorrectly(classUnderTest: typeof(AsyncAcceptanceTests+Tasks+ClassWithAsyncTask)),20,20,0,0,stable
+AsyncAcceptanceTests+Tasks,AsyncAcceptanceTests+Tasks.AsyncTestsRunCorrectly(classUnderTest: typeof(AsyncAcceptanceTests+Tasks+ClassWithAsyncValueTask)),20,20,0,0,stable
+BeforeAfterAttributeAcceptanceTests,BeforeAfterAttributeAcceptanceTests.TestClassComesAfterTestCollection,20,20,0,0,stable
+BeforeAfterAttributeAcceptanceTests,BeforeAfterAttributeAcceptanceTests.TestCollectionComesAfterTestAssembly,20,20,0,0,stable
+BeforeAfterAttributeAcceptanceTests,BeforeAfterAttributeAcceptanceTests.TestMethodComesAfterTestClass,20,20,0,0,stable
+CollectionAcceptanceTests,CollectionAcceptanceTests.TwoClasses_OneInExplicitCollection_OneInDefaultCollection,20,20,0,0,stable
+CollectionPerAssemblyTestCollectionFactoryTests,CollectionPerAssemblyTestCollectionFactoryTests.DefaultCollectionIsAssemblyCollection,20,20,0,0,stable
+CollectionPerClassTestCollectionFactoryTests,CollectionPerClassTestCollectionFactoryTests.DefaultCollectionIsClassCollection,20,20,0,0,stable
+ConsoleCaptureTestOutputWriterTests,ConsoleCaptureTestOutputWriterTests.CapturesConsoleError,20,20,0,0,stable
+ConsoleCaptureTestOutputWriterTests,ConsoleCaptureTestOutputWriterTests.CapturesConsoleOut,20,20,0,0,stable
+ConsoleCaptureTestOutputWriterTests,ConsoleCaptureTestOutputWriterTests.OutputIsInterleaved,20,20,0,0,stable
+CoreTestAssemblyRunnerTests+Run,CoreTestAssemblyRunnerTests+Run.NonParallel,20,20,0,0,stable
+CoreTestAssemblyRunnerTests+Run,CoreTestAssemblyRunnerTests+Run.OrdersTestCollections,20,20,0,0,stable
+CoreTestAssemblyRunnerTests+Run,"CoreTestAssemblyRunnerTests+Run.ParallelModeHandling(testAssemblyParallelMode: All, testCollectionDisableParallelization: False, expectedOperation: null)",20,20,0,0,stable
+CoreTestAssemblyRunnerTests+Run,"CoreTestAssemblyRunnerTests+Run.ParallelModeHandling(testAssemblyParallelMode: All, testCollectionDisableParallelization: True, expectedOperation: \""RunSequentialTask<RunSummary>\"")",20,20,0,0,stable
+CoreTestAssemblyRunnerTests+Run,"CoreTestAssemblyRunnerTests+Run.ParallelModeHandling(testAssemblyParallelMode: Collections, testCollectionDisableParallelization: False, expectedOperation: \""RunParallelTask<RunSummary>\"")",20,20,0,0,stable
+CoreTestAssemblyRunnerTests+Run,"CoreTestAssemblyRunnerTests+Run.ParallelModeHandling(testAssemblyParallelMode: Collections, testCollectionDisableParallelization: True, expectedOperation: \""RunSequentialTask<RunSummary>\"")",20,20,0,0,stable
+CoreTestAssemblyRunnerTests+Run,"CoreTestAssemblyRunnerTests+Run.ParallelModeHandling(testAssemblyParallelMode: None, testCollectionDisableParallelization: False, expectedOperation: null)",20,20,0,0,stable
+CoreTestAssemblyRunnerTests+Run,"CoreTestAssemblyRunnerTests+Run.ParallelModeHandling(testAssemblyParallelMode: None, testCollectionDisableParallelization: True, expectedOperation: null)",20,20,0,0,stable
+CoreTestAssemblyRunnerTests+Run,CoreTestAssemblyRunnerTests+Run.Parallel_Aggressive,20,20,0,0,stable
+CoreTestAssemblyRunnerTests+Run,CoreTestAssemblyRunnerTests+Run.Parallel_Conversative,20,20,0,0,stable
+CoreTestAssemblyRunnerTests+Run,CoreTestAssemblyRunnerTests+Run.ThrowingOrderer,20,20,0,0,stable
+CoreTestCaseRunnerContextTests,"CoreTestCaseRunnerContextTests.ParallelModeHandling(parallelMode: All, disableParallelization: False, expectedParallelMode: All)",20,20,0,0,stable
+CoreTestCaseRunnerContextTests,"CoreTestCaseRunnerContextTests.ParallelModeHandling(parallelMode: All, disableParallelization: True, expectedParallelMode: None)",20,20,0,0,stable
+CoreTestCaseRunnerContextTests,"CoreTestCaseRunnerContextTests.ParallelModeHandling(parallelMode: None, disableParallelization: False, expectedParallelMode: None)",20,20,0,0,stable
+CoreTestCaseRunnerContextTests,"CoreTestCaseRunnerContextTests.ParallelModeHandling(parallelMode: None, disableParallelization: True, expectedParallelMode: None)",20,20,0,0,stable
+CoreTestCaseRunnerTests+Run,CoreTestCaseRunnerTests+Run.AggregatorContainsException_SkipsPreAndPostInvoke,20,20,0,0,stable
+CoreTestCaseRunnerTests+Run,"CoreTestCaseRunnerTests+Run.ParallelModeHandling(testCaseParallelMode: All, testDisableParallelization: False, expectedOperation: null)",20,20,0,0,stable
+CoreTestCaseRunnerTests+Run,"CoreTestCaseRunnerTests+Run.ParallelModeHandling(testCaseParallelMode: All, testDisableParallelization: True, expectedOperation: \""RunSequentialTask<RunSummary>\"")",20,20,0,0,stable
+CoreTestCaseRunnerTests+Run,"CoreTestCaseRunnerTests+Run.ParallelModeHandling(testCaseParallelMode: None, testDisableParallelization: False, expectedOperation: null)",20,20,0,0,stable
+CoreTestCaseRunnerTests+Run,"CoreTestCaseRunnerTests+Run.ParallelModeHandling(testCaseParallelMode: None, testDisableParallelization: True, expectedOperation: null)",20,20,0,0,stable
+CoreTestCaseRunnerTests+Run,CoreTestCaseRunnerTests+Run.PreInvokeFails_SkipsPostInvoke,20,20,0,0,stable
+CoreTestCaseRunnerTests+Run,CoreTestCaseRunnerTests+Run.RunsPreAndPostInvokeByDefault,20,20,0,0,stable
+CoreTestClassRunnerContextTests,"CoreTestClassRunnerContextTests.ParallelModeHandling(parallelMode: All, disableParallelization: False, expectedParallelMode: All)",20,20,0,0,stable
+CoreTestClassRunnerContextTests,"CoreTestClassRunnerContextTests.ParallelModeHandling(parallelMode: All, disableParallelization: True, expectedParallelMode: None)",20,20,0,0,stable
+CoreTestClassRunnerContextTests,"CoreTestClassRunnerContextTests.ParallelModeHandling(parallelMode: None, disableParallelization: False, expectedParallelMode: None)",20,20,0,0,stable
+CoreTestClassRunnerContextTests,"CoreTestClassRunnerContextTests.ParallelModeHandling(parallelMode: None, disableParallelization: True, expectedParallelMode: None)",20,20,0,0,stable
+CoreTestClassRunnerTests+Run,"CoreTestClassRunnerTests+Run.OrdersTestMethods(testClass: MockCoreTestClass { Class = (throws NotSupportedException), DisableParallelization = False, TestCaseOrderer = null, TestClassName = \""test-class-name\"", TestClassNamespace = \""test-class-namespace\"", ··· })",20,60,0,0,stable
+CoreTestClassRunnerTests+Run,"CoreTestClassRunnerTests+Run.ParallelModeHandling(testClassParallelMode: All, testMethodDisableParallelization: False, expectedOperation: null)",20,20,0,0,stable
+CoreTestClassRunnerTests+Run,"CoreTestClassRunnerTests+Run.ParallelModeHandling(testClassParallelMode: All, testMethodDisableParallelization: True, expectedOperation: \""RunSequentialTask<RunSummary>\"")",20,20,0,0,stable
+CoreTestClassRunnerTests+Run,"CoreTestClassRunnerTests+Run.ParallelModeHandling(testClassParallelMode: None, testMethodDisableParallelization: False, expectedOperation: null)",20,20,0,0,stable
+CoreTestClassRunnerTests+Run,"CoreTestClassRunnerTests+Run.ParallelModeHandling(testClassParallelMode: None, testMethodDisableParallelization: True, expectedOperation: null)",20,20,0,0,stable
+CoreTestClassRunnerTests+Run,CoreTestClassRunnerTests+Run.ThrowingOrderer,20,20,0,0,stable
+CoreTestCollectionRunnerContextTests,"CoreTestCollectionRunnerContextTests.ParallelModeHandling(parallelMode: All, disableParallelization: False, expectedParallelMode: All)",20,20,0,0,stable
+CoreTestCollectionRunnerContextTests,"CoreTestCollectionRunnerContextTests.ParallelModeHandling(parallelMode: All, disableParallelization: True, expectedParallelMode: None)",20,20,0,0,stable
+CoreTestCollectionRunnerContextTests,"CoreTestCollectionRunnerContextTests.ParallelModeHandling(parallelMode: Collections, disableParallelization: False, expectedParallelMode: None)",20,20,0,0,stable
+CoreTestCollectionRunnerContextTests,"CoreTestCollectionRunnerContextTests.ParallelModeHandling(parallelMode: Collections, disableParallelization: True, expectedParallelMode: None)",20,20,0,0,stable
+CoreTestCollectionRunnerContextTests,"CoreTestCollectionRunnerContextTests.ParallelModeHandling(parallelMode: None, disableParallelization: False, expectedParallelMode: None)",20,20,0,0,stable
+CoreTestCollectionRunnerContextTests,"CoreTestCollectionRunnerContextTests.ParallelModeHandling(parallelMode: None, disableParallelization: True, expectedParallelMode: None)",20,20,0,0,stable
+CoreTestCollectionRunnerTests+Run,"CoreTestCollectionRunnerTests+Run.OrdersTestClasses(testCollection: MockCoreTestCollection { DisableParallelization = False, TestAssembly = MockCoreTestAssembly { Assembly = (throws NotSupportedException), AssemblyName = \""test-assembly\"", AssemblyPath = \""./test-assembly.dll\"", ConfigFilePath = null, MaxParallelThreads = null, ··· }, TestCaseOrderer = null, TestClassOrderer = UnorderedTestClassOrderer { }, TestCollectionClassName = null, ··· })",20,20,0,0,stable
+CoreTestCollectionRunnerTests+Run,"CoreTestCollectionRunnerTests+Run.OrdersTestClasses(testCollection: MockCoreTestCollection { DisableParallelization = False, TestAssembly = MockCoreTestAssembly { Assembly = (throws NotSupportedException), AssemblyName = \""test-assembly\"", AssemblyPath = \""./test-assembly.dll\"", ConfigFilePath = null, MaxParallelThreads = null, ··· }, TestCaseOrderer = null, TestClassOrderer = null, TestCollectionClassName = null, ··· })",20,20,0,0,stable
+CoreTestCollectionRunnerTests+Run,"CoreTestCollectionRunnerTests+Run.ParallelModeHandling(testCollectionParallelMode: All, testClassDisableParallelization: False, expectedOperation: null)",20,20,0,0,stable
+CoreTestCollectionRunnerTests+Run,"CoreTestCollectionRunnerTests+Run.ParallelModeHandling(testCollectionParallelMode: All, testClassDisableParallelization: True, expectedOperation: \""RunSequentialTask<RunSummary>\"")",20,20,0,0,stable
+CoreTestCollectionRunnerTests+Run,"CoreTestCollectionRunnerTests+Run.ParallelModeHandling(testCollectionParallelMode: Collections, testClassDisableParallelization: False, expectedOperation: null)",20,20,0,0,stable
+CoreTestCollectionRunnerTests+Run,"CoreTestCollectionRunnerTests+Run.ParallelModeHandling(testCollectionParallelMode: Collections, testClassDisableParallelization: True, expectedOperation: null)",20,20,0,0,stable
+CoreTestCollectionRunnerTests+Run,"CoreTestCollectionRunnerTests+Run.ParallelModeHandling(testCollectionParallelMode: None, testClassDisableParallelization: False, expectedOperation: null)",20,20,0,0,stable
+CoreTestCollectionRunnerTests+Run,"CoreTestCollectionRunnerTests+Run.ParallelModeHandling(testCollectionParallelMode: None, testClassDisableParallelization: True, expectedOperation: null)",20,20,0,0,stable
+CoreTestCollectionRunnerTests+Run,CoreTestCollectionRunnerTests+Run.ThrowingOrderer,20,20,0,0,stable
+CoreTestMethodRunnerContextTests,"CoreTestMethodRunnerContextTests.ParallelModeHandling(parallelMode: All, disableParallelization: False, expectedParallelMode: All)",20,20,0,0,stable
+CoreTestMethodRunnerContextTests,"CoreTestMethodRunnerContextTests.ParallelModeHandling(parallelMode: All, disableParallelization: True, expectedParallelMode: None)",20,20,0,0,stable
+CoreTestMethodRunnerContextTests,"CoreTestMethodRunnerContextTests.ParallelModeHandling(parallelMode: None, disableParallelization: False, expectedParallelMode: None)",20,20,0,0,stable
+CoreTestMethodRunnerContextTests,"CoreTestMethodRunnerContextTests.ParallelModeHandling(parallelMode: None, disableParallelization: True, expectedParallelMode: None)",20,20,0,0,stable
+CoreTestMethodRunnerTests+Run,"CoreTestMethodRunnerTests+Run.OrdersTestCases(testMethod: MockCoreTestMethod { DisableParallelization = False, MethodArity = 0, MethodName = \""test-method\"", TestCaseOrderer = UnorderedTestCaseOrderer { }, TestClass = MockCoreTestClass { Class = (throws NotSupportedException), DisableParallelization = False, TestCaseOrderer = null, TestClassName = \""test-class-name\"", TestClassNamespace = \""test-class-namespace\"", ··· }, ··· })",20,20,0,0,stable
+CoreTestMethodRunnerTests+Run,"CoreTestMethodRunnerTests+Run.OrdersTestCases(testMethod: MockCoreTestMethod { DisableParallelization = False, MethodArity = 0, MethodName = \""test-method\"", TestCaseOrderer = null, TestClass = MockCoreTestClass { Class = (throws NotSupportedException), DisableParallelization = False, TestCaseOrderer = UnorderedTestCaseOrderer { ··· }, TestClassName = \""test-class-name\"", TestClassNamespace = \""test-class-namespace\"", ··· }, ··· })",20,20,0,0,stable
+CoreTestMethodRunnerTests+Run,"CoreTestMethodRunnerTests+Run.OrdersTestCases(testMethod: MockCoreTestMethod { DisableParallelization = False, MethodArity = 0, MethodName = \""test-method\"", TestCaseOrderer = null, TestClass = MockCoreTestClass { Class = (throws NotSupportedException), DisableParallelization = False, TestCaseOrderer = null, TestClassName = \""test-class-name\"", TestClassNamespace = \""test-class-namespace\"", ··· }, ··· })",20,40,0,0,stable
+CoreTestMethodRunnerTests+Run,"CoreTestMethodRunnerTests+Run.ParallelModeHandling(testMethodParallelMode: All, testCaseDisableParallelization: False, expectedOperation: null)",20,20,0,0,stable
+CoreTestMethodRunnerTests+Run,"CoreTestMethodRunnerTests+Run.ParallelModeHandling(testMethodParallelMode: All, testCaseDisableParallelization: True, expectedOperation: \""RunSequentialTask<RunSummary>\"")",20,20,0,0,stable
+CoreTestMethodRunnerTests+Run,"CoreTestMethodRunnerTests+Run.ParallelModeHandling(testMethodParallelMode: None, testCaseDisableParallelization: False, expectedOperation: null)",20,20,0,0,stable
+CoreTestMethodRunnerTests+Run,"CoreTestMethodRunnerTests+Run.ParallelModeHandling(testMethodParallelMode: None, testCaseDisableParallelization: True, expectedOperation: null)",20,20,0,0,stable
+CoreTestMethodRunnerTests+Run,CoreTestMethodRunnerTests+Run.ThrowingOrderer,20,20,0,0,stable
+CoreTestRunnerContextTests,"CoreTestRunnerContextTests.ParallelModeHandling(parallelMode: All, disableParallelization: False, expectedParallelMode: All)",20,20,0,0,stable
+CoreTestRunnerContextTests,"CoreTestRunnerContextTests.ParallelModeHandling(parallelMode: All, disableParallelization: True, expectedParallelMode: None)",20,20,0,0,stable
+CoreTestRunnerContextTests,"CoreTestRunnerContextTests.ParallelModeHandling(parallelMode: None, disableParallelization: False, expectedParallelMode: None)",20,20,0,0,stable
+CoreTestRunnerContextTests,"CoreTestRunnerContextTests.ParallelModeHandling(parallelMode: None, disableParallelization: True, expectedParallelMode: None)",20,20,0,0,stable
+CoreTestRunnerTests+Run,CoreTestRunnerTests+Run.CallsBeforeAfterAttributes,20,20,0,0,stable
+CoreTestRunnerTests+Run,CoreTestRunnerTests+Run.DynamicallySkipped_ViaMessageToken,20,20,0,0,stable
+CoreTestRunnerTests+Run,CoreTestRunnerTests+Run.DynamicallySkipped_ViaSkipException_EmptyMessage,20,20,0,0,stable
+CoreTestRunnerTests+Run,CoreTestRunnerTests+Run.DynamicallySkipped_ViaSkipException_NonEmptyMessage,20,20,0,0,stable
+CoreTestRunnerTests+Run,CoreTestRunnerTests+Run.DynamicallySkipped_ViaSkipException_NullMessage,20,20,0,0,stable
+CoreTestRunnerTests+Run,"CoreTestRunnerTests+Run.ParallelModeHandling(testParallelMode: All, testDisableParallelization: False, expectedOperation: \""RunParallelTask<TimeSpan>\"")",20,20,0,0,stable
+CoreTestRunnerTests+Run,"CoreTestRunnerTests+Run.ParallelModeHandling(testParallelMode: All, testDisableParallelization: True, expectedOperation: null)",20,20,0,0,stable
+CoreTestRunnerTests+Run,"CoreTestRunnerTests+Run.ParallelModeHandling(testParallelMode: None, testDisableParallelization: False, expectedOperation: null)",20,20,0,0,stable
+CoreTestRunnerTests+Run,"CoreTestRunnerTests+Run.ParallelModeHandling(testParallelMode: None, testDisableParallelization: True, expectedOperation: null)",20,20,0,0,stable
+CoreTestRunnerTests+Run,CoreTestRunnerTests+Run.StaticallySkipped,20,20,0,0,stable
+CulturedFactAttributeTests,CulturedFactAttributeTests.MultipleCultures,20,20,0,0,stable
+CulturedFactAttributeTests,CulturedFactAttributeTests.NoCultures,20,20,0,0,stable
+CulturedFactAttributeTests,CulturedFactAttributeTests.SingleCulture,20,20,0,0,stable
+CulturedTheoryAttributeTests,CulturedTheoryAttributeTests.IndexedMultipleCultures,20,20,0,0,stable
+CulturedTheoryAttributeTests,CulturedTheoryAttributeTests.IndexedSingleCulture,20,20,0,0,stable
+CulturedTheoryAttributeTests,CulturedTheoryAttributeTests.MultipleCultures,20,20,0,0,stable
+CulturedTheoryAttributeTests,CulturedTheoryAttributeTests.SingleCulture,20,20,0,0,stable
+DefaultInterfaceMethodAcceptanceTests,DefaultInterfaceMethodAcceptanceTests.AcceptanceTest,20,20,0,0,stable
+DefaultTestCaseOrdererTests,DefaultTestCaseOrdererTests.OrderIsStable,20,20,0,0,stable
+DefaultTestCaseOrdererTests,DefaultTestCaseOrdererTests.OrderIsUnpredictable,20,20,0,0,stable
+DefaultTestClassOrdererTests,DefaultTestClassOrdererTests.OrderIsStable,20,20,0,0,stable
+DefaultTestClassOrdererTests,DefaultTestClassOrdererTests.OrderIsUnpredictable,20,20,0,0,stable
+DefaultTestCollectionOrdererTests,DefaultTestCollectionOrdererTests.OrderIsStable,20,20,0,0,stable
+DefaultTestCollectionOrdererTests,DefaultTestCollectionOrdererTests.OrderIsUnpredictable,20,20,0,0,stable
+DefaultTestMethodOrdererTests,DefaultTestMethodOrdererTests.OrderIsStable,20,20,0,0,stable
+DefaultTestMethodOrdererTests,DefaultTestMethodOrdererTests.OrderIsUnpredictable,20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""FormattedDisplayNameExample.Parameter_X22RETURN_VA\""···, expected: \""FormattedDisplayNameExample, Parameter \\\""RETURN VAL\""···)",20,40,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""FormattedDisplayNameExample.TestMethodAsync\"", expected: \""FormattedDisplayNameExample, TestMethod\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""FormattedDisplayNameExample.TestNameShouldRemainUn\""···, expected: \""FormattedDisplayNameExample, TestNameShouldRemainU\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""FormattedDisplayNameExample.TestX20NameX20WithU002\""···, expected: \""FormattedDisplayNameExample, Test Name With Spaces\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""FormattedDisplayNameExample.X27maxed_outX27_should\""···, expected: \""FormattedDisplayNameExample, 'maxed out' should no\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""FormattedDisplayNameExample.X27stuffedX27_should_n\""···, expected: \""FormattedDisplayNameExample, 'stuffed' should not \""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""FormattedDisplayNameExample.X3DX3D_operator_overlo\""···, expected: \""FormattedDisplayNameExample, == operator overload \""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""FormattedDisplayNameExample.api_version_1X2E0_shou\""···, expected: \""FormattedDisplayNameExample, api version 1.0 shoul\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""FormattedDisplayNameExample.api_version_1_eq_1X2E0\"", expected: \""FormattedDisplayNameExample, api version 1 = 1.0\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""FormattedDisplayNameExample.api_version_1_should_b\""···, expected: \""FormattedDisplayNameExample, api version 1 should \""···)",20,40,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""FormattedDisplayNameExample.api_version_2_should_b\""···, expected: \""FormattedDisplayNameExample, api version 2 should \""···)",20,40,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""FormattedDisplayNameExample.api_version_should_be_\""···, expected: \""FormattedDisplayNameExample, api version should be\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""FormattedDisplayNameExample.equals_operator_overlo\""···, expected: \""FormattedDisplayNameExample, equals operator overl\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""FormattedDisplayNameExample.lt_0_should_be_an_erro\""···, expected: \""FormattedDisplayNameExample, < 0 should be an erro\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""FormattedDisplayNameExample.masculine_super_heroes\""···, expected: \""FormattedDisplayNameExample, masculine super heroe\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""FormattedDisplayNameExample.termination_date_shoul\""···, expected: \""FormattedDisplayNameExample, termination date shou\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""FormattedDisplayNameExample.total_amount_should_be\""···, expected: \""FormattedDisplayNameExample, total amount should b\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""FormattedDisplayNameExample.unit_tests_are_awesome\""···, expected: \""FormattedDisplayNameExample, unit tests are awesom\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithAllOptions(name: \""Given_a_version_number.when_it_equals_1.then_it_sh\""···, expected: \""Given a version number, when it equals 1, then it \""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndEscapeSequences(name: \""FormattedDisplayNameExample.Parameter_X22RETURN_VA\""···, expected: \""FormattedDisplayNameExample.Parameter \\\""RETURN VALU\""···)",20,40,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndEscapeSequences(name: \""FormattedDisplayNameExample.TestNameShouldRemainUn\""···, expected: \""FormattedDisplayNameExample.TestNameShouldRemainUn\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndEscapeSequences(name: \""FormattedDisplayNameExample.TestX20NameX20WithU002\""···, expected: \""FormattedDisplayNameExample.Test Name With Spaces\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndEscapeSequences(name: \""FormattedDisplayNameExample.X27maxed_outX27_should\""···, expected: \""FormattedDisplayNameExample.'maxed out' should not\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndEscapeSequences(name: \""FormattedDisplayNameExample.X27stuffedX27_should_n\""···, expected: \""FormattedDisplayNameExample.'stuffed' should not b\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndEscapeSequences(name: \""FormattedDisplayNameExample.X3DX3D_operator_overlo\""···, expected: \""FormattedDisplayNameExample.== operator overload s\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndEscapeSequences(name: \""FormattedDisplayNameExample.api_version_1X2E0_shou\""···, expected: \""FormattedDisplayNameExample.api version 1.0 should\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndEscapeSequences(name: \""FormattedDisplayNameExample.api_version_1_eq_1X2E0\"", expected: \""FormattedDisplayNameExample.api version 1 eq 1.0\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndEscapeSequences(name: \""FormattedDisplayNameExample.api_version_1_should_b\""···, expected: \""FormattedDisplayNameExample.api version 1 should b\""···)",20,40,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndEscapeSequences(name: \""FormattedDisplayNameExample.api_version_2_should_b\""···, expected: \""FormattedDisplayNameExample.api version 2 should b\""···)",20,40,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndEscapeSequences(name: \""FormattedDisplayNameExample.api_version_should_be_\""···, expected: \""FormattedDisplayNameExample.api version should be \""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndEscapeSequences(name: \""FormattedDisplayNameExample.equals_operator_overlo\""···, expected: \""FormattedDisplayNameExample.equals operator overlo\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndEscapeSequences(name: \""FormattedDisplayNameExample.lt_0_should_be_an_erro\""···, expected: \""FormattedDisplayNameExample.lt 0 should be an erro\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndEscapeSequences(name: \""FormattedDisplayNameExample.masculine_super_heroes\""···, expected: \""FormattedDisplayNameExample.masculine super heroes\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndEscapeSequences(name: \""FormattedDisplayNameExample.termination_date_shoul\""···, expected: \""FormattedDisplayNameExample.termination date shoul\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndEscapeSequences(name: \""FormattedDisplayNameExample.total_amount_should_be\""···, expected: \""FormattedDisplayNameExample.total amount should be\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndEscapeSequences(name: \""FormattedDisplayNameExample.unit_tests_are_awesome\""···, expected: \""FormattedDisplayNameExample.unit tests are awesome\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndEscapeSequences(name: \""Given_a_version_number.when_it_equals_1.then_it_sh\""···, expected: \""Given a version number.when it equals 1.then it sh\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndOperators(name: \""FormattedDisplayNameExample.Parameter_X22RETURN_VA\""···, expected: \""FormattedDisplayNameExample.Parameter X22RETURN VA\""···)",20,40,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndOperators(name: \""FormattedDisplayNameExample.TestNameShouldRemainUn\""···, expected: \""FormattedDisplayNameExample.TestNameShouldRemainUn\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndOperators(name: \""FormattedDisplayNameExample.TestX20NameX20WithU002\""···, expected: \""FormattedDisplayNameExample.TestX20NameX20WithU002\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndOperators(name: \""FormattedDisplayNameExample.X27maxed_outX27_should\""···, expected: \""FormattedDisplayNameExample.X27maxed outX27 should\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndOperators(name: \""FormattedDisplayNameExample.X27stuffedX27_should_n\""···, expected: \""FormattedDisplayNameExample.X27stuffedX27 should n\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndOperators(name: \""FormattedDisplayNameExample.X3DX3D_operator_overlo\""···, expected: \""FormattedDisplayNameExample.X3DX3D operator overlo\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndOperators(name: \""FormattedDisplayNameExample.api_version_1X2E0_shou\""···, expected: \""FormattedDisplayNameExample.api version 1X2E0 shou\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndOperators(name: \""FormattedDisplayNameExample.api_version_1_eq_1X2E0\"", expected: \""FormattedDisplayNameExample.api version 1 = 1X2E0\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndOperators(name: \""FormattedDisplayNameExample.api_version_1_should_b\""···, expected: \""FormattedDisplayNameExample.api version 1 should b\""···)",20,40,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndOperators(name: \""FormattedDisplayNameExample.api_version_2_should_b\""···, expected: \""FormattedDisplayNameExample.api version 2 should b\""···)",20,40,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndOperators(name: \""FormattedDisplayNameExample.api_version_should_be_\""···, expected: \""FormattedDisplayNameExample.api version should be \""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndOperators(name: \""FormattedDisplayNameExample.equals_operator_overlo\""···, expected: \""FormattedDisplayNameExample.equals operator overlo\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndOperators(name: \""FormattedDisplayNameExample.lt_0_should_be_an_erro\""···, expected: \""FormattedDisplayNameExample.< 0 should be an error\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndOperators(name: \""FormattedDisplayNameExample.masculine_super_heroes\""···, expected: \""FormattedDisplayNameExample.masculine super heroes\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndOperators(name: \""FormattedDisplayNameExample.termination_date_shoul\""···, expected: \""FormattedDisplayNameExample.termination date shoul\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndOperators(name: \""FormattedDisplayNameExample.total_amount_should_be\""···, expected: \""FormattedDisplayNameExample.total amount should be\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndOperators(name: \""FormattedDisplayNameExample.unit_tests_are_awesome\""···, expected: \""FormattedDisplayNameExample.unit tests are awesome\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithReplacedSpacesAndOperators(name: \""Given_a_version_number.when_it_equals_1.then_it_sh\""···, expected: \""Given a version number.when it equals 1.then it sh\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithSpacesInsteadOfUnderscores(name: \""FormattedDisplayNameExample.Parameter_X22RETURN_VA\""···, expected: \""FormattedDisplayNameExample.Parameter X22RETURN VA\""···)",20,40,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithSpacesInsteadOfUnderscores(name: \""FormattedDisplayNameExample.TestNameShouldRemainUn\""···, expected: \""FormattedDisplayNameExample.TestNameShouldRemainUn\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithSpacesInsteadOfUnderscores(name: \""FormattedDisplayNameExample.TestX20NameX20WithU002\""···, expected: \""FormattedDisplayNameExample.TestX20NameX20WithU002\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithSpacesInsteadOfUnderscores(name: \""FormattedDisplayNameExample.X27maxed_outX27_should\""···, expected: \""FormattedDisplayNameExample.X27maxed outX27 should\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithSpacesInsteadOfUnderscores(name: \""FormattedDisplayNameExample.X27stuffedX27_should_n\""···, expected: \""FormattedDisplayNameExample.X27stuffedX27 should n\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithSpacesInsteadOfUnderscores(name: \""FormattedDisplayNameExample.X3DX3D_operator_overlo\""···, expected: \""FormattedDisplayNameExample.X3DX3D operator overlo\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithSpacesInsteadOfUnderscores(name: \""FormattedDisplayNameExample.api_version_1X2E0_shou\""···, expected: \""FormattedDisplayNameExample.api version 1X2E0 shou\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithSpacesInsteadOfUnderscores(name: \""FormattedDisplayNameExample.api_version_1_eq_1X2E0\"", expected: \""FormattedDisplayNameExample.api version 1 eq 1X2E0\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithSpacesInsteadOfUnderscores(name: \""FormattedDisplayNameExample.api_version_1_should_b\""···, expected: \""FormattedDisplayNameExample.api version 1 should b\""···)",20,40,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithSpacesInsteadOfUnderscores(name: \""FormattedDisplayNameExample.api_version_2_should_b\""···, expected: \""FormattedDisplayNameExample.api version 2 should b\""···)",20,40,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithSpacesInsteadOfUnderscores(name: \""FormattedDisplayNameExample.api_version_should_be_\""···, expected: \""FormattedDisplayNameExample.api version should be \""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithSpacesInsteadOfUnderscores(name: \""FormattedDisplayNameExample.equals_operator_overlo\""···, expected: \""FormattedDisplayNameExample.equals operator overlo\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithSpacesInsteadOfUnderscores(name: \""FormattedDisplayNameExample.lt_0_should_be_an_erro\""···, expected: \""FormattedDisplayNameExample.lt 0 should be an erro\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithSpacesInsteadOfUnderscores(name: \""FormattedDisplayNameExample.masculine_super_heroes\""···, expected: \""FormattedDisplayNameExample.masculine super heroes\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithSpacesInsteadOfUnderscores(name: \""FormattedDisplayNameExample.termination_date_shoul\""···, expected: \""FormattedDisplayNameExample.termination date shoul\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithSpacesInsteadOfUnderscores(name: \""FormattedDisplayNameExample.total_amount_should_be\""···, expected: \""FormattedDisplayNameExample.total amount should be\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithSpacesInsteadOfUnderscores(name: \""FormattedDisplayNameExample.unit_tests_are_awesome\""···, expected: \""FormattedDisplayNameExample.unit tests are awesome\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithSpacesInsteadOfUnderscores(name: \""Given_a_version_number.when_it_equals_1.then_it_sh\""···, expected: \""Given a version number.when it equals 1.then it sh\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""FormattedDisplayNameExample.Parameter_X22RETURN_VA\""···, expected: \""FormattedDisplayNameExample.Parameter_X22RETURN_VA\""···)",20,40,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""FormattedDisplayNameExample.TestMethodAsync\"", expected: \""FormattedDisplayNameExample.TestMethodAsync\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""FormattedDisplayNameExample.TestNameShouldRemainUn\""···, expected: \""FormattedDisplayNameExample.TestNameShouldRemainUn\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""FormattedDisplayNameExample.TestX20NameX20WithU002\""···, expected: \""FormattedDisplayNameExample.TestX20NameX20WithU002\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""FormattedDisplayNameExample.X27maxed_outX27_should\""···, expected: \""FormattedDisplayNameExample.X27maxed_outX27_should\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""FormattedDisplayNameExample.X27stuffedX27_should_n\""···, expected: \""FormattedDisplayNameExample.X27stuffedX27_should_n\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""FormattedDisplayNameExample.X3DX3D_operator_overlo\""···, expected: \""FormattedDisplayNameExample.X3DX3D_operator_overlo\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""FormattedDisplayNameExample.api_version_1X2E0_shou\""···, expected: \""FormattedDisplayNameExample.api_version_1X2E0_shou\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""FormattedDisplayNameExample.api_version_1_eq_1X2E0\"", expected: \""FormattedDisplayNameExample.api_version_1_eq_1X2E0\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""FormattedDisplayNameExample.api_version_1_should_b\""···, expected: \""FormattedDisplayNameExample.api_version_1_should_b\""···)",20,40,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""FormattedDisplayNameExample.api_version_2_should_b\""···, expected: \""FormattedDisplayNameExample.api_version_2_should_b\""···)",20,40,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""FormattedDisplayNameExample.api_version_should_be_\""···, expected: \""FormattedDisplayNameExample.api_version_should_be_\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""FormattedDisplayNameExample.equals_operator_overlo\""···, expected: \""FormattedDisplayNameExample.equals_operator_overlo\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""FormattedDisplayNameExample.lt_0_should_be_an_erro\""···, expected: \""FormattedDisplayNameExample.lt_0_should_be_an_erro\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""FormattedDisplayNameExample.masculine_super_heroes\""···, expected: \""FormattedDisplayNameExample.masculine_super_heroes\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""FormattedDisplayNameExample.termination_date_shoul\""···, expected: \""FormattedDisplayNameExample.termination_date_shoul\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""FormattedDisplayNameExample.total_amount_should_be\""···, expected: \""FormattedDisplayNameExample.total_amount_should_be\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""FormattedDisplayNameExample.unit_tests_are_awesome\""···, expected: \""FormattedDisplayNameExample.unit_tests_are_awesome\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromClassAndMethodWithoutAnyOptions(name: \""Given_a_version_number.when_it_equals_1.then_it_sh\""···, expected: \""Given_a_version_number.when_it_equals_1.then_it_sh\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""Parameter_X22RETURN_VALUEX22_is_always_added\"", expected: \""Parameter \\\""RETURN VALUE\\\"" is always added\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""Parameter_X22RETURN_VALUE_X22_is_always_added\"", expected: \""Parameter \\\""RETURN VALUE \\\"" is always added\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""TestMethodAsync\"", expected: \""TestMethod\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""TestNameShouldRemainUnchanged\"", expected: \""TestNameShouldRemainUnchanged\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""TestX20NameX20WithU0020Spaces\"", expected: \""Test Name With Spaces\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""X27maxed_outX27_should_not_be_ambiguous_with_X27ma\""···, expected: \""'maxed out' should not be ambiguous with 'maí out'\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""X27stuffedX27_should_not_be_ambiguous_with_X27stUF\""···, expected: \""'stuffed' should not be ambiguous with 'st￭'\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""X3DX3D_operator_overload_should_be_same_as_equals_\""···, expected: \""== operator overload should be same as equals meth\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""api_version_1X2E0_should_ne_2U002E0\"", expected: \""api version 1.0 should != 2.0\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""api_version_1_eq_1X2E0\"", expected: \""api version 1 = 1.0\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""api_version_1_should_be_le_than_2\"", expected: \""api version 1 should be <= than 2\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""api_version_1_should_be_lt_than_2\"", expected: \""api version 1 should be < than 2\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""api_version_2_should_be_ge_than_1\"", expected: \""api version 2 should be >= than 1\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""api_version_2_should_be_gt_than_1\"", expected: \""api version 2 should be > than 1\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""api_version_should_be_greater_than_1\"", expected: \""api version should be greater than 1\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""equals_operator_overload_should_be_same_as_eq_eq\"", expected: \""equals operator overload should be same as = =\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""lt_0_should_be_an_error\"", expected: \""< 0 should be an error\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""masculine_super_heroes_should_be_buffed\"", expected: \""masculine super heroes should be buffed\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""termination_date_should_be_updated_when_employee_i\""···, expected: \""termination date should be updated when employee i\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""then_it_should_be_less_than_2\"", expected: \""then it should be less than 2\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""total_amount_should_be_updated_when_order_is_taxed\"", expected: \""total amount should be updated when order is taxed\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithAllOptions(name: \""unit_tests_are_awesomeX21_U263A\"", expected: \""unit tests are awesome! ☺\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""Parameter_X22RETURN_VALUEX22_is_always_added\"", expected: \""Parameter \\\""RETURN VALUE\\\"" is always added\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""Parameter_X22RETURN_VALUE_X22_is_always_added\"", expected: \""Parameter \\\""RETURN VALUE \\\"" is always added\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""TestNameShouldRemainUnchanged\"", expected: \""TestNameShouldRemainUnchanged\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""TestX20NameX20WithU0020Spaces\"", expected: \""Test Name With Spaces\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""X27maxed_outX27_should_not_be_ambiguous_with_X27ma\""···, expected: \""'maxed out' should not be ambiguous with 'maí out'\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""X27stuffedX27_should_not_be_ambiguous_with_X27stUF\""···, expected: \""'stuffed' should not be ambiguous with 'st￭'\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""X3DX3D_operator_overload_should_be_same_as_equals_\""···, expected: \""== operator overload should be same as equals meth\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""api_version_1X2E0_should_ne_2U002E0\"", expected: \""api version 1.0 should ne 2.0\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""api_version_1_eq_1X2E0\"", expected: \""api version 1 eq 1.0\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""api_version_1_should_be_le_than_2\"", expected: \""api version 1 should be le than 2\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""api_version_1_should_be_lt_than_2\"", expected: \""api version 1 should be lt than 2\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""api_version_2_should_be_ge_than_1\"", expected: \""api version 2 should be ge than 1\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""api_version_2_should_be_gt_than_1\"", expected: \""api version 2 should be gt than 1\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""api_version_should_be_greater_than_1\"", expected: \""api version should be greater than 1\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""equals_operator_overload_should_be_same_as_eq_eq\"", expected: \""equals operator overload should be same as eq eq\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""lt_0_should_be_an_error\"", expected: \""lt 0 should be an error\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""masculine_super_heroes_should_be_buffed\"", expected: \""masculine super heroes should be buffed\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""termination_date_should_be_updated_when_employee_i\""···, expected: \""termination date should be updated when employee i\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""then_it_should_be_less_than_2\"", expected: \""then it should be less than 2\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""total_amount_should_be_updated_when_order_is_taxed\"", expected: \""total amount should be updated when order is taxed\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndEscapeSequences(name: \""unit_tests_are_awesomeX21_U263A\"", expected: \""unit tests are awesome! ☺\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""Parameter_X22RETURN_VALUEX22_is_always_added\"", expected: \""Parameter X22RETURN VALUEX22 is always added\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""Parameter_X22RETURN_VALUE_X22_is_always_added\"", expected: \""Parameter X22RETURN VALUE X22 is always added\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""TestNameShouldRemainUnchanged\"", expected: \""TestNameShouldRemainUnchanged\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""TestX20NameX20WithU0020Spaces\"", expected: \""TestX20NameX20WithU0020Spaces\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""X27maxed_outX27_should_not_be_ambiguous_with_X27ma\""···, expected: \""X27maxed outX27 should not be ambiguous with X27ma\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""X27stuffedX27_should_not_be_ambiguous_with_X27stUF\""···, expected: \""X27stuffedX27 should not be ambiguous with X27stUF\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""X3DX3D_operator_overload_should_be_same_as_equals_\""···, expected: \""X3DX3D operator overload should be same as equals \""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""api_version_1X2E0_should_ne_2U002E0\"", expected: \""api version 1X2E0 should != 2U002E0\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""api_version_1_eq_1X2E0\"", expected: \""api version 1 = 1X2E0\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""api_version_1_should_be_le_than_2\"", expected: \""api version 1 should be <= than 2\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""api_version_1_should_be_lt_than_2\"", expected: \""api version 1 should be < than 2\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""api_version_2_should_be_ge_than_1\"", expected: \""api version 2 should be >= than 1\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""api_version_2_should_be_gt_than_1\"", expected: \""api version 2 should be > than 1\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""api_version_should_be_greater_than_1\"", expected: \""api version should be greater than 1\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""equals_operator_overload_should_be_same_as_eq_eq\"", expected: \""equals operator overload should be same as = =\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""lt_0_should_be_an_error\"", expected: \""< 0 should be an error\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""masculine_super_heroes_should_be_buffed\"", expected: \""masculine super heroes should be buffed\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""termination_date_should_be_updated_when_employee_i\""···, expected: \""termination date should be updated when employee i\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""then_it_should_be_less_than_2\"", expected: \""then it should be less than 2\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""total_amount_should_be_updated_when_order_is_taxed\"", expected: \""total amount should be updated when order is taxed\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithReplacedSpacesAndOperators(name: \""unit_tests_are_awesomeX21_U263A\"", expected: \""unit tests are awesomeX21 U263A\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""Parameter_X22RETURN_VALUEX22_is_always_added\"", expected: \""Parameter X22RETURN VALUEX22 is always added\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""Parameter_X22RETURN_VALUE_X22_is_always_added\"", expected: \""Parameter X22RETURN VALUE X22 is always added\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""TestNameShouldRemainUnchanged\"", expected: \""TestNameShouldRemainUnchanged\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""TestX20NameX20WithU0020Spaces\"", expected: \""TestX20NameX20WithU0020Spaces\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""X27maxed_outX27_should_not_be_ambiguous_with_X27ma\""···, expected: \""X27maxed outX27 should not be ambiguous with X27ma\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""X27stuffedX27_should_not_be_ambiguous_with_X27stUF\""···, expected: \""X27stuffedX27 should not be ambiguous with X27stUF\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""X3DX3D_operator_overload_should_be_same_as_equals_\""···, expected: \""X3DX3D operator overload should be same as equals \""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""api_version_1X2E0_should_ne_2U002E0\"", expected: \""api version 1X2E0 should ne 2U002E0\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""api_version_1_eq_1X2E0\"", expected: \""api version 1 eq 1X2E0\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""api_version_1_should_be_le_than_2\"", expected: \""api version 1 should be le than 2\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""api_version_1_should_be_lt_than_2\"", expected: \""api version 1 should be lt than 2\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""api_version_2_should_be_ge_than_1\"", expected: \""api version 2 should be ge than 1\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""api_version_2_should_be_gt_than_1\"", expected: \""api version 2 should be gt than 1\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""api_version_should_be_greater_than_1\"", expected: \""api version should be greater than 1\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""equals_operator_overload_should_be_same_as_eq_eq\"", expected: \""equals operator overload should be same as eq eq\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""lt_0_should_be_an_error\"", expected: \""lt 0 should be an error\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""masculine_super_heroes_should_be_buffed\"", expected: \""masculine super heroes should be buffed\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""termination_date_should_be_updated_when_employee_i\""···, expected: \""termination date should be updated when employee i\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""then_it_should_be_less_than_2\"", expected: \""then it should be less than 2\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""total_amount_should_be_updated_when_order_is_taxed\"", expected: \""total amount should be updated when order is taxed\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithSpacesInsteadOfUnderscores(name: \""unit_tests_are_awesomeX21_U263A\"", expected: \""unit tests are awesomeX21 U263A\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""Parameter_X22RETURN_VALUEX22_is_always_added\"", expected: \""Parameter_X22RETURN_VALUEX22_is_always_added\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""Parameter_X22RETURN_VALUE_X22_is_always_added\"", expected: \""Parameter_X22RETURN_VALUE_X22_is_always_added\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""TestMethodAsync\"", expected: \""TestMethodAsync\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""TestNameShouldRemainUnchanged\"", expected: \""TestNameShouldRemainUnchanged\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""TestX20NameX20WithU0020Spaces\"", expected: \""TestX20NameX20WithU0020Spaces\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""X27maxed_outX27_should_not_be_ambiguous_with_X27ma\""···, expected: \""X27maxed_outX27_should_not_be_ambiguous_with_X27ma\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""X27stuffedX27_should_not_be_ambiguous_with_X27stUF\""···, expected: \""X27stuffedX27_should_not_be_ambiguous_with_X27stUF\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""X3DX3D_operator_overload_should_be_same_as_equals_\""···, expected: \""X3DX3D_operator_overload_should_be_same_as_equals_\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""api_version_1X2E0_should_ne_2U002E0\"", expected: \""api_version_1X2E0_should_ne_2U002E0\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""api_version_1_eq_1X2E0\"", expected: \""api_version_1_eq_1X2E0\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""api_version_1_should_be_le_than_2\"", expected: \""api_version_1_should_be_le_than_2\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""api_version_1_should_be_lt_than_2\"", expected: \""api_version_1_should_be_lt_than_2\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""api_version_2_should_be_ge_than_1\"", expected: \""api_version_2_should_be_ge_than_1\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""api_version_2_should_be_gt_than_1\"", expected: \""api_version_2_should_be_gt_than_1\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""api_version_should_be_greater_than_1\"", expected: \""api_version_should_be_greater_than_1\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""equals_operator_overload_should_be_same_as_eq_eq\"", expected: \""equals_operator_overload_should_be_same_as_eq_eq\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""lt_0_should_be_an_error\"", expected: \""lt_0_should_be_an_error\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""masculine_super_heroes_should_be_buffed\"", expected: \""masculine_super_heroes_should_be_buffed\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""termination_date_should_be_updated_when_employee_i\""···, expected: \""termination_date_should_be_updated_when_employee_i\""···)",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""then_it_should_be_less_than_2\"", expected: \""then_it_should_be_less_than_2\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""total_amount_should_be_updated_when_order_is_taxed\"", expected: \""total_amount_should_be_updated_when_order_is_taxed\"")",20,20,0,0,stable
+DisplayNameFormatterTests,"DisplayNameFormatterTests.FormatShouldReturnExpectedDisplayNameFromMethodWithoutAnyOptions(name: \""unit_tests_are_awesomeX21_U263A\"", expected: \""unit_tests_are_awesomeX21_U263A\"")",20,20,0,0,stable
+DynamicSkipAcceptanceTests+Skip,DynamicSkipAcceptanceTests+Skip.AcceptanceTest,20,20,0,0,stable
+DynamicSkipAcceptanceTests+Skip,DynamicSkipAcceptanceTests+Skip.GuardClause,20,20,0,0,stable
+DynamicSkipAcceptanceTests+SkipExceptions,DynamicSkipAcceptanceTests+SkipExceptions.AcceptanceTest,20,20,0,0,stable
+DynamicSkipAcceptanceTests+SkipUnless,DynamicSkipAcceptanceTests+SkipUnless.AcceptanceTest,20,20,0,0,stable
+DynamicSkipAcceptanceTests+SkipUnless,DynamicSkipAcceptanceTests+SkipUnless.GuardClause,20,20,0,0,stable
+DynamicSkipAcceptanceTests+SkipWhen,DynamicSkipAcceptanceTests+SkipWhen.AcceptanceTest,20,20,0,0,stable
+DynamicSkipAcceptanceTests+SkipWhen,DynamicSkipAcceptanceTests+SkipWhen.GuardClause,20,20,0,0,stable
+ExceptionAggregatorTests,ExceptionAggregatorTests.CanAddOneAggregatorToAnother,20,20,0,0,stable
+ExceptionAggregatorTests,ExceptionAggregatorTests.CapturesException,20,20,0,0,stable
+ExceptionAggregatorTests,ExceptionAggregatorTests.CapturesExceptionAsync,20,20,0,0,stable
+ExceptionAggregatorTests,ExceptionAggregatorTests.EmptyByDefault,20,20,0,0,stable
+ExecutionErrorTestCaseTests,ExecutionErrorTestCaseTests.Cancellation_TriggersCancellationTokenSource(messageTypeToCancelOn: typeof(Xunit.Sdk.ITestFailed)),20,20,0,0,stable
+ExecutionErrorTestCaseTests,ExecutionErrorTestCaseTests.Cancellation_TriggersCancellationTokenSource(messageTypeToCancelOn: typeof(Xunit.Sdk.ITestFinished)),20,20,0,0,stable
+ExecutionErrorTestCaseTests,ExecutionErrorTestCaseTests.Cancellation_TriggersCancellationTokenSource(messageTypeToCancelOn: typeof(Xunit.Sdk.ITestStarting)),20,20,0,0,stable
+ExecutionErrorTestCaseTests,ExecutionErrorTestCaseTests.Messages_WithAggregatedError,20,20,0,0,stable
+ExecutionErrorTestCaseTests,ExecutionErrorTestCaseTests.Messages_WithoutAggregatedError,20,20,0,0,stable
+ExecutionSchedulerTests,ExecutionSchedulerTests.Aggressive_AllowsTasksToRunWhenOtherTasksAreSleeping,20,0,0,20,skipped
+ExecutionSchedulerTests,ExecutionSchedulerTests.Conservative_FinishesEachTaskBeforeRunningNextTaskWhenQueueIsFull,20,0,0,20,skipped
+ExecutionSchedulerTests,ExecutionSchedulerTests.ParallelGateAllowsMultipleEntrants,20,20,0,0,stable
+ExecutionSchedulerTests,ExecutionSchedulerTests.ParallelWaitersAllEnterWhenSequentialTaskFinishes,20,20,0,0,stable
+ExecutionSchedulerTests,ExecutionSchedulerTests.SequentialGateAllowsSingleEntrant,20,20,0,0,stable
+FactDiscovererTests,FactDiscovererTests.FactWithParameters_ReturnsTestCaseWhichThrows,20,20,0,0,stable
+FactDiscovererTests,FactDiscovererTests.FactWithoutParameters_ReturnsTestCaseThatRunsFact,20,20,0,0,stable
+FactDiscovererTests,FactDiscovererTests.GenericFact_ReturnsTestCaseWhichThrows,20,20,0,0,stable
+FixtureAcceptanceTests+AsyncClassFixture,FixtureAcceptanceTests+AsyncClassFixture.FixtureDataShouldHaveBeenSetup,20,20,0,0,stable
+FixtureAcceptanceTests+AsyncClassFixture,FixtureAcceptanceTests+AsyncClassFixture.TestClassWithThrowingFixtureAsyncDisposeResultsInFailedTest,20,20,0,0,stable
+FixtureAcceptanceTests+AsyncClassFixture,FixtureAcceptanceTests+AsyncClassFixture.ThrowingFixtureInitializeAsyncShouldResultInFailedTest,20,20,0,0,stable
+FixtureAcceptanceTests+AsyncCollectionFixture,FixtureAcceptanceTests+AsyncCollectionFixture.CollectionFixtureAsyncSetupShouldOnlyRunOnce,20,20,0,0,stable
+FixtureAcceptanceTests+AsyncCollectionFixture,FixtureAcceptanceTests+AsyncCollectionFixture.TestClassWithThrowingCollectionFixtureDisposeAsyncResultsInFailedTest,20,20,0,0,stable
+FixtureAcceptanceTests+AsyncCollectionFixture,FixtureAcceptanceTests+AsyncCollectionFixture.TestClassWithThrowingCollectionFixtureSetupAsyncResultsInFailedTest,20,20,0,0,stable
+FixtureAcceptanceTests+ClassFixture,FixtureAcceptanceTests+ClassFixture.ClassFixtureCanAcceptIMessageSink,20,20,0,0,stable
+FixtureAcceptanceTests+ClassFixture,FixtureAcceptanceTests+ClassFixture.FixtureDataIsPassedToConstructorAndAvailableViaContext,20,20,0,0,stable
+FixtureAcceptanceTests+ClassFixture,FixtureAcceptanceTests+ClassFixture.FixtureWithAllSkippedTestsIsNotCreated,20,20,0,0,stable
+FixtureAcceptanceTests+ClassFixture,FixtureAcceptanceTests+ClassFixture.FixtureWithAllSkippedTestsIsNotCreated_WithConstructor,20,20,0,0,stable
+FixtureAcceptanceTests+ClassFixture,FixtureAcceptanceTests+ClassFixture.TestClassWithCtorWithThrowingFixtureConstructorResultsInFailedTest,20,20,0,0,stable
+FixtureAcceptanceTests+ClassFixture,FixtureAcceptanceTests+ClassFixture.TestClassWithDefaultParameter,20,20,0,0,stable
+FixtureAcceptanceTests+ClassFixture,FixtureAcceptanceTests+ClassFixture.TestClassWithExtraArgumentToConstructorResultsInFailedTest,20,20,0,0,stable
+FixtureAcceptanceTests+ClassFixture,FixtureAcceptanceTests+ClassFixture.TestClassWithMissingArgumentToConstructorIsAcceptable,20,20,0,0,stable
+FixtureAcceptanceTests+ClassFixture,FixtureAcceptanceTests+ClassFixture.TestClassWithOptionalParameter,20,20,0,0,stable
+FixtureAcceptanceTests+ClassFixture,FixtureAcceptanceTests+ClassFixture.TestClassWithParamsParameter,20,20,0,0,stable
+FixtureAcceptanceTests+ClassFixture,FixtureAcceptanceTests+ClassFixture.TestClassWithThrowingFixtureDisposeResultsInFailedTest,20,20,0,0,stable
+FixtureAcceptanceTests+ClassFixture,FixtureAcceptanceTests+ClassFixture.TestClassWithoutCtorWithThrowingFixtureConstructorResultsInFailedTest,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixture,FixtureAcceptanceTests+CollectionFixture.ClassFixtureOnCollectionDecorationWorks,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixture,FixtureAcceptanceTests+CollectionFixture.ClassFixtureOnTestClassTakesPrecedenceOverClassFixtureOnCollection,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixture,FixtureAcceptanceTests+CollectionFixture.CollectionFixtureCanAcceptIMessageSink,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixture,FixtureAcceptanceTests+CollectionFixture.CollectionFixtureOnGenericTestClassAcceptsArgument,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixture,FixtureAcceptanceTests+CollectionFixture.FixtureDataIsPassedToConstructorAndAvailableViaContext,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixture,FixtureAcceptanceTests+CollectionFixture.FixtureDataIsSameInstanceAcrossClasses,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixture,FixtureAcceptanceTests+CollectionFixture.FixtureWithAllSkippedTestsIsNotCreated,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixture,FixtureAcceptanceTests+CollectionFixture.FixtureWithAllSkippedTestsIsNotCreated_WithConstructor,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixture,FixtureAcceptanceTests+CollectionFixture.TestClassCannotBeDecoratedWithICollectionFixture,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixture,FixtureAcceptanceTests+CollectionFixture.TestClassWithExtraArgumentToConstructorResultsInFailedTest,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixture,FixtureAcceptanceTests+CollectionFixture.TestClassWithMissingArgumentToConstructorIsAcceptable,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixture,FixtureAcceptanceTests+CollectionFixture.TestClassWithThrowingCollectionFixtureDisposeResultsInFailedTest,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixture,FixtureAcceptanceTests+CollectionFixture.TestClassWithThrowingFixtureConstructorResultsInFailedTest,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixtureByTypeArgument,FixtureAcceptanceTests+CollectionFixtureByTypeArgument.ClassFixtureOnCollectionDecorationWorks,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixtureByTypeArgument,FixtureAcceptanceTests+CollectionFixtureByTypeArgument.ClassFixtureOnTestClassTakesPrecedenceOverClassFixtureOnCollection,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixtureByTypeArgument,FixtureAcceptanceTests+CollectionFixtureByTypeArgument.FixtureDataIsPassedToConstructorAndAvailableViaContext,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixtureByTypeArgument,FixtureAcceptanceTests+CollectionFixtureByTypeArgument.FixtureDataIsSameInstanceAcrossClasses,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixtureByTypeArgument,FixtureAcceptanceTests+CollectionFixtureByTypeArgument.TestClassCannotBeDecoratedWithICollectionFixture,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixtureByTypeArgument,FixtureAcceptanceTests+CollectionFixtureByTypeArgument.TestClassWithExtraArgumentToConstructorResultsInFailedTest,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixtureByTypeArgument,FixtureAcceptanceTests+CollectionFixtureByTypeArgument.TestClassWithMissingArgumentToConstructorIsAcceptable,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixtureByTypeArgument,FixtureAcceptanceTests+CollectionFixtureByTypeArgument.TestClassWithThrowingCollectionFixtureDisposeResultsInFailedTest,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixtureByTypeArgument,FixtureAcceptanceTests+CollectionFixtureByTypeArgument.TestClassWithThrowingFixtureConstructorResultsInFailedTest,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixtureGeneric,FixtureAcceptanceTests+CollectionFixtureGeneric.ClassFixtureOnCollectionDecorationWorks,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixtureGeneric,FixtureAcceptanceTests+CollectionFixtureGeneric.ClassFixtureOnTestClassTakesPrecedenceOverClassFixtureOnCollection,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixtureGeneric,FixtureAcceptanceTests+CollectionFixtureGeneric.FixtureDataIsPassedToConstructor,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixtureGeneric,FixtureAcceptanceTests+CollectionFixtureGeneric.FixtureDataIsSameInstanceAcrossClasses,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixtureGeneric,FixtureAcceptanceTests+CollectionFixtureGeneric.TestClassCannotBeDecoratedWithICollectionFixture,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixtureGeneric,FixtureAcceptanceTests+CollectionFixtureGeneric.TestClassWithExtraArgumentToConstructorResultsInFailedTest,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixtureGeneric,FixtureAcceptanceTests+CollectionFixtureGeneric.TestClassWithMissingArgumentToConstructorIsAcceptable,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixtureGeneric,FixtureAcceptanceTests+CollectionFixtureGeneric.TestClassWithThrowingCollectionFixtureDisposeResultsInFailedTest,20,20,0,0,stable
+FixtureAcceptanceTests+CollectionFixtureGeneric,FixtureAcceptanceTests+CollectionFixtureGeneric.TestClassWithThrowingFixtureConstructorResultsInFailedTest,20,20,0,0,stable
+FixtureAcceptanceTests+Constructors,FixtureAcceptanceTests+Constructors.TestClassMustHaveSinglePublicConstructor,20,20,0,0,stable
+FixtureMappingManagerTests,FixtureMappingManagerTests.CallsDispose,20,20,0,0,stable
+FixtureMappingManagerTests,FixtureMappingManagerTests.CallsDisposeAsync,20,20,0,0,stable
+FixtureMappingManagerTests,FixtureMappingManagerTests.CanProvideMessageSinkAndTestContextAccessorCtorArgs,20,20,0,0,stable
+FixtureMappingManagerTests,FixtureMappingManagerTests.CanProvideParentCtorArgs,20,20,0,0,stable
+FixtureMappingManagerTests,FixtureMappingManagerTests.ConstructsRegisteredType,20,20,0,0,stable
+FixtureMappingManagerTests,FixtureMappingManagerTests.FixtureWithThrowingCtorThrows,20,20,0,0,stable
+FixtureMappingManagerTests,FixtureMappingManagerTests.FixtureWithThrowingDisposeAsyncThrows,20,20,0,0,stable
+FixtureMappingManagerTests,FixtureMappingManagerTests.FixtureWithThrowingDisposeThrows,20,20,0,0,stable
+FixtureMappingManagerTests,FixtureMappingManagerTests.FixtureWithThrowingInitializeAsyncThrows,20,20,0,0,stable
+FixtureMappingManagerTests,FixtureMappingManagerTests.MissingDependencyThrows,20,20,0,0,stable
+FixtureMappingManagerTests,FixtureMappingManagerTests.MoreThanOneConstructorThrows,20,20,0,0,stable
+FixtureMappingManagerTests,FixtureMappingManagerTests.ReturnsCachedValue,20,20,0,0,stable
+FixtureMappingManagerTests,FixtureMappingManagerTests.ReturnsNullForUnregisteredType,20,20,0,0,stable
+FixtureMappingManagerTests,FixtureMappingManagerTests.ReturnsValueFromParentWhenNotPresentLocally,20,20,0,0,stable
+FixtureMappingManagerTests,FixtureMappingManagerTests.UsesTypeActivator,20,20,0,0,stable
+FixtureMappingManagerTests,FixtureMappingManagerTests.WithCreateInstancesFalse_WillNotPreCreateByDefault,20,20,0,0,stable
+FixtureMappingManagerTests,FixtureMappingManagerTests.WithCreateInstancesFalse_WillPreCreateInstancesWithMarkerInterface,20,20,0,0,stable
+InProcessFrontControllerTests+Ctor,InProcessFrontControllerTests+Ctor.GuardClauses,20,20,0,0,stable
+InProcessFrontControllerTests+Ctor,InProcessFrontControllerTests+Ctor.PropertiesReturnValuesFromDiscoverer,20,20,0,0,stable
+InProcessFrontControllerTests+Find,InProcessFrontControllerTests+Find.GuardClauses,20,20,0,0,stable
+InProcessFrontControllerTests+Find,InProcessFrontControllerTests+Find.RejectsDuplicatedTestCaseUniqueID,20,20,0,0,stable
+InProcessFrontControllerTests+Find,InProcessFrontControllerTests+Find.ReportsDiscoveredTestCasesAndCountsTestCasesWhichPassFilter,20,20,0,0,stable
+InProcessFrontControllerTests+Find,InProcessFrontControllerTests+Find.SendsStartingAndCompleteMessages,20,20,0,0,stable
+InProcessFrontControllerTests+FindAndRun,InProcessFrontControllerTests+FindAndRun.DisposesOfTestCases,20,20,0,0,stable
+InProcessFrontControllerTests+FindAndRun,InProcessFrontControllerTests+FindAndRun.GuardClauses,20,20,0,0,stable
+InProcessFrontControllerTests+FindAndRun,InProcessFrontControllerTests+FindAndRun.RunsTestCasesWhichPassFilter,20,20,0,0,stable
+MatrixTheoryDataTests,MatrixTheoryDataTests.GuardClauses,20,20,0,0,stable
+MatrixTheoryDataTests,MatrixTheoryDataTests.InvokesTestsForDataMatrix,20,20,0,0,stable
+MessageBusTests,MessageBusTests.QueueReturnsFalseForFailIfStopOnFailTrue,20,20,0,0,stable
+MessageBusTests,MessageBusTests.QueueReturnsTrueForFailIfStopOnFailFalse,20,20,0,0,stable
+MessageBusTests,MessageBusTests.QueuedMessageShowUpInMessageSink,20,20,0,0,stable
+MessageBusTests,MessageBusTests.TryingToQueueMessageAfterDisposingThrows,20,20,0,0,stable
+MessageBusTests,MessageBusTests.WhenSinkThrowsMessagesContinueToBeDelivered,20,20,0,0,stable
+MessageSinkMessageTests,MessageSinkMessageTests.SerializationExcludesNullValuesAndEmptyTraits,20,20,0,0,stable
+MessageSinkMessageTests,MessageSinkMessageTests.SerializesEnumsAsStringsAndExcludesEmptyOutput,20,20,0,0,stable
+MessageSinkMessageTests,MessageSinkMessageTests.ValidatesAllDerivedTypesAreSupported,20,20,0,0,stable
+MessageSinkMessageTests,MessageSinkMessageTests.WithoutJsonTypeID_Throws,20,20,0,0,stable
+RecordTests+MethodsReturningTask,RecordTests+MethodsReturningTask.Exception,20,20,0,0,stable
+RecordTests+MethodsReturningTask,RecordTests+MethodsReturningTask.NoException,20,20,0,0,stable
+RecordTests+MethodsReturningTask,RecordTests+MethodsReturningTask.SkipExceptionEscapes,20,20,0,0,stable
+RecordTests+MethodsWithReturnValues,RecordTests+MethodsWithReturnValues.Exception,20,20,0,0,stable
+RecordTests+MethodsWithReturnValues,RecordTests+MethodsWithReturnValues.GuardClause,20,20,0,0,stable
+RecordTests+MethodsWithReturnValues,RecordTests+MethodsWithReturnValues.NoException,20,20,0,0,stable
+RecordTests+MethodsWithReturnValues,RecordTests+MethodsWithReturnValues.SkipExceptionEscapes,20,20,0,0,stable
+RecordTests+MethodsWithoutReturnValues,RecordTests+MethodsWithoutReturnValues.Exception,20,20,0,0,stable
+RecordTests+MethodsWithoutReturnValues,RecordTests+MethodsWithoutReturnValues.NoException,20,20,0,0,stable
+RecordTests+MethodsWithoutReturnValues,RecordTests+MethodsWithoutReturnValues.SkipExceptionEscapes,20,20,0,0,stable
+SynchronousMessageBusTests,SynchronousMessageBusTests.BusShouldReportShutdownWhenMessageSinkReturnsFalse,20,20,0,0,stable
+SynchronousMessageBusTests,SynchronousMessageBusTests.MessagesAreDispatchedImmediatelyFromBus,20,20,0,0,stable
+SynchronousMessageBusTests,SynchronousMessageBusTests.WhenStopOnFailIsFalse_WithFailedTest_BusShouldNotReportShutdown,20,20,0,0,stable
+SynchronousMessageBusTests,SynchronousMessageBusTests.WhenStopOnFailIsTrue_WithFailedTest_BusShouldReportShutdown,20,20,0,0,stable
+TestAssemblyRunnerContextTests+CreateMessageBus,TestAssemblyRunnerContextTests+CreateMessageBus.DefaultMessageBus,20,20,0,0,stable
+TestAssemblyRunnerContextTests+CreateMessageBus,TestAssemblyRunnerContextTests+CreateMessageBus.GuardClause,20,20,0,0,stable
+TestAssemblyRunnerContextTests+CreateMessageBus,TestAssemblyRunnerContextTests+CreateMessageBus.SyncMessageBusOption,20,20,0,0,stable
+TestAssemblyRunnerTests+Cancellation,TestAssemblyRunnerTests+Cancellation.OnError,20,20,0,0,stable
+TestAssemblyRunnerTests+Cancellation,TestAssemblyRunnerTests+Cancellation.OnTestAssemblyCleanupFailure,20,20,0,0,stable
+TestAssemblyRunnerTests+Cancellation,TestAssemblyRunnerTests+Cancellation.OnTestAssemblyFinished,20,20,0,0,stable
+TestAssemblyRunnerTests+Cancellation,TestAssemblyRunnerTests+Cancellation.OnTestAssemblyStarting,20,20,0,0,stable
+TestAssemblyRunnerTests+EventSourceLogging,TestAssemblyRunnerTests+EventSourceLogging.LogsEvents,20,20,0,0,stable
+TestAssemblyRunnerTests+ExceptionHandling,TestAssemblyRunnerTests+ExceptionHandling.NoExceptions,20,20,0,0,stable
+TestAssemblyRunnerTests+ExceptionHandling,TestAssemblyRunnerTests+ExceptionHandling.OnTestAssemblyCleanupFailure,20,20,0,0,stable
+TestAssemblyRunnerTests+ExceptionHandling,TestAssemblyRunnerTests+ExceptionHandling.OnTestAssemblyFinished,20,20,0,0,stable
+TestAssemblyRunnerTests+ExceptionHandling,TestAssemblyRunnerTests+ExceptionHandling.OnTestAssemblyStarting,20,20,0,0,stable
+TestAssemblyRunnerTests+Messages,TestAssemblyRunnerTests+Messages.OnError,20,20,0,0,stable
+TestAssemblyRunnerTests+Messages,TestAssemblyRunnerTests+Messages.OnTestAssemblyCleanupFailure,20,20,0,0,stable
+TestAssemblyRunnerTests+Messages,TestAssemblyRunnerTests+Messages.OnTestAssemblyFinished,20,20,0,0,stable
+TestAssemblyRunnerTests+Messages,TestAssemblyRunnerTests+Messages.OnTestAssemblyStarting,20,20,0,0,stable
+TestAssemblyRunnerTests+Run,TestAssemblyRunnerTests+Run.DefaultTestCollectionOrdering,20,20,0,0,stable
+TestCaseRunnerBaseTests+Cancellation,TestCaseRunnerBaseTests+Cancellation.OnError,20,20,0,0,stable
+TestCaseRunnerBaseTests+Cancellation,TestCaseRunnerBaseTests+Cancellation.OnTestCaseCleanupFailure,20,20,0,0,stable
+TestCaseRunnerBaseTests+Cancellation,TestCaseRunnerBaseTests+Cancellation.OnTestCaseFinished,20,20,0,0,stable
+TestCaseRunnerBaseTests+Cancellation,TestCaseRunnerBaseTests+Cancellation.OnTestCaseStarting,20,20,0,0,stable
+TestCaseRunnerBaseTests+EventSourceLogging,TestCaseRunnerBaseTests+EventSourceLogging.LogsEvents,20,20,0,0,stable
+TestCaseRunnerBaseTests+ExceptionHandling,TestCaseRunnerBaseTests+ExceptionHandling.NoExceptions,20,20,0,0,stable
+TestCaseRunnerBaseTests+ExceptionHandling,TestCaseRunnerBaseTests+ExceptionHandling.OnTestCaseCleanupFailure,20,20,0,0,stable
+TestCaseRunnerBaseTests+ExceptionHandling,TestCaseRunnerBaseTests+ExceptionHandling.OnTestCaseFinished,20,20,0,0,stable
+TestCaseRunnerBaseTests+ExceptionHandling,TestCaseRunnerBaseTests+ExceptionHandling.OnTestCaseStarting,20,20,0,0,stable
+TestCaseRunnerBaseTests+Messages,TestCaseRunnerBaseTests+Messages.OnError,20,20,0,0,stable
+TestCaseRunnerBaseTests+Messages,TestCaseRunnerBaseTests+Messages.OnTestCaseCleanupFailure,20,20,0,0,stable
+TestCaseRunnerBaseTests+Messages,TestCaseRunnerBaseTests+Messages.OnTestCaseFinished,20,20,0,0,stable
+TestCaseRunnerBaseTests+Messages,TestCaseRunnerBaseTests+Messages.OnTestCaseStarting,20,20,0,0,stable
+TestCaseRunnerTests+Messages,TestCaseRunnerTests+Messages.NoException,20,20,0,0,stable
+TestCaseRunnerTests+Messages,TestCaseRunnerTests+Messages.WithException_DispatchesFailureMessages,20,20,0,0,stable
+TestClassRunnerTests+Cancellation,TestClassRunnerTests+Cancellation.OnError,20,20,0,0,stable
+TestClassRunnerTests+Cancellation,TestClassRunnerTests+Cancellation.OnTestClassCleanupFailure,20,20,0,0,stable
+TestClassRunnerTests+Cancellation,TestClassRunnerTests+Cancellation.OnTestClassFinished,20,20,0,0,stable
+TestClassRunnerTests+Cancellation,TestClassRunnerTests+Cancellation.OnTestClassStarting,20,20,0,0,stable
+TestClassRunnerTests+EventSourceLogging,TestClassRunnerTests+EventSourceLogging.LogsEvents,20,20,0,0,stable
+TestClassRunnerTests+ExceptionHandling,TestClassRunnerTests+ExceptionHandling.NoExceptions,20,20,0,0,stable
+TestClassRunnerTests+ExceptionHandling,TestClassRunnerTests+ExceptionHandling.OnTestClassCleanupFailure,20,20,0,0,stable
+TestClassRunnerTests+ExceptionHandling,TestClassRunnerTests+ExceptionHandling.OnTestClassFinished,20,20,0,0,stable
+TestClassRunnerTests+ExceptionHandling,TestClassRunnerTests+ExceptionHandling.OnTestClassFinished_Derived,20,20,0,0,stable
+TestClassRunnerTests+ExceptionHandling,TestClassRunnerTests+ExceptionHandling.OnTestClassStarting,20,20,0,0,stable
+TestClassRunnerTests+Messages,TestClassRunnerTests+Messages.OnError,20,20,0,0,stable
+TestClassRunnerTests+Messages,TestClassRunnerTests+Messages.OnTestClassCleanupFailure,20,20,0,0,stable
+TestClassRunnerTests+Messages,TestClassRunnerTests+Messages.OnTestClassFinished,20,20,0,0,stable
+TestClassRunnerTests+Messages,TestClassRunnerTests+Messages.OnTestClassStarting,20,20,0,0,stable
+TestClassRunnerTests+Run,TestClassRunnerTests+Run.DefaultTestMethodOrdering,20,20,0,0,stable
+TestCollectionFactoryBaseTests,TestCollectionFactoryBaseTests.AcquiresBeforeAfterTestAttributesFromCollectionDefinition_AndMergesThemWithTheAssemblyAttributes,20,20,0,0,stable
+TestCollectionFactoryBaseTests,TestCollectionFactoryBaseTests.AcquiresFixtureTypesFromCollectionDefinition,20,20,0,0,stable
+TestCollectionFactoryBaseTests,"TestCollectionFactoryBaseTests.Defaults(testClass: typeof(TestCollectionFactoryBaseTests+TestClassForByName), collectionDefinition: null, testCollectionClassName: null, testCollectionDisplayName: \""foo\"", uniqueID: \""ec41e871ca6761e15a5b062a4a39cf6a2f2c6e6e6cb5939681\""···)",20,20,0,0,stable
+TestCollectionFactoryBaseTests,"TestCollectionFactoryBaseTests.Defaults(testClass: typeof(TestCollectionFactoryBaseTests+TestClassForByType), collectionDefinition: typeof(TestCollectionFactoryBaseTests), testCollectionClassName: \""TestCollectionFactoryBaseTests\"", testCollectionDisplayName: \""Test collection for TestCollectionFactoryBaseTests\""···, uniqueID: \""79e637cfea518b2fa38f43d3988bd7a1630308112c312f1ad3\""···)",20,20,0,0,stable
+TestCollectionFactoryBaseTests,TestCollectionFactoryBaseTests.ReadsCollectionDefinitionAttributeForParallelization,20,20,0,0,stable
+TestCollectionRunnerTests+Cancellation,TestCollectionRunnerTests+Cancellation.OnError,20,20,0,0,stable
+TestCollectionRunnerTests+Cancellation,TestCollectionRunnerTests+Cancellation.OnTestCollectionCleanupFailure,20,20,0,0,stable
+TestCollectionRunnerTests+Cancellation,TestCollectionRunnerTests+Cancellation.OnTestCollectionFinished,20,20,0,0,stable
+TestCollectionRunnerTests+Cancellation,TestCollectionRunnerTests+Cancellation.OnTestCollectionStarting,20,20,0,0,stable
+TestCollectionRunnerTests+EventSourceLogging,TestCollectionRunnerTests+EventSourceLogging.LogsEvents,20,20,0,0,stable
+TestCollectionRunnerTests+ExceptionHandling,TestCollectionRunnerTests+ExceptionHandling.NoExceptions,20,20,0,0,stable
+TestCollectionRunnerTests+ExceptionHandling,TestCollectionRunnerTests+ExceptionHandling.OnTestCollectionCleanupFailure,20,20,0,0,stable
+TestCollectionRunnerTests+ExceptionHandling,TestCollectionRunnerTests+ExceptionHandling.OnTestCollectionFinished,20,20,0,0,stable
+TestCollectionRunnerTests+ExceptionHandling,TestCollectionRunnerTests+ExceptionHandling.OnTestCollectionStarting,20,20,0,0,stable
+TestCollectionRunnerTests+Messages,TestCollectionRunnerTests+Messages.OnError,20,20,0,0,stable
+TestCollectionRunnerTests+Messages,TestCollectionRunnerTests+Messages.OnTestCollectionCleanupFailure,20,20,0,0,stable
+TestCollectionRunnerTests+Messages,TestCollectionRunnerTests+Messages.OnTestCollectionFinished,20,20,0,0,stable
+TestCollectionRunnerTests+Messages,TestCollectionRunnerTests+Messages.OnTestCollectionStarting,20,20,0,0,stable
+TestCollectionRunnerTests+Run,TestCollectionRunnerTests+Run.DefaultTestClassOrdering,20,20,0,0,stable
+TestContextTests,TestContextTests.AmbientTestContextIsAvailableInTest,20,20,0,0,stable
+TestContextTests,TestContextTests.BinaryAttachmentCanBeReplaced,20,20,0,0,stable
+TestContextTests,TestContextTests.BinaryAttachmentCannotBeReplacedByDefault,20,20,0,0,stable
+TestContextTests,TestContextTests.CancellationTokenReturnsDefaultTokenWhenDisposed,20,20,0,0,stable
+TestContextTests,TestContextTests.KeyValueStorageIsAvailableThroughoutPipeline,20,20,0,0,stable
+TestContextTests,TestContextTests.StringAttachmentCanBeReplaced,20,20,0,0,stable
+TestContextTests,TestContextTests.StringAttachmentCannotBeReplacedByDefault,20,20,0,0,stable
+TestContextTests,TestContextTests.TryingToCancelFromDisposedContextDoesNotThrow,20,20,0,0,stable
+TestFailedTests+Cause,TestFailedTests+Cause.GuardClause,20,20,0,0,stable
+TestFailedTests+FromException,TestFailedTests+FromException.BuiltInAssertionException,20,20,0,0,stable
+TestFailedTests+FromException,TestFailedTests+FromException.BuiltInTimeoutException,20,20,0,0,stable
+TestFailedTests+FromException,TestFailedTests+FromException.CustomAssertionException,20,20,0,0,stable
+TestFailedTests+FromException,TestFailedTests+FromException.CustomTimeoutException,20,20,0,0,stable
+TestFailedTests+FromException,TestFailedTests+FromException.NonAssertionException,20,20,0,0,stable
+TestFailedTests+FromException,TestFailedTests+FromException.TimeoutExceptionTrumpsAssertionException,20,20,0,0,stable
+TestFrameworkDiscovererTests+Find,TestFrameworkDiscovererTests+Find.ExceptionDuringFindTestsForType_ReportsExceptionAsDiagnosticMessage,20,20,0,0,stable
+TestFrameworkDiscovererTests+Find,TestFrameworkDiscovererTests+Find.GuardClauses,20,20,0,0,stable
+TestFrameworkDiscovererTests+Find,TestFrameworkDiscovererTests+Find.TestContextVisibility,20,20,0,0,stable
+TestFrameworkDiscovererTests+Find+ByAssembly,TestFrameworkDiscovererTests+Find+ByAssembly.ExcludesAbstractTypes,20,20,0,0,stable
+TestFrameworkDiscovererTests+Find+ByAssembly,TestFrameworkDiscovererTests+Find+ByAssembly.IncludesNonAbstractTypes,20,20,0,0,stable
+TestFrameworkDiscovererTests+Find+ByTypes,TestFrameworkDiscovererTests+Find+ByTypes.ExcludesAbstractTypes,20,20,0,0,stable
+TestFrameworkDiscovererTests+Find+ByTypes,TestFrameworkDiscovererTests+Find+ByTypes.IncludesNonAbstractTypes,20,20,0,0,stable
+TestFrameworkDiscovererTests+Find+WithCulture,TestFrameworkDiscovererTests+Find+WithCulture.CustomCultureViaDiscoveryOptions,20,20,0,0,stable
+TestFrameworkDiscovererTests+Find+WithCulture,TestFrameworkDiscovererTests+Find+WithCulture.DefaultCultureIsCurrentCulture,20,20,0,0,stable
+TestFrameworkDiscovererTests+Find+WithCulture,TestFrameworkDiscovererTests+Find+WithCulture.EmptyStringIsInvariantCulture,20,20,0,0,stable
+TestIntrospectionHelperTests+GetTestCaseDetails,TestIntrospectionHelperTests+GetTestCaseDetails.CustomDisplayName,20,20,0,0,stable
+TestIntrospectionHelperTests+GetTestCaseDetails,"TestIntrospectionHelperTests+GetTestCaseDetails.CustomDisplayNameWithArguments(label: \""Custom label\"", expectedDisplayNameSuffix: \"" [Custom label]\"")",20,20,0,0,stable
+TestIntrospectionHelperTests+GetTestCaseDetails,"TestIntrospectionHelperTests+GetTestCaseDetails.CustomDisplayNameWithArguments(label: \""\"", expectedDisplayNameSuffix: \""\"")",20,20,0,0,stable
+TestIntrospectionHelperTests+GetTestCaseDetails,"TestIntrospectionHelperTests+GetTestCaseDetails.CustomDisplayNameWithArguments(label: null, expectedDisplayNameSuffix: \""(_1: 42, _2: \\\""Hello, world!\\\"", _3: 'A')\"")",20,20,0,0,stable
+TestIntrospectionHelperTests+GetTestCaseDetails,TestIntrospectionHelperTests+GetTestCaseDetails.DisplayName,20,20,0,0,stable
+TestIntrospectionHelperTests+GetTestCaseDetails,TestIntrospectionHelperTests+GetTestCaseDetails.Explicit(explicit: False),20,20,0,0,stable
+TestIntrospectionHelperTests+GetTestCaseDetails,TestIntrospectionHelperTests+GetTestCaseDetails.Explicit(explicit: True),20,20,0,0,stable
+TestIntrospectionHelperTests+GetTestCaseDetails,TestIntrospectionHelperTests+GetTestCaseDetails.NonStandardMethodDisplay,20,20,0,0,stable
+TestIntrospectionHelperTests+GetTestCaseDetails,TestIntrospectionHelperTests+GetTestCaseDetails.NonStandardMethodDisplayOptions,20,20,0,0,stable
+TestIntrospectionHelperTests+GetTestCaseDetails,TestIntrospectionHelperTests+GetTestCaseDetails.NotEnoughTestArguments,20,20,0,0,stable
+TestIntrospectionHelperTests+GetTestCaseDetails,"TestIntrospectionHelperTests+GetTestCaseDetails.OpenGenericIsClosedByArguments(testArg: 42, expectedGenericType: typeof(int))",20,20,0,0,stable
+TestIntrospectionHelperTests+GetTestCaseDetails,"TestIntrospectionHelperTests+GetTestCaseDetails.OpenGenericIsClosedByArguments(testArg: \""Hello world\"", expectedGenericType: typeof(string))",20,20,0,0,stable
+TestIntrospectionHelperTests+GetTestCaseDetails,"TestIntrospectionHelperTests+GetTestCaseDetails.OpenGenericIsClosedByArguments(testArg: null, expectedGenericType: typeof(object))",20,20,0,0,stable
+TestIntrospectionHelperTests+GetTestCaseDetails,TestIntrospectionHelperTests+GetTestCaseDetails.SkipExceptions,20,20,0,0,stable
+TestIntrospectionHelperTests+GetTestCaseDetails,TestIntrospectionHelperTests+GetTestCaseDetails.SkipReason,20,20,0,0,stable
+TestIntrospectionHelperTests+GetTestCaseDetails,TestIntrospectionHelperTests+GetTestCaseDetails.Timeout,20,20,0,0,stable
+TestIntrospectionHelperTests+GetTestCaseDetails,TestIntrospectionHelperTests+GetTestCaseDetails.TooManyTestArguments[en-US],20,20,0,0,stable
+TestIntrospectionHelperTests+GetTestCaseDetails,TestIntrospectionHelperTests+GetTestCaseDetails.TooManyTestArguments[fr-FR],20,20,0,0,stable
+TestIntrospectionHelperTests+GuardClauses,TestIntrospectionHelperTests+GuardClauses.NullDiscoveryOptionsThrows,20,20,0,0,stable
+TestIntrospectionHelperTests+GuardClauses,TestIntrospectionHelperTests+GuardClauses.NullFactAttributeThrows,20,20,0,0,stable
+TestIntrospectionHelperTests+GuardClauses,TestIntrospectionHelperTests+GuardClauses.NullTestMethodThrows,20,20,0,0,stable
+TestMethodRunnerTests+Cancellation,TestMethodRunnerTests+Cancellation.OnError,20,20,0,0,stable
+TestMethodRunnerTests+Cancellation,TestMethodRunnerTests+Cancellation.OnTestMethodCleanupFailure,20,20,0,0,stable
+TestMethodRunnerTests+Cancellation,TestMethodRunnerTests+Cancellation.OnTestMethodFinished,20,20,0,0,stable
+TestMethodRunnerTests+Cancellation,TestMethodRunnerTests+Cancellation.OnTestMethodStarting,20,20,0,0,stable
+TestMethodRunnerTests+EventSourceLogging,TestMethodRunnerTests+EventSourceLogging.LogsEvents,20,20,0,0,stable
+TestMethodRunnerTests+ExceptionHandling,TestMethodRunnerTests+ExceptionHandling.NoExceptions,20,20,0,0,stable
+TestMethodRunnerTests+ExceptionHandling,TestMethodRunnerTests+ExceptionHandling.OnTestMethodCleanupFailure,20,20,0,0,stable
+TestMethodRunnerTests+ExceptionHandling,TestMethodRunnerTests+ExceptionHandling.OnTestMethodFinished,20,20,0,0,stable
+TestMethodRunnerTests+ExceptionHandling,TestMethodRunnerTests+ExceptionHandling.OnTestMethodStarting,20,20,0,0,stable
+TestMethodRunnerTests+Messages,TestMethodRunnerTests+Messages.OnError,20,20,0,0,stable
+TestMethodRunnerTests+Messages,TestMethodRunnerTests+Messages.OnTestMethodCleanupFailure,20,20,0,0,stable
+TestMethodRunnerTests+Messages,TestMethodRunnerTests+Messages.OnTestMethodFinished,20,20,0,0,stable
+TestMethodRunnerTests+Messages,TestMethodRunnerTests+Messages.OnTestMethodStarting,20,20,0,0,stable
+TestMethodRunnerTests+Run,TestMethodRunnerTests+Run.DefaultTestCaseOrdering,20,20,0,0,stable
+TestOutputHelperTests,TestOutputHelperTests.AnsiSgrSequenceCanOccurOverMultipleWrites,20,20,0,0,stable
+TestOutputHelperTests,TestOutputHelperTests.LinesAreBufferedBasedOnEnvironmentNewLine,20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \"" \\t  \"", expected: \"" \\t  \"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""ANSI \\x1b[30;47mblack on white\\x1b[0m default colors\"", expected: \""ANSI \\x1b[30;47mblack on white\\x1b[0m default colors\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""ANSI \\x1b[38;5;4mblue\\x1b[0m\"", expected: \""ANSI \\x1b[38;5;4mblue\\x1b[0m\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""ANSI \\x1b[3mitalic\\x1b[0m \\x1b[36mcyan\\x1b[0m\"", expected: \""ANSI \\x1b[3mitalic\\x1b[0m \\x1b[36mcyan\\x1b[0m\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""ANSI \\x1b[;47mdefault on white\\x1b[m\"", expected: \""ANSI \\x1b[;47mdefault on white\\x1b[m\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""ANSI \\x1b[;;mmissing arguments\\x1b[m\"", expected: \""ANSI \\x1b[;;mmissing arguments\\x1b[m\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""Hello World\"", expected: \""Hello World\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""\\0\"", expected: \""\\\\0\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""\\x01\"", expected: \""\\\\x01\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""\\x1b3m invalid ANSI sequence #1\"", expected: \""\\\\x1b3m invalid ANSI sequence #1\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""\\x1b[2J clear display\"", expected: \""\\\\x1b[2J clear display\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""\\x1b[this is no ansi\\x1b]\"", expected: \""\\\\x1b[this is no ansi\\\\x1b]\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""\\x1b^ANSI privacy message\\x1b\\\\ 1234\"", expected: \""\\\\x1b^ANSI privacy message\\\\x1b\\\\ 1234\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""\\x1bfoo\"", expected: \""\\\\x1bfoo\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""\\x1f\"", expected: \""\\\\x1f\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""\\xd800\"", expected: \""\\\\xd800\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""\\xdc00\"", expected: \""\\\\xdc00\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""\\xdc00\\xd800\"", expected: \""\\\\xdc00\\\\xd800\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""incomplete ANSI sequence #2 \\x1b[3\"", expected: \""incomplete ANSI sequence #2 \\\\x1b[3\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""incomplete ANSI sequence #3 \\x1b[\"", expected: \""incomplete ANSI sequence #3 \\\\x1b[\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""incomplete ANSI sequence #4 \\x1b\"", expected: \""incomplete ANSI sequence #4 \\\\x1b\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""incomplete ANSI sequence #5 \\x1b[128\"", expected: \""incomplete ANSI sequence #5 \\\\x1b[128\"")",20,20,0,0,stable
+TestOutputHelperTests,"TestOutputHelperTests.WriteLine(outputText: \""𐀀\"", expected: \""𐀀\"")",20,20,0,0,stable
+TestRunnerBaseTests+Cancellation,TestRunnerBaseTests+Cancellation.OnError,20,20,0,0,stable
+TestRunnerBaseTests+Cancellation,TestRunnerBaseTests+Cancellation.OnTestCleanupFailure,20,20,0,0,stable
+TestRunnerBaseTests+Cancellation,TestRunnerBaseTests+Cancellation.OnTestFinished,20,20,0,0,stable
+TestRunnerBaseTests+Cancellation,TestRunnerBaseTests+Cancellation.OnTestStarting,20,20,0,0,stable
+TestRunnerBaseTests+EventSourceLogging,"TestRunnerBaseTests+EventSourceLogging.LogsEvents(runner: Func`1 { Method = System.Threading.Tasks.ValueTask`1[Xunit.v3.RunSummary] <EventSourceData>b__0_0(), Target = <>c { } }, expectedResult: \""Passed\"")",20,20,0,0,stable
+TestRunnerBaseTests+EventSourceLogging,"TestRunnerBaseTests+EventSourceLogging.LogsEvents(runner: Func`1 { Method = System.Threading.Tasks.ValueTask`1[Xunit.v3.RunSummary] <EventSourceData>b__0_1(), Target = <>c { } }, expectedResult: \""NotRun\"")",20,20,0,0,stable
+TestRunnerBaseTests+EventSourceLogging,"TestRunnerBaseTests+EventSourceLogging.LogsEvents(runner: Func`1 { Method = System.Threading.Tasks.ValueTask`1[Xunit.v3.RunSummary] <EventSourceData>b__0_2(), Target = <>c { } }, expectedResult: \""Skipped\"")",20,20,0,0,stable
+TestRunnerBaseTests+EventSourceLogging,"TestRunnerBaseTests+EventSourceLogging.LogsEvents(runner: Func`1 { Method = System.Threading.Tasks.ValueTask`1[Xunit.v3.RunSummary] <EventSourceData>b__0_3(), Target = <>c { } }, expectedResult: \""Failed\"")",20,20,0,0,stable
+TestRunnerBaseTests+ExceptionHandling,TestRunnerBaseTests+ExceptionHandling.GetAttachments,20,20,0,0,stable
+TestRunnerBaseTests+ExceptionHandling,TestRunnerBaseTests+ExceptionHandling.GetTestOutput,20,20,0,0,stable
+TestRunnerBaseTests+ExceptionHandling,TestRunnerBaseTests+ExceptionHandling.GetWarnings,20,20,0,0,stable
+TestRunnerBaseTests+ExceptionHandling,TestRunnerBaseTests+ExceptionHandling.OnTestCleanupFailure,20,20,0,0,stable
+TestRunnerBaseTests+ExceptionHandling,TestRunnerBaseTests+ExceptionHandling.OnTestFailed,20,20,0,0,stable
+TestRunnerBaseTests+ExceptionHandling,TestRunnerBaseTests+ExceptionHandling.OnTestFinished,20,20,0,0,stable
+TestRunnerBaseTests+ExceptionHandling,TestRunnerBaseTests+ExceptionHandling.OnTestNotRun,20,20,0,0,stable
+TestRunnerBaseTests+ExceptionHandling,TestRunnerBaseTests+ExceptionHandling.OnTestPassed,20,20,0,0,stable
+TestRunnerBaseTests+ExceptionHandling,TestRunnerBaseTests+ExceptionHandling.OnTestSkipped,20,20,0,0,stable
+TestRunnerBaseTests+ExceptionHandling,TestRunnerBaseTests+ExceptionHandling.OnTestStarting,20,20,0,0,stable
+TestRunnerBaseTests+ExceptionHandling,TestRunnerBaseTests+ExceptionHandling.ShouldTestRun,20,20,0,0,stable
+TestRunnerBaseTests+InvocationsAndMessages,TestRunnerBaseTests+InvocationsAndMessages.Failed(cancel: False),20,20,0,0,stable
+TestRunnerBaseTests+InvocationsAndMessages,TestRunnerBaseTests+InvocationsAndMessages.Failed(cancel: True),20,20,0,0,stable
+TestRunnerBaseTests+InvocationsAndMessages,TestRunnerBaseTests+InvocationsAndMessages.NotRun(cancel: False),20,20,0,0,stable
+TestRunnerBaseTests+InvocationsAndMessages,TestRunnerBaseTests+InvocationsAndMessages.NotRun(cancel: True),20,20,0,0,stable
+TestRunnerBaseTests+InvocationsAndMessages,TestRunnerBaseTests+InvocationsAndMessages.Passed(cancel: False),20,20,0,0,stable
+TestRunnerBaseTests+InvocationsAndMessages,TestRunnerBaseTests+InvocationsAndMessages.Passed(cancel: True),20,20,0,0,stable
+TestRunnerBaseTests+InvocationsAndMessages,TestRunnerBaseTests+InvocationsAndMessages.Skipped_Static(cancel: False),20,20,0,0,stable
+TestRunnerBaseTests+InvocationsAndMessages,TestRunnerBaseTests+InvocationsAndMessages.Skipped_Static(cancel: True),20,20,0,0,stable
+TestRunnerTests+HandlerExceptions,TestRunnerTests+HandlerExceptions.CreateTestClassInstance,20,20,0,0,stable
+TestRunnerTests+HandlerExceptions,TestRunnerTests+HandlerExceptions.DisposeTestClassInstance,20,20,0,0,stable
+TestRunnerTests+HandlerExceptions,TestRunnerTests+HandlerExceptions.IsTestClassCreatable,20,20,0,0,stable
+TestRunnerTests+HandlerExceptions,TestRunnerTests+HandlerExceptions.IsTestClassDisposable,20,20,0,0,stable
+TestRunnerTests+HandlerExceptions,TestRunnerTests+HandlerExceptions.OnTestClassConstructionFinished,20,20,0,0,stable
+TestRunnerTests+HandlerExceptions,TestRunnerTests+HandlerExceptions.OnTestClassConstructionStarting,20,20,0,0,stable
+TestRunnerTests+HandlerExceptions,TestRunnerTests+HandlerExceptions.OnTestClassDisposeFinished,20,20,0,0,stable
+TestRunnerTests+HandlerExceptions,TestRunnerTests+HandlerExceptions.OnTestClassDisposeStarting,20,20,0,0,stable
+TestRunnerTests+HandlerExceptions,TestRunnerTests+HandlerExceptions.PostInvoke,20,20,0,0,stable
+TestRunnerTests+HandlerExceptions,TestRunnerTests+HandlerExceptions.PreInvoke,20,20,0,0,stable
+TestRunnerTests+InvocationsAndMessages,TestRunnerTests+InvocationsAndMessages.Failed,20,20,0,0,stable
+TestRunnerTests+InvocationsAndMessages,TestRunnerTests+InvocationsAndMessages.NotRun,20,20,0,0,stable
+TestRunnerTests+InvocationsAndMessages,TestRunnerTests+InvocationsAndMessages.Passed,20,20,0,0,stable
+TestRunnerTests+InvocationsAndMessages,TestRunnerTests+InvocationsAndMessages.Skipped,20,20,0,0,stable
+TestRunnerTests+Run,TestRunnerTests+Run.Cancelled,20,20,0,0,stable
+TestRunnerTests+Run,TestRunnerTests+Run.NoPreExistingError_NotCancelled,20,20,0,0,stable
+TestRunnerTests+Run,TestRunnerTests+Run.PreExistingError,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.CanAddTraitsFromTheoryDataRow_PreEnumerated,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.CanSetDisplayNameFromTheoryDataRow_PreEnumerated,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.CanSkipFromTheoryDataRow_Preenumerated,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.DataDiscoverAddsDataToTracker_YieldsDelayEnumeratedTestCase,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.DataDiscovererReturningNullGeneratesError,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.DiscoveryDisabledOnMemberData_YieldsSingleTheoryTestCase,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.DiscoveryDisabledOnTheoryAttribute_YieldsSingleTheoryTestCase,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.DiscoveryOptions_PreEnumerateTheoriesSetToFalse_YieldsSingleTestCase,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.DiscoveryOptions_PreEnumerateTheoriesSetToTrueWithSkipOnData_YieldsSkippedTestCasePerDataRow,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.DiscoveryOptions_PreEnumerateTheoriesSetToTrue_YieldsTestCasePerDataRow,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.EmptyTheoryData_Fail(preEnumerateTheories: False),20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.EmptyTheoryData_Fail(preEnumerateTheories: True),20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.EmptyTheoryData_Skip(preEnumerateTheories: False),20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.EmptyTheoryData_Skip(preEnumerateTheories: True),20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.IncludeTestCaseIndex_SetToFalse_YieldsTestCasesWithoutIndex,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.IncludeTestCaseIndex_SetToTrueWithDisabledDiscovery_ShouldNotBeIndexed,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.IncludeTestCaseIndex_SetToTrueWithLabelAndTestDisplayName_TestDisplayNameTakesPrecedence,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.IncludeTestCaseIndex_SetToTrueWithLabel_YieldsIndexedDisplayNameWithLabel,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.IncludeTestCaseIndex_SetToTrueWithMultipleCultures,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.IncludeTestCaseIndex_SetToTrueWithTestDisplayName_YieldsIndexedCustomDisplayName,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.IncludeTestCaseIndex_SetToTrue_IndexPaddingScalesWithCount,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.IncludeTestCaseIndex_SetToTrue_YieldsTestCasesWithZeroPaddedIndex,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.MixedDiscoveryEnumerationOnMemberData_YieldsSingleTheoryTestCase,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.NoDataAttributes,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.NonSerializableDataYieldsSingleTheoryTestCase,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.NullMemberData_ThrowsInvalidOperationException,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.SkippedTheoryWithData,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.SkippedTheoryWithNoData,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.TheoryWithSerializableInputDataThatIsntSerializableAfterConversion_YieldsSingleTheoryTestCase,20,20,0,0,stable
+TheoryDiscovererTests,TheoryDiscovererTests.ThrowingData,20,20,0,0,stable
+TraceAssertOverrideListenerTests,"TraceAssertOverrideListenerTests.ConvertsTraceAssertIntoFailureException(message: \""message\"", detailMessage: \""details\"", exceptedAssertMessage: \""Trace/Debug.Assert() Failure: message\\r\\ndetails\"")",20,20,0,0,stable
+TraceAssertOverrideListenerTests,"TraceAssertOverrideListenerTests.ConvertsTraceAssertIntoFailureException(message: \""message\"", detailMessage: null, exceptedAssertMessage: \""Trace/Debug.Assert() Failure: message\"")",20,20,0,0,stable
+TraceAssertOverrideListenerTests,"TraceAssertOverrideListenerTests.ConvertsTraceAssertIntoFailureException(message: null, detailMessage: \""details\"", exceptedAssertMessage: \""Trace/Debug.Assert() Failure: details\"")",20,20,0,0,stable
+TraceAssertOverrideListenerTests,"TraceAssertOverrideListenerTests.ConvertsTraceAssertIntoFailureException(message: null, detailMessage: null, exceptedAssertMessage: \""Trace/Debug.Assert() Failure\"")",20,20,0,0,stable
+TraceAssertOverrideListenerTests,"TraceAssertOverrideListenerTests.DoesNotConvertDebugAssertIntoFailureException(message: \""message\"", detailMessage: \""details\"", _: \""Trace/Debug.Assert() Failure: message\\r\\ndetails\"")",20,20,0,0,stable
+TraceAssertOverrideListenerTests,"TraceAssertOverrideListenerTests.DoesNotConvertDebugAssertIntoFailureException(message: \""message\"", detailMessage: null, _: \""Trace/Debug.Assert() Failure: message\"")",20,20,0,0,stable
+TraceAssertOverrideListenerTests,"TraceAssertOverrideListenerTests.DoesNotConvertDebugAssertIntoFailureException(message: null, detailMessage: \""details\"", _: \""Trace/Debug.Assert() Failure: details\"")",20,20,0,0,stable
+TraceAssertOverrideListenerTests,"TraceAssertOverrideListenerTests.DoesNotConvertDebugAssertIntoFailureException(message: null, detailMessage: null, _: \""Trace/Debug.Assert() Failure\"")",20,20,0,0,stable
+TraceCaptureTestOutputWriterTests,TraceCaptureTestOutputWriterTests.CapturesDebug,20,20,0,0,stable
+TraceCaptureTestOutputWriterTests,TraceCaptureTestOutputWriterTests.CapturesTrace,20,20,0,0,stable
+TraceCaptureTestOutputWriterTests,TraceCaptureTestOutputWriterTests.OutputIsInterleaved,20,20,0,0,stable
+UnorderedTestCaseOrdererTests,UnorderedTestCaseOrdererTests.OrderIsPredictable,20,20,0,0,stable
+UnorderedTestClassOrdererTests,UnorderedTestClassOrdererTests.OrderIsPredictable,20,20,0,0,stable
+UnorderedTestCollectionOrdererTests,UnorderedTestCollectionOrdererTests.OrderIsPredictable,20,20,0,0,stable
+UnorderedTestMethodOrdererTests,UnorderedTestMethodOrdererTests.OrderIsPredictable,20,20,0,0,stable
+Xunit3AcceptanceTests+AsyncLifetime,Xunit3AcceptanceTests+AsyncLifetime.AsyncDisposableAcceptanceTest,20,20,0,0,stable
+Xunit3AcceptanceTests+AsyncLifetime,Xunit3AcceptanceTests+AsyncLifetime.AsyncLifetimeAcceptanceTest,20,20,0,0,stable
+Xunit3AcceptanceTests+AsyncLifetime,Xunit3AcceptanceTests+AsyncLifetime.DisposableAcceptanceTest,20,20,0,0,stable
+Xunit3AcceptanceTests+AsyncLifetime,Xunit3AcceptanceTests+AsyncLifetime.FailingTest,20,20,0,0,stable
+Xunit3AcceptanceTests+AsyncLifetime,Xunit3AcceptanceTests+AsyncLifetime.ThrowingConstructor,20,20,0,0,stable
+Xunit3AcceptanceTests+AsyncLifetime,Xunit3AcceptanceTests+AsyncLifetime.ThrowingDisposeAsync,20,20,0,0,stable
+Xunit3AcceptanceTests+AsyncLifetime,Xunit3AcceptanceTests+AsyncLifetime.ThrowingDisposeAsync_Disposable,20,20,0,0,stable
+Xunit3AcceptanceTests+AsyncLifetime,Xunit3AcceptanceTests+AsyncLifetime.ThrowingInitializeAsync,20,20,0,0,stable
+Xunit3AcceptanceTests+ClassFailures,Xunit3AcceptanceTests+ClassFailures.CompositeTestFailureResultsFromFailingTestsPlusThrowingDisposeInTestClass,20,20,0,0,stable
+Xunit3AcceptanceTests+ClassFailures,Xunit3AcceptanceTests+ClassFailures.TestFailureResultsFromThrowingCtorInTestClass,20,20,0,0,stable
+Xunit3AcceptanceTests+ClassFailures,Xunit3AcceptanceTests+ClassFailures.TestFailureResultsFromThrowingDisposeInTestClass,20,20,0,0,stable
+Xunit3AcceptanceTests+CustomFacts,Xunit3AcceptanceTests+CustomFacts.CanUseCustomFactAttribute,20,20,0,0,stable
+Xunit3AcceptanceTests+CustomFacts,Xunit3AcceptanceTests+CustomFacts.CanUseCustomFactWithArrayParameters,20,20,0,0,stable
+Xunit3AcceptanceTests+CustomFacts,Xunit3AcceptanceTests+CustomFacts.ClassWithThrowingSkipGetterShouldReportThatAsFailure,20,20,0,0,stable
+Xunit3AcceptanceTests+EndToEndMessageInspection,Xunit3AcceptanceTests+EndToEndMessageInspection.NoTests,20,20,0,0,stable
+Xunit3AcceptanceTests+EndToEndMessageInspection,Xunit3AcceptanceTests+EndToEndMessageInspection.SinglePassingTest,20,20,0,0,stable
+Xunit3AcceptanceTests+ErrorAggregation,Xunit3AcceptanceTests+ErrorAggregation.EachTestMethodHasIndividualExceptionMessage,20,20,0,0,stable
+Xunit3AcceptanceTests+ExplicitTests,Xunit3AcceptanceTests+ExplicitTests.OnlyRunExplicit,20,20,0,0,stable
+Xunit3AcceptanceTests+ExplicitTests,Xunit3AcceptanceTests+ExplicitTests.OnlyRunNonExplicit(explicit: Off),20,20,0,0,stable
+Xunit3AcceptanceTests+ExplicitTests,Xunit3AcceptanceTests+ExplicitTests.OnlyRunNonExplicit(explicit: null),20,20,0,0,stable
+Xunit3AcceptanceTests+ExplicitTests,Xunit3AcceptanceTests+ExplicitTests.RunEverything,20,20,0,0,stable
+Xunit3AcceptanceTests+FailingTests,Xunit3AcceptanceTests+FailingTests.SingleFailingTest,20,20,0,0,stable
+Xunit3AcceptanceTests+FailingTests,Xunit3AcceptanceTests+FailingTests.SingleFailingTestReturningValueTask,20,20,0,0,stable
+Xunit3AcceptanceTests+Guards,Xunit3AcceptanceTests+Guards.AsyncVoidTestsAreFastFailed,20,20,0,0,stable
+Xunit3AcceptanceTests+Guards,Xunit3AcceptanceTests+Guards.CannotMixMultipleFactDerivedAttributes,20,20,0,0,stable
+Xunit3AcceptanceTests+Naming,Xunit3AcceptanceTests+Naming.CanSerializeAndDeserializeWithPrivateOverload,20,20,0,0,stable
+Xunit3AcceptanceTests+Naming,Xunit3AcceptanceTests+Naming.OverloadsAreNotSupported,20,20,0,0,stable
+Xunit3AcceptanceTests+NonStartedTasks,Xunit3AcceptanceTests+NonStartedTasks.TestWithUnstartedTaskThrows,20,20,0,0,stable
+Xunit3AcceptanceTests+SkippedTests,Xunit3AcceptanceTests+SkippedTests.ConditionallySkippedTests,20,20,0,0,stable
+Xunit3AcceptanceTests+SkippedTests,Xunit3AcceptanceTests+SkippedTests.ConditionallySkippedTests_UsingBaseType,20,20,0,0,stable
+Xunit3AcceptanceTests+SkippedTests,Xunit3AcceptanceTests+SkippedTests.ConditionallySkippedTests_UsingSkipType,20,20,0,0,stable
+Xunit3AcceptanceTests+SkippedTests,Xunit3AcceptanceTests+SkippedTests.SingleSkippedTest,20,20,0,0,stable
+Xunit3AcceptanceTests+StaticClassSupport,Xunit3AcceptanceTests+StaticClassSupport.TestsCanBeInStaticClasses,20,20,0,0,stable
+Xunit3AcceptanceTests+TestContextAccessor,Xunit3AcceptanceTests+TestContextAccessor.CanInjectTestContextAccessor,20,20,0,0,stable
+Xunit3AcceptanceTests+TestNonParallelOrdering,Xunit3AcceptanceTests+TestNonParallelOrdering.NonParallelCollectionsRunLast,20,20,0,0,stable
+Xunit3AcceptanceTests+TestOrdering,Xunit3AcceptanceTests+TestOrdering.OverrideOfOrderingAtClassLevel,20,20,0,0,stable
+Xunit3AcceptanceTests+TestOrdering,Xunit3AcceptanceTests+TestOrdering.OverrideOfOrderingAtCollectionLevel,20,20,0,0,stable
+Xunit3AcceptanceTests+TestOutput,Xunit3AcceptanceTests+TestOutput.SendOutputMessages,20,20,0,0,stable
+Xunit3AcceptanceTests+Warnings,Xunit3AcceptanceTests+Warnings.IllegalWarning,20,20,0,0,stable
+Xunit3AcceptanceTests+Warnings,Xunit3AcceptanceTests+Warnings.LegalWarnings,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+ClassDataTests,Xunit3TheoryAcceptanceTests+ClassDataTests.ClassAsyncDisposable_DisposesOfClass,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+ClassDataTests,Xunit3TheoryAcceptanceTests+ClassDataTests.ClassDisposable_DisposesOfClass,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+ClassDataTests,Xunit3TheoryAcceptanceTests+ClassDataTests.IncompatibleDataReturnType_Throws,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+ClassDataTests,Xunit3TheoryAcceptanceTests+ClassDataTests.IncompatibleDataValueType_Throws,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+ClassDataTests_Generic,Xunit3TheoryAcceptanceTests+ClassDataTests_Generic.ClassAsyncDisposable_DisposesOfClass,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+ClassDataTests_Generic,Xunit3TheoryAcceptanceTests+ClassDataTests_Generic.ClassDisposable_DisposesOfClass,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+ClassDataTests_Generic,Xunit3TheoryAcceptanceTests+ClassDataTests_Generic.IncompatibleDataReturnType_Throws,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+ClassDataTests_Generic,Xunit3TheoryAcceptanceTests+ClassDataTests_Generic.IncompatibleDataValueType_Throws,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+CustomDataTests,Xunit3TheoryAcceptanceTests+CustomDataTests.CanSupportConstructorOverloadingWithDataAttribute,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+CustomDataTests,Xunit3TheoryAcceptanceTests+CustomDataTests.MemberDataAttributeBaseSubclass_Success,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+CustomDataTests,Xunit3TheoryAcceptanceTests+CustomDataTests.TestDataWithInternalConstructor_ReturnsTwoPassingTheories,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataAttributeTests,Xunit3TheoryAcceptanceTests+DataAttributeTests.ExplicitAcceptanceTest_ExplicitOff(preEnumerateTheories: False),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataAttributeTests,Xunit3TheoryAcceptanceTests+DataAttributeTests.ExplicitAcceptanceTest_ExplicitOff(preEnumerateTheories: True),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataAttributeTests,Xunit3TheoryAcceptanceTests+DataAttributeTests.ExplicitAcceptanceTest_ExplicitOn(preEnumerateTheories: False),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataAttributeTests,Xunit3TheoryAcceptanceTests+DataAttributeTests.ExplicitAcceptanceTest_ExplicitOn(preEnumerateTheories: True),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataAttributeTests,Xunit3TheoryAcceptanceTests+DataAttributeTests.ExplicitAcceptanceTest_ExplicitOnly(preEnumerateTheories: False),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataAttributeTests,Xunit3TheoryAcceptanceTests+DataAttributeTests.ExplicitAcceptanceTest_ExplicitOnly(preEnumerateTheories: True),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataAttributeTests,Xunit3TheoryAcceptanceTests+DataAttributeTests.LabelAcceptanceTests(preEnumerateTheories: False),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataAttributeTests,Xunit3TheoryAcceptanceTests+DataAttributeTests.LabelAcceptanceTests(preEnumerateTheories: True),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataAttributeTests,Xunit3TheoryAcceptanceTests+DataAttributeTests.SkipAcceptanceTest(preEnumerateTheories: False),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataAttributeTests,Xunit3TheoryAcceptanceTests+DataAttributeTests.SkipAcceptanceTest(preEnumerateTheories: True),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataAttributeTests,Xunit3TheoryAcceptanceTests+DataAttributeTests.TestDisplayNameAcceptanceTest(preEnumerateTheories: False),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataAttributeTests,Xunit3TheoryAcceptanceTests+DataAttributeTests.TestDisplayNameAcceptanceTest(preEnumerateTheories: True),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataAttributeTests,Xunit3TheoryAcceptanceTests+DataAttributeTests.TraitsAcceptanceTest(preEnumerateTheories: False),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataAttributeTests,Xunit3TheoryAcceptanceTests+DataAttributeTests.TraitsAcceptanceTest(preEnumerateTheories: True),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataAttributeTimeoutTests,Xunit3TheoryAcceptanceTests+DataAttributeTimeoutTests.TimeoutAcceptanceTest(preEnumerateTheories: False),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataAttributeTimeoutTests,Xunit3TheoryAcceptanceTests+DataAttributeTimeoutTests.TimeoutAcceptanceTest(preEnumerateTheories: True),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataConversionTests,Xunit3TheoryAcceptanceTests+DataConversionTests.IConvertibleDataPasses,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataConversionTests,Xunit3TheoryAcceptanceTests+DataConversionTests.ImplicitlyConvertibleDataPasses,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+DataConversionTests,Xunit3TheoryAcceptanceTests+DataConversionTests.IncompatibleDataThrows,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+ErrorAggregation,Xunit3TheoryAcceptanceTests+ErrorAggregation.EachTheoryHasIndividualExceptionMessage,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+InlineDataTests,Xunit3TheoryAcceptanceTests+InlineDataTests.ArraysWork,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+InlineDataTests,Xunit3TheoryAcceptanceTests+InlineDataTests.AsyncTaskMethod_MultipleInlineDataAttributes,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+InlineDataTests,Xunit3TheoryAcceptanceTests+InlineDataTests.RunsForEachDataElement,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+InlineDataTests,Xunit3TheoryAcceptanceTests+InlineDataTests.SingleNullValuesWork,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+InlineDataTests,Xunit3TheoryAcceptanceTests+InlineDataTests.SpecialFloatingPointValuesAreSupported,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+InlineDataTests,Xunit3TheoryAcceptanceTests+InlineDataTests.ValueArraysWithObjectParameterInjectCorrectType,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+LabelTests,Xunit3TheoryAcceptanceTests+LabelTests.LabelAvailable_NonSerializableData,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+LabelTests,Xunit3TheoryAcceptanceTests+LabelTests.LabelAvailable_NonSerializableData [abc123],20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+LabelTests,"Xunit3TheoryAcceptanceTests+LabelTests.LabelAvailable_NonSerializableData(_: Object { }, expectedLabel: null)",20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+LabelTests,Xunit3TheoryAcceptanceTests+LabelTests.LabelAvailable_SerializableData_NoPreEnumeration,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+LabelTests,Xunit3TheoryAcceptanceTests+LabelTests.LabelAvailable_SerializableData_NoPreEnumeration [abc123],20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+LabelTests,Xunit3TheoryAcceptanceTests+LabelTests.LabelAvailable_SerializableData_NoPreEnumeration(expectedLabel: null),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+LabelTests,Xunit3TheoryAcceptanceTests+LabelTests.LabelAvailable_SerializableData_WithPreEnumeration,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+LabelTests,Xunit3TheoryAcceptanceTests+LabelTests.LabelAvailable_SerializableData_WithPreEnumeration [abc123],20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+LabelTests,Xunit3TheoryAcceptanceTests+LabelTests.LabelAvailable_SerializableData_WithPreEnumeration(expectedLabel: null),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MemberDataTests,Xunit3TheoryAcceptanceTests+MemberDataTests.AcceptanceTest(classUnderTest: typeof(Xunit3TheoryAcceptanceTests+MemberDataTests+ClassUnderTest_IAsyncEnumerable)),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MemberDataTests,Xunit3TheoryAcceptanceTests+MemberDataTests.AcceptanceTest(classUnderTest: typeof(Xunit3TheoryAcceptanceTests+MemberDataTests+ClassUnderTest_IEnumerable)),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MemberDataTests,Xunit3TheoryAcceptanceTests+MemberDataTests.AcceptanceTest(classUnderTest: typeof(Xunit3TheoryAcceptanceTests+MemberDataTests+ClassUnderTest_TaskOfIAsyncEnumerable)),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MemberDataTests,Xunit3TheoryAcceptanceTests+MemberDataTests.AcceptanceTest(classUnderTest: typeof(Xunit3TheoryAcceptanceTests+MemberDataTests+ClassUnderTest_TaskOfIEnumerable)),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MemberDataTests,Xunit3TheoryAcceptanceTests+MemberDataTests.AcceptanceTest(classUnderTest: typeof(Xunit3TheoryAcceptanceTests+MemberDataTests+ClassUnderTest_ValueTaskOfIAsyncEnumerable)),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MemberDataTests,Xunit3TheoryAcceptanceTests+MemberDataTests.AcceptanceTest(classUnderTest: typeof(Xunit3TheoryAcceptanceTests+MemberDataTests+ClassUnderTest_ValueTaskOfIEnumerable)),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MemberDataTests,Xunit3TheoryAcceptanceTests+MemberDataTests.IncompatibleDataReturnType_Throws,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MemberDataTests,Xunit3TheoryAcceptanceTests+MemberDataTests.IncompatibleDataValueType_Throws,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MemberDataTests,Xunit3TheoryAcceptanceTests+MemberDataTests.MemberData_ReferencingStaticInterfaceData_Succeeds,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MemberDataTests,Xunit3TheoryAcceptanceTests+MemberDataTests.NonStaticData_Throws,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MethodDataTests,Xunit3TheoryAcceptanceTests+MethodDataTests.CanDowncastMethodData,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MethodDataTests,Xunit3TheoryAcceptanceTests+MethodDataTests.CanPassParametersToDataMethod,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MethodDataTests,Xunit3TheoryAcceptanceTests+MethodDataTests.CanProvideAsyncData,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MethodDataTests,Xunit3TheoryAcceptanceTests+MethodDataTests.CanUseMethodDataInSubTypeFromTestInBaseType,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MethodDataTests,Xunit3TheoryAcceptanceTests+MethodDataTests.GenericParameter_Func_Valid,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MethodDataTests,Xunit3TheoryAcceptanceTests+MethodDataTests.MultipleMethodsButOnlyOneNonOptionalSupported,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MethodDataTests,Xunit3TheoryAcceptanceTests+MethodDataTests.MultipleMethodsWithAmbiguousOptionalParameters,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MethodDataTests,Xunit3TheoryAcceptanceTests+MethodDataTests.NonMatchingMethodInputDataThrows,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MethodDataTests,Xunit3TheoryAcceptanceTests+MethodDataTests.OptionalParametersSupported,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MethodDataTests,Xunit3TheoryAcceptanceTests+MethodDataTests.SubTypeInheritsTestsFromBaseType,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MethodDataTests+SubClassWithTestData,Xunit3TheoryAcceptanceTests+MethodDataTests+SubClassWithTestData.Test(x: 42),20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+MissingDataTests,Xunit3TheoryAcceptanceTests+MissingDataTests.MissingDataThrows,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+OverloadedMethodTests,Xunit3TheoryAcceptanceTests+OverloadedMethodTests.TestMethodMessagesOnlySentOnce,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+TheoryTests,Xunit3TheoryAcceptanceTests+TheoryTests.GenericTheoryWithNonSerializableData,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+TheoryTests,Xunit3TheoryAcceptanceTests+TheoryTests.GenericTheoryWithSerializableData,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+TheoryTests,Xunit3TheoryAcceptanceTests+TheoryTests.ImplicitExplicitConversions,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+TheoryTests,Xunit3TheoryAcceptanceTests+TheoryTests.IncludeTestCaseIndex_SetToFalse_YieldsTestCasesWithoutIndex,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+TheoryTests,Xunit3TheoryAcceptanceTests+TheoryTests.IncludeTestCaseIndex_SetToTrueWithLabelAndTestDisplayName_TestDisplayNameTakesPrecedence,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+TheoryTests,Xunit3TheoryAcceptanceTests+TheoryTests.IncludeTestCaseIndex_SetToTrueWithLabel_YieldsIndexedDisplayNameWithLabel,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+TheoryTests,Xunit3TheoryAcceptanceTests+TheoryTests.IncludeTestCaseIndex_SetToTrueWithTestDisplayName_YieldsIndexedCustomDisplayName,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+TheoryTests,Xunit3TheoryAcceptanceTests+TheoryTests.IncludeTestCaseIndex_SetToTrue_IndexPaddingScalesWithCount,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+TheoryTests,Xunit3TheoryAcceptanceTests+TheoryTests.IncludeTestCaseIndex_SetToTrue_YieldsTestCasesWithZeroPaddedIndex,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+TheoryTests,Xunit3TheoryAcceptanceTests+TheoryTests.OptionalParameters_Valid,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+TheoryTests,Xunit3TheoryAcceptanceTests+TheoryTests.ParamsParameters_Valid,20,20,0,0,stable
+Xunit3TheoryAcceptanceTests+TheoryTests,Xunit3TheoryAcceptanceTests+TheoryTests.Skipped,20,20,0,0,stable
+XunitTestAssemblyRunnerTests+Fixtures,XunitTestAssemblyRunnerTests+Fixtures.FixtureEvents,20,20,0,0,stable
+XunitTestAssemblyRunnerTests+Messages,XunitTestAssemblyRunnerTests+Messages.AssemblyFixtureThrowingDuringCleanup,20,20,0,0,stable
+XunitTestAssemblyRunnerTests+Messages,XunitTestAssemblyRunnerTests+Messages.AssemblyFixtureThrowingDuringInitialization,20,20,0,0,stable
+XunitTestAssemblyRunnerTests+Messages,XunitTestAssemblyRunnerTests+Messages.Failed,20,20,0,0,stable
+XunitTestAssemblyRunnerTests+Messages,XunitTestAssemblyRunnerTests+Messages.NotRun,20,20,0,0,stable
+XunitTestAssemblyRunnerTests+Messages,XunitTestAssemblyRunnerTests+Messages.Passing,20,20,0,0,stable
+XunitTestAssemblyRunnerTests+Messages,XunitTestAssemblyRunnerTests+Messages.SkippedViaAttribute,20,20,0,0,stable
+XunitTestAssemblyRunnerTests+Messages,XunitTestAssemblyRunnerTests+Messages.SkippedViaException,20,20,0,0,stable
+XunitTestAssemblyRunnerTests+Messages,XunitTestAssemblyRunnerTests+Messages.SkippedViaRegisteredException,20,20,0,0,stable
+XunitTestAssemblyRunnerTests+Messages,XunitTestAssemblyRunnerTests+Messages.StaticPassing,20,20,0,0,stable
+XunitTestAssemblyRunnerTests+Run,XunitTestAssemblyRunnerTests+Run.OrdererWithThrowingConstructor,20,20,0,0,stable
+XunitTestCaseRunnerTests+Fixtures,XunitTestCaseRunnerTests+Fixtures.FixtureEvents,20,20,0,0,stable
+XunitTestCaseRunnerTests+Messages,XunitTestCaseRunnerTests+Messages.Failed,20,20,0,0,stable
+XunitTestCaseRunnerTests+Messages,XunitTestCaseRunnerTests+Messages.NotRun,20,20,0,0,stable
+XunitTestCaseRunnerTests+Messages,XunitTestCaseRunnerTests+Messages.Passing,20,20,0,0,stable
+XunitTestCaseRunnerTests+Messages,XunitTestCaseRunnerTests+Messages.SkippedViaAttribute,20,20,0,0,stable
+XunitTestCaseRunnerTests+Messages,XunitTestCaseRunnerTests+Messages.SkippedViaException,20,20,0,0,stable
+XunitTestCaseRunnerTests+Messages,XunitTestCaseRunnerTests+Messages.SkippedViaRegisteredException,20,20,0,0,stable
+XunitTestCaseRunnerTests+Messages,XunitTestCaseRunnerTests+Messages.StaticPassing,20,20,0,0,stable
+XunitTestCaseTests,XunitTestCaseTests.DynamicallySkipped_SkipUnless,20,20,0,0,stable
+XunitTestCaseTests,XunitTestCaseTests.DynamicallySkipped_SkipWhen,20,20,0,0,stable
+XunitTestCaseTests,XunitTestCaseTests.GuardClauses,20,20,0,0,stable
+XunitTestCaseTests,XunitTestCaseTests.ManagedTestCasePropertiesTest,20,20,0,0,stable
+XunitTestCaseTests,XunitTestCaseTests.Metadata,20,20,0,0,stable
+XunitTestCaseTests,"XunitTestCaseTests.Serialization(skipUnless: \""skipUnless\"", skipWhen: null)",20,20,0,0,stable
+XunitTestCaseTests,"XunitTestCaseTests.Serialization(skipUnless: null, skipWhen: \""skipWhen\"")",20,20,0,0,stable
+XunitTestCaseTests,"XunitTestCaseTests.Serialization(skipUnless: null, skipWhen: null)",20,20,0,0,stable
+XunitTestCaseTests,XunitTestCaseTests.StaticallySkipped,20,20,0,0,stable
+XunitTestCaseTests,"XunitTestCaseTests.TestMethodArity(methodName: \""OneArity\"", expectedArity: 1)",20,20,0,0,stable
+XunitTestCaseTests,"XunitTestCaseTests.TestMethodArity(methodName: \""ZeroArity\"", expectedArity: 0)",20,20,0,0,stable
+XunitTestClassRunnerTests+Fixtures,XunitTestClassRunnerTests+Fixtures.CanInjectCollectionFixtureIntoClassFixture,20,20,0,0,stable
+XunitTestClassRunnerTests+Fixtures,XunitTestClassRunnerTests+Fixtures.CanInjectMessageSinkIntoClassFixture,20,20,0,0,stable
+XunitTestClassRunnerTests+Fixtures,XunitTestClassRunnerTests+Fixtures.CreatesFixturesFromClassAndCollection,20,20,0,0,stable
+XunitTestClassRunnerTests+Fixtures,XunitTestClassRunnerTests+Fixtures.DefaultValuesInTestClassConstructor,20,20,0,0,stable
+XunitTestClassRunnerTests+Fixtures,XunitTestClassRunnerTests+Fixtures.DisposesFixtures,20,20,0,0,stable
+XunitTestClassRunnerTests+Fixtures,XunitTestClassRunnerTests+Fixtures.FixtureEvents,20,20,0,0,stable
+XunitTestClassRunnerTests+Fixtures,XunitTestClassRunnerTests+Fixtures.IAsyncDisposableIsPreferredOverIDisposable,20,20,0,0,stable
+XunitTestClassRunnerTests+Fixtures,XunitTestClassRunnerTests+Fixtures.MultiplePublicConstructorsOnClassFixture,20,20,0,0,stable
+XunitTestClassRunnerTests+Fixtures,XunitTestClassRunnerTests+Fixtures.ParamsValueInTestClassConstructor,20,20,0,0,stable
+XunitTestClassRunnerTests+Fixtures,XunitTestClassRunnerTests+Fixtures.PassesFixtureValuesToTestClassConstructor,20,20,0,0,stable
+XunitTestClassRunnerTests+Fixtures,XunitTestClassRunnerTests+Fixtures.UnresolvedConstructorParameterOnClassFixture,20,20,0,0,stable
+XunitTestClassRunnerTests+Messages,XunitTestClassRunnerTests+Messages.ClassWithCollectionFixture,20,20,0,0,stable
+XunitTestClassRunnerTests+Messages,XunitTestClassRunnerTests+Messages.ClassWithMixedConstructors,20,20,0,0,stable
+XunitTestClassRunnerTests+Messages,XunitTestClassRunnerTests+Messages.ClassWithMultiplePublicConstructors,20,20,0,0,stable
+XunitTestClassRunnerTests+Messages,XunitTestClassRunnerTests+Messages.Failed,20,20,0,0,stable
+XunitTestClassRunnerTests+Messages,XunitTestClassRunnerTests+Messages.NotRun,20,20,0,0,stable
+XunitTestClassRunnerTests+Messages,XunitTestClassRunnerTests+Messages.Passing,20,20,0,0,stable
+XunitTestClassRunnerTests+Messages,XunitTestClassRunnerTests+Messages.SkippedViaAttribute,20,20,0,0,stable
+XunitTestClassRunnerTests+Messages,XunitTestClassRunnerTests+Messages.SkippedViaException,20,20,0,0,stable
+XunitTestClassRunnerTests+Messages,XunitTestClassRunnerTests+Messages.SkippedViaRegisteredException,20,20,0,0,stable
+XunitTestClassRunnerTests+Messages,XunitTestClassRunnerTests+Messages.StaticPassing,20,20,0,0,stable
+XunitTestClassRunnerTests+Run,XunitTestClassRunnerTests+Run.CollectionFixtureOnTestClass,20,20,0,0,stable
+XunitTestClassRunnerTests+Run,XunitTestClassRunnerTests+Run.OrdererWithThrowingConstructor,20,20,0,0,stable
+XunitTestClassRunnerTests+Run,XunitTestClassRunnerTests+Run.TooManyConstructors,20,20,0,0,stable
+XunitTestClassTests,XunitTestClassTests.BeforeAfterTestAttributes,20,20,0,0,stable
+XunitTestClassTests,XunitTestClassTests.ClassFixtureTypes,20,20,0,0,stable
+XunitTestClassTests,XunitTestClassTests.Constructors,20,20,0,0,stable
+XunitTestClassTests,XunitTestClassTests.Metadata,20,20,0,0,stable
+XunitTestClassTests,XunitTestClassTests.Methods,20,20,0,0,stable
+XunitTestClassTests,XunitTestClassTests.Serialization,20,20,0,0,stable
+XunitTestClassTests,XunitTestClassTests.TestCaseOrderer,20,20,0,0,stable
+XunitTestClassTests,XunitTestClassTests.Traits,20,20,0,0,stable
+XunitTestCollectionRunnerTests+Fixtures,XunitTestCollectionRunnerTests+Fixtures.CanInjectAssemblyFixtureIntoCollectionFixture,20,20,0,0,stable
+XunitTestCollectionRunnerTests+Fixtures,XunitTestCollectionRunnerTests+Fixtures.CanInjectMessageSinkIntoCollectionFixture,20,20,0,0,stable
+XunitTestCollectionRunnerTests+Fixtures,XunitTestCollectionRunnerTests+Fixtures.CreatesFixtures,20,20,0,0,stable
+XunitTestCollectionRunnerTests+Fixtures,XunitTestCollectionRunnerTests+Fixtures.DisposesFixtures,20,20,0,0,stable
+XunitTestCollectionRunnerTests+Fixtures,XunitTestCollectionRunnerTests+Fixtures.FixtureEvents,20,20,0,0,stable
+XunitTestCollectionRunnerTests+Fixtures,XunitTestCollectionRunnerTests+Fixtures.IAsyncDisposableIsPreferredOverIDisposable,20,20,0,0,stable
+XunitTestCollectionRunnerTests+Fixtures,XunitTestCollectionRunnerTests+Fixtures.MultiplePublicConstructorsOnCollectionFixture,20,20,0,0,stable
+XunitTestCollectionRunnerTests+Fixtures,XunitTestCollectionRunnerTests+Fixtures.UnresolvedConstructorParameterOnCollectionFixture,20,20,0,0,stable
+XunitTestCollectionRunnerTests+Messages,XunitTestCollectionRunnerTests+Messages.Failed,20,20,0,0,stable
+XunitTestCollectionRunnerTests+Messages,XunitTestCollectionRunnerTests+Messages.FixtureCreationFailure,20,20,0,0,stable
+XunitTestCollectionRunnerTests+Messages,XunitTestCollectionRunnerTests+Messages.FixtureDisposeFailure,20,20,0,0,stable
+XunitTestCollectionRunnerTests+Messages,XunitTestCollectionRunnerTests+Messages.NotRun,20,20,0,0,stable
+XunitTestCollectionRunnerTests+Messages,XunitTestCollectionRunnerTests+Messages.Passing,20,20,0,0,stable
+XunitTestCollectionRunnerTests+Messages,XunitTestCollectionRunnerTests+Messages.SkippedViaAttribute,20,20,0,0,stable
+XunitTestCollectionRunnerTests+Messages,XunitTestCollectionRunnerTests+Messages.SkippedViaException,20,20,0,0,stable
+XunitTestCollectionRunnerTests+Messages,XunitTestCollectionRunnerTests+Messages.SkippedViaRegisteredException,20,20,0,0,stable
+XunitTestCollectionRunnerTests+Messages,XunitTestCollectionRunnerTests+Messages.StaticPassing,20,20,0,0,stable
+XunitTestCollectionRunnerTests+Run,XunitTestCollectionRunnerTests+Run.OrdererWithThrowingConstructor,20,20,0,0,stable
+XunitTestCollectionTests,XunitTestCollectionTests.BeforeAfterTestAttributes,20,20,0,0,stable
+XunitTestCollectionTests,XunitTestCollectionTests.ClassFixtureTypes,20,20,0,0,stable
+XunitTestCollectionTests,XunitTestCollectionTests.CollectionFixtureTypes,20,20,0,0,stable
+XunitTestCollectionTests,XunitTestCollectionTests.DisableParallelization,20,20,0,0,stable
+XunitTestCollectionTests,XunitTestCollectionTests.Metadata,20,20,0,0,stable
+XunitTestCollectionTests,XunitTestCollectionTests.Serialization,20,20,0,0,stable
+XunitTestCollectionTests,XunitTestCollectionTests.TestCaseOrderer,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+Construction,XunitTestFrameworkDiscovererTests+Construction.GuardClause,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+CreateTestClass,XunitTestFrameworkDiscovererTests+CreateTestClass.DefaultTestCollection,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+CreateTestClass,XunitTestFrameworkDiscovererTests+CreateTestClass.DefinedTestCollection,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+CreateTestClass,XunitTestFrameworkDiscovererTests+CreateTestClass.UndeclaredTestCollection,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+FindTestsForType,XunitTestFrameworkDiscovererTests+FindTestsForType.AssemblyWithMultiLevelHierarchyWithFactOverridenInNonImmediateDerivedClass_ReturnsOneTestCase,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+FindTestsForType,XunitTestFrameworkDiscovererTests+FindTestsForType.CanFindNonPublicTestMethods,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+FindTestsForType,XunitTestFrameworkDiscovererTests+FindTestsForType.DiscoversBaseStaticMethodDecoratedWithFact,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+FindTestsForType,XunitTestFrameworkDiscovererTests+FindTestsForType.DiscoversFactDecoratedTestMethod,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+FindTestsForType,XunitTestFrameworkDiscovererTests+FindTestsForType.DoesNotDiscoverNonFactDecoratedTestMethod,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+FindTestsForType,XunitTestFrameworkDiscovererTests+FindTestsForType.TestMethodWithTooManyFactAttributes_ReturnsExecutionErrorTestCase,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+FindTestsForType,XunitTestFrameworkDiscovererTests+FindTestsForType.Theory_WithPreEnumeration_ReturnsOneTestCasePerDataRecord,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+FindTestsForType,XunitTestFrameworkDiscovererTests+FindTestsForType.Theory_WithoutPreEnumeration_ReturnsOneTestCase,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+FindTestsForType+Child,XunitTestFrameworkDiscovererTests+FindTestsForType+Child.FactOverridenInNonImmediateDerivedClass,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+FindTestsForType+ClassWithInheritedStaticMethodUnderTest,XunitTestFrameworkDiscovererTests+FindTestsForType+ClassWithInheritedStaticMethodUnderTest.Passing,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+TestCollectionFactory,"XunitTestFrameworkDiscovererTests+TestCollectionFactory.AssemblyAttributeOverride_Concrete(behavior: CollectionPerAssembly, expectedFactoryType: typeof(Xunit.v3.CollectionPerAssemblyTestCollectionFactory))",20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+TestCollectionFactory,"XunitTestFrameworkDiscovererTests+TestCollectionFactory.AssemblyAttributeOverride_Concrete(behavior: CollectionPerClass, expectedFactoryType: typeof(Xunit.v3.CollectionPerClassTestCollectionFactory))",20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+TestCollectionFactory,"XunitTestFrameworkDiscovererTests+TestCollectionFactory.AssemblyAttributeOverride_Interface(behavior: CollectionPerAssembly, expectedFactoryType: typeof(Xunit.v3.CollectionPerAssemblyTestCollectionFactory))",20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+TestCollectionFactory,"XunitTestFrameworkDiscovererTests+TestCollectionFactory.AssemblyAttributeOverride_Interface(behavior: CollectionPerClass, expectedFactoryType: typeof(Xunit.v3.CollectionPerClassTestCollectionFactory))",20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+TestCollectionFactory,XunitTestFrameworkDiscovererTests+TestCollectionFactory.DefaultTestCollectionFactory,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+TestCollectionFactory,XunitTestFrameworkDiscovererTests+TestCollectionFactory.InvalidCustomFactoryFallsBackToDefault_Concrete,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+TestCollectionFactory,XunitTestFrameworkDiscovererTests+TestCollectionFactory.InvalidCustomFactoryFallsBackToDefault_Interface,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+TestCollectionFactory,XunitTestFrameworkDiscovererTests+TestCollectionFactory.ValidCustomFactory_Concrete,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+TestCollectionFactory,XunitTestFrameworkDiscovererTests+TestCollectionFactory.ValidCustomFactory_ConcreteGeneric,20,20,0,0,stable
+XunitTestFrameworkDiscovererTests+TestCollectionFactory,XunitTestFrameworkDiscovererTests+TestCollectionFactory.ValidCustomFactory_Interface,20,20,0,0,stable
+XunitTestFrameworkTests+TestFrameworkDisplayName,XunitTestFrameworkTests+TestFrameworkDisplayName.Defaults,20,20,0,0,stable
+XunitTestMethodRunnerTests+Fixtures,XunitTestMethodRunnerTests+Fixtures.FixtureEvents,20,20,0,0,stable
+XunitTestMethodRunnerTests+Messages,XunitTestMethodRunnerTests+Messages.Failed,20,20,0,0,stable
+XunitTestMethodRunnerTests+Messages,XunitTestMethodRunnerTests+Messages.NotRun,20,20,0,0,stable
+XunitTestMethodRunnerTests+Messages,XunitTestMethodRunnerTests+Messages.Passing,20,20,0,0,stable
+XunitTestMethodRunnerTests+Messages,XunitTestMethodRunnerTests+Messages.SkippedViaAttribute,20,20,0,0,stable
+XunitTestMethodRunnerTests+Messages,XunitTestMethodRunnerTests+Messages.SkippedViaException,20,20,0,0,stable
+XunitTestMethodRunnerTests+Messages,XunitTestMethodRunnerTests+Messages.SkippedViaRegisteredException,20,20,0,0,stable
+XunitTestMethodRunnerTests+Messages,XunitTestMethodRunnerTests+Messages.StaticPassing,20,20,0,0,stable
+XunitTestMethodRunnerTests+Run,XunitTestMethodRunnerTests+Run.OrdererWithThrowingConstructor,20,20,0,0,stable
+XunitTestMethodRunnerTests+SelfExecution,XunitTestMethodRunnerTests+SelfExecution.SupportsSelfExecutingTestCases,20,20,0,0,stable
+XunitTestMethodTests,XunitTestMethodTests.BeforeAfterTestAttributes,20,20,0,0,stable
+XunitTestMethodTests,XunitTestMethodTests.CanSerializeClosedGenericTestMethod,20,20,0,0,stable
+XunitTestMethodTests,XunitTestMethodTests.DataAttributes,20,20,0,0,stable
+XunitTestMethodTests,XunitTestMethodTests.FactAttributes,20,20,0,0,stable
+XunitTestMethodTests,XunitTestMethodTests.Metadata,20,20,0,0,stable
+XunitTestMethodTests,"XunitTestMethodTests.MethodArity(methodName: \""OneArity\"", expectedArity: 1)",20,20,0,0,stable
+XunitTestMethodTests,"XunitTestMethodTests.MethodArity(methodName: \""ZeroArity\"", expectedArity: 0)",20,20,0,0,stable
+XunitTestMethodTests,XunitTestMethodTests.Parameters,20,20,0,0,stable
+XunitTestMethodTests,XunitTestMethodTests.Serialization,20,20,0,0,stable
+XunitTestMethodTests,XunitTestMethodTests.Traits,20,20,0,0,stable
+XunitTestRunnerTests+Fixtures,XunitTestRunnerTests+Fixtures.FixtureEvents,20,20,0,0,stable
+XunitTestRunnerTests+Guards,XunitTestRunnerTests+Guards.AsyncVoidProhibited,20,20,0,0,stable
+XunitTestRunnerTests+Guards,XunitTestRunnerTests+Guards.NotEnoughParameterValues,20,20,0,0,stable
+XunitTestRunnerTests+Guards,XunitTestRunnerTests+Guards.TooManyParameterValues,20,20,0,0,stable
+XunitTestRunnerTests+Messages,XunitTestRunnerTests+Messages.AfterThrows,20,20,0,0,stable
+XunitTestRunnerTests+Messages,XunitTestRunnerTests+Messages.BeforeAfterExecutionOrder,20,20,0,0,stable
+XunitTestRunnerTests+Messages,XunitTestRunnerTests+Messages.BeforeThrows,20,20,0,0,stable
+XunitTestRunnerTests+Messages,XunitTestRunnerTests+Messages.Failed,20,20,0,0,stable
+XunitTestRunnerTests+Messages,XunitTestRunnerTests+Messages.NotRun,20,20,0,0,stable
+XunitTestRunnerTests+Messages,XunitTestRunnerTests+Messages.NotSkippedViaSkipUnless,20,20,0,0,stable
+XunitTestRunnerTests+Messages,XunitTestRunnerTests+Messages.NotSkippedViaSkipWhen,20,20,0,0,stable
+XunitTestRunnerTests+Messages,XunitTestRunnerTests+Messages.Passing,20,20,0,0,stable
+XunitTestRunnerTests+Messages,XunitTestRunnerTests+Messages.SkippedViaAttribute,20,20,0,0,stable
+XunitTestRunnerTests+Messages,XunitTestRunnerTests+Messages.SkippedViaException,20,20,0,0,stable
+XunitTestRunnerTests+Messages,XunitTestRunnerTests+Messages.SkippedViaRegisteredException,20,20,0,0,stable
+XunitTestRunnerTests+Messages,XunitTestRunnerTests+Messages.SkippedViaSkipUnless,20,20,0,0,stable
+XunitTestRunnerTests+Messages,XunitTestRunnerTests+Messages.SkippedViaSkipWhen,20,20,0,0,stable
+XunitTestRunnerTests+Messages,XunitTestRunnerTests+Messages.StaticPassing,20,20,0,0,stable
+XunitTestRunnerTests+Timeout,XunitTestRunnerTests+Timeout.WithTimeout,20,20,0,0,stable
+XunitTestRunnerTests+Timeout,XunitTestRunnerTests+Timeout.WithoutTimeout,20,20,0,0,stable

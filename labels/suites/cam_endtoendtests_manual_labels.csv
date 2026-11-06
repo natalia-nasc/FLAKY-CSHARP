@@ -1,0 +1,2 @@
+﻿className,test,runs_presente,passed,failed,skipped,label
+EndToEndTests.V1.GetAccountsTests,EndToEndTests.V1.GetAccountsTests.GetAccountsReturnsList,20,0,20,0,broken

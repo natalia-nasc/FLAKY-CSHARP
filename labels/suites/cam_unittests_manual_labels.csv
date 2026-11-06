@@ -1,0 +1,15 @@
+﻿className,test,runs_presente,passed,failed,skipped,label
+UnitTests.CloseAccount.CloseAccountTests,UnitTests.CloseAccount.CloseAccountTests.CloseAccountUseCase_Returns_Closed_Account_Id_When_Account_Has_Zero_Balance,20,20,0,0,stable
+UnitTests.CloseAccount.CloseAccountTests,"UnitTests.CloseAccount.CloseAccountTests.IsClosingAllowed_Returns_False_When_Account_Has_Funds(amount: 0,5)",20,20,0,0,stable
+UnitTests.CloseAccount.CloseAccountTests,UnitTests.CloseAccount.CloseAccountTests.IsClosingAllowed_Returns_False_When_Account_Has_Funds(amount: 100),20,20,0,0,stable
+UnitTests.CloseAccount.CloseAccountTests,UnitTests.CloseAccount.CloseAccountTests.IsClosingAllowed_Returns_False_When_Account_Has_Funds(amount: 200),20,20,0,0,stable
+UnitTests.CloseAccount.CloseAccountTests,UnitTests.CloseAccount.CloseAccountTests.IsClosingAllowed_Returns_True_When_Account_Does_Not_Has_Funds,20,20,0,0,stable
+UnitTests.Deposit.DepositTests,UnitTests.Deposit.DepositTests.DepositUseCase_Returns_Invalid_When_Negative_Amount(amount: -100),20,20,0,0,stable
+UnitTests.Deposit.DepositTests,UnitTests.Deposit.DepositTests.DepositUseCase_Returns_Invalid_When_Negative_Amount(amount: 0),20,20,0,0,stable
+UnitTests.Deposit.DepositTests,UnitTests.Deposit.DepositTests.DepositUseCase_Returns_Transaction(amount: 100),20,20,0,0,stable
+UnitTests.Deposit.DepositTests,UnitTests.Deposit.DepositTests.DepositUseCase_Returns_Transaction(amount: 200),20,20,0,0,stable
+UnitTests.OpenAccount.OpenAccountTests,"UnitTests.OpenAccount.OpenAccountTests.OpenAccount_Returns_Ok(amount: 10, currency: ""USD"")",20,20,0,0,stable
+UnitTests.OpenAccount.OpenAccountTests,"UnitTests.OpenAccount.OpenAccountTests.OpenAccount_Returns_Ok(amount: 100, currency: ""SEK"")",20,20,0,0,stable
+UnitTests.OpenAccount.OpenAccountTests,"UnitTests.OpenAccount.OpenAccountTests.OpenAccount_Returns_Ok(amount: 25, currency: ""BRL"")",20,20,0,0,stable
+UnitTests.Transfer.TransferUseCaseTests,"UnitTests.Transfer.TransferUseCaseTests.TransferUseCase_Updates_Balance(amount: 100, expectedOriginBalance: 400)",20,20,0,0,stable
+UnitTests.Withdraw.WithdrawTests,"UnitTests.Withdraw.WithdrawTests.Withdraw_Returns_Account(amount: 100, expectedBalance: 400)",20,20,0,0,stable

@@ -1,0 +1,217 @@
+﻿className,test,runs_presente,passed,failed,skipped,label
+AutoVerify,AutoVerify.DelegateFalse,100,100,0,0,stable
+AutoVerify,AutoVerify.DelegateFalseCustomNames,100,100,0,0,stable
+AutoVerify,AutoVerify.DelegateTrue,100,100,0,0,stable
+AutoVerify,AutoVerify.DelegateTrueCustomNames,100,100,0,0,stable
+AutoVerify,AutoVerify.ExcludeBuildserver,100,100,0,0,stable
+AutoVerify,AutoVerify.IncludeBuildserver,100,100,0,0,stable
+AutoVerify,AutoVerify.Simple,100,100,0,0,stable
+CombinationTests,CombinationTests.AfterCallbackRawValueWhenRecording,100,100,0,0,stable
+CombinationTests,CombinationTests.BuildAddressExceptionsDisabledTest,100,100,0,0,stable
+CombinationTests,CombinationTests.CallbacksTest,100,100,0,0,stable
+CombinationTests,CombinationTests.Combination_CustomSerialization,100,100,0,0,stable
+CombinationTests,CombinationTests.Defaults,100,100,0,0,stable
+CombinationTests,CombinationTests.EveryRegisteredCallbackIsAwaited,100,100,0,0,stable
+CombinationTests,CombinationTests.ExceptionCallbacksTest,100,100,0,0,stable
+CombinationTests,CombinationTests.WithCaptureExceptions,100,100,0,0,stable
+CombinationTests,CombinationTests.WithGlobalHeaders,100,100,0,0,stable
+CombinationTests,CombinationTests.WithNoCaptureExceptions,100,100,0,0,stable
+CustomDateCompareTests,CustomDateCompareTests.Run,100,100,0,0,stable
+DerivePathInfoTests,DerivePathInfoTests.OmitTypeName,100,100,0,0,stable
+DisableDirScrubbingTests,DisableDirScrubbingTests.ProjectDirectory,100,100,0,0,stable
+DisableDirScrubbingTests,DisableDirScrubbingTests.SolutionDirectory,100,100,0,0,stable
+DisableScrubUserProfileTests,DisableScrubUserProfileTests.Simple,100,0,0,100,skipped
+DisableScrubUserProfileTests,DisableScrubUserProfileTests.Wrapped,100,0,0,100,skipped
+DontScrubDatesTests,DontScrubDatesTests.ScrubDatesAndScrubInlineDateTimeOffsets,100,100,0,0,stable
+DontScrubDatesTests,DontScrubDatesTests.ScrubDatesAndScrubInlineDateTimes,100,100,0,0,stable
+DontScrubDatesTests,DontScrubDatesTests.ScrubDatesAndScrubInlineDates,100,100,0,0,stable
+DontScrubDatesTests,DontScrubDatesTests.ScrubInlineDateTimeOffsets,100,100,0,0,stable
+DontScrubDatesTests,DontScrubDatesTests.ScrubInlineDateTimes,100,100,0,0,stable
+DontScrubDatesTests,DontScrubDatesTests.ScrubInlineDates,100,100,0,0,stable
+DontScrubGuidsTests,DontScrubGuidsTests.ScrubGuidsAndScrubInlineGuids,100,100,0,0,stable
+DontScrubGuidsTests,DontScrubGuidsTests.ScrubInlineGuids,100,100,0,0,stable
+ExcludeTargetsTests,ExcludeTargetsTests.AfterVerifyHasBeenRunThrows,100,100,0,0,stable
+ExcludeTargetsTests,ExcludeTargetsTests.ConverterObservesGlobalExclusion,100,100,0,0,stable
+ExcludeTargetsTests,ExcludeTargetsTests.GlobalExclusionAppliesToAllVerifications,100,100,0,0,stable
+FixNewlinesOnReadTests,FixNewlinesOnReadTests.Cr,100,100,0,0,stable
+FixNewlinesOnReadTests,FixNewlinesOnReadTests.Crlf,100,100,0,0,stable
+FixNewlinesOnReadTests,FixNewlinesOnReadTests.MismatchStillFails,100,100,0,0,stable
+FixNewlinesOnReadTests,FixNewlinesOnReadTests.RejectedByDefault,100,100,0,0,stable
+FixNewlinesOnReadTests,FixNewlinesOnReadTests.VerifiedIsNotRewritten,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.ADeclaredWrapperIsInlined,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.AWrapperCallSiteFallsBackToFiles,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.AnEntryPointCallSiteIsInlined,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.AnUnreadableSourceFileIsStillInlined,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.ApplyMaxLinesToExistingRequiresMaxLines,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.CombinationIsInlined,100,100,0,0,stable
+GlobalInlineTests,"GlobalInlineTests.ConstructorParametersAreNotInlined(classArg: ""a"")",100,100,0,0,stable
+GlobalInlineTests,"GlobalInlineTests.ConstructorParametersAreNotInlined(classArg: ""b"")",100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.DelegateContext,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.DelegateDeclining,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.DelegateFilteringByExtensionMatched,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.DelegateFilteringByExtensionUnmatched,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.DontInlineFallsBackToFiles,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.EmptySnapshotOverLimitMovesToFile,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.EntryPointsMustBeIdentifiers,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.ExistingOverLimitKeptByDefault,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.ExistingOverLimitMovesToFile,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.ExistingUnderLimitStaysInline,100,100,0,0,stable
+GlobalInlineTests,"GlobalInlineTests.GloballyIgnoredConstructorParametersAreInlined(classArg: ""a"")",100,100,0,0,stable
+GlobalInlineTests,"GlobalInlineTests.GloballyIgnoredConstructorParametersAreInlined(classArg: ""b"")",100,100,0,0,stable
+GlobalInlineTests,"GlobalInlineTests.GloballyIgnoredParametersAreInlined(value: ""a"")",100,100,0,0,stable
+GlobalInlineTests,"GlobalInlineTests.GloballyIgnoredParametersAreInlined(value: ""b"")",100,100,0,0,stable
+GlobalInlineTests,"GlobalInlineTests.IgnoredParametersAreInlined(value: ""a"")",100,100,0,0,stable
+GlobalInlineTests,"GlobalInlineTests.IgnoredParametersAreInlined(value: ""b"")",100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.MaxLinesAppliesAfterTheDelegate,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.MaxLinesAtLimit,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.MaxLinesIgnoresTrailingNewline,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.MaxLinesInvalid,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.MaxLinesNotSet,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.MaxLinesOverLimit,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.MaxLinesWithBinaryFirstTarget,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.MigrationSkippedOnBuildServer,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.NoTargetsDeclinesRatherThanThrowing,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.NonTextFirstTargetFallsBackToFiles,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.NotInlineBeatsTheSwitch,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.NotInlineFluentBeatsTheSwitch,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.Off,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.On,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.OnlyTheFirstTargetIsInlined,100,100,0,0,stable
+GlobalInlineTests,"GlobalInlineTests.ParametersAreNotInlined(value: ""a"")",100,100,0,0,stable
+GlobalInlineTests,"GlobalInlineTests.ParametersAreNotInlined(value: ""b"")",100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.TwoMigratingSnapshotsInOneMethodThrow,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.UnchangedOverLimitMigratesWithoutFailing,100,100,0,0,stable
+GlobalInlineTests,GlobalInlineTests.UniqueDirectoryIsNotInlined,100,100,0,0,stable
+IgnoreAllParametersTests,"IgnoreAllParametersTests.EmptyListWinsOverConstructorIgnore(classArg: ""One"", methodArg: ""A"")",100,100,0,0,stable
+IgnoreAllParametersTests,"IgnoreAllParametersTests.EmptyListWinsOverConstructorIgnore(classArg: ""Two"", methodArg: ""B"")",100,100,0,0,stable
+IgnoreAllParametersTests,"IgnoreAllParametersTests.EmptyListWinsOverGlobalIgnore(first: ""One"", second: ""A"")",100,100,0,0,stable
+IgnoreAllParametersTests,"IgnoreAllParametersTests.EmptyListWinsOverGlobalIgnore(first: ""Two"", second: ""B"")",100,100,0,0,stable
+IgnoreClassArgumentsTests,"IgnoreClassArgumentsTests.IgnoreConstructorParameters(classArg: ""One"")",100,100,0,0,stable
+IgnoreClassArgumentsTests,"IgnoreClassArgumentsTests.IgnoreConstructorParameters(classArg: ""Two"")",100,100,0,0,stable
+IgnoreParametersTests,"IgnoreParametersTests.IgnoreParameters(arg: ""One"")",100,100,0,0,stable
+IgnoreParametersTests,"IgnoreParametersTests.IgnoreParameters(arg: ""Two"")",100,100,0,0,stable
+IgnoreTrailingNewlineTests,IgnoreTrailingNewlineTests.Ignored,100,100,0,0,stable
+IgnoreTrailingNewlineTests,IgnoreTrailingNewlineTests.IgnoredWhenReceivedAlsoEndsInNewline,100,100,0,0,stable
+IgnoreTrailingNewlineTests,IgnoreTrailingNewlineTests.InlineIgnored,100,100,0,0,stable
+IgnoreTrailingNewlineTests,IgnoreTrailingNewlineTests.InlineIgnoredForCrlfLiteral,100,100,0,0,stable
+IgnoreTrailingNewlineTests,IgnoreTrailingNewlineTests.InlineNotIgnoredByDefault,100,100,0,0,stable
+IgnoreTrailingNewlineTests,IgnoreTrailingNewlineTests.InlineOnlyASingleNewline,100,100,0,0,stable
+IgnoreTrailingNewlineTests,IgnoreTrailingNewlineTests.InlineOnlyWhereTheNewlineIsTheSoleDifference,100,100,0,0,stable
+IgnoreTrailingNewlineTests,IgnoreTrailingNewlineTests.NotIgnoredByDefault,100,100,0,0,stable
+IgnoreTrailingNewlineTests,IgnoreTrailingNewlineTests.OnlyASingleNewline,100,100,0,0,stable
+IgnoreTrailingNewlineTests,IgnoreTrailingNewlineTests.OnlyForVerified,100,100,0,0,stable
+IgnoreTrailingNewlineTests,IgnoreTrailingNewlineTests.OnlyWhereTheNewlineIsTheSoleDifference,100,100,0,0,stable
+IgnoreTrailingNewlineTests,IgnoreTrailingNewlineTests.VerifiedIsNotRewritten,100,100,0,0,stable
+InlineQueueTests,InlineQueueTests.AnAppendedPatchCarriesTheMemberName,100,100,0,0,stable
+InlineQueueTests,InlineQueueTests.NotQueuedOnBuildServer,100,100,0,0,stable
+InlineQueueTests,InlineQueueTests.NotQueuedWhenDiffDisabled,100,100,0,0,stable
+InlineQueueTests,InlineQueueTests.NotQueuedWhenDiffRunnerDisabled,100,100,0,0,stable
+InlineQueueTests,InlineQueueTests.QueuedPatchCarriesTheTestName,100,100,0,0,stable
+InlineQueueTests,InlineQueueTests.QueuedWhenDiffEnabled,100,100,0,0,stable
+InlineSwitchOffTests,InlineSwitchOffTests.ABuildServerLeavesTheRecordsForALaterVerification,100,100,0,0,stable
+InlineSwitchOffTests,InlineSwitchOffTests.ACallSiteTheSwitchDeclinesRetiresWhatItQueued,100,100,0,0,stable
+InlineSwitchOffTests,InlineSwitchOffTests.ACallSiteTheSwitchNoLongerAppendsToForgetsItsRecord,100,100,0,0,stable
+InlineSwitchOffTests,InlineSwitchOffTests.AMalformedRecordIsDeleted,100,100,0,0,stable
+InlineSwitchOffTests,InlineSwitchOffTests.ARecordCannotRetireWhatTheSwitchedOffRunQueues,100,100,0,0,stable
+InlineSwitchOffTests,InlineSwitchOffTests.ARecordWhoseTestWasDeletedIsStillRetired,100,100,0,0,stable
+InlineSwitchOffTests,InlineSwitchOffTests.ARetireThatThrowsDoesNotFailTheVerification,100,100,0,0,stable
+InlineSwitchOffTests,InlineSwitchOffTests.AnAcceptedSnapshotAtTheCallSiteForgetsItsRecord,100,100,0,0,stable
+InlineSwitchOffTests,InlineSwitchOffTests.AnExplicitSnapshotIsNotRecorded,100,100,0,0,stable
+InlineSwitchOffTests,InlineSwitchOffTests.AnUnreadableRecordIsLeftForALaterRun,100,100,0,0,stable
+InlineSwitchOffTests,InlineSwitchOffTests.DiffDisabledLeavesTheRecordsForALaterVerification,100,100,0,0,stable
+InlineSwitchOffTests,InlineSwitchOffTests.DiffRunnerDisabledLeavesTheRecordsForALaterVerification,100,100,0,0,stable
+InlineSwitchOffTests,InlineSwitchOffTests.NothingRecordedRetiresNothing,100,100,0,0,stable
+InlineSwitchOffTests,InlineSwitchOffTests.SwitchStillOnKeepsTheRecord,100,100,0,0,stable
+InlineSwitchOffTests,InlineSwitchOffTests.SwitchingOffClearsWhatTheSwitchLeftOnDisk,100,100,0,0,stable
+InlineSwitchOffTests,InlineSwitchOffTests.SwitchingOffRetiresWhatTheSwitchQueued,100,100,0,0,stable
+OrderJsonTests,OrderJsonTests.Alphabetically,100,100,0,0,stable
+OrderPropertiesTests,OrderPropertiesTests.Alphabetically,100,100,0,0,stable
+OrderPropertiesTests,OrderPropertiesTests.DoesNotAffectTypeName,100,100,0,0,stable
+PageSettingsTests,PageSettingsTests.ACopyOfSettingsKeepsThem,100,100,0,0,stable
+PageSettingsTests,PageSettingsTests.AGlobalFilterCanBeAnyPredicate,100,100,0,0,stable
+PageSettingsTests,PageSettingsTests.AfterVerifyHasBeenRunThrows,100,100,0,0,stable
+PageSettingsTests,PageSettingsTests.ExcludingAnExtensionExcludesWhatIsDerivedWithIt,100,100,0,0,stable
+PageSettingsTests,PageSettingsTests.GlobalSettingsAreReadFromAnyContext,100,100,0,0,stable
+PageSettingsTests,PageSettingsTests.NothingSetIsEveryPageWithItsTextInTheInfo,100,100,0,0,stable
+PageSettingsTests,PageSettingsTests.TheVerificationsSettingWins,100,100,0,0,stable
+RaisedDeleteTests,RaisedDeleteTests.ADeleteIsWithdrawnOnceItsFileIsInUseAgain,100,100,0,0,stable
+RaisedDeleteTests,RaisedDeleteTests.ADeleteIsWithdrawnWhenItsFileNoLongerMatches,100,100,0,0,stable
+RaisedDeleteTests,RaisedDeleteTests.ARecordWhoseFileHasGoneIsDropped,100,100,0,0,stable
+RaisedDeleteTests,RaisedDeleteTests.NothingIsRecordedWhileDiffEngineIsOff,100,100,0,0,stable
+RaisedDeleteTests,RaisedDeleteTests.NothingRaisedSettlesNothing,100,100,0,0,stable
+RaisedDeleteTests,RaisedDeleteTests.WithDiffEngineOffTheRecordsWaitForALaterRun,100,100,0,0,stable
+ReceivedMapTests,ReceivedMapTests.MapEnablesAccept,100,100,0,0,stable
+ReceivedMapTests,ReceivedMapTests.MapIsOverwrittenNotDuplicated,100,100,0,0,stable
+ReceivedMapTests,ReceivedMapTests.NoMapOnBuildServer,100,100,0,0,stable
+ReceivedMapTests,ReceivedMapTests.NoMapWhenAutoVerified,100,100,0,0,stable
+ReceivedMapTests,ReceivedMapTests.WritesMapToIntermediateDirectory,100,100,0,0,stable
+RegisterFileConverterTests,RegisterFileConverterTests.ObjectAsyncThrows,100,100,0,0,stable
+RegisterFileConverterTests,RegisterFileConverterTests.ObjectThrows,100,100,0,0,stable
+ResultTextEncodingTests,ResultTextEncodingTests.DefaultEncodingIsUnaffected,100,100,0,0,stable
+ResultTextEncodingTests,ResultTextEncodingTests.ReadsExistingVerifiedWithConfiguredEncoding,100,100,0,0,stable
+ResultTextEncodingTests,ResultTextEncodingTests.RoundTripsWhatVerifyWrote,100,100,0,0,stable
+ScrubInlineDateTimesTests,ScrubInlineDateTimesTests.DontScrubDateTimesShouldOverrideScrubInlineDateTimes,100,100,0,0,stable
+ScrubMemberGlobalTests,ScrubMemberGlobalTests.ScrubMemberGeneric,100,100,0,0,stable
+ScrubMemberGlobalTests,ScrubMemberGlobalTests.ScrubMembersGeneric,100,100,0,0,stable
+ScrubMemberGlobalTests,ScrubMemberGlobalTests.ScrubMembersType,100,100,0,0,stable
+SingleTfmTests,SingleTfmTests.ReceivedUsesRuntime,100,100,0,0,stable
+SingleTfmTests,SingleTfmTests.ReceivedUsesRuntimeAndVersion,100,100,0,0,stable
+SingleTfmTests,SingleTfmTests.ReceivedUsesRuntimeForFileName,100,100,0,0,stable
+SingleTfmTests,SingleTfmTests.Simple,100,100,0,0,stable
+SourceDerivedDefaultsTests,SourceDerivedDefaultsTests.ADeleteIsToldWithItsSource(derived: False),100,100,0,0,stable
+SourceDerivedDefaultsTests,SourceDerivedDefaultsTests.ADeleteIsToldWithItsSource(derived: True),100,100,0,0,stable
+SourceDerivedDefaultsTests,"SourceDerivedDefaultsTests.AMoveIsToldWithItsSource(extension: ""png"", derived: False)",100,100,0,0,stable
+SourceDerivedDefaultsTests,"SourceDerivedDefaultsTests.AMoveIsToldWithItsSource(extension: ""png"", derived: True)",100,100,0,0,stable
+SourceDerivedDefaultsTests,"SourceDerivedDefaultsTests.AMoveIsToldWithItsSource(extension: ""txt"", derived: False)",100,100,0,0,stable
+SourceDerivedDefaultsTests,"SourceDerivedDefaultsTests.AMoveIsToldWithItsSource(extension: ""txt"", derived: True)",100,100,0,0,stable
+SourceDerivedReportTests,SourceDerivedReportTests.ANestedSourceIsNamedWhenTheOneAboveItPassed,100,100,0,0,stable
+SourceDerivedReportTests,SourceDerivedReportTests.ANestedSourceNamesTheOutermostOne,100,100,0,0,stable
+SourceDerivedReportTests,SourceDerivedReportTests.ASourceIsReportedAheadOfWhatWasDerivedFromIt,100,100,0,0,stable
+SourceDerivedReportTests,SourceDerivedReportTests.ASourceThatPassedIsNotNamed,100,100,0,0,stable
+SourceDerivedReportTests,SourceDerivedReportTests.ASourceThatWasAutoVerifiedIsNotNamed,100,100,0,0,stable
+SourceDerivedReportTests,SourceDerivedReportTests.AStaleFileIsDeletedWithTheDocumentItIsNamedAfter,100,100,0,0,stable
+SourceDerivedReportTests,SourceDerivedReportTests.AStaleFileIsDeletedWithTheOneDocument,100,100,0,0,stable
+SourceDerivedReportTests,SourceDerivedReportTests.AStaleFileOfADocumentThatPassedStandsAlone,100,100,0,0,stable
+SourceDerivedReportTests,SourceDerivedReportTests.AnInfoTheTestAddedToIsNotDerived,100,100,0,0,stable
+SourceDerivedReportTests,SourceDerivedReportTests.CallbacksAndTheExceptionKeepTheOrderOfTheTargets,100,100,0,0,stable
+SourceDerivedReportTests,SourceDerivedReportTests.TheInfoOfADocumentIsNotInlinedByTheGlobalSwitch,100,100,0,0,stable
+SourceDerivedReportTests,SourceDerivedReportTests.TheReceivedMapNamesTheSource,100,100,0,0,stable
+SourceDerivedReportTests,SourceDerivedReportTests.WithDiffOffNothingIsLaunchedAndADeleteStandsAlone,100,100,0,0,stable
+UniqueForAssemblyTargetFrameworkTests,UniqueForAssemblyTargetFrameworkTests.AssemblyOverloadFeedsTheSharedNamer,100,100,0,0,stable
+UniqueForAssemblyTargetFrameworkTests,UniqueForAssemblyTargetFrameworkTests.AssemblyOverloadFeedsTheSharedNamerWithoutVersion,100,100,0,0,stable
+UseSplitModeForUniqueDirectoryTests,UseSplitModeForUniqueDirectoryTests.DontUseSplitModeForUniqueDirectory,100,100,0,0,stable
+UseSplitModeForUniqueDirectoryTests,UseSplitModeForUniqueDirectoryTests.DontUseSplitModeForUniqueDirectory_Fluent,100,100,0,0,stable
+UseSplitModeForUniqueDirectoryTests,UseSplitModeForUniqueDirectoryTests.FileName,100,100,0,0,stable
+UseSplitModeForUniqueDirectoryTests,UseSplitModeForUniqueDirectoryTests.MethodName,100,100,0,0,stable
+UseSplitModeForUniqueDirectoryTests,UseSplitModeForUniqueDirectoryTests.Parameter,100,100,0,0,stable
+UseSplitModeForUniqueDirectoryTests,UseSplitModeForUniqueDirectoryTests.Target,100,100,0,0,stable
+UseSplitModeForUniqueDirectoryTests,UseSplitModeForUniqueDirectoryTests.TargetWithName,100,100,0,0,stable
+UseSplitModeForUniqueDirectoryTests,UseSplitModeForUniqueDirectoryTests.TyeName,100,100,0,0,stable
+UseSplitModeForUniqueDirectoryTests,UseSplitModeForUniqueDirectoryTests.UniqueForRuntime,100,100,0,0,stable
+UseSplitModeForUniqueDirectoryTests,UseSplitModeForUniqueDirectoryTests.UniqueForTargetFrameworkAndVersion,100,100,0,0,stable
+UseSplitModeForUniqueDirectoryTests,UseSplitModeForUniqueDirectoryTests.ValueTest,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.Replace,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubBoth,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubMachineName,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubMachineNameInJson,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubMachineNameInQuotes,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubMachineNameInValidAfter,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubMachineNameInValidBefore,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubMachineNameInValidWrapped,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubMachineNameValidAfter,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubMachineNameValidBefore,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubMachineNameValidWrapped,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubUserName,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubUserNameInJson,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubUserNameInQuotes,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubUserNameInValidAfter,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubUserNameInValidBefore,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubUserNameInValidWrapped,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubUserNameValidAfter,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubUserNameValidBefore,100,100,0,0,stable
+UserMachineScrubberTests,UserMachineScrubberTests.ScrubUserNameValidWrapped,100,100,0,0,stable
+VirtualizedRunHelperTests,VirtualizedRunHelperTests.Built_on_linux_wsl_run_on_windows,100,100,0,0,stable
+VirtualizedRunHelperTests,VirtualizedRunHelperTests.Built_on_windows_run_on_linux_ci,100,100,0,0,stable
+VirtualizedRunHelperTests,VirtualizedRunHelperTests.Built_on_windows_run_on_linux_docker,100,100,0,0,stable
+VirtualizedRunHelperTests,VirtualizedRunHelperTests.Built_on_windows_run_on_linux_wsl,100,100,0,0,stable
+VirtualizedRunHelperTests,VirtualizedRunHelperTests.Built_on_windows_run_on_windows,100,100,0,0,stable

@@ -1,0 +1,702 @@
+﻿className,test,runs_presente,passed,failed,skipped,label
+ConsoleRunnerLoggerTests+LogWithAnsiColors,ConsoleRunnerLoggerTests+LogWithAnsiColors.LogError_InRed,20,20,0,0,stable
+ConsoleRunnerLoggerTests+LogWithAnsiColors,ConsoleRunnerLoggerTests+LogWithAnsiColors.LogImportantMessage_InGray,20,20,0,0,stable
+ConsoleRunnerLoggerTests+LogWithAnsiColors,ConsoleRunnerLoggerTests+LogWithAnsiColors.LogMessage_InDarkGray,20,20,0,0,stable
+ConsoleRunnerLoggerTests+LogWithAnsiColors,ConsoleRunnerLoggerTests+LogWithAnsiColors.LogRaw_NoColor,20,20,0,0,stable
+ConsoleRunnerLoggerTests+LogWithAnsiColors,ConsoleRunnerLoggerTests+LogWithAnsiColors.LogWarning_InYellow,20,20,0,0,stable
+ConsoleRunnerLoggerTests+WaitForAcknowledgment,ConsoleRunnerLoggerTests+WaitForAcknowledgment.Disabled_DoesNotConsumesStdIn,20,20,0,0,stable
+ConsoleRunnerLoggerTests+WaitForAcknowledgment,ConsoleRunnerLoggerTests+WaitForAcknowledgment.Enabled_ConsumesOneLineFromStdIn,20,20,0,0,stable
+ConsoleRunnerLoggerTests+WriteLine,ConsoleRunnerLoggerTests+WriteLine.ColorsDisabled_AnsiText,20,20,0,0,stable
+ConsoleRunnerLoggerTests+WriteLine,ConsoleRunnerLoggerTests+WriteLine.ColorsDisabled_PlainText,20,20,0,0,stable
+ConsoleRunnerLoggerTests+WriteLine,ConsoleRunnerLoggerTests+WriteLine.ColorsEnabled_AnsiText,20,20,0,0,stable
+ConsoleRunnerLoggerTests+WriteLine,ConsoleRunnerLoggerTests+WriteLine.ColorsEnabled_PlainText,20,20,0,0,stable
+CtrfResultWriterMessageHandlerTests,"CtrfResultWriterMessageHandlerTests.CoreData(computerEnvName: \""COMPUTERNAME\"", userEnvName: \""USERNAME\"")",20,20,0,0,stable
+CtrfResultWriterMessageHandlerTests,"CtrfResultWriterMessageHandlerTests.CoreData(computerEnvName: \""HOSTNAME\"", userEnvName: \""LOGNAME\"")",20,20,0,0,stable
+CtrfResultWriterMessageHandlerTests,"CtrfResultWriterMessageHandlerTests.CoreData(computerEnvName: \""HOSTNAME\"", userEnvName: \""USER\"")",20,20,0,0,stable
+CtrfResultWriterMessageHandlerTests,"CtrfResultWriterMessageHandlerTests.CoreData(computerEnvName: \""HOST\"", userEnvName: \""LOGNAME\"")",20,20,0,0,stable
+CtrfResultWriterMessageHandlerTests,"CtrfResultWriterMessageHandlerTests.CoreData(computerEnvName: \""HOST\"", userEnvName: \""USER\"")",20,20,0,0,stable
+CtrfResultWriterMessageHandlerTests,"CtrfResultWriterMessageHandlerTests.CoreData(computerEnvName: \""NAME\"", userEnvName: \""LOGNAME\"")",20,20,0,0,stable
+CtrfResultWriterMessageHandlerTests,"CtrfResultWriterMessageHandlerTests.CoreData(computerEnvName: \""NAME\"", userEnvName: \""USER\"")",20,20,0,0,stable
+CtrfResultWriterMessageHandlerTests,CtrfResultWriterMessageHandlerTests.CoreDataDoesNotIncludeOptionalValues,20,20,0,0,stable
+CtrfResultWriterMessageHandlerTests,CtrfResultWriterMessageHandlerTests.TestAssemblies,20,20,0,0,stable
+CtrfResultWriterMessageHandlerTests,CtrfResultWriterMessageHandlerTests.TestFailed[en-US],20,20,0,0,stable
+CtrfResultWriterMessageHandlerTests,CtrfResultWriterMessageHandlerTests.TestFailed[fr-FR],20,20,0,0,stable
+CtrfResultWriterMessageHandlerTests,CtrfResultWriterMessageHandlerTests.TestNotRun[en-US],20,20,0,0,stable
+CtrfResultWriterMessageHandlerTests,CtrfResultWriterMessageHandlerTests.TestNotRun[fr-FR],20,20,0,0,stable
+CtrfResultWriterMessageHandlerTests,CtrfResultWriterMessageHandlerTests.TestPassed[en-US],20,20,0,0,stable
+CtrfResultWriterMessageHandlerTests,CtrfResultWriterMessageHandlerTests.TestPassed[fr-FR],20,20,0,0,stable
+CtrfResultWriterMessageHandlerTests,CtrfResultWriterMessageHandlerTests.TestSkipped[en-US],20,20,0,0,stable
+CtrfResultWriterMessageHandlerTests,CtrfResultWriterMessageHandlerTests.TestSkipped[fr-FR],20,20,0,0,stable
+DecodingRunnerLoggerTests,DecodingRunnerLoggerTests.DiagnosticMessage,20,20,0,0,stable
+DecodingRunnerLoggerTests,DecodingRunnerLoggerTests.InternalDiagnosticMessage,20,20,0,0,stable
+DecodingRunnerLoggerTests,"DecodingRunnerLoggerTests.NonMessagesReportInternalDiagnostics(json: \""Hello world\"", expectedDiagnostic: \""JSON message deserialization failure: invalid JSON\""···)",20,20,0,0,stable
+DecodingRunnerLoggerTests,"DecodingRunnerLoggerTests.NonMessagesReportInternalDiagnostics(json: \""{\\\""$type\\\"":\\\""foo\\\""}\"", expectedDiagnostic: \""JSON message deserialization failure: message '$ty\""···)",20,20,0,0,stable
+DecodingRunnerLoggerTests,"DecodingRunnerLoggerTests.NonMessagesReportInternalDiagnostics(json: \""{}\"", expectedDiagnostic: \""JSON message deserialization failure: root object \""···)",20,20,0,0,stable
+DecodingRunnerLoggerTests,DecodingRunnerLoggerTests.StandardMessage,20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+FailureMessages,DefaultRunnerReporterMessageHandlerTests+FailureMessages.ErrorMessage,20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+FailureMessages,DefaultRunnerReporterMessageHandlerTests+FailureMessages.TestAssemblyCleanupFailure,20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+FailureMessages,DefaultRunnerReporterMessageHandlerTests+FailureMessages.TestCaseCleanupFailure,20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+FailureMessages,DefaultRunnerReporterMessageHandlerTests+FailureMessages.TestClassCleanupFailure,20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+FailureMessages,DefaultRunnerReporterMessageHandlerTests+FailureMessages.TestCleanupFailure,20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+FailureMessages,DefaultRunnerReporterMessageHandlerTests+FailureMessages.TestCollectionCleanupFailure,20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+FailureMessages,DefaultRunnerReporterMessageHandlerTests+FailureMessages.TestMethodCleanupFailure,20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_ITestExecutionSummary,DefaultRunnerReporterMessageHandlerTests+OnMessage_ITestExecutionSummary.MultipleAssemblies[en-US],20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_ITestExecutionSummary,DefaultRunnerReporterMessageHandlerTests+OnMessage_ITestExecutionSummary.MultipleAssemblies[fr-FR],20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_ITestExecutionSummary,DefaultRunnerReporterMessageHandlerTests+OnMessage_ITestExecutionSummary.SingleAssembly[en-US],20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_ITestExecutionSummary,DefaultRunnerReporterMessageHandlerTests+OnMessage_ITestExecutionSummary.SingleAssembly[fr-FR],20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryFinished,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryFinished.LogsMessage(diagnosticMessages: False, toRun: 0, expectedResult: \""[Imp] =>   Discovered:  test-assembly\"")",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryFinished,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryFinished.LogsMessage(diagnosticMessages: True, toRun: 0, expectedResult: \""[Imp] =>   Discovered:  test-assembly (0 test case\""···)",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryFinished,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryFinished.LogsMessage(diagnosticMessages: True, toRun: 1, expectedResult: \""[Imp] =>   Discovered:  test-assembly (1 test case\""···)",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryFinished,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryFinished.LogsMessage(diagnosticMessages: True, toRun: 42, expectedResult: \""[Imp] =>   Discovered:  test-assembly (42 test cas\""···)",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryStarting,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryStarting.LogsMessage(diagnosticMessages: False, appDomain: Disabled, shadowCopy: False, expectedResult: \""[Imp] =>   Discovering: test-assembly\"")",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryStarting,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryStarting.LogsMessage(diagnosticMessages: False, appDomain: Enabled, shadowCopy: False, expectedResult: \""[Imp] =>   Discovering: test-assembly\"")",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryStarting,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryStarting.LogsMessage(diagnosticMessages: False, appDomain: NotAvailable, shadowCopy: False, expectedResult: \""[Imp] =>   Discovering: test-assembly\"")",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryStarting,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryStarting.LogsMessage(diagnosticMessages: True, appDomain: Disabled, shadowCopy: False, expectedResult: \""[Imp] =>   Discovering: test-assembly (app domain \""···)",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryStarting,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryStarting.LogsMessage(diagnosticMessages: True, appDomain: Enabled, shadowCopy: False, expectedResult: \""[Imp] =>   Discovering: test-assembly (app domain \""···)",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryStarting,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryStarting.LogsMessage(diagnosticMessages: True, appDomain: Enabled, shadowCopy: True, expectedResult: \""[Imp] =>   Discovering: test-assembly (app domain \""···)",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryStarting,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyDiscoveryStarting.LogsMessage(diagnosticMessages: True, appDomain: NotAvailable, shadowCopy: False, expectedResult: \""[Imp] =>   Discovering: test-assembly (method disp\""···)",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionFinished,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionFinished.LogsMessage_NonV3(uniqueID: \"":v1:assembly:abc123\"")",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionFinished,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionFinished.LogsMessage_NonV3(uniqueID: \"":v2:assembly:def456\"")",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionFinished,DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionFinished.LogsMessage_V3,20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting.LogsMessage(diagnosticMessages: False, maxThreads: null, stopOnFail: null, seed: null, culture: null, parallelAlgorithm: null, parallelMode: null, expectedResult: \""[Imp] =>   Starting:    test-assembly\"")",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting.LogsMessage(diagnosticMessages: True, maxThreads: -1, stopOnFail: null, seed: null, culture: null, parallelAlgorithm: Aggressive, parallelMode: Collections, expectedResult: \""[Imp] =>   Starting:    test-assembly (parallel mo\""···)",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting.LogsMessage(diagnosticMessages: True, maxThreads: -1, stopOnFail: null, seed: null, culture: null, parallelAlgorithm: Conservative, parallelMode: All, expectedResult: \""[Imp] =>   Starting:    test-assembly (parallel mo\""···)",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting.LogsMessage(diagnosticMessages: True, maxThreads: 1, stopOnFail: null, seed: null, culture: null, parallelAlgorithm: Aggressive, parallelMode: null, expectedResult: \""[Imp] =>   Starting:    test-assembly (parallel mo\""···)",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting.LogsMessage(diagnosticMessages: True, maxThreads: 1, stopOnFail: null, seed: null, culture: null, parallelAlgorithm: Conservative, parallelMode: null, expectedResult: \""[Imp] =>   Starting:    test-assembly (parallel mo\""···)",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting.LogsMessage(diagnosticMessages: True, maxThreads: null, stopOnFail: True, seed: null, culture: null, parallelAlgorithm: null, parallelMode: null, expectedResult: \""[Imp] =>   Starting:    test-assembly (parallel mo\""···)",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting.LogsMessage(diagnosticMessages: True, maxThreads: null, stopOnFail: null, seed: 2112, culture: null, parallelAlgorithm: null, parallelMode: null, expectedResult: \""[Imp] =>   Starting:    test-assembly (parallel mo\""···)",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting.LogsMessage(diagnosticMessages: True, maxThreads: null, stopOnFail: null, seed: null, culture: \""\"", parallelAlgorithm: null, parallelMode: null, expectedResult: \""[Imp] =>   Starting:    test-assembly (parallel mo\""···)",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting.LogsMessage(diagnosticMessages: True, maxThreads: null, stopOnFail: null, seed: null, culture: \""en-US\"", parallelAlgorithm: null, parallelMode: null, expectedResult: \""[Imp] =>   Starting:    test-assembly (parallel mo\""···)",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting.LogsMessage(diagnosticMessages: True, maxThreads: null, stopOnFail: null, seed: null, culture: null, parallelAlgorithm: Aggressive, parallelMode: None, expectedResult: \""[Imp] =>   Starting:    test-assembly (parallel mo\""···)",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestAssemblyExecutionStarting.LogsMessage(diagnosticMessages: True, maxThreads: null, stopOnFail: null, seed: null, culture: null, parallelAlgorithm: null, parallelMode: null, expectedResult: \""[Imp] =>   Starting:    test-assembly (parallel mo\""···)",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestFailed,DefaultRunnerReporterMessageHandlerTests+OnMessage_TestFailed.LogsTestNameWithExceptionAndStackTraceAndOutput,20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestOutput,DefaultRunnerReporterMessageHandlerTests+OnMessage_TestOutput.WithFlag_LogsOutput,20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestOutput,DefaultRunnerReporterMessageHandlerTests+OnMessage_TestOutput.WithoutFlag_LogsNothing,20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestPassed,DefaultRunnerReporterMessageHandlerTests+OnMessage_TestPassed.DoesNotLogOutputByDefault,20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestPassed,DefaultRunnerReporterMessageHandlerTests+OnMessage_TestPassed.DoesNotLogOutputWhenEnvVarIsSetupWithDiagnosticsEnabled,20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestPassed,DefaultRunnerReporterMessageHandlerTests+OnMessage_TestPassed.LogsOutputWhenDiagnosticsAreEnabled,20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestPassed,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestPassed.LogsWarnings(envVarValue: \""1\"")",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestPassed,DefaultRunnerReporterMessageHandlerTests+OnMessage_TestPassed.LogsWarnings(envVarValue: null),20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestSkipped,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestSkipped.LogsTestNameAsWarning(skipNewline: \""\\n\"")",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestSkipped,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestSkipped.LogsTestNameAsWarning(skipNewline: \""\\r\"")",20,20,0,0,stable
+DefaultRunnerReporterMessageHandlerTests+OnMessage_TestSkipped,"DefaultRunnerReporterMessageHandlerTests+OnMessage_TestSkipped.LogsTestNameAsWarning(skipNewline: \""\\r\\n\"")",20,20,0,0,stable
+ExecutionSinkTests+Cancellation,ExecutionSinkTests+Cancellation.ReturnsFalseWhenCancellationTokenCancellationRequested,20,20,0,0,stable
+ExecutionSinkTests+Cancellation,ExecutionSinkTests+Cancellation.ReturnsTrueWhenCancellationTokenCancellationHasNotBeenRequested,20,20,0,0,stable
+ExecutionSinkTests+DiscoveryMessageConversion,ExecutionSinkTests+DiscoveryMessageConversion.ConvertsDiscoveryComplete,20,20,0,0,stable
+ExecutionSinkTests+DiscoveryMessageConversion,"ExecutionSinkTests+DiscoveryMessageConversion.ConvertsDiscoveryStarting(appDomain: Disabled, shadowCopy: False)",20,20,0,0,stable
+ExecutionSinkTests+DiscoveryMessageConversion,"ExecutionSinkTests+DiscoveryMessageConversion.ConvertsDiscoveryStarting(appDomain: Enabled, shadowCopy: True)",20,20,0,0,stable
+ExecutionSinkTests+ExecutionMessageConversion,ExecutionSinkTests+ExecutionMessageConversion.ConvertsTestAssemblyFinished,20,20,0,0,stable
+ExecutionSinkTests+ExecutionMessageConversion,ExecutionSinkTests+ExecutionMessageConversion.ConvertsTestAssemblyStarting,20,20,0,0,stable
+ExecutionSinkTests+ExecutionMessageConversion,ExecutionSinkTests+ExecutionMessageConversion.CountsErrors,20,20,0,0,stable
+ExecutionSinkTests+FailSkips,"ExecutionSinkTests+FailSkips.OnFinished_CountsSkipsAsFails(finishedMessage: TestAssemblyFinished(\""assembly-id\"") total=24 failed=8 skipped=3 notRun=1 time=123.4567)",20,20,0,0,stable
+ExecutionSinkTests+FailSkips,"ExecutionSinkTests+FailSkips.OnFinished_CountsSkipsAsFails(finishedMessage: TestCaseFinished(\""test-case-id\"") total=24 failed=8 skipped=3 notRun=1 time=123.4567)",20,20,0,0,stable
+ExecutionSinkTests+FailSkips,"ExecutionSinkTests+FailSkips.OnFinished_CountsSkipsAsFails(finishedMessage: TestClassFinished(\""test-class-id\"") total=24 failed=8 skipped=3 notRun=1 time=123.4567)",20,20,0,0,stable
+ExecutionSinkTests+FailSkips,"ExecutionSinkTests+FailSkips.OnFinished_CountsSkipsAsFails(finishedMessage: TestCollectionFinished(\""test-collection-id\"") total=24 failed=8 skipped=3 notRun=1 time=123.4567)",20,20,0,0,stable
+ExecutionSinkTests+FailSkips,"ExecutionSinkTests+FailSkips.OnFinished_CountsSkipsAsFails(finishedMessage: TestMethodFinished(\""test-method-id\"") total=24 failed=8 skipped=3 notRun=1 time=123.4567)",20,20,0,0,stable
+ExecutionSinkTests+FailSkips,ExecutionSinkTests+FailSkips.OnTestSkipped_TransformsToTestFailed,20,20,0,0,stable
+ExecutionSinkTests+FailWarn,"ExecutionSinkTests+FailWarn.OnFinished_CountsWarnsAsFails(finishedMessage: TestAssemblyFinished(\""assembly-id\"") total=24 failed=8 skipped=3 notRun=1 time=123.4567)",20,20,0,0,stable
+ExecutionSinkTests+FailWarn,"ExecutionSinkTests+FailWarn.OnFinished_CountsWarnsAsFails(finishedMessage: TestCaseFinished(\""test-case-id\"") total=24 failed=8 skipped=3 notRun=1 time=123.4567)",20,20,0,0,stable
+ExecutionSinkTests+FailWarn,"ExecutionSinkTests+FailWarn.OnFinished_CountsWarnsAsFails(finishedMessage: TestClassFinished(\""test-class-id\"") total=24 failed=8 skipped=3 notRun=1 time=123.4567)",20,20,0,0,stable
+ExecutionSinkTests+FailWarn,"ExecutionSinkTests+FailWarn.OnFinished_CountsWarnsAsFails(finishedMessage: TestCollectionFinished(\""test-collection-id\"") total=24 failed=8 skipped=3 notRun=1 time=123.4567)",20,20,0,0,stable
+ExecutionSinkTests+FailWarn,"ExecutionSinkTests+FailWarn.OnFinished_CountsWarnsAsFails(finishedMessage: TestMethodFinished(\""test-method-id\"") total=24 failed=8 skipped=3 notRun=1 time=123.4567)",20,20,0,0,stable
+ExecutionSinkTests+FailWarn,ExecutionSinkTests+FailWarn.OnTestPassed_WithWarnings_TransformsToTestFailed,20,20,0,0,stable
+ExecutionSinkTests+FailWarn,"ExecutionSinkTests+FailWarn.OtherResultMessages_PassesThrough(inputResult: TestFailed(\""test-id\"") time=123.4567 types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,40,0,0,stable
+ExecutionSinkTests+FailWarn,"ExecutionSinkTests+FailWarn.OtherResultMessages_PassesThrough(inputResult: TestNotRun(\""test-id\""))",20,40,0,0,stable
+ExecutionSinkTests+FailWarn,"ExecutionSinkTests+FailWarn.OtherResultMessages_PassesThrough(inputResult: TestPassed(\""test-id\"") time=123.4567)",20,20,0,0,stable
+ExecutionSinkTests+FailWarn,"ExecutionSinkTests+FailWarn.OtherResultMessages_PassesThrough(inputResult: TestSkipped(\""test-id\"") reason=\""skip-reason\"")",20,40,0,0,stable
+ExecutionSinkTests+MessageTiming,ExecutionSinkTests+MessageTiming.EnsureInnerHandlerIsCalledBeforeFinishedIsSet,20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssemblies[en-US](computerEnvName: \""COMPUTERNAME\"")",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssemblies[en-US](computerEnvName: \""HOSTNAME\"")",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssemblies[en-US](computerEnvName: \""HOST\"")",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssemblies[en-US](computerEnvName: \""NAME\"")",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssemblies[fr-FR](computerEnvName: \""COMPUTERNAME\"")",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssemblies[fr-FR](computerEnvName: \""HOSTNAME\"")",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssemblies[fr-FR](computerEnvName: \""HOST\"")",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssemblies[fr-FR](computerEnvName: \""NAME\"")",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssembly_WithError[en-US](errorMessage: TestAssemblyCleanupFailure(\""assembly-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssembly_WithError[en-US](errorMessage: TestCaseCleanupFailure(\""test-case-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssembly_WithError[en-US](errorMessage: TestClassCleanupFailure(\""test-class-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssembly_WithError[en-US](errorMessage: TestCleanupFailure(\""test-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssembly_WithError[en-US](errorMessage: TestCollectionCleanupFailure(\""test-collection-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssembly_WithError[en-US](errorMessage: TestMethodCleanupFailure(\""test-method-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssembly_WithError[en-US](errorMessage: Xunit.Runner.Common.ErrorMessage types=[\""System.DivideByZeroExcept···\""] messages=[\""This is \r\n a message \0\""])",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssembly_WithError[fr-FR](errorMessage: TestAssemblyCleanupFailure(\""assembly-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssembly_WithError[fr-FR](errorMessage: TestCaseCleanupFailure(\""test-case-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssembly_WithError[fr-FR](errorMessage: TestClassCleanupFailure(\""test-class-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssembly_WithError[fr-FR](errorMessage: TestCleanupFailure(\""test-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssembly_WithError[fr-FR](errorMessage: TestCollectionCleanupFailure(\""test-collection-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssembly_WithError[fr-FR](errorMessage: TestMethodCleanupFailure(\""test-method-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,"JUnitResultWriterMessageHandlerTests.TestAssembly_WithError[fr-FR](errorMessage: Xunit.Runner.Common.ErrorMessage types=[\""System.DivideByZeroExcept···\""] messages=[\""This is \r\n a message \0\""])",20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,JUnitResultWriterMessageHandlerTests.TestFailed[en-US],20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,JUnitResultWriterMessageHandlerTests.TestFailed[fr-FR],20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,JUnitResultWriterMessageHandlerTests.TestFailed_NullStackTrace[en-US],20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,JUnitResultWriterMessageHandlerTests.TestFailed_NullStackTrace[fr-FR],20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,JUnitResultWriterMessageHandlerTests.TestNotRun[en-US],20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,JUnitResultWriterMessageHandlerTests.TestNotRun[fr-FR],20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,JUnitResultWriterMessageHandlerTests.TestPassed[en-US],20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,JUnitResultWriterMessageHandlerTests.TestPassed[fr-FR],20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,JUnitResultWriterMessageHandlerTests.TestResult_WithOutput,20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,JUnitResultWriterMessageHandlerTests.TestResult_WithOutputAndWarnings,20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,JUnitResultWriterMessageHandlerTests.TestResult_WithWarnings,20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,JUnitResultWriterMessageHandlerTests.TestSkipped[en-US],20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,JUnitResultWriterMessageHandlerTests.TestSkipped[fr-FR],20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,JUnitResultWriterMessageHandlerTests.TestSuitesElement[en-US],20,20,0,0,stable
+JUnitResultWriterMessageHandlerTests,JUnitResultWriterMessageHandlerTests.TestSuitesElement[fr-FR],20,20,0,0,stable
+MarkdownResultWriterMessageHandlerTests,MarkdownResultWriterMessageHandlerTests.Error[en-US],20,20,0,0,stable
+MarkdownResultWriterMessageHandlerTests,MarkdownResultWriterMessageHandlerTests.Error[fr-FR],20,20,0,0,stable
+MarkdownResultWriterMessageHandlerTests,MarkdownResultWriterMessageHandlerTests.MultipleAssemblies_NonUniqueNames[en-US],20,20,0,0,stable
+MarkdownResultWriterMessageHandlerTests,MarkdownResultWriterMessageHandlerTests.MultipleAssemblies_NonUniqueNames[fr-FR],20,20,0,0,stable
+MarkdownResultWriterMessageHandlerTests,MarkdownResultWriterMessageHandlerTests.MultipleAssemblies_UniqueNames[en-US],20,20,0,0,stable
+MarkdownResultWriterMessageHandlerTests,MarkdownResultWriterMessageHandlerTests.MultipleAssemblies_UniqueNames[fr-FR],20,20,0,0,stable
+MarkdownResultWriterMessageHandlerTests,MarkdownResultWriterMessageHandlerTests.NoTests,20,20,0,0,stable
+MarkdownResultWriterMessageHandlerTests,MarkdownResultWriterMessageHandlerTests.TestFailed[en-US],20,20,0,0,stable
+MarkdownResultWriterMessageHandlerTests,MarkdownResultWriterMessageHandlerTests.TestFailed[fr-FR],20,20,0,0,stable
+MarkdownResultWriterMessageHandlerTests,MarkdownResultWriterMessageHandlerTests.TestNotRun[en-US],20,20,0,0,stable
+MarkdownResultWriterMessageHandlerTests,MarkdownResultWriterMessageHandlerTests.TestNotRun[fr-FR],20,20,0,0,stable
+MarkdownResultWriterMessageHandlerTests,MarkdownResultWriterMessageHandlerTests.TestSkipped[en-US],20,20,0,0,stable
+MarkdownResultWriterMessageHandlerTests,MarkdownResultWriterMessageHandlerTests.TestSkipped[fr-FR],20,20,0,0,stable
+MarkdownResultWriterMessageHandlerTests,MarkdownResultWriterMessageHandlerTests.Time_Milliseconds,20,20,0,0,stable
+MarkdownResultWriterMessageHandlerTests,MarkdownResultWriterMessageHandlerTests.Time_WithHours[en-US],20,20,0,0,stable
+MarkdownResultWriterMessageHandlerTests,MarkdownResultWriterMessageHandlerTests.Time_WithHours[fr-FR],20,20,0,0,stable
+MarkdownResultWriterMessageHandlerTests,MarkdownResultWriterMessageHandlerTests.Time_WithoutHours[en-US],20,20,0,0,stable
+MarkdownResultWriterMessageHandlerTests,MarkdownResultWriterMessageHandlerTests.Time_WithoutHours[fr-FR],20,20,0,0,stable
+MediaTypeUtilityTests,MediaTypeUtilityTests.AppendsExtensionWhenMissing,20,20,0,0,stable
+MediaTypeUtilityTests,MediaTypeUtilityTests.DoesNotAppendExtensionWhenAlreadyPresent,20,20,0,0,stable
+MediaTypeUtilityTests,MediaTypeUtilityTests.ReplacesControlChars,20,20,0,0,stable
+MediaTypeUtilityTests,MediaTypeUtilityTests.ReplacesCrossPlatformInvalidChars,20,20,0,0,stable
+MediaTypeUtilityTests,MediaTypeUtilityTests.UnknownMediaTypeUsesBinExtension,20,20,0,0,stable
+MessageMetadataCacheTests,MessageMetadataCacheTests.AssemblyTest,20,20,0,0,stable
+MessageMetadataCacheTests,MessageMetadataCacheTests.DuplicatesAreRefCounted,20,20,0,0,stable
+MessageMetadataCacheTests,MessageMetadataCacheTests.TestCaseTest,20,20,0,0,stable
+MessageMetadataCacheTests,MessageMetadataCacheTests.TestClassTest,20,20,0,0,stable
+MessageMetadataCacheTests,MessageMetadataCacheTests.TestCollectionTest,20,20,0,0,stable
+MessageMetadataCacheTests,MessageMetadataCacheTests.TestMethodTest,20,20,0,0,stable
+MessageMetadataCacheTests,MessageMetadataCacheTests.TestTest,20,20,0,0,stable
+MessageSinkMessageTests,MessageSinkMessageTests.SerializationExcludesNullValuesAndEmptyTraits,20,20,0,0,stable
+MessageSinkMessageTests,MessageSinkMessageTests.SerializesEnumsAsStringsAndExcludesEmptyOutput,20,20,0,0,stable
+MessageSinkMessageTests,MessageSinkMessageTests.ValidatesAllDerivedTypesAreSupported,20,20,0,0,stable
+MessageSinkMessageTests,MessageSinkMessageTests.WithoutJsonTypeID_Throws,20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.MultipleAssemblyErrors,20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.SingleAssemblyError(errorMessage: TestAssemblyCleanupFailure(\""assembly-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.SingleAssemblyError(errorMessage: Xunit.Runner.Common.ErrorMessage types=[\""System.DivideByZeroExcept···\""] messages=[\""This is \n an \n error \0 me···\""])",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestAssemblies[en-US](computerEnvName: \""COMPUTERNAME\"", userEnvName: \""USERNAME\"", domainEnvName: \""USERDOMAIN\"")",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestAssemblies[en-US](computerEnvName: \""HOSTNAME\"", userEnvName: \""LOGNAME\"", domainEnvName: null)",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestAssemblies[en-US](computerEnvName: \""HOSTNAME\"", userEnvName: \""USER\"", domainEnvName: null)",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestAssemblies[en-US](computerEnvName: \""HOST\"", userEnvName: \""LOGNAME\"", domainEnvName: null)",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestAssemblies[en-US](computerEnvName: \""HOST\"", userEnvName: \""USER\"", domainEnvName: null)",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestAssemblies[en-US](computerEnvName: \""NAME\"", userEnvName: \""LOGNAME\"", domainEnvName: null)",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestAssemblies[en-US](computerEnvName: \""NAME\"", userEnvName: \""USER\"", domainEnvName: null)",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestAssemblies[fr-FR](computerEnvName: \""COMPUTERNAME\"", userEnvName: \""USERNAME\"", domainEnvName: \""USERDOMAIN\"")",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestAssemblies[fr-FR](computerEnvName: \""HOSTNAME\"", userEnvName: \""LOGNAME\"", domainEnvName: null)",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestAssemblies[fr-FR](computerEnvName: \""HOSTNAME\"", userEnvName: \""USER\"", domainEnvName: null)",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestAssemblies[fr-FR](computerEnvName: \""HOST\"", userEnvName: \""LOGNAME\"", domainEnvName: null)",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestAssemblies[fr-FR](computerEnvName: \""HOST\"", userEnvName: \""USER\"", domainEnvName: null)",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestAssemblies[fr-FR](computerEnvName: \""NAME\"", userEnvName: \""LOGNAME\"", domainEnvName: null)",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestAssemblies[fr-FR](computerEnvName: \""NAME\"", userEnvName: \""USER\"", domainEnvName: null)",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestClasses[en-US](testsFailed: 0),20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestClasses[en-US](testsFailed: 42),20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestClasses[fr-FR](testsFailed: 0),20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestClasses[fr-FR](testsFailed: 42),20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestCollections[en-US](testCollectionClass: \""Class Name\"", testsFailed: 0)",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestCollections[en-US](testCollectionClass: null, testsFailed: 42)",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestCollections[fr-FR](testCollectionClass: \""Class Name\"", testsFailed: 0)",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestCollections[fr-FR](testCollectionClass: null, testsFailed: 42)",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestFailed[en-US],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestFailed[fr-FR],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestFailed_NullStackTrace[en-US],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestFailed_NullStackTrace[fr-FR],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestFailed_WithWarning[en-US],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestFailed_WithWarning[fr-FR],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestFixtureErrors(errorMessage: TestCaseCleanupFailure(\""test-case-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestFixtureErrors(errorMessage: TestClassCleanupFailure(\""test-class-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""This is \n an \n error \0 me···\""])",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestFixtureErrors(errorMessage: TestCleanupFailure(\""test-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,"NUnitResultWriterMessageHandlerTests.TestFixtureErrors(errorMessage: TestMethodCleanupFailure(\""test-method-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestNotRun[en-US],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestNotRun[fr-FR],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestPassed[en-US],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestPassed[fr-FR],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestPassed_WithMultipleWarnings[en-US],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestPassed_WithMultipleWarnings[fr-FR],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestPassed_WithOneWarning[en-US],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestPassed_WithOneWarning[fr-FR],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestResult_WithAttachments[en-US],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestResult_WithAttachments[fr-FR],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestRunElement[en-US],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestRunElement[fr-FR],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestSkipped[en-US],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestSkipped[fr-FR],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestSkipped_WithTraits[en-US],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestSkipped_WithTraits[fr-FR],20,20,0,0,stable
+NUnitResultWriterMessageHandlerTests,NUnitResultWriterMessageHandlerTests.TestSuiteError,20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.AssemblyFilter(query: \""/!*sm*/*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.AssemblyFilter(query: \""/!*sm*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.AssemblyFilter(query: \""/!*sm1/*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.AssemblyFilter(query: \""/!*sm1\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.AssemblyFilter(query: \""/!asm*/*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.AssemblyFilter(query: \""/!asm*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.AssemblyFilter(query: \""/!asm1/*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.AssemblyFilter(query: \""/!asm1\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.AssemblyFilter(query: \""/*sm*/*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.AssemblyFilter(query: \""/*sm*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.AssemblyFilter(query: \""/*sm1/*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.AssemblyFilter(query: \""/*sm1\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.AssemblyFilter(query: \""/asm*/*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.AssemblyFilter(query: \""/asm*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.AssemblyFilter(query: \""/asm1/*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.AssemblyFilter(query: \""/asm1\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.ClassFilter(query: \""/*/*/!*lass*/*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.ClassFilter(query: \""/*/*/!*lass*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.ClassFilter(query: \""/*/*/!*lass1/*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.ClassFilter(query: \""/*/*/!*lass1\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.ClassFilter(query: \""/*/*/!class*/*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.ClassFilter(query: \""/*/*/!class*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.ClassFilter(query: \""/*/*/!class1/*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.ClassFilter(query: \""/*/*/!class1\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.ClassFilter(query: \""/*/*/*lass*/*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.ClassFilter(query: \""/*/*/*lass*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.ClassFilter(query: \""/*/*/*lass1/*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.ClassFilter(query: \""/*/*/*lass1\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.ClassFilter(query: \""/*/*/class*/*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.ClassFilter(query: \""/*/*/class*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.ClassFilter(query: \""/*/*/class1/*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.ClassFilter(query: \""/*/*/class1\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.CompositTraitFilter(query: \""/[((foo!=bar)&(foo!=baz))|(yes==no)]\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.CompositTraitFilter(query: \""/[((foo=bar)|(foo=baz))&(yes!=no)]\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.CompositTraitFilter(query: \""/[(foo!=bar)&(foo!=baz)]\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.CompositTraitFilter(query: \""/[(foo=bar)|(foo=baz)]\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.CompositeSegmentFilter(query: \""/(!asm1)&(!asm2)\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.CompositeSegmentFilter(query: \""/((!asm1)&(!asm2))|(asm5)\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.CompositeSegmentFilter(query: \""/((asm1)|(asm2))&(!asm5)\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.CompositeSegmentFilter(query: \""/(asm1)|(asm2)\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.EmptyFilter(query: \""/*/*/*/*/\"")",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.EmptyFilter(query: \""/*/*/*/*\"")",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.EmptyFilter(query: \""/*/*/*/\"")",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.EmptyFilter(query: \""/*/*/*\"")",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.EmptyFilter(query: \""/*/*/\"")",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.EmptyFilter(query: \""/*/*\"")",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.EmptyFilter(query: \""/*/\"")",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.EmptyFilter(query: \""/*\"")",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.EmptyFilter(query: \""/\"")",20,20,0,0,stable
+QueryFilterParserTests+Parse,QueryFilterParserTests+Parse.EscapedSegmentCharacters,20,20,0,0,stable
+QueryFilterParserTests+Parse,QueryFilterParserTests+Parse.EscapedTraitCharacters,20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/!(foo)/bar\"", expectedMessage: \""Query filter '/!(foo)/bar' is not valid: negating \""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/![foo=bar]\"", expectedMessage: \""Query filter '/![foo=bar]' is not valid: negate a \""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/(\"", expectedMessage: \""Query filter '/(' is not valid: open '(' does not \""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/(abc\"", expectedMessage: \""Query filter '/(abc' is not valid: open '(' does n\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/(foo)&bar\"", expectedMessage: \""Query filter '/(foo)&bar' is not valid: logical op\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/(foo)*\"", expectedMessage: \""Query filter '/(foo)*' is not valid: unexpected ch\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/(foo)|(bar)&(baz)\"", expectedMessage: \""Query filter '/(foo)|(bar)&(baz)' is not valid: lo\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/(foo)|\"", expectedMessage: \""Query filter '/(foo)|' is not valid: logical opera\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/1/!*/3\"", expectedMessage: \""Filter expression '!*' is not valid: this would ex\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/1/!/3\"", expectedMessage: \""Filter expression '!' is not valid: missing the se\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/1/**\"", expectedMessage: \""Filter expression '**' is not valid: wildcards mus\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/1/2/3/4/*\"", expectedMessage: \""Query filter '/1/2/3/4/*' is not valid: too many s\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/1/2/3/4/5\"", expectedMessage: \""Query filter '/1/2/3/4/5' is not valid: too many s\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/1/a*b\"", expectedMessage: \""Filter expression 'a*b' is not valid: wildcards ma\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/[!(foo=bar)|(baz=biff)]\"", expectedMessage: \""Query filter '/[!(foo=bar)|(baz=biff)]' is not val\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/[!=value]\"", expectedMessage: \""Trait expression '!=value' is not valid: negate a \""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/[!]\"", expectedMessage: \""Trait expression '!' is not valid: negate a trait \""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/[!foo=bar]\"", expectedMessage: \""Trait expression '!foo=bar' is not valid: negate a\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/[(!foo=bar)]\"", expectedMessage: \""Trait expression '!foo=bar' is not valid: negate a\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/[(foo=bar)&(foo=baz)|(foo=biff)]\"", expectedMessage: \""Query filter '/[(foo=bar)&(foo=baz)|(foo=biff)]' i\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/[(foo=bar)&baz=biff]\"", expectedMessage: \""Query filter '/[(foo=bar)&baz=biff]' is not valid:\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/[(foo=bar)*]\"", expectedMessage: \""Query filter '/[(foo=bar)*]' is not valid: unexpec\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/[(foo=bar)|]\"", expectedMessage: \""Query filter '/[(foo=bar)|]' is not valid: logical\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/[*]\"", expectedMessage: \""Trait expression '*' is not valid: trait queries m\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/[=value]\"", expectedMessage: \""Trait expression '=value' is not valid: trait quer\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/[foo=bar\"", expectedMessage: \""Query filter '/[foo=bar' is not valid: saw opening\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/[name!=]\"", expectedMessage: \""Trait expression 'name!=' is not valid: trait quer\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/[name=]\"", expectedMessage: \""Trait expression 'name=' is not valid: trait queri\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""/[name]\"", expectedMessage: \""Trait expression 'name' is not valid: trait querie\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""\"", expectedMessage: \""Query filter '' is not valid: query must begin wit\""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MalformedQueries(query: \""foo\"", expectedMessage: \""Query filter 'foo' is not valid: query must begin \""···)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MethodFilter(query: \""/*/*/*/!*ethod*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MethodFilter(query: \""/*/*/*/!*ethod1\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MethodFilter(query: \""/*/*/*/!method*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MethodFilter(query: \""/*/*/*/!method1\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MethodFilter(query: \""/*/*/*/*ethod*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MethodFilter(query: \""/*/*/*/*ethod1\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MethodFilter(query: \""/*/*/*/method*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.MethodFilter(query: \""/*/*/*/method1\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.NamespaceFilter(query: \""/*/!*ame*/*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.NamespaceFilter(query: \""/*/!*ame*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.NamespaceFilter(query: \""/*/!*ame1/*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.NamespaceFilter(query: \""/*/!*ame1\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.NamespaceFilter(query: \""/*/!name*/*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.NamespaceFilter(query: \""/*/!name*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.NamespaceFilter(query: \""/*/!name1/*\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.NamespaceFilter(query: \""/*/!name1\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.NamespaceFilter(query: \""/*/*ame*/*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.NamespaceFilter(query: \""/*/*ame*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.NamespaceFilter(query: \""/*/*ame1/*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.NamespaceFilter(query: \""/*/*ame1\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.NamespaceFilter(query: \""/*/name*/*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.NamespaceFilter(query: \""/*/name*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.NamespaceFilter(query: \""/*/name1/*\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.NamespaceFilter(query: \""/*/name1\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[*eyOn*!=*alueOn*]\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[*eyOn*!=*alueOne]\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[*eyOn*!=valueOn*]\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[*eyOn*!=valueOne]\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[*eyOn*=*alueOn*]\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[*eyOn*=*alueOne]\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[*eyOn*=valueOn*]\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[*eyOn*=valueOne]\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[*eyOne!=*alueOn*]\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[*eyOne!=*alueOne]\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[*eyOne!=valueOn*]\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[*eyOne!=valueOne]\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[*eyOne=*alueOn*]\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[*eyOne=*alueOne]\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[*eyOne=valueOn*]\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[*eyOne=valueOne]\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[keyOn*!=*alueOn*]\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[keyOn*!=*alueOne]\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[keyOn*!=valueOn*]\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[keyOn*!=valueOne]\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[keyOn*=*alueOn*]\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[keyOn*=*alueOne]\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[keyOn*=valueOn*]\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[keyOn*=valueOne]\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[keyOne!=*alueOn*]\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[keyOne!=*alueOne]\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[keyOne!=valueOn*]\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[keyOne!=valueOne]\"", negated: True)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[keyOne=*alueOn*]\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[keyOne=*alueOne]\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[keyOne=valueOn*]\"", negated: False)",20,20,0,0,stable
+QueryFilterParserTests+Parse,"QueryFilterParserTests+Parse.TraitFilter(query: \""/[keyOne=valueOne]\"", negated: False)",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: AfterTestFinished(\""test-id\"") attr=\""attr-name\"")",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: AfterTestStarting(\""test-id\"") attr=\""attr-name\"")",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: BeforeTestFinished(\""test-id\"") attr=\""attr-name\"")",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: BeforeTestStarting(\""test-id\"") attr=\""attr-name\"")",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: DiagnosticMessage message=\""diag-message\"")",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: InternalDiagnosticMessage message=\""internal-message\"")",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestAssemblyCleanupFailure(\""asm-id\"") types=[\""parent-type\"", \""child-type\""] messages=[\""parent-message\"", \""child-message\""])",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestAssemblyFinished(\""asm-id\"") total=2600 failed=42 skipped=12 notRun=21 time=123)",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestAssemblyStarting(\""asm-id\"") name=\""asm-name\"" path=\""asm-path\"" config=\""config-path\"" seed=123456)",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestCaseCleanupFailure(\""case-id\"") types=[\""parent-type\"", \""child-type\""] messages=[\""parent-message\"", \""child-message\""])",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestCaseDiscovered(\""case-id\"") name=\""test-case\"")",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestCaseFinished(\""case-id\"") total=2600 failed=42 skipped=12 notRun=21 time=123)",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestCaseStarting(\""case-id\"") name=\""test-case\"")",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestClassCleanupFailure(\""class-id\"") types=[\""parent-type\"", \""child-type\""] messages=[\""parent-message\"", \""child-message\""])",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestClassConstructionFinished(\""test-id\""))",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestClassConstructionStarting(\""test-id\""))",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestClassDisposeFinished(\""test-id\""))",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestClassDisposeStarting(\""test-id\""))",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestClassFinished(\""class-id\"") total=2600 failed=42 skipped=12 notRun=21 time=123)",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestClassStarting(\""class-id\"") class=\""test-class\"")",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestCleanupFailure(\""test-id\"") types=[\""parent-type\"", \""child-type\""] messages=[\""parent-message\"", \""child-message\""])",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestCollectionCleanupFailure(\""collection-id\"") types=[\""parent-type\"", \""child-type\""] messages=[\""parent-message\"", \""child-message\""])",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestCollectionFinished(\""collection-id\"") total=2600 failed=42 skipped=12 notRun=21 time=123)",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestCollectionStarting(\""collection-id\"") name=\""test-collection\"" class=\""test-collection-class\"")",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestFailed(\""test-id\"") time=123 types=[\""parent-type\"", \""child-type\""] messages=[\""parent-message\"", \""child-message\""])",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestFinished(\""test-id\"") time=123)",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestMethodCleanupFailure(\""method-id\"") types=[\""parent-type\"", \""child-type\""] messages=[\""parent-message\"", \""child-message\""])",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestMethodFinished(\""method-id\"") total=2600 failed=42 skipped=12 notRun=21 time=123)",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestMethodStarting(\""method-id\"") method=\""test-method\"")",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestNotRun(\""test-id\"") time=123)",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestOutput(\""test-id\"") output=\""output\"")",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestPassed(\""test-id\"") time=123)",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestSkipped(\""test-id\"") time=123 reason=\""skip-reason\"")",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: TestStarting(\""test-id\"") name=\""test-name\"")",20,20,0,0,stable
+Serialization,"Serialization.MessageCanSerializeAndDeserialize(original: Xunit.Runner.Common.ErrorMessage types=[\""parent-type\"", \""child-type\""] messages=[\""parent-message\"", \""child-message\""])",20,20,0,0,stable
+TeamCityReporterMessageHandlerTests+FailureMessages,TeamCityReporterMessageHandlerTests+FailureMessages.ErrorMessage,20,20,0,0,stable
+TeamCityReporterMessageHandlerTests+FailureMessages,TeamCityReporterMessageHandlerTests+FailureMessages.TestAssemblyCleanupFailure,20,20,0,0,stable
+TeamCityReporterMessageHandlerTests+FailureMessages,TeamCityReporterMessageHandlerTests+FailureMessages.TestCaseCleanupFailure,20,20,0,0,stable
+TeamCityReporterMessageHandlerTests+FailureMessages,TeamCityReporterMessageHandlerTests+FailureMessages.TestClassCleanupFailure,20,20,0,0,stable
+TeamCityReporterMessageHandlerTests+FailureMessages,TeamCityReporterMessageHandlerTests+FailureMessages.TestCleanupFailure,20,20,0,0,stable
+TeamCityReporterMessageHandlerTests+FailureMessages,TeamCityReporterMessageHandlerTests+FailureMessages.TestCollectionCleanupFailure,20,20,0,0,stable
+TeamCityReporterMessageHandlerTests+FailureMessages,TeamCityReporterMessageHandlerTests+FailureMessages.TestMethodCleanupFailure,20,20,0,0,stable
+TeamCityReporterMessageHandlerTests+OnMessage_TestAssemblyStarting_TestAssemblyFinished,TeamCityReporterMessageHandlerTests+OnMessage_TestAssemblyStarting_TestAssemblyFinished.StartsAndEndsFlowAndSuite,20,20,0,0,stable
+TeamCityReporterMessageHandlerTests+OnMessage_TestAssemblyStarting_TestAssemblyFinished,TeamCityReporterMessageHandlerTests+OnMessage_TestAssemblyStarting_TestAssemblyFinished.UsesRootFlowIDFromTeamCityEnvironment,20,20,0,0,stable
+TeamCityReporterMessageHandlerTests+OnMessage_TestCollectionStarting_TestCollectionFinished,TeamCityReporterMessageHandlerTests+OnMessage_TestCollectionStarting_TestCollectionFinished.StartsAndEndsFlowAndSuite,20,20,0,0,stable
+TeamCityReporterMessageHandlerTests+OnMessage_TestFailed,TeamCityReporterMessageHandlerTests+OnMessage_TestFailed.LogsTestFailed,20,20,0,0,stable
+TeamCityReporterMessageHandlerTests+OnMessage_TestFinished,TeamCityReporterMessageHandlerTests+OnMessage_TestFinished.WithOutput,20,20,0,0,stable
+TeamCityReporterMessageHandlerTests+OnMessage_TestFinished,TeamCityReporterMessageHandlerTests+OnMessage_TestFinished.WithoutOutput,20,20,0,0,stable
+TeamCityReporterMessageHandlerTests+OnMessage_TestSkipped,TeamCityReporterMessageHandlerTests+OnMessage_TestSkipped.LogsTestIgnored,20,20,0,0,stable
+TeamCityReporterMessageHandlerTests+OnMessage_TestStarting,TeamCityReporterMessageHandlerTests+OnMessage_TestStarting.LogsTestName,20,20,0,0,stable
+TestAssemblyInfoTests,TestAssemblyInfoTests.CanRoundTripSerialize,20,20,0,0,stable
+TestFailedTests+FromException,TestFailedTests+FromException.BuiltInAssertionException,20,20,0,0,stable
+TestFailedTests+FromException,TestFailedTests+FromException.BuiltInTimeoutException,20,20,0,0,stable
+TestFailedTests+FromException,TestFailedTests+FromException.CustomAssertionException,20,20,0,0,stable
+TestFailedTests+FromException,TestFailedTests+FromException.CustomTimeoutException,20,20,0,0,stable
+TestFailedTests+FromException,TestFailedTests+FromException.NonAssertionException,20,20,0,0,stable
+TestFailedTests+FromException,TestFailedTests+FromException.TimeoutExceptionTakesPriorityOverAssertionException,20,20,0,0,stable
+TestFrameworkOptionsTests+DiscoveryOptions+Serialization,TestFrameworkOptionsTests+DiscoveryOptions+Serialization.DefaultOptions_EmptyJson,20,20,0,0,stable
+TestFrameworkOptionsTests+DiscoveryOptions+Serialization,TestFrameworkOptionsTests+DiscoveryOptions+Serialization.EmptyJson_DeserializesToDefaultValues,20,20,0,0,stable
+TestFrameworkOptionsTests+DiscoveryOptions+Serialization,TestFrameworkOptionsTests+DiscoveryOptions+Serialization.SettingValue_RoundTripsValue,20,20,0,0,stable
+TestFrameworkOptionsTests+ExecutionOptions+Serialization,TestFrameworkOptionsTests+ExecutionOptions+Serialization.DefaultOptions_EmptyJson,20,20,0,0,stable
+TestFrameworkOptionsTests+ExecutionOptions+Serialization,TestFrameworkOptionsTests+ExecutionOptions+Serialization.EmptyJson_DeserializesToDefaultValues,20,20,0,0,stable
+TestFrameworkOptionsTests+ExecutionOptions+Serialization,TestFrameworkOptionsTests+ExecutionOptions+Serialization.SettingValue_RoundTripsValue,20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: AfterTestFinished(\""test-id\"") attr=\""attribute-name\"")",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: AfterTestStarting(\""test-id\"") attr=\""attribute-name\"")",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: BeforeTestFinished(\""test-id\"") attr=\""attribute-name\"")",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: BeforeTestStarting(\""test-id\"") attr=\""attribute-name\"")",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: DiagnosticMessage message=\""Hello world!\"")",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: DiscoveryComplete(\""assembly-id\"") testCasesToRun=2112)",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: DiscoveryStarting(\""assembly-id\"") name=\""test-assembly\"" path=\""./test-assembly.dll\"" config=\""./test-assembly.json\"")",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestAssemblyCleanupFailure(\""assembly-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestAssemblyDiscoveryFinished { Assembly = XunitProjectAssembly { Assembly = null, AssemblyDisplayName = \""test-assembly\"", AssemblyFileName = \""./test-assembly.dll\"", AssemblyMetadata = AssemblyMetadata { ··· }, AutoEnableExplicit = False, ··· }, DiscoveryOptions = TestFrameworkOptions { }, TestCasesToRun = 42, UniqueID = \""assembly-id\"" })",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestAssemblyDiscoveryStarting { AppDomain = Disabled, Assembly = XunitProjectAssembly { Assembly = null, AssemblyDisplayName = \""test-assembly\"", AssemblyFileName = \""./test-assembly.dll\"", AssemblyMetadata = AssemblyMetadata { ··· }, AutoEnableExplicit = False, ··· }, DiscoveryOptions = TestFrameworkOptions { }, ShadowCopy = False, UniqueID = \""assembly-id\"" })",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestAssemblyExecutionFinished { Assembly = XunitProjectAssembly { Assembly = null, AssemblyDisplayName = \""test-assembly\"", AssemblyFileName = \""./test-assembly.dll\"", AssemblyMetadata = AssemblyMetadata { ··· }, AutoEnableExplicit = False, ··· }, ExecutionOptions = TestFrameworkOptions { }, ExecutionSummary = ExecutionSummary { Errors = 95, Failed = 42, NotRun = 3, Passed = 2061, Skipped = 6, ··· }, UniqueID = \""assembly-id\"" })",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestAssemblyExecutionStarting { Assembly = XunitProjectAssembly { Assembly = null, AssemblyDisplayName = \""test-assembly\"", AssemblyFileName = \""./test-assembly.dll\"", AssemblyMetadata = AssemblyMetadata { ··· }, AutoEnableExplicit = False, ··· }, ExecutionOptions = TestFrameworkOptions { }, Seed = null, UniqueID = \""assembly-id\"" })",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestAssemblyFinished(\""assembly-id\"") total=2112 failed=42 skipped=6 notRun=3 time=123.4567)",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestAssemblyStarting(\""assembly-id\"") name=\""test-assembly\"" path=\""./test-assembly.dll\"" config=\""./test-assembly.json\"")",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestCaseCleanupFailure(\""test-case-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestCaseDiscovered(\""test-case-id\"") name=\""test-case-display-name\"")",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestCaseFinished(\""test-case-id\"") total=2112 failed=42 skipped=6 notRun=3 time=123.4567)",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestCaseStarting(\""test-case-id\"") name=\""test-case-display-name\"")",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestClassCleanupFailure(\""test-class-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestClassConstructionFinished(\""test-id\""))",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestClassConstructionStarting(\""test-id\""))",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestClassDisposeFinished(\""test-id\""))",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestClassDisposeStarting(\""test-id\""))",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestClassFinished(\""test-class-id\"") total=2112 failed=42 skipped=6 notRun=3 time=123.4567)",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestClassStarting(\""test-class-id\"") class=\""test-class-name\"")",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestCleanupFailure(\""test-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestCollectionCleanupFailure(\""test-collection-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestCollectionFinished(\""test-collection-id\"") total=2112 failed=42 skipped=6 notRun=3 time=123.4567)",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestCollectionStarting(\""test-collection-id\"") name=\""test-collection-display-name\"" class=\""test-collection-class\"")",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestExecutionSummaries { ElapsedClockTime = 00:02:03.4567000, SummariesByAssemblyUniqueID = [Tuple (\""assembly-id\"", ExecutionSummary { ··· })] })",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestFailed(\""test-id\"") time=123.4567 types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestFinished(\""test-id\"") time=123.4567)",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestMethodCleanupFailure(\""test-method-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestMethodFinished(\""test-method-id\"") total=2112 failed=42 skipped=6 notRun=3 time=123.4567)",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestMethodStarting(\""test-method-id\"") method=\""test-method\"")",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestNotRun(\""test-id\""))",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestOutput(\""test-id\"") output=\""test-helper-output\"")",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestPassed(\""test-id\"") time=123.4567)",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestSkipped(\""test-id\"") reason=\""skip-reason\"")",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: TestStarting(\""test-id\"") name=\""test-display-name\"")",20,20,0,0,stable
+TestMessageSinkTests,"TestMessageSinkTests.ProcessesVisitorTypes(message: Xunit.Runner.Common.ErrorMessage types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,"TrxResultWriterMessageHandlerTests.ErrorMessage(errorMessage: TestAssemblyCleanupFailure(\""assembly-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,"TrxResultWriterMessageHandlerTests.ErrorMessage(errorMessage: TestCaseCleanupFailure(\""test-case-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,"TrxResultWriterMessageHandlerTests.ErrorMessage(errorMessage: TestClassCleanupFailure(\""test-class-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,"TrxResultWriterMessageHandlerTests.ErrorMessage(errorMessage: TestCleanupFailure(\""test-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,"TrxResultWriterMessageHandlerTests.ErrorMessage(errorMessage: TestCollectionCleanupFailure(\""test-collection-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,"TrxResultWriterMessageHandlerTests.ErrorMessage(errorMessage: TestMethodCleanupFailure(\""test-method-id\"") types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,"TrxResultWriterMessageHandlerTests.ErrorMessage(errorMessage: Xunit.Runner.Common.ErrorMessage types=[\""System.DivideByZeroExcept···\""] messages=[\""Attempted to divide by ze···\""])",20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,TrxResultWriterMessageHandlerTests.TestAssemblyStartingAndFinished_RecordsTimesAndTotals[en-US],20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,TrxResultWriterMessageHandlerTests.TestAssemblyStartingAndFinished_RecordsTimesAndTotals[fr-FR],20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,TrxResultWriterMessageHandlerTests.TestFailed[en-US],20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,TrxResultWriterMessageHandlerTests.TestFailed[fr-FR],20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,TrxResultWriterMessageHandlerTests.TestFailed_NullStackTrace,20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,TrxResultWriterMessageHandlerTests.TestNotRun[en-US],20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,TrxResultWriterMessageHandlerTests.TestNotRun[fr-FR],20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,TrxResultWriterMessageHandlerTests.TestPassed[en-US],20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,TrxResultWriterMessageHandlerTests.TestPassed[fr-FR],20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,TrxResultWriterMessageHandlerTests.TestResult_EmptyOutput[en-US],20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,TrxResultWriterMessageHandlerTests.TestResult_EmptyOutput[fr-FR],20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,TrxResultWriterMessageHandlerTests.TestResult_OutputIsSplitOnCRLFs[en-US],20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,TrxResultWriterMessageHandlerTests.TestResult_OutputIsSplitOnCRLFs[fr-FR],20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,TrxResultWriterMessageHandlerTests.TestResult_WithAttachments,20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,"TrxResultWriterMessageHandlerTests.TestRunElement(computerEnvName: \""COMPUTERNAME\"", userEnvName: \""USERNAME\"")",20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,"TrxResultWriterMessageHandlerTests.TestRunElement(computerEnvName: \""HOSTNAME\"", userEnvName: \""LOGNAME\"")",20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,"TrxResultWriterMessageHandlerTests.TestRunElement(computerEnvName: \""HOSTNAME\"", userEnvName: \""USER\"")",20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,"TrxResultWriterMessageHandlerTests.TestRunElement(computerEnvName: \""HOST\"", userEnvName: \""LOGNAME\"")",20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,"TrxResultWriterMessageHandlerTests.TestRunElement(computerEnvName: \""HOST\"", userEnvName: \""USER\"")",20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,"TrxResultWriterMessageHandlerTests.TestRunElement(computerEnvName: \""NAME\"", userEnvName: \""LOGNAME\"")",20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,"TrxResultWriterMessageHandlerTests.TestRunElement(computerEnvName: \""NAME\"", userEnvName: \""USER\"")",20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,TrxResultWriterMessageHandlerTests.TestSkipped[en-US],20,20,0,0,stable
+TrxResultWriterMessageHandlerTests,TrxResultWriterMessageHandlerTests.TestSkipped[fr-FR],20,20,0,0,stable
+XmlV1ResultWriterMessageHandlerTests,XmlV1ResultWriterMessageHandlerTests.AssemblyFinished[en-US],20,20,0,0,stable
+XmlV1ResultWriterMessageHandlerTests,XmlV1ResultWriterMessageHandlerTests.AssemblyFinished[fr-FR],20,20,0,0,stable
+XmlV1ResultWriterMessageHandlerTests,XmlV1ResultWriterMessageHandlerTests.AssemblyStarting,20,20,0,0,stable
+XmlV1ResultWriterMessageHandlerTests,XmlV1ResultWriterMessageHandlerTests.AssemblyStartingDoesNotIncludeOptionalValue,20,20,0,0,stable
+XmlV1ResultWriterMessageHandlerTests,XmlV1ResultWriterMessageHandlerTests.TestClasses[en-US],20,20,0,0,stable
+XmlV1ResultWriterMessageHandlerTests,XmlV1ResultWriterMessageHandlerTests.TestClasses[fr-FR],20,20,0,0,stable
+XmlV1ResultWriterMessageHandlerTests,XmlV1ResultWriterMessageHandlerTests.TestFailed[en-US],20,20,0,0,stable
+XmlV1ResultWriterMessageHandlerTests,XmlV1ResultWriterMessageHandlerTests.TestFailed[fr-FR],20,20,0,0,stable
+XmlV1ResultWriterMessageHandlerTests,XmlV1ResultWriterMessageHandlerTests.TestFailed_NullStackTrace,20,20,0,0,stable
+XmlV1ResultWriterMessageHandlerTests,XmlV1ResultWriterMessageHandlerTests.TestPassed[en-US],20,20,0,0,stable
+XmlV1ResultWriterMessageHandlerTests,XmlV1ResultWriterMessageHandlerTests.TestPassed[fr-FR],20,20,0,0,stable
+XmlV1ResultWriterMessageHandlerTests,"XmlV1ResultWriterMessageHandlerTests.TestResult_WithIllegalStringValue(inputName: \""\\0\\x01\\x02\\x03\\x04\\x05\\x06\\a\\b\\t\\n\\v\\f\\r\\x0e\\x0f\\x10\\x11\\x12\\x13\\x14\\x15\\x16\\x17\\x18\\x19\\x1a\\x1b\\x1c\\x1d\\x1e\\x1f\"", outputName: \""\\\\0\\\\x01\\\\x02\\\\x03\\\\x04\\\\x05\\\\x06\\\\a\\\\b\\\\t\\\\n\\\\v\\\\f\\\\r\\\\x0e\\\\x0f\\\\x\""···)",20,20,0,0,stable
+XmlV1ResultWriterMessageHandlerTests,"XmlV1ResultWriterMessageHandlerTests.TestResult_WithIllegalStringValue(inputName: \""\\xd800 Hello.World \\xdc00\"", outputName: \""\\\\xd800 Hello.World \\\\xdc00\"")",20,20,0,0,stable
+XmlV1ResultWriterMessageHandlerTests,"XmlV1ResultWriterMessageHandlerTests.TestResult_WithIllegalStringValue(inputName: \""𐏿 This.Is.Valid 򐄀\"", outputName: \""𐏿 This.Is.Valid 򐄀\"")",20,20,0,0,stable
+XmlV1ResultWriterMessageHandlerTests,XmlV1ResultWriterMessageHandlerTests.TestResult_WithTraits,20,20,0,0,stable
+XmlV1ResultWriterMessageHandlerTests,XmlV1ResultWriterMessageHandlerTests.TestSkipped[en-US],20,20,0,0,stable
+XmlV1ResultWriterMessageHandlerTests,XmlV1ResultWriterMessageHandlerTests.TestSkipped[fr-FR],20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,"XmlV2ResultWriterMessageHandlerTests.AssembliesElement(computerEnvName: \""COMPUTERNAME\"", userEnvName: \""USERNAME\"")",20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,"XmlV2ResultWriterMessageHandlerTests.AssembliesElement(computerEnvName: \""HOSTNAME\"", userEnvName: \""LOGNAME\"")",20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,"XmlV2ResultWriterMessageHandlerTests.AssembliesElement(computerEnvName: \""HOSTNAME\"", userEnvName: \""USER\"")",20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,"XmlV2ResultWriterMessageHandlerTests.AssembliesElement(computerEnvName: \""HOST\"", userEnvName: \""LOGNAME\"")",20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,"XmlV2ResultWriterMessageHandlerTests.AssembliesElement(computerEnvName: \""HOST\"", userEnvName: \""USER\"")",20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,"XmlV2ResultWriterMessageHandlerTests.AssembliesElement(computerEnvName: \""NAME\"", userEnvName: \""LOGNAME\"")",20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,"XmlV2ResultWriterMessageHandlerTests.AssembliesElement(computerEnvName: \""NAME\"", userEnvName: \""USER\"")",20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.AssembliesElementDoesNotIncludeOptionalValues,20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.AssemblyFinished[en-US],20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.AssemblyFinished[fr-FR],20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.AssemblyStarting,20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.AssemblyStartingDoesNotIncludeOptionalValues,20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.ErrorMessage,20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestAssemblyCleanupFailure,20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestCaseCleanupFailure,20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestClassCleanupFailure,20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestCleanupFailure,20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestCollectionCleanupFailure,20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestCollections[en-US],20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestCollections[fr-FR],20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestFailed[en-US],20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestFailed[fr-FR],20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestFailed_NullStackTrace,20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestMethodCleanupFailure,20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestNotRun[en-US],20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestNotRun[fr-FR],20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestPassed[en-US],20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestPassed[fr-FR],20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestResult_EmptyOutput[en-US],20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestResult_EmptyOutput[fr-FR],20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestResult_OutputIsEscaped[en-US],20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestResult_OutputIsEscaped[fr-FR],20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestResult_WithAttachments,20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,"XmlV2ResultWriterMessageHandlerTests.TestResult_WithIllegalStringValue(inputName: \""\\0\\x01\\x02\\x03\\x04\\x05\\x06\\a\\b\\t\\n\\v\\f\\r\\x0e\\x0f\\x10\\x11\\x12\\x13\\x14\\x15\\x16\\x17\\x18\\x19\\x1a\\x1b\\x1c\\x1d\\x1e\\x1f\"", outputName: \""\\\\0\\\\x01\\\\x02\\\\x03\\\\x04\\\\x05\\\\x06\\\\a\\\\b\\\\t\\\\n\\\\v\\\\f\\\\r\\\\x0e\\\\x0f\\\\x\""···)",20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,"XmlV2ResultWriterMessageHandlerTests.TestResult_WithIllegalStringValue(inputName: \""\\xd800 Hello.World \\xdc00\"", outputName: \""\\\\xd800 Hello.World \\\\xdc00\"")",20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,"XmlV2ResultWriterMessageHandlerTests.TestResult_WithIllegalStringValue(inputName: \""𐏿 This.Is.Valid 򐄀\"", outputName: \""𐏿 This.Is.Valid 򐄀\"")",20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestResult_WithSourceInformation,20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestResult_WithTraits,20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestSkipped[en-US],20,20,0,0,stable
+XmlV2ResultWriterMessageHandlerTests,XmlV2ResultWriterMessageHandlerTests.TestSkipped[fr-FR],20,20,0,0,stable
+XunitFiltersTests,XunitFiltersTests.NoFilters_AlwaysPass,20,20,0,0,stable
+XunitFiltersTests,"XunitFiltersTests.QueryFilterFirst_ProhibitsSimpleFilter(simpleFilterAction: Action`1 { Method = Void <.cctor>b__22_0(Xunit.Runner.Common.XunitFilters), Target = <>c { } })",20,20,0,0,stable
+XunitFiltersTests,"XunitFiltersTests.QueryFilterFirst_ProhibitsSimpleFilter(simpleFilterAction: Action`1 { Method = Void <.cctor>b__22_1(Xunit.Runner.Common.XunitFilters), Target = <>c { } })",20,20,0,0,stable
+XunitFiltersTests,"XunitFiltersTests.QueryFilterFirst_ProhibitsSimpleFilter(simpleFilterAction: Action`1 { Method = Void <.cctor>b__22_2(Xunit.Runner.Common.XunitFilters), Target = <>c { } })",20,20,0,0,stable
+XunitFiltersTests,"XunitFiltersTests.QueryFilterFirst_ProhibitsSimpleFilter(simpleFilterAction: Action`1 { Method = Void <.cctor>b__22_3(Xunit.Runner.Common.XunitFilters), Target = <>c { } })",20,20,0,0,stable
+XunitFiltersTests,"XunitFiltersTests.QueryFilterFirst_ProhibitsSimpleFilter(simpleFilterAction: Action`1 { Method = Void <.cctor>b__22_4(Xunit.Runner.Common.XunitFilters), Target = <>c { } })",20,20,0,0,stable
+XunitFiltersTests,"XunitFiltersTests.QueryFilterFirst_ProhibitsSimpleFilter(simpleFilterAction: Action`1 { Method = Void <.cctor>b__22_5(Xunit.Runner.Common.XunitFilters), Target = <>c { } })",20,20,0,0,stable
+XunitFiltersTests,"XunitFiltersTests.QueryFilterFirst_ProhibitsSimpleFilter(simpleFilterAction: Action`1 { Method = Void <.cctor>b__22_6(Xunit.Runner.Common.XunitFilters), Target = <>c { } })",20,20,0,0,stable
+XunitFiltersTests,"XunitFiltersTests.QueryFilterFirst_ProhibitsSimpleFilter(simpleFilterAction: Action`1 { Method = Void <.cctor>b__22_7(Xunit.Runner.Common.XunitFilters), Target = <>c { } })",20,20,0,0,stable
+XunitFiltersTests,XunitFiltersTests.QueryFilterFirst_ProhibitsVSTestFilter,20,20,0,0,stable
+XunitFiltersTests,XunitFiltersTests.SimpleQueryFirst_ProhibitsQueryFilter,20,20,0,0,stable
+XunitFiltersTests,XunitFiltersTests.SimpleQueryFirst_ProhibitsVSTestFilter,20,20,0,0,stable
+XunitFiltersTests,XunitFiltersTests.VSTestFilterFirst_ProhibitsQueryFilter,20,20,0,0,stable
+XunitFiltersTests,XunitFiltersTests.VSTestFilterFirst_ProhibitsSecondVSTestFilter,20,20,0,0,stable
+XunitFiltersTests,"XunitFiltersTests.VSTestFilterFirst_ProhibitsSimpleFilter(simpleFilterAction: Action`1 { Method = Void <.cctor>b__22_0(Xunit.Runner.Common.XunitFilters), Target = <>c { } })",20,20,0,0,stable
+XunitFiltersTests,"XunitFiltersTests.VSTestFilterFirst_ProhibitsSimpleFilter(simpleFilterAction: Action`1 { Method = Void <.cctor>b__22_1(Xunit.Runner.Common.XunitFilters), Target = <>c { } })",20,20,0,0,stable
+XunitFiltersTests,"XunitFiltersTests.VSTestFilterFirst_ProhibitsSimpleFilter(simpleFilterAction: Action`1 { Method = Void <.cctor>b__22_2(Xunit.Runner.Common.XunitFilters), Target = <>c { } })",20,20,0,0,stable
+XunitFiltersTests,"XunitFiltersTests.VSTestFilterFirst_ProhibitsSimpleFilter(simpleFilterAction: Action`1 { Method = Void <.cctor>b__22_3(Xunit.Runner.Common.XunitFilters), Target = <>c { } })",20,20,0,0,stable
+XunitFiltersTests,"XunitFiltersTests.VSTestFilterFirst_ProhibitsSimpleFilter(simpleFilterAction: Action`1 { Method = Void <.cctor>b__22_4(Xunit.Runner.Common.XunitFilters), Target = <>c { } })",20,20,0,0,stable
+XunitFiltersTests,"XunitFiltersTests.VSTestFilterFirst_ProhibitsSimpleFilter(simpleFilterAction: Action`1 { Method = Void <.cctor>b__22_5(Xunit.Runner.Common.XunitFilters), Target = <>c { } })",20,20,0,0,stable
+XunitFiltersTests,"XunitFiltersTests.VSTestFilterFirst_ProhibitsSimpleFilter(simpleFilterAction: Action`1 { Method = Void <.cctor>b__22_6(Xunit.Runner.Common.XunitFilters), Target = <>c { } })",20,20,0,0,stable
+XunitFiltersTests,"XunitFiltersTests.VSTestFilterFirst_ProhibitsSimpleFilter(simpleFilterAction: Action`1 { Method = Void <.cctor>b__22_7(Xunit.Runner.Common.XunitFilters), Target = <>c { } })",20,20,0,0,stable
+XunitFiltersTests+QueryFilters,XunitFiltersTests+QueryFilters.MultipleFilters_ActsAsAnOrOperation,20,20,0,0,stable
+XunitFiltersTests+QueryFilters,XunitFiltersTests+QueryFilters.SingleFilter_MatchesQuery,20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedClasses,XunitFiltersTests+SimpleFilters+ExcludedClasses.MultipleFilters_ActsAsAnOrOperation,20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedClasses,"XunitFiltersTests+SimpleFilters+ExcludedClasses.SingleFilter_ExcludesMatchingClass(query: \""*amespaceOne.ClassInNamespace1+InnerClassOn*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedClasses,"XunitFiltersTests+SimpleFilters+ExcludedClasses.SingleFilter_ExcludesMatchingClass(query: \""*amespaceOne.ClassInNamespace1+InnerClassOne\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedClasses,"XunitFiltersTests+SimpleFilters+ExcludedClasses.SingleFilter_ExcludesMatchingClass(query: \""NAMESPACEONE.CLASSINNAMESPACE1+INNERCLASSONE\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedClasses,"XunitFiltersTests+SimpleFilters+ExcludedClasses.SingleFilter_ExcludesMatchingClass(query: \""NamespaceOne.ClassInNamespace1+InnerClassOn*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedClasses,"XunitFiltersTests+SimpleFilters+ExcludedClasses.SingleFilter_ExcludesMatchingClass(query: \""NamespaceOne.ClassInNamespace1+InnerClassOne\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedClasses,"XunitFiltersTests+SimpleFilters+ExcludedClasses.SingleFilter_ExcludesMatchingClass(query: \""namespaceone.classinnamespace1+innerclassone\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedMethods,XunitFiltersTests+SimpleFilters+ExcludedMethods.MultipleFilters_ActsAsOrOperation,20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedMethods,"XunitFiltersTests+SimpleFilters+ExcludedMethods.SingleFilter_ExcludesMatchingMethod(query: \""*amespaceOne.ClassInNamespace1+InnerClassOne.NameO\""···)",20,40,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedMethods,"XunitFiltersTests+SimpleFilters+ExcludedMethods.SingleFilter_ExcludesMatchingMethod(query: \""NAMESPACEONE.CLASSINNAMESPACE1+INNERCLASSONE.NAMEO\""···)",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedMethods,"XunitFiltersTests+SimpleFilters+ExcludedMethods.SingleFilter_ExcludesMatchingMethod(query: \""NamespaceOne.ClassInNamespace1+InnerClassOne.NameO\""···)",20,40,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedMethods,"XunitFiltersTests+SimpleFilters+ExcludedMethods.SingleFilter_ExcludesMatchingMethod(query: \""namespaceone.classinnamespace1+innerclassone.nameo\""···)",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedNamespaces,XunitFiltersTests+SimpleFilters+ExcludedNamespaces.MultipleFilters_ActsAsAnOrOperation,20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedNamespaces,"XunitFiltersTests+SimpleFilters+ExcludedNamespaces.SingleFilter_ExcludesMatchingClass(query: \""*amespaceOn*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedNamespaces,"XunitFiltersTests+SimpleFilters+ExcludedNamespaces.SingleFilter_ExcludesMatchingClass(query: \""*amespaceOne\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedNamespaces,"XunitFiltersTests+SimpleFilters+ExcludedNamespaces.SingleFilter_ExcludesMatchingClass(query: \""NAMESPACEONE\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedNamespaces,"XunitFiltersTests+SimpleFilters+ExcludedNamespaces.SingleFilter_ExcludesMatchingClass(query: \""NamespaceOn*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedNamespaces,"XunitFiltersTests+SimpleFilters+ExcludedNamespaces.SingleFilter_ExcludesMatchingClass(query: \""NamespaceOne\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedNamespaces,"XunitFiltersTests+SimpleFilters+ExcludedNamespaces.SingleFilter_ExcludesMatchingClass(query: \""namespaceone\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,XunitFiltersTests+SimpleFilters+ExcludedTraits.MultipleFilters_ActsAsOrOperation,20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""*O*\"", value: \""*A*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""*O*\"", value: \""*Ar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""*O*\"", value: \""BAR\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""*O*\"", value: \""bA*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""*O*\"", value: \""bAr\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""*O*\"", value: \""bar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""*Oo\"", value: \""*A*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""*Oo\"", value: \""*Ar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""*Oo\"", value: \""BAR\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""*Oo\"", value: \""bA*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""*Oo\"", value: \""bAr\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""*Oo\"", value: \""bar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""FOO\"", value: \""*A*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""FOO\"", value: \""*Ar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""FOO\"", value: \""BAR\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""FOO\"", value: \""bA*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""FOO\"", value: \""bAr\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""FOO\"", value: \""bar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""fO*\"", value: \""*A*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""fO*\"", value: \""*Ar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""fO*\"", value: \""BAR\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""fO*\"", value: \""bA*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""fO*\"", value: \""bAr\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""fO*\"", value: \""bar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""fOo\"", value: \""*A*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""fOo\"", value: \""*Ar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""fOo\"", value: \""BAR\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""fOo\"", value: \""bA*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""fOo\"", value: \""bAr\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""fOo\"", value: \""bar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""foo\"", value: \""*A*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""foo\"", value: \""*Ar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""foo\"", value: \""BAR\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""foo\"", value: \""bA*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""foo\"", value: \""bAr\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+ExcludedTraits,"XunitFiltersTests+SimpleFilters+ExcludedTraits.SingleFilter_ExcludesMatchingTrait(name: \""foo\"", value: \""bar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedClasses,XunitFiltersTests+SimpleFilters+IncludedClasses.MultipleFilters_ActsAsAnAndOperation,20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedClasses,"XunitFiltersTests+SimpleFilters+IncludedClasses.SingleFilter_IncludesMatchingClass(query: \""*amespaceOne.ClassInNamespace1+InnerClassOn*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedClasses,"XunitFiltersTests+SimpleFilters+IncludedClasses.SingleFilter_IncludesMatchingClass(query: \""*amespaceOne.ClassInNamespace1+InnerClassOne\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedClasses,"XunitFiltersTests+SimpleFilters+IncludedClasses.SingleFilter_IncludesMatchingClass(query: \""NAMESPACEONE.CLASSINNAMESPACE1+INNERCLASSONE\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedClasses,"XunitFiltersTests+SimpleFilters+IncludedClasses.SingleFilter_IncludesMatchingClass(query: \""NamespaceOne.ClassInNamespace1+InnerClassOn*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedClasses,"XunitFiltersTests+SimpleFilters+IncludedClasses.SingleFilter_IncludesMatchingClass(query: \""NamespaceOne.ClassInNamespace1+InnerClassOne\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedClasses,"XunitFiltersTests+SimpleFilters+IncludedClasses.SingleFilter_IncludesMatchingClass(query: \""namespaceone.classinnamespace1+innerclassone\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedMethods,XunitFiltersTests+SimpleFilters+IncludedMethods.MultipleFilters_ActsAsAndOperation,20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedMethods,"XunitFiltersTests+SimpleFilters+IncludedMethods.SingleFilter_IncludesMatchingMethod(query: \""*amespaceOne.ClassInNamespace1+InnerClassOne.NameO\""···)",20,40,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedMethods,"XunitFiltersTests+SimpleFilters+IncludedMethods.SingleFilter_IncludesMatchingMethod(query: \""NAMESPACEONE.CLASSINNAMESPACE1+INNERCLASSONE.NAMEO\""···)",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedMethods,"XunitFiltersTests+SimpleFilters+IncludedMethods.SingleFilter_IncludesMatchingMethod(query: \""NamespaceOne.ClassInNamespace1+InnerClassOne.NameO\""···)",20,40,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedMethods,"XunitFiltersTests+SimpleFilters+IncludedMethods.SingleFilter_IncludesMatchingMethod(query: \""namespaceone.classinnamespace1+innerclassone.nameo\""···)",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedNamespaces,XunitFiltersTests+SimpleFilters+IncludedNamespaces.MultipleFilters_ActsAsAnOrOperation,20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedNamespaces,"XunitFiltersTests+SimpleFilters+IncludedNamespaces.SingleFilter_ExcludesMatchingClass(query: \""*amespaceOn*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedNamespaces,"XunitFiltersTests+SimpleFilters+IncludedNamespaces.SingleFilter_ExcludesMatchingClass(query: \""*amespaceOne\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedNamespaces,"XunitFiltersTests+SimpleFilters+IncludedNamespaces.SingleFilter_ExcludesMatchingClass(query: \""NAMESPACEONE\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedNamespaces,"XunitFiltersTests+SimpleFilters+IncludedNamespaces.SingleFilter_ExcludesMatchingClass(query: \""NamespaceOn*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedNamespaces,"XunitFiltersTests+SimpleFilters+IncludedNamespaces.SingleFilter_ExcludesMatchingClass(query: \""NamespaceOne\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedNamespaces,"XunitFiltersTests+SimpleFilters+IncludedNamespaces.SingleFilter_ExcludesMatchingClass(query: \""namespaceone\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,XunitFiltersTests+SimpleFilters+IncludedTraits.MultipleFilters_ActsAsAndOperation,20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""*O*\"", value: \""*A*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""*O*\"", value: \""*Ar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""*O*\"", value: \""BAR\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""*O*\"", value: \""bA*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""*O*\"", value: \""bAr\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""*O*\"", value: \""bar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""*Oo\"", value: \""*A*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""*Oo\"", value: \""*Ar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""*Oo\"", value: \""BAR\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""*Oo\"", value: \""bA*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""*Oo\"", value: \""bAr\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""*Oo\"", value: \""bar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""FOO\"", value: \""*A*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""FOO\"", value: \""*Ar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""FOO\"", value: \""BAR\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""FOO\"", value: \""bA*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""FOO\"", value: \""bAr\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""FOO\"", value: \""bar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""fO*\"", value: \""*A*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""fO*\"", value: \""*Ar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""fO*\"", value: \""BAR\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""fO*\"", value: \""bA*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""fO*\"", value: \""bAr\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""fO*\"", value: \""bar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""fOo\"", value: \""*A*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""fOo\"", value: \""*Ar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""fOo\"", value: \""BAR\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""fOo\"", value: \""bA*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""fOo\"", value: \""bAr\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""fOo\"", value: \""bar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""foo\"", value: \""*A*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""foo\"", value: \""*Ar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""foo\"", value: \""BAR\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""foo\"", value: \""bA*\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""foo\"", value: \""bAr\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+IncludedTraits,"XunitFiltersTests+SimpleFilters+IncludedTraits.SingleFilter_IncludesMatchingTrait(name: \""foo\"", value: \""bar\"")",20,20,0,0,stable
+XunitFiltersTests+SimpleFilters+MixedFilters,XunitFiltersTests+SimpleFilters+MixedFilters.ActsAsAnAndOperation,20,20,0,0,stable
+XunitFiltersTests+VSTestFilters,XunitFiltersTests+VSTestFilters.DisplayName,20,20,0,0,stable
+XunitFiltersTests+VSTestFilters,XunitFiltersTests+VSTestFilters.FullyQualifiedName,20,20,0,0,stable
+XunitFiltersTests+VSTestFilters,XunitFiltersTests+VSTestFilters.Traits,20,20,0,0,stable
+XunitProjectAssemblyTests+WithSettings,XunitProjectAssemblyTests+WithSettings.FindAndRunSettings,20,20,0,0,stable
+XunitProjectAssemblyTests+WithSettings,XunitProjectAssemblyTests+WithSettings.FindSettings,20,20,0,0,stable
+XunitProjectAssemblyTests+WithSettings,XunitProjectAssemblyTests+WithSettings.RunSettings,20,20,0,0,stable

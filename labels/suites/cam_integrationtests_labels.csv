@@ -1,0 +1,4 @@
+﻿className,test,runs_presente,passed,failed,skipped,label
+IntegrationTests.CurrencyExchangeTests.ConvertEuroToDollarTests,IntegrationTests.CurrencyExchangeTests.ConvertEuroToDollarTests.Convert,100,100,0,0,stable
+IntegrationTests.EntityFrameworkTests.AccountRepositoryTests,IntegrationTests.EntityFrameworkTests.AccountRepositoryTests.Add,100,0,100,0,broken
+IntegrationTests.EntityFrameworkTests.AccountRepositoryTests,IntegrationTests.EntityFrameworkTests.AccountRepositoryTests.Delete,100,0,100,0,broken
