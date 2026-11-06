@@ -1,0 +1,229 @@
+﻿className,test,runs_presente,passed,failed,skipped,label
+Rnwood.Smtp4dev.Tests.CommandLine.ParseCommandLineTests,Rnwood.Smtp4dev.Tests.CommandLine.ParseCommandLineTests.CanParseMultipleUsers,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.CommandLine.ParseCommandLineTests,Rnwood.Smtp4dev.Tests.CommandLine.ParseCommandLineTests.CanParseRelaySmtpPort(portNumber: 500),20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.CommandLine.ParseCommandLineTests,Rnwood.Smtp4dev.Tests.CommandLine.ParseCommandLineTests.SmtpPortMustBeValidTcpPort(portNumber: -1),20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.CommandLine.ParseCommandLineTests,Rnwood.Smtp4dev.Tests.CommandLine.ParseCommandLineTests.SmtpPortMustBeValidTcpPort(portNumber: 67000),20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.AttachmentUrl_ShouldIncludeDownloadParameter,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.GetHtmlBody,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.GetHtmlBody_WhenThereIsntOne_ReturnsNotFound,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,"Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.GetMessageRaw_QPMessage_ReturnsHeadersAndQPContent(encodingName: ""iso-8859-1"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,"Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.GetMessageRaw_QPMessage_ReturnsHeadersAndQPContent(encodingName: ""utf-8"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,"Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.GetMessageSource_QPMessage_ReturnsNotHeadersDecodedContent(encodingName: ""iso-8859-1"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,"Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.GetMessageSource_QPMessage_ReturnsNotHeadersDecodedContent(encodingName: ""utf-8"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.GetMessage_ValidMime,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.GetNewSummaries_NoBookmark_AllMessagesReturned,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.GetNewSummaries_NoBookmark_NewerMessagesReturned,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.GetPartContent,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.GetSummaries_MessageWithNullToField_DoesNotThrow,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.GetSummaries_NoSearch_AllMessagesReturned,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.GetSummaries_SearchInAttachmentFilenames_MatchingMessagesReturned,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.GetSummaries_SearchInBodyContent_MatchingMessagesReturned,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.GetSummaries_SearchInCC_MatchingMessagesReturned,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.GetSummaries_Search_MatchingMessagesReturned,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.GetTextBody,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.GetTextBody_WhenThereIsntOne_ReturnsNotFound,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests,Rnwood.Smtp4dev.Tests.Controllers.MessagesControllerTests.ImportMessage_AssignsValidImapUid,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Controllers.RelayMessagesTests,Rnwood.Smtp4dev.Tests.Controllers.RelayMessagesTests.CanRelayMessageAndPersistResult,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.DBMigrations.DatabaseVersionCompatibilityTests,Rnwood.Smtp4dev.Tests.DBMigrations.DatabaseVersionCompatibilityTests.ValidateDatabaseVersionCompatibility_CompatibleDatabase_ShouldNotThrow,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.DBMigrations.DatabaseVersionCompatibilityTests,Rnwood.Smtp4dev.Tests.DBMigrations.DatabaseVersionCompatibilityTests.ValidateDatabaseVersionCompatibility_DatabaseWithUnknownMigration_ShouldThrow,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.DBMigrations.DatabaseVersionCompatibilityTests,Rnwood.Smtp4dev.Tests.DBMigrations.DatabaseVersionCompatibilityTests.ValidateDatabaseVersionCompatibility_InMemoryDatabase_ShouldSkipCheck,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.DBMigrations.TimezoneConvertMigrationTests,Rnwood.Smtp4dev.Tests.DBMigrations.TimezoneConvertMigrationTests.DatesAreStoredInUtcAndKindIsSetOnRetrieval,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.DBMigrations.TimezoneConvertMigrationTests,Rnwood.Smtp4dev.Tests.DBMigrations.TimezoneConvertMigrationTests.MigrationScriptMaintainsCorrectLocalTimeAfterCoversionTest,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Data.DataModelTests,Rnwood.Smtp4dev.Tests.Data.DataModelTests.CanDeleteSessionWhenMessageExist,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.DirectoryHelperTests,Rnwood.Smtp4dev.Tests.DirectoryHelperTests.DefaultDataDirIsAppData,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.DirectoryHelperTests,Rnwood.Smtp4dev.Tests.DirectoryHelperTests.WhenSpecifiedOnCommandLineOverrideDefault,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapAppend,Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapAppend.AppendToInboxFolder_ShouldWork,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapAppend,Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapAppend.AppendToSentFolder_ShouldNotThrowNullReference,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapAppend,Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapAppend.AppendToUnsupportedFolder_ShouldFail,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapFolders,Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapFolders.AppendToCreatedFolder,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapFolders,Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapFolders.AppendToFolderDeletedDuringLiteralReturnsTryCreate,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapFolders,Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapFolders.CannotRenameParentWhileAnotherSessionHasDescendantSelected,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapFolders,Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapFolders.ConcurrentCreateFolderOnlySucceedsOnce,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapFolders,Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapFolders.CreateFolderAndMoveMessageIntoIt,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapFolders,Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapFolders.CreateSubfolder,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapFolders,Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapFolders.EmptyListAndLSubPatternsReturnTheHierarchyRoot,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapFolders,Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapFolders.RenameAndDeleteFolder,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapFolders,Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_ImapFolders.UidNextUsesTheGlobalAllocatorForAnEmptyFolder,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_Imap_EmptyFolder,Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_Imap_EmptyFolder.SelectEmptyInboxDoesNotThrowError,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_Imap_EmptyFolder,Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_Imap_EmptyFolder.SelectEmptySentFolderDoesNotThrowError,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_Imap_MessagesAvailable,Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_Imap_MessagesAvailable.MessagesAvailable,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_Imap_OlderSearchFunctionality,Rnwood.Smtp4dev.Tests.E2E.Imap.E2ETests_Imap_OlderSearchFunctionality.OlderSearchFunctionality,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.Pop3.E2ETests_Pop3_RetrieveAnd_Delete,"Rnwood.Smtp4dev.Tests.E2E.Pop3.E2ETests_Pop3_RetrieveAnd_Delete.RetrieveThenDeleteMessage(pop3Mode: ""ImplicitTls"")",20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.Pop3.E2ETests_Pop3_RetrieveAnd_Delete,"Rnwood.Smtp4dev.Tests.E2E.Pop3.E2ETests_Pop3_RetrieveAnd_Delete.RetrieveThenDeleteMessage(pop3Mode: ""None"")",20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.Pop3.E2ETests_Pop3_RetrieveAnd_Delete,"Rnwood.Smtp4dev.Tests.E2E.Pop3.E2ETests_Pop3_RetrieveAnd_Delete.RetrieveThenDeleteMessage(pop3Mode: ""StartTls"")",20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_DarkModeRendering,"Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_DarkModeRendering.CheckDarkModeEmailRendering(isDarkMode: False, emailSupportsDarkMode: False)",20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_DarkModeRendering,"Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_DarkModeRendering.CheckDarkModeEmailRendering(isDarkMode: False, emailSupportsDarkMode: True)",20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_DarkModeRendering,"Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_DarkModeRendering.CheckDarkModeEmailRendering(isDarkMode: True, emailSupportsDarkMode: False)",20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_DarkModeRendering,"Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_DarkModeRendering.CheckDarkModeEmailRendering(isDarkMode: True, emailSupportsDarkMode: True)",20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckEmlImportWorksCorrectly,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckEmlImportWorksCorrectly.CheckEmlImportWorksCorrectly,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckHtmlSanitizationSettingTakesEffectImmediately,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckHtmlSanitizationSettingTakesEffectImmediately.CheckHtmlSanitizationSettingTakesEffectImmediately,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageBodyEncodings,"Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageBodyEncodings.CheckMessageBodyEncodingIsDisplayed(charset: ""iso-8859-1"", expectedBody: ""Bonjour café"")",20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageBodyEncodings,"Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageBodyEncodings.CheckMessageBodyEncodingIsDisplayed(charset: ""utf-8"", expectedBody: ""Hello мир 世界"")",20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageBodyEncodings,"Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageBodyEncodings.CheckMessageBodyEncodingIsDisplayed(charset: ""windows-1251"", expectedBody: ""Привет, мир"")",20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageBodyEncodings,"Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageBodyEncodings.CheckMessageBodyEncodingIsDisplayed(charset: ""windows-1252"", expectedBody: ""Hello €uro"")",20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageIsReceivedAndDisplayed,"Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageIsReceivedAndDisplayed.CheckMessageIsReceivedAndDisplayed(basePath: """", testPath: """", inMemoryDb: False)",20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageIsReceivedAndDisplayed,"Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageIsReceivedAndDisplayed.CheckMessageIsReceivedAndDisplayed(basePath: """", testPath: ""/"", inMemoryDb: True)",20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageIsReceivedAndDisplayed,"Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageIsReceivedAndDisplayed.CheckMessageIsReceivedAndDisplayed(basePath: ""/smtp4dev"", testPath: """", inMemoryDb: True)",20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageIsReceivedAndDisplayed,"Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageIsReceivedAndDisplayed.CheckMessageIsReceivedAndDisplayed(basePath: ""/smtp4dev"", testPath: ""/"", inMemoryDb: True)",20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageIsReceivedAndDisplayed,"Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageIsReceivedAndDisplayed.CheckMessageIsReceivedAndDisplayed(basePath: ""/smtp4dev"", testPath: ""/smtp4dev"", inMemoryDb: True)",20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageIsReceivedAndDisplayed,"Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckMessageIsReceivedAndDisplayed.CheckMessageIsReceivedAndDisplayed(basePath: ""/smtp4dev"", testPath: ""/smtp4dev/"", inMemoryDb: True)",20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckUTF8MessageIsReceivedAndDisplayed,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckUTF8MessageIsReceivedAndDisplayed.CheckUTF8MessageIsReceivedAndDisplayed,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckUrlEnvVarIsRespected,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_CheckUrlEnvVarIsRespected.CheckUrlEnvVarIsRespected,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing.BrowserNavigation_BackAndForward_WorksCorrectly,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing.DeepLink_MessageListSelection_WorksCorrectly,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing.DeepLink_SessionWithId_ShouldSelectSession,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing.MessagesUrl_ShouldShowMessagesTab,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing.RootUrl_ShouldDefaultToMessages,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing.ServerLogUrl_ShouldShowServerLogTab,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing.SessionUrl_PersistsAcrossTabSwitches,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing.SessionsUrl_ShouldShowSessionsTab,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing.TabSwitch_MessagesToServerLog_ShouldUpdateUrl,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing.TabSwitch_MessagesToSessions_ShouldUpdateUrl,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing.TabSwitch_ServerLogToMessages_ShouldUpdateUrl,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing.TabSwitch_ServerLogToSessions_ShouldUpdateUrl,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing.TabSwitch_SessionsToMessages_ShouldUpdateUrl,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_Routing.TabSwitch_SessionsToServerLog_ShouldUpdateUrl,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_SearchMessages,Rnwood.Smtp4dev.Tests.E2E.WebUI.E2ETests_WebUI_SearchMessages.SearchResetsPagination,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.EncodingProviderTests,"Rnwood.Smtp4dev.Tests.EncodingProviderTests.LegacyCodePageEncoding_RoundTrips(name: ""iso-8859-1"", value: ""é"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.EncodingProviderTests,"Rnwood.Smtp4dev.Tests.EncodingProviderTests.LegacyCodePageEncoding_RoundTrips(name: ""iso-8859-8"", value: ""א"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.EncodingProviderTests,"Rnwood.Smtp4dev.Tests.EncodingProviderTests.LegacyCodePageEncoding_RoundTrips(name: ""windows-1251"", value: ""Привет"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.EncodingProviderTests,"Rnwood.Smtp4dev.Tests.EncodingProviderTests.LegacyCodePageEncoding_RoundTrips(name: ""windows-1252"", value: ""€"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.EncodingProviderTests,"Rnwood.Smtp4dev.Tests.EncodingProviderTests.MimeMessage_UsesRegisteredEncodingForTextBody(charset: ""iso-8859-1"", expectedBody: ""Héllo"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.EncodingProviderTests,"Rnwood.Smtp4dev.Tests.EncodingProviderTests.MimeMessage_UsesRegisteredEncodingForTextBody(charset: ""iso-8859-8"", expectedBody: ""שלום"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.EncodingProviderTests,"Rnwood.Smtp4dev.Tests.EncodingProviderTests.MimeMessage_UsesRegisteredEncodingForTextBody(charset: ""iso-8859-8-i"", expectedBody: ""שלום"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.EncodingProviderTests,"Rnwood.Smtp4dev.Tests.EncodingProviderTests.MimeMessage_UsesRegisteredEncodingForTextBody(charset: ""utf-7"", expectedBody: ""Héllo"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.EncodingProviderTests,"Rnwood.Smtp4dev.Tests.EncodingProviderTests.MimeMessage_UsesRegisteredEncodingForTextBody(charset: ""windows-1251"", expectedBody: ""Привет"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.EncodingProviderTests,"Rnwood.Smtp4dev.Tests.EncodingProviderTests.MimeMessage_UsesRegisteredEncodingForTextBody(charset: ""windows-1252"", expectedBody: ""H€llo"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.EncodingProviderTests,"Rnwood.Smtp4dev.Tests.EncodingProviderTests.Utf7EncodingProvider_ResolvesAliases(name: ""csunicode11utf7"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.EncodingProviderTests,"Rnwood.Smtp4dev.Tests.EncodingProviderTests.Utf7EncodingProvider_ResolvesAliases(name: ""unicode-1-1-utf-7"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.EncodingProviderTests,"Rnwood.Smtp4dev.Tests.EncodingProviderTests.Utf7EncodingProvider_ResolvesAliases(name: ""utf-7"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.EncodingProviderTests,"Rnwood.Smtp4dev.Tests.EncodingProviderTests.Utf7EncodingProvider_ResolvesAliases(name: ""utf7"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.GetAncestors,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.HasRenameCollisionIncludesProjectedDescendants,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.IsDescendantOf(folderName: ""a"", ancestor: ""a"", expected: False)",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.IsDescendantOf(folderName: ""a/b"", ancestor: ""a"", expected: True)",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.IsDescendantOf(folderName: ""a/b/c"", ancestor: ""a"", expected: True)",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.IsDescendantOf(folderName: ""ab"", ancestor: ""a"", expected: False)",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.IsMatch(folderName: ""A.B"", referenceName: """", pattern: ""A.B"", expected: True)",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.IsMatch(folderName: ""Archive"", referenceName: ""Archive/"", pattern: ""%"", expected: False)",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.IsMatch(folderName: ""Archive/2024"", referenceName: """", pattern: ""%"", expected: False)",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.IsMatch(folderName: ""Archive/2024"", referenceName: """", pattern: ""*"", expected: True)",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.IsMatch(folderName: ""Archive/2024"", referenceName: """", pattern: ""Archive/%"", expected: True)",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.IsMatch(folderName: ""Archive/2024"", referenceName: ""Archive/"", pattern: ""%"", expected: True)",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.IsMatch(folderName: ""AxB"", referenceName: """", pattern: ""A.B"", expected: False)",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.IsMatch(folderName: ""DONE"", referenceName: """", pattern: ""%"", expected: True)",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.IsMatch(folderName: ""DONE"", referenceName: """", pattern: ""*"", expected: True)",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.IsMatch(folderName: ""DONE"", referenceName: """", pattern: ""DONE"", expected: True)",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.IsMatch(folderName: ""DONE"", referenceName: """", pattern: ""done"", expected: False)",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.IsMatch(folderName: ""INBOX"", referenceName: """", pattern: ""inbox"", expected: True)",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.Normalize(folderName: ""Archive/2024"", expected: ""Archive/2024"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.Normalize(folderName: ""DONE/"", expected: ""DONE"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.Normalize(folderName: ""InBox"", expected: ""INBOX"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.Normalize(folderName: ""done"", expected: ""done"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapFolderNamesTests,"Rnwood.Smtp4dev.Tests.ImapFolderNamesTests.Normalize(folderName: ""inbox"", expected: ""INBOX"")",20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests,Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests.All,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests,Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests.And,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests,Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests.From,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests,Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests.Not,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests,Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests.Older,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests,Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests.Or,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests,Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests.Seen,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests,Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests.Subject,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests,Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests.To,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests,Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests.Uid_MixedRangeAndValues,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests,Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests.Uid_MultipleValues,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests,Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests.Uid_Range,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests,Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests.Uid_SingleUid,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests,Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests.Unseen,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests,Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests.Unsupported,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests,Rnwood.Smtp4dev.Tests.ImapSearchTranslatorTests.Younger,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.ImapUidAllocatorTests,Rnwood.Smtp4dev.Tests.ImapUidAllocatorTests.AllocatesUniqueUidsAcrossConcurrentContexts,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.MemoryLeakStressTests,Rnwood.Smtp4dev.Tests.MemoryLeakStressTests.MessageSearchStressTest_QuickCI_ShouldNotLeakMemory,20,0,20,0,broken
+Rnwood.Smtp4dev.Tests.MemoryLeakStressTests,Rnwood.Smtp4dev.Tests.MemoryLeakStressTests.MessageSearchStressTest_ShouldNotLeakMemory,20,0,0,20,skipped
+Rnwood.Smtp4dev.Tests.Server.Auth.OAuth2TokenValidatorTests,Rnwood.Smtp4dev.Tests.Server.Auth.OAuth2TokenValidatorTests.ValidateTokenAsync_WithEmptyAuthority_ReturnsInvalid,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Auth.OAuth2TokenValidatorTests,Rnwood.Smtp4dev.Tests.Server.Auth.OAuth2TokenValidatorTests.ValidateTokenAsync_WithEmptyToken_ReturnsInvalid,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Auth.OAuth2TokenValidatorTests,Rnwood.Smtp4dev.Tests.Server.Auth.OAuth2TokenValidatorTests.ValidateTokenAsync_WithInvalidToken_ReturnsInvalid,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Auth.OAuth2TokenValidatorTests,Rnwood.Smtp4dev.Tests.Server.Auth.OAuth2TokenValidatorTests.ValidateTokenAsync_WithNullAuthority_ReturnsInvalid,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Auth.OAuth2TokenValidatorTests,Rnwood.Smtp4dev.Tests.Server.Auth.OAuth2TokenValidatorTests.ValidateTokenAsync_WithNullToken_ReturnsInvalid,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.CertificateHelper.CertificateHelperTests,Rnwood.Smtp4dev.Tests.Server.CertificateHelper.CertificateHelperTests.CanLoadCertificateAndKey,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_AuthenticatedUsers_CaseInsensitive,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_AuthenticatedUsers_MultipleUsers_Matches,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_AuthenticatedUsers_NotAuthenticated_NoMatch,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_AuthenticatedUsers_SingleUser_Matches,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_AuthenticatedUsers_SingleUser_NoMatch,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_AuthenticatedUsers_WithHeaderFilter_AllMustMatch,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_FallsBackToDefault,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_FirstMatchWins,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_HeaderFilterNoMatch_SkipsMailbox,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_MatchesFirstMailbox,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_MultipleHeaderFilters_AllMustMatch,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_MultipleSourceFilters_AllMustMatch,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_NoMatch_ReturnsNull,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_NullOrEmptyRecipient_ReturnsNull,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_SameMailboxName_MultipleRules,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_SourceAndHeaderFilters_AllMustMatch,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_SourceFilterNoMatch_SkipsMailbox,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_SourceHeaderAndRecipient_AllMustMatch,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_WithHeaderFilter_BothMustMatch,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_WithSourceFilter_HostnameMatch,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.FindMailboxForRecipient_WithSourceFilter_IPMatch,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesHeaderFilter_EmptyPattern_ChecksExistence,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesHeaderFilter_ExactMatch,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesHeaderFilter_ExactMatch_CaseInsensitive,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesHeaderFilter_ExistenceCheck,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesHeaderFilter_HeaderNotPresent,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesHeaderFilter_NoMatch,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesHeaderFilter_NullHeaders_ReturnsFalse,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesHeaderFilter_RegexPattern,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesHeaderFilter_RegexPattern_NoMatch,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesHeaderFilter_WildcardPattern,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesRecipientPattern_CaseInsensitive,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesRecipientPattern_ExactMatch,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesRecipientPattern_MultiplePatterns,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesRecipientPattern_RegexPattern,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesRecipientPattern_WildcardDomain,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesRecipientPattern_WildcardUser,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesSourceFilter_CaseInsensitive,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesSourceFilter_ExactHostnameMatch,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesSourceFilter_ExactIPMatch,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesSourceFilter_FallbackToIP,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesSourceFilter_NullOrEmptyPattern_ReturnsFalse,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesSourceFilter_PrioritizesHostnameOverIP,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesSourceFilter_RegexIP,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesSourceFilter_RegexPattern,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesSourceFilter_WildcardHostname,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests,Rnwood.Smtp4dev.Tests.Server.MailboxRouterTests.MatchesSourceFilter_WildcardIP,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests,Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests.HeaderFilterOptions_Pattern_SupportsExistenceCheck,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests,Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests.HeaderFilterOptions_Pattern_SupportsRegex,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests,Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests.HeaderFilterOptions_Properties_CanBeSet,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests,Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests.MailboxFromStringConverter_InvalidFormat_ThrowsException,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests,Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests.MailboxFromStringConverter_InvalidJsonThrowsException,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests,Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests.MailboxFromStringConverter_ParsesJsonFormat,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests,Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests.MailboxFromStringConverter_ParsesLegacyFormat,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests,Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests.MailboxFromStringConverter_ValidFormat,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests,Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests.MailboxFromStringConverter_WithMultipleRecipients,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests,Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests.MailboxOptions_CombinesRecipientsAndHeaderFilters,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests,Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests.MailboxOptions_DefaultName_IsCorrect,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests,Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests.MailboxOptions_HeaderFilters_CanBeSet,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests,Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests.MailboxOptions_Recipients_MultiplePatterns,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests,Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests.MailboxOptions_Recipients_RegexPattern,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests,Rnwood.Smtp4dev.Tests.Server.MailboxRoutingTests.MailboxOptions_Recipients_WildcardMatching,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests,Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests.Capa_Advertises_Stls_Based_On_Options,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests,Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests.Capa_DoesNotAdvertise_Stls_When_Pop3Mode_Is_ImplicitTls,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests,Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests.Dele_Deletes_Message,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests,Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests.PassCommand_Requires_User_And_Password_Then_Authenticates,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests,Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests.Quit_Sends_Goodbye_And_Ends,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests,Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests.Retr_Writes_BinarySafe_And_DotStuffed,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests,Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests.Rset_Returns_OK,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests,Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests.StatCommand_Requires_Auth_And_Shows_Count_And_Size,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests,Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests.Stls_IsRejected_When_Pop3Mode_Is_ImplicitTls,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests,Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests.Uidl_Lists_Uids,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests,Rnwood.Smtp4dev.Tests.Server.Pop3.CommandHandlersTests.UserCommand_Accepts_Username,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Pop3.Pop3IPv6FallbackTests,Rnwood.Smtp4dev.Tests.Server.Pop3.Pop3IPv6FallbackTests.Pop3Server_StartWithIPv6Any_ShouldFallbackToIPv4WhenIPv6Unavailable,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Pop3.Pop3IPv6FallbackTests,Rnwood.Smtp4dev.Tests.Server.Pop3.Pop3IPv6FallbackTests.Pop3Server_StartWithIPv6Loopback_ShouldFallbackToIPv4WhenIPv6Unavailable,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Pop3.Pop3ProtocolHelperTests,Rnwood.Smtp4dev.Tests.Server.Pop3.Pop3ProtocolHelperTests.WriteDotStuffedMessageAsync_DotLinesAndBinary_PreservesBytesAndDotStuffs,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Pop3.Pop3ServerIntegrationTests,Rnwood.Smtp4dev.Tests.Server.Pop3.Pop3ServerIntegrationTests.ImplicitTls_OnConnect_UsesTlsAnd_NoStlsAdvertised,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Pop3.Pop3ServerIntegrationTests,Rnwood.Smtp4dev.Tests.Server.Pop3.Pop3ServerIntegrationTests.Retr_Writes_BinarySafe_And_DotStuffed,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.Pop3.Pop3ServerIntegrationTests,Rnwood.Smtp4dev.Tests.Server.Pop3.Pop3ServerIntegrationTests.Stls_Handshake_AllowsTlsUpgrade,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.Server.SSCertGenerator.CertificateTests,Rnwood.Smtp4dev.Tests.Server.SSCertGenerator.CertificateTests.CanGenerateSelfSignedCertificate,20,20,0,0,stable
+Rnwood.Smtp4dev.Tests.StartupImapStateTests,Rnwood.Smtp4dev.Tests.StartupImapStateTests.EnsureImapStateInitializedPreservesHighWaterMarkWhenNoMessagesRemain,20,20,0,0,stable

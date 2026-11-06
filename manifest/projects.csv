@@ -44,3 +44,4 @@ clean-architecture-manga,clean-architecture-manga,cam_unittests_runs,cam_unittes
 clean-architecture-manga,clean-architecture-manga,cam_componenttests_runs,cam_componenttests_manual_runs
 clean-architecture-manga,clean-architecture-manga,cam_integrationtests_runs,cam_integrationtests_manual_runs
 clean-architecture-manga,clean-architecture-manga,cam_endtoendtests_runs,cam_endtoendtests_manual_runs
+smtp4dev,smtp4dev,smtp4dev_tests_runs,smtp4dev_tests_manual_runs
