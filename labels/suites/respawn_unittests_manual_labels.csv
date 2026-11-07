@@ -1,0 +1,15 @@
+﻿className,test,runs_presente,passed,failed,skipped,label
+Respawn.UnitTests.GraphTests,Respawn.UnitTests.GraphTests.ShouldConstructDeleteListWithMoreComplexGraph,20,20,0,0,stable
+Respawn.UnitTests.GraphTests,Respawn.UnitTests.GraphTests.ShouldConstructDeleteListWithMultipleDisparateRelationships,20,20,0,0,stable
+Respawn.UnitTests.GraphTests,Respawn.UnitTests.GraphTests.ShouldConstructDeleteListWithMultipleEquivalentRelationships,20,20,0,0,stable
+Respawn.UnitTests.GraphTests,Respawn.UnitTests.GraphTests.ShouldConstructDeleteListWithMultipleRelationships,20,20,0,0,stable
+Respawn.UnitTests.GraphTests,Respawn.UnitTests.GraphTests.ShouldConstructDeleteListWithMultipleUnrelatedTables,20,20,0,0,stable
+Respawn.UnitTests.GraphTests,Respawn.UnitTests.GraphTests.ShouldConstructDeleteListWithOneTable,20,20,0,0,stable
+Respawn.UnitTests.GraphTests,Respawn.UnitTests.GraphTests.ShouldConstructDeleteListWithSingleRelatedTable,20,20,0,0,stable
+Respawn.UnitTests.GraphTests,Respawn.UnitTests.GraphTests.ShouldFindCyclicRelationships,20,20,0,0,stable
+Respawn.UnitTests.GraphTests,Respawn.UnitTests.GraphTests.ShouldFindMultipleCycles,20,20,0,0,stable
+Respawn.UnitTests.GraphTests,Respawn.UnitTests.GraphTests.ShouldIgnoreSelfReferences,20,20,0,0,stable
+Respawn.UnitTests.GraphTests,Respawn.UnitTests.GraphTests.ShouldIsolateCycleRelationships,20,20,0,0,stable
+Respawn.UnitTests.GraphTests,Respawn.UnitTests.GraphTests.ShouldRemoveCycles,20,20,0,0,stable
+Respawn.UnitTests.GraphTests,Respawn.UnitTests.GraphTests.ShouldRemoveCyclesExcludingNormalRelationships,20,20,0,0,stable
+Respawn.UnitTests.GraphTests,Respawn.UnitTests.GraphTests.ShouldRemoveCyclesWithoutRemovingStart,20,20,0,0,stable
