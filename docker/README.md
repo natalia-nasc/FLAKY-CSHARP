@@ -2,12 +2,15 @@
 
 Esta pasta roda a coleta descrita no `REPLICACAO.md` dentro de um container Linux. O container tem o mesmo ferramental da seção 4: SDK 10.0.403, runtimes .NET 8.0 e 10.0, Python 3.14 e Git. A orquestração fica a cargo do `run_study.py`, versão Linux do `run_study.ps1`. Ele lê o **mesmo CSV**, aceita os **mesmos parâmetros**, usa o **seu `labels_csv.py`** e os **seus `setup\<repo>.ps1`** e grava as saídas na **mesma estrutura** da seção 5.6.
 
+Há uma diferença de processo: a rodada "manual" de 20 execuções foi retirada. Agora há uma rodada só por suíte, com o número de execuções que você escolher.
+
 ## 1. Arquivos
 
 ```
 <raiz do estudo>\
 ├── run_study.ps1, labels_csv.py, suites.csv, suites2.csv, setup\   (já existentes)
 ├── compose.yaml          ← novo
+├── docker-installation.md ← novo (guia de execução, em inglês)
 └── docker\               ← novo
     ├── Dockerfile
     ├── run_study.py
@@ -30,7 +33,7 @@ Os downloads do .NET e do PowerShell são conferidos por SHA-512 e SHA-256.
 ## 2. Pré-requisitos
 
 - **Windows:** Docker Desktop com WSL 2. **Linux:** Docker Engine com o plugin `compose`.
-- **CPU e memória.** O número de núcleos muda o paralelismo dos testes e, com ele, a instabilidade. No Docker Desktop, o limite vem do WSL 2 (`%UserProfile%\.wslconfig`, chaves `processors` e `memory`). O container registra o que vê em `results-linux\ambiente.txt`.
+- **CPU e memória.** O número de núcleos muda o paralelismo dos testes e, com ele, a instabilidade. No Docker Desktop, o limite vem do WSL 2 (`%UserProfile%\.wslconfig`, chaves `processors` e `memory`). O container registra o que vê em `results-linux\environment.txt`.
 - **Só em host Linux:** crie as pastas de saída antes da primeira execução, para que não sejam criadas como root. Se o seu uid não for 1000, passe-o no build:
   ```bash
   mkdir -p results-linux logs-linux
@@ -44,8 +47,16 @@ Na raiz do estudo:
 ```powershell
 docker compose build                                       # uma vez (baixa SDK, runtimes, Python)
 docker compose run --rm study -Smoke -Csv suites2.csv      # 1 execução por suíte
-docker compose run --rm study -Csv suites2.csv             # 100 + 20 execuções
+docker compose run --rm study -Csv suites2.csv             # pergunta quantas execuções fazer
 ```
+
+**Número de execuções.** Antes de começar, o script pergunta:
+
+```
+How many runs per suite? [100]:
+```
+
+Digite um número, ou aperte Enter para usar o valor entre colchetes. Para não ser perguntado, passe o número na linha de comando: `-AutoRuns 50` (ou `-Runs 50`). Isso é obrigatório quando o container roda em segundo plano (`-d`), porque aí não há terminal para responder. O modo `-Smoke` não pergunta. O valor escolhido fica registrado em `results-linux\environment.txt`.
 
 Os parâmetros são os mesmos do `.ps1`. Pode escrevê-los no estilo PowerShell (`-SkipBuild`) ou no estilo GNU (`--skip-build`):
 
@@ -53,22 +64,22 @@ Os parâmetros são os mesmos do `.ps1`. Pode escrevê-los no estilo PowerShell 
 |---|---|---|
 | `-Csv` | `suites.csv` | arquivo com a lista de suítes (relativo à raiz do estudo) |
 | `-Only` | vazio | só as linhas cujo `suite` ou `repo` contém o texto |
-| `-Smoke` | desligado | 1 execução por suíte, que vale como `run_1` da rodada automática; os labels vão para `*_smoke_labels.csv` |
+| `-Smoke` | desligado | 1 execução por suíte, que vale como `run_1`; os labels vão para `*_smoke_labels.csv` |
 | `-SkipBuild` | desligado | não compila |
-| `-AutoRuns` / `-ManualRuns` | 100 / 20 | número de execuções de cada rodada |
+| `-AutoRuns` (ou `-Runs`) | perguntado (sugestão 100) | número de execuções por suíte |
 | `--build-timeout-min` | 0 (sem limite) | limite do build; o `.ps1` não tem limite |
 | `--run-cwd dll\|repo` | `dll` | diretório de trabalho dos runners `mtp`, `mtp-xunit` e `xunit3` (ver seção 6) |
 
-**Rodadas longas.** Para rodar em segundo plano e acompanhar:
+**Coletas longas.** Para rodar em segundo plano e acompanhar:
 
 ```powershell
-docker compose run -d --name coleta study -Csv suites2.csv
+docker compose run -d --name coleta study -Csv suites2.csv -AutoRuns 100
 docker logs -f coleta                 # ou: Get-Content logs-linux\run_study.log -Wait
 ```
 
 A suspensão do host continua importando: mantenha o `powercfg /change standby-timeout-ac 0` no Windows.
 
-**Retomar.** Rode o mesmo comando de novo. Execuções que já têm `run_N.trx` são puladas e suítes completas só têm os labels gerados de novo. Um `docker stop coleta` ou um Ctrl+C encerra a execução em andamento junto com os processos filhos e apaga o TRX parcial. Os clones ficam no volume `repos`, então a retomada não clona de novo.
+**Retomar.** Rode o mesmo comando de novo, com o mesmo número de execuções. Execuções que já têm `run_N.trx` são puladas e suítes completas só têm os labels gerados de novo. Se você pedir **mais** execuções do que já existem (por exemplo, 150 depois de 100), só as que faltam são feitas (101 a 150). Se pedir **menos**, nada é apagado: o script avisa, e os labels continuam usando todos os TRX da pasta. Um `docker stop coleta` ou um Ctrl+C encerra a execução em andamento junto com os processos filhos e apaga o TRX parcial. Os clones ficam no volume `repos`, então a retomada não clona de novo.
 
 **Shell dentro do container**, para depurar uma suíte:
 
@@ -82,11 +93,10 @@ As saídas ficam em pastas separadas das da coleta no Windows (`results\` e `log
 
 ```
 results-linux\
-├── automated-runs\<suite>_runs\run_1.trx ... run_100.trx
-├── manual-runs\<suite>_manual_runs\run_1.trx ... run_20.trx
-├── <suite>_labels.csv, <suite>_manual_labels.csv
+├── automated-runs\<suite>_runs\run_1.trx ... run_N.trx
+├── <suite>_labels.csv
 ├── summary.csv  (ou summary_smoke.csv)
-└── ambiente.txt          ← sistema, CPUs, memória, dotnet --info, LANG/TZ
+└── environment.txt       ← sistema, CPUs, memória, dotnet --info, LANG/TZ
 logs-linux\
 ├── <suite>\build.log, last.out, last.err
 ├── _repos\<repo>.log     ← git e setup de cada repositório
@@ -104,9 +114,9 @@ Os clones e o cache do NuGet ficam nos volumes `flaky-replication_repos` e `flak
 | 2. Preparação do repo | `git clone` → `checkout` do commit (com `fetch`, se preciso; não faz checkout se houver alterações locais e o HEAD estiver em outro commit) → submódulos → `setup\<repo>.ps1` com `pwsh`. Se falhar, espera 30 s e tenta mais uma vez, apagando o clone incompleto. |
 | 3. Build | mesmo comando; se falhar, roda `dotnet build-server shutdown` e tenta de novo |
 | 4. DLL | `dotnet msbuild -getProperty:TargetPath` |
-| 5. Rodadas | mesmos comandos dos quatro runners e mesmos nomes `run_N.trx`. O timeout encerra o grupo de processos e os descendentes, como o `taskkill /T /F`, e apaga o TRX parcial. Sem TRX, a execução é repetida uma vez. |
+| 5. Execuções | uma rodada só, com o número escolhido (a rodada "manual" foi retirada). Mesmos comandos dos quatro runners e mesmos nomes `run_N.trx`. O timeout encerra o grupo de processos e os descendentes, como o `taskkill /T /F`, e apaga o TRX parcial. Sem TRX, a execução é repetida uma vez. |
 | 6. Labels | `python3 labels_csv.py <pasta> <saída>`, com o seu script |
-| Resumo | mesmas colunas; `rodada` vale `auto`, `manual` ou `smoke` |
+| Resumo | mesmas colunas do `summary.csv` do `.ps1`; `rodada` vale `auto` ou `smoke`. As mensagens na tela e os valores de `status` (`OK`, `ERROR: ...`) ficam em inglês. |
 
 O caminho do `project` no CSV pode usar `\` e não diferencia maiúsculas de minúsculas, como no Windows.
 
@@ -128,14 +138,14 @@ Trocar o sistema operacional muda o ambiente da replicação. Os rótulos obtido
 - **Lote do SDK 11.** Gere uma segunda imagem com outro SDK, para não misturar com a do SDK 10:
   `docker compose build --build-arg DOTNET_SDK_VERSION=<versão 11.0.x>` e mude o `image:`.
 - **Scripts de setup.** Os `.ps1` rodam no PowerShell 7 para Linux. Cmdlets com caminhos usando `\` (`Get-Content`, `Rename-Item`, `Test-Path`) funcionam. Chamadas a programas nativos com `\` no caminho ou a ferramentas só do Windows podem não funcionar. Para esses casos, crie `setup\<repo>.sh`: se ele existir, roda **no lugar** do `.ps1`, só no container. CRLF no `.sh` é tratado.
-- **`labels_csv.py`.** Roda no Python 3.14 do container. Se ele montar caminhos com `"\\"` fixo, o resumo vai mostrar `ERRO: labels`. Nesse caso, troque por `os.path.join` ou `pathlib`.
+- **`labels_csv.py`.** Roda no Python 3.14 do container. Se ele montar caminhos com `"\\"` fixo, o resumo vai mostrar `ERROR: labels`. Nesse caso, troque por `os.path.join` ou `pathlib`.
 
 ## 8. Problemas comuns
 
 | Sintoma | O que fazer |
 |---|---|
 | `permission denied` em `results-linux` (host Linux) | crie as pastas antes e use `STUDY_UID=$(id -u)` no build |
-| `ERRO: repo (...)` | veja `logs-linux\_repos\<repo>.log` |
-| `ERRO: build` | veja `logs-linux\<suite>\build.log`; as primeiras linhas com `error` aparecem no terminal |
-| `ERRO: execucao N sem TRX` | veja `logs-linux\<suite>\last.out` e `last.err` |
+| `ERROR: repo (...)` | veja `logs-linux\_repos\<repo>.log` |
+| `ERROR: build` | veja `logs-linux\<suite>\build.log`; as primeiras linhas com `error` aparecem no terminal |
+| `ERROR: run N produced no TRX` | veja `logs-linux\<suite>\last.out` e `last.err` |
 | primeiro build lento | é o restore do NuGet; o cache fica no volume `nuget` |

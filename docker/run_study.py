@@ -1,28 +1,32 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-run_study.py - versao Linux (Docker) do run_study.ps1.
+run_study.py - Linux (Docker) version of run_study.ps1.
 
-Implementa o processo da secao 5 do REPLICACAO.md, lendo o mesmo CSV:
+Implements the data-collection process of section 5 of REPLICACAO.md, reading
+the same CSV:
 
-  validacao do CSV -> preparacao de cada repositorio (clone no commit fixo,
-  submodulos, setup/<repo>.ps1) -> build -> 100 execucoes automaticas e 20
-  "manuais" com um TRX por execucao -> labels_csv.py -> resumo.
+  CSV validation -> repository preparation (clone at the pinned commit,
+  submodules, setup/<repo>.ps1) -> build -> N runs, one TRX per run ->
+  labels_csv.py -> summary.
 
-Aceita os mesmos parametros do .ps1 (no estilo PowerShell ou GNU):
+There is a single round per suite (the "manual" round of the .ps1 was removed).
+N is asked at startup (Enter accepts 100) unless it is given on the command line.
 
-  run_study.py                         # usa suites.csv
+Accepts the same parameters as the .ps1 (PowerShell or GNU style):
+
+  run_study.py                         # uses suites.csv and asks for N
   run_study.py -Csv suites2.csv
-  run_study.py -Smoke                  # 1 execucao por suite
-  run_study.py -Only cmg_              # so suites/repos com "cmg_" no nome
-  run_study.py -SkipBuild              # nao recompila
-  run_study.py -AutoRuns 100 -ManualRuns 20
+  run_study.py -Smoke                  # 1 run per suite (does not ask)
+  run_study.py -Only cmg_              # only suites/repos whose name contains "cmg_"
+  run_study.py -SkipBuild              # do not rebuild
+  run_study.py -AutoRuns 50            # do not ask (required without a terminal); -Runs also works
 
-Pastas:
-  entrada  (CSV, setup/, labels_csv.py)  -> --input-dir ou $STUDY_INPUT
-  trabalho (repos/, results/, logs/)     -> --work-dir  ou $STUDY_WORK
-  Sem nenhum dos dois, as duas sao a pasta deste script (como o $PSScriptRoot
-  do .ps1).
+Folders:
+  input (CSV, setup/, labels_csv.py)  -> --input-dir or $STUDY_INPUT
+  work  (repos/, results/, logs/)     -> --work-dir  or $STUDY_WORK
+  If neither is given, both are this script's folder (like $PSScriptRoot in
+  the .ps1).
 """
 from __future__ import annotations
 
@@ -47,18 +51,20 @@ DLL_RUNNERS = ("mtp", "mtp-xunit", "xunit3")
 COLUMNS = ("repo", "url", "commit", "suite", "project", "runner",
            "framework", "config", "build_props", "env", "timeout_min")
 REQUIRED = COLUMNS[:6]
+# summary.csv columns: same names as the summary written by run_study.ps1,
+# so both summaries can be read by the same analysis scripts.
 SUMMARY_COLUMNS = ("suite", "rodada", "status", "trx", "distintos",
                    "stable", "flaky", "broken", "skipped")
-# Espera antes da nova tentativa de preparar um repositorio (secao 5.5, passo 2).
+# Wait before retrying a failed repository preparation (section 5.5, step 2).
 RETRY_WAIT_S = float(os.environ.get("STUDY_RETRY_WAIT_S", "30"))
 
 
 # --------------------------------------------------------------------------
-# Utilidades
+# Utilities
 # --------------------------------------------------------------------------
 
 class Interrupted(Exception):
-    """SIGTERM (docker stop) ou SIGINT (Ctrl+C)."""
+    """SIGTERM (docker stop) or SIGINT (Ctrl+C)."""
 
 
 def _on_signal(signum, _frame):
@@ -66,7 +72,7 @@ def _on_signal(signum, _frame):
 
 
 class Log:
-    """Escreve no terminal e em logs/run_study.log."""
+    """Writes to the terminal and to logs/run_study.log."""
 
     def __init__(self, path: Path):
         path.parent.mkdir(parents=True, exist_ok=True)
@@ -96,7 +102,7 @@ def _children_map() -> dict[int, list[int]]:
 
 
 def kill_tree(proc: subprocess.Popen) -> None:
-    """Encerra o processo e todos os descendentes (equivalente a taskkill /T /F)."""
+    """Kills the process and all its descendants (like taskkill /T /F)."""
     tree = _children_map()
     pids, stack = [], [proc.pid]
     while stack:
@@ -107,7 +113,7 @@ def kill_tree(proc: subprocess.Popen) -> None:
         os.killpg(proc.pid, signal.SIGKILL)
     except (ProcessLookupError, PermissionError):
         pass
-    for pid in pids:  # descendentes que tenham saido do grupo (setsid)
+    for pid in pids:  # descendants that left the process group (setsid)
         try:
             os.kill(pid, signal.SIGKILL)
         except (ProcessLookupError, PermissionError):
@@ -120,7 +126,7 @@ def kill_tree(proc: subprocess.Popen) -> None:
 
 def run_logged(cmd, cwd, env, out_path: Path, err_path: Path | None = None,
                timeout_s: float | None = None) -> tuple[int | None, bool]:
-    """Executa cmd gravando a saida em arquivo. Retorna (codigo, estourou_tempo)."""
+    """Runs cmd with its output written to file(s). Returns (exit_code, timed_out)."""
     out = open(out_path, "wb")
     err = open(err_path, "wb") if err_path else subprocess.STDOUT
     try:
@@ -128,7 +134,7 @@ def run_logged(cmd, cwd, env, out_path: Path, err_path: Path | None = None,
             proc = subprocess.Popen(cmd, cwd=cwd, env=env, stdin=subprocess.DEVNULL,
                                     stdout=out, stderr=err, start_new_session=True)
         except OSError as e:
-            out.write(f"nao foi possivel executar {cmd[0]}: {e}\n".encode())
+            out.write(f"could not run {cmd[0]}: {e}\n".encode())
             return 127, False
         try:
             return proc.wait(timeout=timeout_s), False
@@ -152,13 +158,13 @@ def run_capture(cmd, cwd=None, env=None, timeout_s=None) -> tuple[int | None, st
         return p.returncode, p.stdout, p.stderr
     except subprocess.TimeoutExpired as e:
         out = e.stdout.decode(errors="replace") if isinstance(e.stdout, bytes) else (e.stdout or "")
-        return None, out, "tempo esgotado"
+        return None, out, "timed out"
     except OSError as e:
         return 127, "", str(e)
 
 
 def resolve_ci(base: Path, rel: str) -> Path | None:
-    """Resolve um caminho do CSV (com \\ do Windows) ignorando maiusculas/minusculas."""
+    """Resolves a CSV path (with Windows \\ separators), ignoring letter case."""
     rel = rel.replace("\\", "/").strip().strip("/")
     direct = base / rel
     if direct.exists():
@@ -207,7 +213,7 @@ def read_text_any(path: Path) -> str:
 
 
 # --------------------------------------------------------------------------
-# CSV (secao 5.3)
+# CSV (section 5.3)
 # --------------------------------------------------------------------------
 
 @dataclass
@@ -236,24 +242,24 @@ def load_csv(path: Path) -> tuple[list[Suite], list[str]]:
         cells = [c.strip() for c in rec]
         if not cells or not any(cells):
             continue
-        if cells[0].startswith("#"):          # linha desativada / comentario
+        if cells[0].startswith("#"):          # disabled row / comment
             continue
         if header is None:
             if cells[0].lower() == "repo":
                 header = [c.lower() for c in cells]
                 continue
-            header = list(COLUMNS)            # sem cabecalho: ordem da secao 5.3
+            header = list(COLUMNS)            # no header: column order of section 5.3
         d = {h: (cells[i] if i < len(cells) else "") for i, h in enumerate(header)}
         for c in COLUMNS:
             d.setdefault(c, "")
 
         missing = [c for c in REQUIRED if not d[c]]
         if missing:
-            errors.append(f"linha {line}: coluna(s) obrigatoria(s) vazia(s): {', '.join(missing)}")
+            errors.append(f"line {line}: empty required column(s): {', '.join(missing)}")
             continue
         if d["runner"] not in RUNNERS:
-            errors.append(f"linha {line}: runner desconhecido '{d['runner']}' "
-                          f"(validos: {', '.join(RUNNERS)})")
+            errors.append(f"line {line}: unknown runner '{d['runner']}' "
+                          f"(valid: {', '.join(RUNNERS)})")
             continue
 
         env: dict[str, str] = {}
@@ -264,7 +270,7 @@ def load_csv(path: Path) -> tuple[list[Suite], list[str]]:
                 continue
             name, sep, value = item.partition("=")
             if not sep or not name.strip():
-                errors.append(f"linha {line}: env invalido '{item}' (use NOME=valor;OUTRO=valor)")
+                errors.append(f"line {line}: invalid env '{item}' (use NAME=value;OTHER=value)")
                 bad_env = True
                 continue
             env[name.strip()] = value
@@ -278,7 +284,7 @@ def load_csv(path: Path) -> tuple[list[Suite], list[str]]:
                 if timeout <= 0:
                     raise ValueError
             except ValueError:
-                errors.append(f"linha {line}: timeout_min invalido '{d['timeout_min']}'")
+                errors.append(f"line {line}: invalid timeout_min '{d['timeout_min']}'")
                 continue
 
         suites.append(Suite(
@@ -291,18 +297,18 @@ def load_csv(path: Path) -> tuple[list[Suite], list[str]]:
     commits: dict[str, tuple[str, int]] = {}
     for s in suites:
         if s.suite in seen:
-            errors.append(f"linha {s.line}: suite '{s.suite}' repetida (ja aparece na linha {seen[s.suite]})")
+            errors.append(f"line {s.line}: duplicate suite '{s.suite}' (already on line {seen[s.suite]})")
         else:
             seen[s.suite] = s.line
         if s.repo in commits and commits[s.repo][0] != s.commit:
-            errors.append(f"linha {s.line}: repo '{s.repo}' com commit {s.commit}, "
-                          f"mas a linha {commits[s.repo][1]} usa {commits[s.repo][0]}")
+            errors.append(f"line {s.line}: repo '{s.repo}' uses commit {s.commit}, "
+                          f"but line {commits[s.repo][1]} uses {commits[s.repo][0]}")
         commits.setdefault(s.repo, (s.commit, s.line))
     return suites, errors
 
 
 # --------------------------------------------------------------------------
-# Estudo
+# Study
 # --------------------------------------------------------------------------
 
 class Study:
@@ -320,7 +326,7 @@ class Study:
         self.summary: list[dict] = []
         self.summary_path = self.results / ("summary_smoke.csv" if args.smoke else "summary.csv")
 
-    # ---------------- ambiente ----------------
+    # ---------------- environment ----------------
 
     def base_env(self) -> dict[str, str]:
         env = dict(os.environ)
@@ -329,7 +335,7 @@ class Study:
         return env
 
     def write_environment(self) -> None:
-        """Registra o ambiente da coleta (equivalente a tabela da secao 4)."""
+        """Records the collection environment (like the table in section 4)."""
         def cmd(*c):
             rc, out, err = run_capture(list(c), timeout_s=120)
             return (out or err).strip()
@@ -359,10 +365,10 @@ class Study:
         except OSError:
             pass
         text = "\n".join(l for l in [
-            f"data: {dt.datetime.now().isoformat(timespec='seconds')}",
-            f"sistema: {os_name} | {platform.platform()} | {platform.machine()}",
+            f"date: {dt.datetime.now().isoformat(timespec='seconds')}",
+            f"system: {os_name} | {platform.platform()} | {platform.machine()}",
             f"cpus: {ncpu}",
-            f"memoria: {mem}",
+            f"memory: {mem}",
             cg.rstrip() or None,
             f"python: {sys.version.split()[0]}",
             f"git: {cmd('git', '--version')} | {cmd('git', 'lfs', 'version')}",
@@ -370,14 +376,15 @@ class Study:
             f"LANG={os.environ.get('LANG', '')} LC_ALL={os.environ.get('LC_ALL', '')} "
             f"TZ={os.environ.get('TZ', '')}",
             f"csv: {self.a.csv}",
+            ("runs: smoke (1)" if self.a.smoke else f"runs per suite: {self.a.auto_runs}"),
             "",
             "--- dotnet --info ---",
             cmd("dotnet", "--info"),
             "",
         ] if l is not None)
-        (self.results / "ambiente.txt").write_text(text, encoding="utf-8")
+        (self.results / "environment.txt").write_text(text, encoding="utf-8")
 
-    # ---------------- repositorio (secao 5.5, passo 2) ----------------
+    # ---------------- repository (section 5.5, step 2) ----------------
 
     def ensure_repo(self, s: Suite) -> tuple[bool, str]:
         if s.repo not in self.repo_state:
@@ -391,11 +398,11 @@ class Study:
         msg = ""
         for attempt in (1, 2):
             with open(logp, "a", encoding="utf-8") as lf:
-                lf.write(f"\n===== {dt.datetime.now():%Y-%m-%d %H:%M:%S} tentativa {attempt} =====\n")
+                lf.write(f"\n===== {dt.datetime.now():%Y-%m-%d %H:%M:%S} attempt {attempt} =====\n")
                 ok, msg, clone_failed = self._prepare_once(s, repo_dir, lf)
             if ok:
                 return True, ""
-            self.log(f"  repo {s.repo}: {msg} (tentativa {attempt}; detalhes em {logp})")
+            self.log(f"  repo {s.repo}: {msg} (attempt {attempt}; details in {logp})")
             if attempt == 1:
                 if clone_failed and repo_dir.exists():
                     shutil.rmtree(repo_dir, ignore_errors=True)
@@ -414,7 +421,7 @@ class Study:
             self.log(f"  git clone {s.url}")
             rc, _ = self._git(["clone", s.url, str(repo_dir)], self.repos, lf)
             if rc != 0:
-                return False, "clone falhou", True
+                return False, "clone failed", True
 
         rc, head = self._git(["rev-parse", "HEAD"], repo_dir, lf)
         rc, target = self._git(["rev-parse", "--verify", "--quiet", f"{s.commit}^{{commit}}"], repo_dir, lf)
@@ -425,30 +432,30 @@ class Study:
                 self._git(["fetch", "--tags", "origin"], repo_dir, lf)
                 rc, target = self._git(["rev-parse", "--verify", "--quiet", f"{s.commit}^{{commit}}"], repo_dir, lf)
                 if rc != 0:
-                    return False, f"commit {s.commit} nao encontrado", False
+                    return False, f"commit {s.commit} not found", False
 
         if head != target:
             rc, dirty = self._git(["status", "--porcelain", "--untracked-files=no"], repo_dir, lf)
             if dirty:
-                return False, ("alteracoes locais em arquivos versionados e HEAD em outro commit; "
-                               "checkout nao feito"), False
+                return False, ("local changes to tracked files and HEAD at another commit; "
+                               "checkout skipped"), False
             self.log(f"  git checkout {s.commit}")
             rc, _ = self._git(["-c", "advice.detachedHead=false", "checkout", target], repo_dir, lf)
             if rc != 0:
-                return False, "checkout falhou", False
+                return False, "checkout failed", False
 
         if (repo_dir / ".gitmodules").exists():
             rc, _ = self._git(["submodule", "update", "--init", "--recursive"], repo_dir, lf)
             if rc != 0:
-                return False, "submodule update falhou", False
+                return False, "submodule update failed", False
 
         ok, msg = self.run_setup(s.repo, repo_dir, lf)
         return ok, msg, False
 
     def run_setup(self, repo: str, repo_dir: Path, lf) -> tuple[bool, str]:
-        """Roda setup/<repo>.sh (bash) se existir; senao setup/<repo>.ps1 (pwsh). Na pasta do repo.
+        """Runs setup/<repo>.sh (bash) if present; otherwise setup/<repo>.ps1 (pwsh). In the repo folder.
 
-        O .sh e opcional e serve para substituir, so no Linux, um .ps1 que dependa do Windows.
+        The .sh is optional: it replaces, on Linux only, a .ps1 that depends on Windows.
         """
         env = self.base_env()
         sh = find_ci(self.setup_dir, f"{repo}.sh")
@@ -460,10 +467,10 @@ class Study:
                                        cwd=repo_dir, env=env)
             lf.write(f"$ pwsh -File {ps1}\n{out}{err}[rc={rc}]\n")
             if rc != 0:
-                return False, f"setup {ps1.name} falhou (rc={rc})"
+                return False, f"setup {ps1.name} failed (rc={rc})"
         if sh:
-            self.log(f"  setup {sh.name} (bash; substitui o .ps1)")
-            # remove CRLF, caso o arquivo tenha sido editado no Windows
+            self.log(f"  setup {sh.name} (bash; replaces the .ps1)")
+            # strip CRLF, in case the file was edited on Windows
             with tempfile.NamedTemporaryFile("w", suffix=".sh", delete=False, encoding="utf-8") as t:
                 t.write(read_text_any(sh).replace("\r\n", "\n"))
             try:
@@ -472,10 +479,10 @@ class Study:
                 os.unlink(t.name)
             lf.write(f"$ bash {sh}\n{out}{err}[rc={rc}]\n")
             if rc != 0:
-                return False, f"setup {sh.name} falhou (rc={rc})"
+                return False, f"setup {sh.name} failed (rc={rc})"
         return True, ""
 
-    # ---------------- suite (secao 5.5, passo 3) ----------------
+    # ---------------- suite (section 5.5, step 3) ----------------
 
     def suite_env(self, s: Suite) -> dict[str, str]:
         env = self.base_env()
@@ -491,7 +498,7 @@ class Study:
         timeout = self.a.build_timeout_min * 60 if self.a.build_timeout_min > 0 else None
         for attempt in (1, 2):
             self.log(f"  build ({s.config}{', ' + s.framework if s.framework else ''})"
-                     f"{' - nova tentativa' if attempt == 2 else ''}")
+                     f"{' - retrying' if attempt == 2 else ''}")
             rc, timed_out = run_logged(cmd, repo_dir, env, blog, None, timeout)
             if rc == 0:
                 return True
@@ -547,7 +554,7 @@ class Study:
                     rc, timed_out = run_logged(self.run_command(s, proj, dll, rdir, i), cwd, env,
                                                log_dir / "last.out", log_dir / "last.err", timeout_s)
                 except BaseException:
-                    trx.unlink(missing_ok=True)       # TRX possivelmente parcial
+                    trx.unlink(missing_ok=True)       # possibly partial TRX
                     raise
                 secs = time.monotonic() - t0
                 if timed_out:
@@ -555,19 +562,20 @@ class Study:
                 if trx.exists():
                     self.log(f"  {kind} {i}/{n}  rc={rc}  {secs:.0f}s")
                     break
-                why = (f"tempo esgotado ({s.timeout_min:g} min)" if timed_out
-                       else f"sem TRX (rc={rc})")
+                why = (f"timed out ({s.timeout_min:g} min)" if timed_out
+                       else f"no TRX (rc={rc})")
                 if attempt == 1:
-                    self.log(f"  {kind} {i}/{n}  {why}; repetindo a execucao {i}")
+                    self.log(f"  {kind} {i}/{n}  {why}; retrying run {i}")
                 else:
-                    self.log(f"  {kind} {i}/{n}  {why}; rodada interrompida (veja {log_dir}/last.*)")
-                    return f"ERRO: execucao {i} sem TRX"
+                    self.log(f"  {kind} {i}/{n}  {why}; stopping this suite (see {log_dir}/last.*)")
+                    return f"ERROR: run {i} produced no TRX"
         return "OK"
 
     def labels(self, s: Suite, kind: str, rdir: Path, out_csv: Path) -> dict:
         rc, out, err = run_capture([sys.executable, str(self.labels_script), str(rdir), str(out_csv)],
                                    cwd=self.input_dir, timeout_s=3600)
         stats: dict = {}
+        # labels_csv.py prints its summary in Portuguese (see section 2.3)
         for line in out.splitlines():
             m = re.match(r"\s*([^:]+?)\s*:\s*(\d+)\s*$", line)
             if not m:
@@ -580,10 +588,11 @@ class Study:
             elif key in ("stable", "flaky", "broken", "skipped"):
                 stats[key] = val
         if rc != 0:
-            self.log(f"  labels ({kind}) falhou (rc={rc}): {(err or out).strip()[-300:]}")
-            return self.row(s, kind, "ERRO: labels", rdir)
-        self.log(f"  labels ({kind}) -> {out_csv.name}: " +
-                 "  ".join(f"{k}={stats.get(k, '?')}" for k in SUMMARY_COLUMNS[3:]))
+            self.log(f"  labels ({kind}) failed (rc={rc}): {(err or out).strip()[-300:]}")
+            return self.row(s, kind, "ERROR: labels", rdir)
+        self.log(f"  labels ({kind}) -> {out_csv.name}: "
+                 f"trx={stats.get('trx', '?')}  distinct={stats.get('distintos', '?')}  " +
+                 "  ".join(f"{k}={stats.get(k, '?')}" for k in ("stable", "flaky", "broken", "skipped")))
         return self.row(s, kind, "OK", rdir, stats)
 
     @staticmethod
@@ -600,12 +609,10 @@ class Study:
         log_dir = self.logs / s.suite
         log_dir.mkdir(parents=True, exist_ok=True)
         auto_dir = self.results / "automated-runs" / f"{s.suite}_runs"
-        manual_dir = self.results / "manual-runs" / f"{s.suite}_manual_runs"
         if a.smoke:
             rounds = [("smoke", auto_dir, 1, self.results / f"{s.suite}_smoke_labels.csv")]
         else:
-            rounds = [("auto", auto_dir, a.auto_runs, self.results / f"{s.suite}_labels.csv"),
-                      ("manual", manual_dir, a.manual_runs, self.results / f"{s.suite}_manual_labels.csv")]
+            rounds = [("auto", auto_dir, a.auto_runs, self.results / f"{s.suite}_labels.csv")]
 
         self.log("")
         self.log(f"=== {s.suite}  [{s.repo} | {s.runner}{' | ' + s.framework if s.framework else ''}] ===")
@@ -615,43 +622,48 @@ class Study:
             for kind, rdir, _, _ in rounds:
                 self.summary.append(self.row(s, kind, status, rdir))
 
-        # 1. suite completa: so gera os labels de novo
+        for kind, rdir, n, _ in rounds:
+            if count_trx(rdir) > n:
+                self.log(f"  warning: {rdir.name} already has {count_trx(rdir)} TRX files, more than the "
+                         f"{n} requested; the labels ({kind}) use every TRX in the folder")
+
+        # 1. suite already complete: only regenerate the labels
         if all(count_trx(rdir) >= n for _, rdir, n, _ in rounds):
-            self.log("  suite completa; so os labels sao gerados de novo")
+            self.log("  suite complete; only regenerating the labels")
             for kind, rdir, _, out_csv in rounds:
                 self.summary.append(self.labels(s, kind, rdir, out_csv))
             return
 
         ok, msg = self.ensure_repo(s)
         if not ok:
-            return fail_all(f"ERRO: repo ({msg})")
+            return fail_all(f"ERROR: repo ({msg})")
         repo_dir = self.repos / s.repo
         proj = resolve_ci(repo_dir, s.project)
         if proj is None:
-            return fail_all(f"ERRO: projeto nao encontrado ({s.project})")
+            return fail_all(f"ERROR: project not found ({s.project})")
 
-        # 2. variaveis de ambiente da suite (so nos processos desta suite)
+        # 2. suite environment variables (only for this suite's processes)
         env = self.suite_env(s)
 
         # 3. build
         if not a.skip_build and not self.build(s, proj, repo_dir, env, log_dir):
-            return fail_all("ERRO: build")
+            return fail_all("ERROR: build")
 
         # 4. DLL
         dll = None
         if s.runner in DLL_RUNNERS:
             dll, why = self.target_path(s, proj, repo_dir, env)
             if dll is None or not dll.is_file():
-                return fail_all(f"ERRO: DLL nao encontrada ({dll or why})")
+                return fail_all(f"ERROR: DLL not found ({dll or why})")
         cwd = dll.parent if (dll is not None and a.run_cwd == "dll") else repo_dir
 
-        # 5-6. rodadas e labels
+        # 5-6. runs and labels
         for idx, (kind, rdir, n, out_csv) in enumerate(rounds):
             status = self.run_round(s, kind, rdir, n, proj, dll, cwd, env, log_dir)
             if status != "OK":
                 self.summary.append(self.row(s, kind, status, rdir))
                 for kind2, rdir2, _, _ in rounds[idx + 1:]:
-                    self.summary.append(self.row(s, kind2, "nao executada", rdir2))
+                    self.summary.append(self.row(s, kind2, "not run", rdir2))
                 return
             self.summary.append(self.labels(s, kind, rdir, out_csv))
 
@@ -668,19 +680,19 @@ class Study:
         rows = [SUMMARY_COLUMNS] + [tuple(str(r[c]) for c in SUMMARY_COLUMNS) for r in self.summary]
         widths = [max(len(r[i]) for r in rows) for i in range(len(SUMMARY_COLUMNS))]
         self.log("")
-        self.log("RESUMO")
+        self.log("SUMMARY")
         for r in rows:
             self.log("  ".join(v.ljust(widths[i]) for i, v in enumerate(r)).rstrip())
-        self.log(f"(gravado em {self.summary_path})")
+        self.log(f"(saved to {self.summary_path})")
 
 
 # --------------------------------------------------------------------------
-# Linha de comando
+# Command line
 # --------------------------------------------------------------------------
 
 _OPTIONS = {
     "csv": "--csv", "only": "--only", "smoke": "--smoke", "skipbuild": "--skip-build",
-    "autoruns": "--auto-runs", "manualruns": "--manual-runs",
+    "autoruns": "--auto-runs", "runs": "--auto-runs",
     "inputdir": "--input-dir", "workdir": "--work-dir", "labelsscript": "--labels-script",
     "buildtimeoutmin": "--build-timeout-min", "runcwd": "--run-cwd",
     "help": "--help", "h": "--help", "?": "--help",
@@ -688,7 +700,7 @@ _OPTIONS = {
 
 
 def normalize_argv(argv: list[str]) -> list[str]:
-    """Aceita -Csv, -SkipBuild etc. (estilo PowerShell, sem diferenciar maiusculas)."""
+    """Accepts -Csv, -SkipBuild etc. (PowerShell style, case-insensitive)."""
     out = []
     for arg in argv:
         if arg.startswith("-") and len(arg) > 1:
@@ -707,23 +719,23 @@ def parse_args(argv: list[str]):
     here = Path(__file__).resolve().parent
     p = argparse.ArgumentParser(
         prog="run_study.py",
-        description="Coleta de testes flaky (versao Linux do run_study.ps1).")
-    p.add_argument("--csv", default="suites.csv", help="arquivo com a lista de suites (padrao: suites.csv)")
-    p.add_argument("--only", default="", help="so as linhas cujo suite ou repo contem o texto")
-    p.add_argument("--smoke", action="store_true", help="1 execucao por suite (vale como run_1 da rodada automatica)")
-    p.add_argument("--skip-build", action="store_true", help="nao compila; usa os binarios existentes")
-    p.add_argument("--auto-runs", type=int, default=100, help="execucoes da rodada automatica (padrao 100)")
-    p.add_argument("--manual-runs", type=int, default=20, help="execucoes da rodada 'manual' (padrao 20)")
+        description="Flaky-test data collection (Linux version of run_study.ps1).")
+    p.add_argument("--csv", default="suites.csv", help="file with the list of suites (default: suites.csv)")
+    p.add_argument("--only", default="", help="only rows whose suite or repo contains this text")
+    p.add_argument("--smoke", action="store_true", help="1 run per suite (kept as run_1)")
+    p.add_argument("--skip-build", action="store_true", help="do not build; use the existing binaries")
+    p.add_argument("--auto-runs", type=int, default=None,
+                   help="runs per suite (also -Runs); if omitted, the script asks (suggested: 100)")
     p.add_argument("--input-dir", type=Path, default=Path(os.environ.get("STUDY_INPUT", here)),
-                   help="pasta com o CSV, setup/ e labels_csv.py")
+                   help="folder with the CSV, setup/ and labels_csv.py")
     p.add_argument("--work-dir", type=Path, default=None,
-                   help="pasta onde ficam repos/, results/ e logs/")
+                   help="folder for repos/, results/ and logs/")
     p.add_argument("--labels-script", type=Path, default=None,
-                   help="caminho do labels_csv.py (padrao: <entrada>/labels_csv.py ou <entrada>/scripts/labels_csv.py)")
+                   help="path to labels_csv.py (default: <input>/labels_csv.py or <input>/scripts/labels_csv.py)")
     p.add_argument("--build-timeout-min", type=float, default=0,
-                   help="limite do build em minutos (padrao 0 = sem limite, como no .ps1)")
+                   help="build time limit in minutes (default 0 = no limit, as in the .ps1)")
     p.add_argument("--run-cwd", choices=("dll", "repo"), default="dll",
-                   help="diretorio de trabalho dos runners mtp/mtp-xunit/xunit3 (padrao: pasta da DLL)")
+                   help="working directory of the mtp/mtp-xunit/xunit3 runners (default: the DLL folder)")
     a = p.parse_args(normalize_argv(argv))
     a.input_dir = a.input_dir.resolve()
     if a.work_dir is None:
@@ -738,6 +750,38 @@ def parse_args(argv: list[str]):
     return a
 
 
+def ask_runs(question: str, suggestion: int, minimum: int) -> int:
+    """Asks for a number of runs in the terminal; Enter accepts the suggestion."""
+    while True:
+        try:
+            answer = input(f"{question} [{suggestion}]: ").strip()
+        except EOFError:
+            raise SystemExit("\nNo answer; nothing was run.")
+        if not answer:
+            return suggestion
+        if answer.isdigit() and int(answer) >= minimum:
+            return int(answer)
+        print(f"  Please enter a whole number greater than or equal to {minimum}.")
+
+
+def resolve_runs(a, log: Log) -> str | None:
+    """Sets a.auto_runs, from the command line or by asking.
+
+    Returns an error message, or None if everything is fine.
+    """
+    if a.smoke:
+        return None
+    if a.auto_runs is not None:
+        return None if a.auto_runs >= 1 else "-AutoRuns must be 1 or more"
+    if not sys.stdin.isatty():
+        return ("there is no terminal to ask for the number of runs; "
+                "pass -AutoRuns (or -Runs) on the command line")
+    print()
+    a.auto_runs = ask_runs("How many runs per suite?", 100, 1)
+    log(f"runs per suite chosen: {a.auto_runs}")
+    return None
+
+
 def main(argv: list[str]) -> int:
     signal.signal(signal.SIGTERM, _on_signal)
     signal.signal(signal.SIGINT, _on_signal)
@@ -749,39 +793,49 @@ def main(argv: list[str]) -> int:
     log("")
     log(f"run_study.py  {' '.join(argv)}")
 
-    # Validacao (secao 5.5, passo 1): nada e executado se algo estiver errado.
+    # Validation (section 5.5, step 1): nothing runs if something is wrong.
     problems = []
     if not a.csv.is_file():
-        problems.append(f"CSV nao encontrado: {a.csv}")
+        problems.append(f"CSV not found: {a.csv}")
     if not a.labels_script.is_file():
-        problems.append(f"labels_csv.py nao encontrado em {a.input_dir} nem em {a.input_dir / 'scripts'}")
+        problems.append(f"labels_csv.py not found in {a.input_dir} or {a.input_dir / 'scripts'}")
     for tool in ("dotnet", "git"):
         if shutil.which(tool) is None:
-            problems.append(f"'{tool}' nao esta no PATH")
+            problems.append(f"'{tool}' is not on the PATH")
     suites: list[Suite] = []
     if a.csv.is_file():
         suites, errors = load_csv(a.csv)
         problems += errors
     if problems:
         for msg in problems:
-            log(f"ERRO: {msg}")
-        log("Nada foi executado.")
+            log(f"ERROR: {msg}")
+        log("Nothing was run.")
         return 2
 
     if a.only:
         suites = [s for s in suites if a.only.lower() in s.suite.lower() or a.only.lower() in s.repo.lower()]
     if not suites:
-        log("Nenhuma suite selecionada.")
+        log("No suite selected.")
         return 0
 
+    try:
+        problem = resolve_runs(a, log)
+    except Interrupted:
+        log("\nCancelled; nothing was run.")
+        return 130
+    if problem:
+        log(f"ERROR: {problem}")
+        log("Nothing was run.")
+        return 2
+
     if "CI" in os.environ:
-        log("variavel CI removida do ambiente")
+        log("CI variable removed from the environment")
         os.environ.pop("CI", None)
 
     study = Study(a, log)
     study.write_environment()
-    mode = "smoke (1 execucao)" if a.smoke else f"{a.auto_runs} + {a.manual_runs} execucoes"
-    log(f"{len(suites)} suite(s) de {a.csv.name}; {mode}; resultados em {study.results}")
+    mode = "smoke (1 run)" if a.smoke else f"{a.auto_runs} runs per suite"
+    log(f"{len(suites)} suite(s) from {a.csv.name}; {mode}; results in {study.results}")
 
     try:
         for s in suites:
@@ -789,13 +843,13 @@ def main(argv: list[str]) -> int:
             study.write_summary()
     except Interrupted as e:
         log("")
-        log(f"Interrompido ({e}). Rode o mesmo comando para retomar da proxima execucao que falta.")
+        log(f"Interrupted ({e}). Run the same command again to resume from the next missing run.")
         study.write_summary()
         study.print_summary()
         return 130
     study.write_summary()
     study.print_summary()
-    return 1 if any(r["status"].startswith("ERRO") for r in study.summary) else 0
+    return 1 if any(r["status"].startswith("ERROR") for r in study.summary) else 0
 
 
 if __name__ == "__main__":

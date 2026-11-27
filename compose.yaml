@@ -1,11 +1,12 @@
-# Coleta de testes flaky em Linux (Docker). Fica na raiz do estudo, ao lado do
-# run_study.ps1, do labels_csv.py, dos CSVs e da pasta setup\.
+# Flaky-test data collection on Linux (Docker). Lives at the root of the study,
+# next to run_study.ps1, the CSVs and the setup/ folder.
 #
 #   docker compose build
 #   docker compose run --rm study -Smoke -Csv suites2.csv
-#   docker compose run --rm study -Csv suites2.csv
+#   docker compose run --rm study -Csv suites2.csv          (asks for the number of runs)
+#   docker compose run --rm study -Csv suites2.csv -Runs 50
 #
-# Veja docker/README.md.
+# See docker-installation.md (English) and docker/README.md (Portuguese).
 
 name: flaky-replication
 
