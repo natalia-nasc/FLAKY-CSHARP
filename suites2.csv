@@ -4,7 +4,7 @@ Agentic-Software-Design-and-Architecture-Bootcamp-DOTNET,https://github.com/kald
 AlgorithmsCSharp,https://github.com/AdrianBailador/AlgorithmsCSharp.git,53f1442fb7f00731d634d34da48db187def84182,algorithmscsharp,AlgorithmsCSharp.Tests\AlgorithmsCSharp.Tests.csproj,vstest,,,,,
 CSharp-Code-Examples,https://github.com/moustafarhat/CSharp-Code-Examples.git,c8ac59fc6a223c4c1545d9bad94428668d83d67d,csharp_code_examples,tests\DesignPatterns.Tests\DesignPatterns.Tests.csproj,vstest,,,,,
 DesignPatterns,https://github.com/AdrianBailador/DesignPatterns.git,c44982317fa414d7faf27c334587d19f3293368f,designpatterns,DesignPatterns.Tests\DesignPatterns.Tests.csproj,vstest,,,,,
-dotnet-design-patterns,https://github.com/engineering87/dotnet-design-patterns.git,0ef770379597e9420f1422a8bad48fd609fff112,dotnet_design_patterns,src\DotnetDesignPatterns.Tests\DotnetDesignPatterns.Tests.csproj,vstest,,,,,
+dotnet-design-patterns,https://github.com/engineering87/dotnet-design-patterns.git,0ef770379597e9420f1422a8bad48fd609fff112,dotnet_design_patterns,src\DotnetDesignPatterns.Tests\DotnetDesignPatterns.Tests.csproj,vstest,,,-p:IsTestingPlatformApplication=false,,
 fhir-candle,https://github.com/FHIR/fhir-candle.git,f04a1d4bdcf0265eb401b98eb0647a4ff373813e,fhir_candle,src\fhir-candle.Tests\fhir-candle.Tests.csproj,vstest,net10.0,,,,
 LNUnit,https://github.com/nbd-wtf/LNUnit.git,22424d49114f23b299d374e03c15bec14e25532f,lnunit_lnbolt_tests,LNBolt.Tests\LNBolt.Tests.csproj,vstest,,,,,
 Microsoft.AndroidX.Compose,https://github.com/jonathanpeppers/Microsoft.AndroidX.Compose.git,8be2f82fa16abb2bb1180b04a38e4de943b749e9,microsoft_androidx_compo,src\Microsoft.AndroidX.Compose.SourceGenerators.Tests\Microsoft.AndroidX.Compose.SourceGenerators.Tests.csproj,vstest,,,,,
