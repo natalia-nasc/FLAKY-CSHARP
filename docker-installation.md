@@ -238,16 +238,17 @@ logs-linux/
 
 `<suite>_labels.csv` has the columns `className,test,runs_presente,passed,failed,skipped,label`.
 
-`summary.csv` keeps the column names of the original Windows script, so both summaries can be read by the same analysis scripts:
+`summary.csv` has the same columns, column order and quoting as the summary written by the original Windows script (`run_study.ps1`), so both summaries can be read by the same analysis scripts:
 
 | Column | Meaning |
 |---|---|
+| `repo` | repository, from the CSV |
 | `suite` | suite name, from the CSV |
-| `rodada` | round: `auto` (or `smoke`) |
-| `status` | `OK` or `ERROR: ...` |
+| `rodada` | number of runs of the round: N (1 with `-Smoke`) |
+| `status` | `OK` or `ERROR: ...` (the Windows script writes `ERRO: ...`; a filter on `ERRO*` matches both) |
 | `trx` | number of TRX reports |
 | `distintos` | number of distinct tests |
-| `stable`, `flaky`, `broken`, `skipped` | number of tests with each label |
+| `stable`, `flaky`, `broken`, `skipped` | number of tests with each label (0 when the suite failed) |
 
 The clones and the NuGet cache live in the Docker volumes `flaky-replication_repos` and `flaky-replication_nuget`, not in the repository folder.
 

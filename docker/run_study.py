@@ -51,9 +51,10 @@ DLL_RUNNERS = ("mtp", "mtp-xunit", "xunit3")
 COLUMNS = ("repo", "url", "commit", "suite", "project", "runner",
            "framework", "config", "build_props", "env", "timeout_min")
 REQUIRED = COLUMNS[:6]
-# summary.csv columns: same names as the summary written by run_study.ps1,
-# so both summaries can be read by the same analysis scripts.
-SUMMARY_COLUMNS = ("suite", "rodada", "status", "trx", "distintos",
+# summary.csv: same columns, order and quoting as the summary written by
+# run_study.ps1, so both can be read by the same analysis scripts.
+# "rodada" holds the number of runs of the round (e.g. 100), as in the .ps1.
+SUMMARY_COLUMNS = ("repo", "suite", "rodada", "status", "trx", "distintos",
                    "stable", "flaky", "broken", "skipped")
 # Wait before retrying a failed repository preparation (section 5.5, step 2).
 RETRY_WAIT_S = float(os.environ.get("STUDY_RETRY_WAIT_S", "30"))
@@ -571,7 +572,7 @@ class Study:
                     return f"ERROR: run {i} produced no TRX"
         return "OK"
 
-    def labels(self, s: Suite, kind: str, rdir: Path, out_csv: Path) -> dict:
+    def labels(self, s: Suite, kind: str, n: int, rdir: Path, out_csv: Path) -> dict:
         rc, out, err = run_capture([sys.executable, str(self.labels_script), str(rdir), str(out_csv)],
                                    cwd=self.input_dir, timeout_s=3600)
         stats: dict = {}
@@ -589,19 +590,19 @@ class Study:
                 stats[key] = val
         if rc != 0:
             self.log(f"  labels ({kind}) failed (rc={rc}): {(err or out).strip()[-300:]}")
-            return self.row(s, kind, "ERROR: labels", rdir)
+            return self.row(s, n, "ERROR: labels", rdir)
         self.log(f"  labels ({kind}) -> {out_csv.name}: "
                  f"trx={stats.get('trx', '?')}  distinct={stats.get('distintos', '?')}  " +
                  "  ".join(f"{k}={stats.get(k, '?')}" for k in ("stable", "flaky", "broken", "skipped")))
-        return self.row(s, kind, "OK", rdir, stats)
+        return self.row(s, n, "OK", rdir, stats)
 
     @staticmethod
-    def row(s: Suite, kind: str, status: str, rdir: Path, stats: dict | None = None) -> dict:
+    def row(s: Suite, n: int, status: str, rdir: Path, stats: dict | None = None) -> dict:
         stats = stats or {}
-        r = {"suite": s.suite, "rodada": kind, "status": status,
+        r = {"repo": s.repo, "suite": s.suite, "rodada": str(n), "status": status,
              "trx": stats.get("trx", count_trx(rdir))}
-        for k in SUMMARY_COLUMNS[4:]:
-            r[k] = stats.get(k, "")
+        for k in SUMMARY_COLUMNS[5:]:
+            r[k] = stats.get(k, 0)          # 0 when there is nothing to count, as in the .ps1
         return r
 
     def process(self, s: Suite) -> None:
@@ -619,8 +620,8 @@ class Study:
 
         def fail_all(status: str) -> None:
             self.log(f"  {status}")
-            for kind, rdir, _, _ in rounds:
-                self.summary.append(self.row(s, kind, status, rdir))
+            for _, rdir, n, _ in rounds:
+                self.summary.append(self.row(s, n, status, rdir))
 
         for kind, rdir, n, _ in rounds:
             if count_trx(rdir) > n:
@@ -630,8 +631,8 @@ class Study:
         # 1. suite already complete: only regenerate the labels
         if all(count_trx(rdir) >= n for _, rdir, n, _ in rounds):
             self.log("  suite complete; only regenerating the labels")
-            for kind, rdir, _, out_csv in rounds:
-                self.summary.append(self.labels(s, kind, rdir, out_csv))
+            for kind, rdir, n, out_csv in rounds:
+                self.summary.append(self.labels(s, kind, n, rdir, out_csv))
             return
 
         ok, msg = self.ensure_repo(s)
@@ -661,16 +662,16 @@ class Study:
         for idx, (kind, rdir, n, out_csv) in enumerate(rounds):
             status = self.run_round(s, kind, rdir, n, proj, dll, cwd, env, log_dir)
             if status != "OK":
-                self.summary.append(self.row(s, kind, status, rdir))
-                for kind2, rdir2, _, _ in rounds[idx + 1:]:
-                    self.summary.append(self.row(s, kind2, "not run", rdir2))
+                self.summary.append(self.row(s, n, status, rdir))
+                for _, rdir2, n2, _ in rounds[idx + 1:]:
+                    self.summary.append(self.row(s, n2, "not run", rdir2))
                 return
-            self.summary.append(self.labels(s, kind, rdir, out_csv))
+            self.summary.append(self.labels(s, kind, n, rdir, out_csv))
 
     def write_summary(self) -> None:
         self.results.mkdir(parents=True, exist_ok=True)
         with open(self.summary_path, "w", newline="", encoding="utf-8") as f:
-            w = csv.DictWriter(f, fieldnames=SUMMARY_COLUMNS)
+            w = csv.DictWriter(f, fieldnames=SUMMARY_COLUMNS, quoting=csv.QUOTE_ALL)
             w.writeheader()
             w.writerows(self.summary)
 

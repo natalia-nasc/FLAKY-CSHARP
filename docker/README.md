@@ -116,7 +116,7 @@ Os clones e o cache do NuGet ficam nos volumes `flaky-replication_repos` e `flak
 | 4. DLL | `dotnet msbuild -getProperty:TargetPath` |
 | 5. Execuções | uma rodada só, com o número escolhido (a rodada "manual" foi retirada). Mesmos comandos dos quatro runners e mesmos nomes `run_N.trx`. O timeout encerra o grupo de processos e os descendentes, como o `taskkill /T /F`, e apaga o TRX parcial. Sem TRX, a execução é repetida uma vez. |
 | 6. Labels | `python3 labels_csv.py <pasta> <saída>`, com o seu script |
-| Resumo | mesmas colunas do `summary.csv` do `.ps1`; `rodada` vale `auto` ou `smoke`. As mensagens na tela e os valores de `status` (`OK`, `ERROR: ...`) ficam em inglês. |
+| Resumo | mesmas colunas, ordem e aspas do `summary.csv` do `.ps1` (`repo`, `suite`, `rodada`, `status`, `trx`, `distintos`, `stable`, `flaky`, `broken`, `skipped`); `rodada` traz o número de execuções (N, ou 1 com `-Smoke`). As mensagens na tela e os valores de `status` ficam em inglês (`OK`, `ERROR: ...`); um filtro por `ERRO*` pega também os `ERRO: ...` do Windows. |
 
 O caminho do `project` no CSV pode usar `\` e não diferencia maiúsculas de minúsculas, como no Windows.
 
