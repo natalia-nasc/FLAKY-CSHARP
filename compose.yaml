@@ -1,0 +1,43 @@
+# Coleta de testes flaky em Linux (Docker). Fica na raiz do estudo, ao lado do
+# run_study.ps1, do labels_csv.py, dos CSVs e da pasta setup\.
+#
+#   docker compose build
+#   docker compose run --rm study -Smoke -Csv suites2.csv
+#   docker compose run --rm study -Csv suites2.csv
+#
+# Veja docker/README.md.
+
+name: flaky-replication
+
+services:
+  study:
+    build:
+      context: ./docker
+      args:
+        DOTNET_SDK_VERSION: "10.0.403"
+        DOTNET8_RUNTIME_VERSION: "8.0.33"
+        PYTHON_VERSION: "3.14"
+        STUDY_UID: "${STUDY_UID:-1000}"
+    image: flaky-replication:sdk-10.0.403
+    platform: linux/amd64
+    environment:
+      # Cultura e fuso dos testes. Use o que a maquina Windows mostra em
+      # Get-Culture e Get-TimeZone (ex.: pt_BR.UTF-8 / en_US.UTF-8).
+      LANG: "${STUDY_LANG:-pt_BR.UTF-8}"
+      TZ: "${STUDY_TZ:-America/Sao_Paulo}"
+    volumes:
+      # entrada: CSVs, setup\ e labels_csv.py (somente leitura)
+      - ./:/study/input:ro
+      # clones e cache do NuGet em volumes do Docker (sistema de arquivos Linux,
+      # bem mais rapido que uma pasta do Windows montada)
+      - repos:/study/repos
+      - nuget:/home/study/.nuget/packages
+      # saidas, separadas das da coleta no Windows (results\ e logs\)
+      - ./results-linux:/study/results
+      - ./logs-linux:/study/logs
+    # docker stop: da tempo de encerrar a execucao em andamento e apagar o TRX parcial
+    stop_grace_period: 30s
+
+volumes:
+  repos:
+  nuget:
