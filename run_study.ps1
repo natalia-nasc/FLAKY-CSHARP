@@ -140,7 +140,7 @@ function Invoke-Run($s, $proj, $dll, $out, $i, $logDir) {
             $a = @("test", $proj, "-c", (Val $s "config" "Release"))
             $fw = Val $s "framework" ""
             if ($fw) { $a += @("-f", $fw) }
-            $a += @("--no-build", "--logger", "trx;LogFileName=$trx", "--results-directory", $out)
+            $a += @("--no-build", "--logger", "trx;LogFileName=$trx", "--results-directory", $out) + (Extra-Props $s)
         }
         "mtp"       { $a = @($dll, "--report-trx", "--report-trx-filename", $trx, "--results-directory", $out) }
         "mtp-xunit" { $a = @($dll, "--report-xunit-trx", "--report-xunit-trx-filename", $trx, "--results-directory", $out) }
